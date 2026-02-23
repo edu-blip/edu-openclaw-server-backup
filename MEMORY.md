@@ -16,4 +16,4 @@
 All pending setup/config/skills tasks live in `SETUP.md`. Check it whenever Edu is at a terminal ready to work on configuration.
 
 ## Known Issues
-- **CLI/Gateway Token Mismatch** (recurring): Gateway shows "unauthorized: device token mismatch" - fix with `openclaw devices rotate`
+- ~~**CLI/Gateway Token Mismatch**~~ → **RESOLVED 2026-02-22**: Approved pending repair request via `openclaw devices approve --latest --token <token>`. Gateway now shows `RPC probe: ok`. New instance runs as root user at `/root/.openclaw/`.
