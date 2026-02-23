@@ -48,12 +48,17 @@ def get_env(key):
     return None
 
 
+PST = timezone(timedelta(hours=-8))
+
+def get_today_pst():
+    return datetime.now(PST).strftime("%Y-%m-%d")
+
 def get_today_utc():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
 def parse_anthropic_costs_from_logs(date_str):
-    """Parse OpenClaw session JSONL files for today's Anthropic costs."""
+    """Parse OpenClaw session JSONL files for Anthropic costs on date_str (PST)."""
     model_costs = {}  # model -> {input, output, cache_read, cache_write, total, tokens}
     
     pattern = os.path.join(SESSIONS_DIR, "*.jsonl")
@@ -64,7 +69,15 @@ def parse_anthropic_costs_from_logs(date_str):
                     try:
                         record = json.loads(line)
                         ts = record.get("timestamp", "")
-                        if not ts.startswith(date_str):
+                        if not ts:
+                            continue
+                        # Convert UTC timestamp to PST for date comparison
+                        try:
+                            dt_utc = datetime.fromisoformat(ts.replace("Z", "").split(".")[0]).replace(tzinfo=timezone.utc)
+                            ts_pst_date = (dt_utc - timedelta(hours=8)).strftime("%Y-%m-%d")
+                        except Exception:
+                            ts_pst_date = ts[:10]  # fallback
+                        if ts_pst_date != date_str:
                             continue
                         msg = record.get("message", {})
                         if msg.get("role") != "assistant":
@@ -217,9 +230,9 @@ def format_message(anthropic_data, openai_data, date_str, is_alert=False, thresh
 
 def main():
     is_digest = "--digest" in sys.argv
-    today = get_today_utc()
+    today = get_today_pst()
     # Digest reports on yesterday's completed data, not today's partial data
-    date = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d") if is_digest else today
+    date = (datetime.now(PST) - timedelta(days=1)).strftime("%Y-%m-%d") if is_digest else today
     
     print(f"[cost-monitor] Checking costs for {date}...")
     
