@@ -201,7 +201,7 @@ def format_message(anthropic_data, openai_data, date_str, is_alert=False, thresh
     
     lines.append("")
     lines.append(f"{'─' * 32}")
-    lines.append(f"*Total today: ${grand_total:.4f}*")
+    lines.append(f"*Total: ${grand_total:.4f}*")
     
     if is_alert:
         lines.append("")
@@ -218,21 +218,23 @@ def format_message(anthropic_data, openai_data, date_str, is_alert=False, thresh
 def main():
     is_digest = "--digest" in sys.argv
     today = get_today_utc()
+    # Digest reports on yesterday's completed data, not today's partial data
+    date = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d") if is_digest else today
     
-    print(f"[cost-monitor] Checking costs for {today}...")
+    print(f"[cost-monitor] Checking costs for {date}...")
     
-    anthropic_data = parse_anthropic_costs_from_logs(today)
-    openai_data = get_openai_usage(today)
+    anthropic_data = parse_anthropic_costs_from_logs(date)
+    openai_data = get_openai_usage(date)
     
     anthropic_total = sum(v["total"] for v in anthropic_data.values())
     openai_total = openai_data.get("total", 0)
     grand_total = anthropic_total + openai_total
     
-    print(f"[cost-monitor] Total so far today: ${grand_total:.4f}")
+    print(f"[cost-monitor] Total for {date}: ${grand_total:.4f}")
     
     if is_digest:
         # Always post for daily digest
-        msg = format_message(anthropic_data, openai_data, today, is_alert=False)
+        msg = format_message(anthropic_data, openai_data, date, is_alert=False)
         success = post_to_slack(msg, SLACK_CHANNEL_ID)
         print(f"[cost-monitor] Digest posted: {success}")
     else:
