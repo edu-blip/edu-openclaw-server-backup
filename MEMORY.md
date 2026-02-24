@@ -15,5 +15,8 @@
 ## Setup Backlog
 All pending setup/config/skills tasks live in `SETUP.md`. Check it whenever Edu is at a terminal ready to work on configuration.
 
+## Scripts & Tools Built
+- **`scripts/cost-monitor.py`** — pulls API spend from local OpenClaw session logs + OpenAI usage API. Run manually to get today's spend. Also runs on cron for daily digest + $20 threshold alerts → posts to #tony-ops (C0AHBCJQJKS). Usage: `python3 scripts/cost-monitor.py` (current day) or `--digest` (yesterday's full report).
+
 ## Known Issues
 - ~~**CLI/Gateway Token Mismatch**~~ → **RESOLVED 2026-02-22**: Approved pending repair request via `openclaw devices approve --latest --token <token>`. Gateway now shows `RPC probe: ok`. New instance runs as root user at `/root/.openclaw/`.

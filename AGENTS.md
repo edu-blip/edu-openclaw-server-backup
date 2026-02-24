@@ -45,6 +45,22 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 🔄 Save As You Go — Not At The End
+
+**Never wait for "end of session" to write memory.** You can't detect when a thread goes cold.
+Instead: write important things **immediately** after they happen, in the same response turn.
+
+**Write to memory right away when:**
+- A new script, tool, or workflow is built
+- A significant decision is made (confirmed by Edu)
+- A new preference, constraint, or business rule is established
+- A bug/issue is resolved
+- Any setup or config is completed
+
+If Edu says **"log that"** → immediately write to `memory/YYYY-MM-DD.md` and `MEMORY.md` as relevant.
+
+Heartbeats serve as a backup sweep — not the primary write path.
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.
