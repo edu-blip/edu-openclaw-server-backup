@@ -13,6 +13,24 @@ Things like:
 - Device nicknames
 - Anything environment-specific
 
+## xAI / X Search Integration
+
+**Key:** `XAI_API_KEY` in `/root/.openclaw/.env`
+
+### Scripts
+- `scripts/xsearch.py` — Search X posts or the web via Grok Live Search
+  - `python3 scripts/xsearch.py "query"` → X search (last 30 days)
+  - `python3 scripts/xsearch.py --web "query"` → web search
+  - `python3 scripts/xsearch.py --both "query"` → X + web
+- `scripts/xread.py` — Read & summarize a specific X post URL
+  - `python3 scripts/xread.py https://x.com/.../status/123` → full post summary
+  - Add a second arg to ask a specific question about the post
+
+**Model used:** `grok-4-1-fast-non-reasoning` (required for server-side tools)
+**Pricing:** X Search $5/1k calls (currently free in beta)
+
+---
+
 ## Examples
 
 ```markdown
