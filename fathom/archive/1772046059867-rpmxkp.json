@@ -1,0 +1,4180 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "sandeep@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Sandeep Rawat",
+      "name": "sandeep@rethoric.com"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "only_internal",
+  "created_at": "2026-02-25T18:59:26Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "### [Optimizing content for reach @ 0:00](https://fathom.video/share/sysd-R96EgCxvrJiaP3SocDox6LVZTNu?tab=summary&timestamp=0)\n\nSandeep and Eduardo discuss strategies to increase the reach and engagement of the content being posted on LinkedIn. They agree that focusing on trending topics related to AI and technology, as well as leveraging commentary on tweets from industry experts, are effective ways to drive more impressions. The goal is to prioritize growth-focused content over niche or authority-building content in the short term to build an audience.\n\n### [Leveraging AI and automation @ 16:48](https://fathom.video/share/sysd-R96EgCxvrJiaP3SocDox6LVZTNu?tab=summary&timestamp=1008)\n\nEduardo shares that Rhetoric has been able to evolve from a content creation agency to an \"outcome-based agency\" by leveraging AI and automation tools. This allows them to not only build brand awareness for clients, but also generate qualified prospects that the client's sales team can then reach out to. This new capability has been very well-received by clients, as it provides a more tangible ROI.\n\n### [Exploring additional marketing channels @ 42:28](https://fathom.video/share/sysd-R96EgCxvrJiaP3SocDox6LVZTNu?tab=summary&timestamp=2548)\n\nSandeep and Eduardo discuss other potential marketing channels beyond just LinkedIn content, such as running ads, hosting webinars, and leveraging email newsletters. However, they acknowledge the challenge of making these channels effective and relevant for their high-level tech founder clients, who may not have the time or interest to engage with marketing-focused content.\n\n### [Aligning content tone and style @ 52:03](https://fathom.video/share/sysd-R96EgCxvrJiaP3SocDox6LVZTNu?tab=summary&timestamp=3123)\n\nEduardo provides feedback to Sandeep that the content he has been producing could still use some refinement to better match the tone and style of a more experienced, senior-level content creator. They agree to leverage AI tools to analyze the differences between Sandeep's drafts and the final published posts, in order to continue improving the content.\n",
+    "template_name": "Chronological"
+  },
+  "meeting_title": "Edu Content Interview ",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-25T18:59:14Z",
+  "recording_id": 125345842,
+  "recording_start_time": "2026-02-25T18:05:46Z",
+  "scheduled_end_time": "2026-02-25T19:00:00Z",
+  "scheduled_start_time": "2026-02-25T18:00:00Z",
+  "share_url": "https://fathom.video/share/sysd-R96EgCxvrJiaP3SocDox6LVZTNu",
+  "title": "Edu Content Interview ",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Shared like, I will send it later or something like that.",
+      "timestamp": "00:02:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I couldn't create the first one.",
+      "timestamp": "00:02:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Rest of the post I have just created.",
+      "timestamp": "00:02:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:02:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So do you want me to ask him any specific questions?",
+      "timestamp": "00:02:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Regarding the first post.",
+      "timestamp": "00:02:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Just regarding the first post.",
+      "timestamp": "00:02:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "No, Yeah, I know.",
+      "timestamp": "00:02:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But like, do you want me to ask him any specific questions that you, you know, that you want me to ask him for you to be able to draft that first post?",
+      "timestamp": "00:02:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or did you saw the Notion doc that he shared?",
+      "timestamp": "00:02:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:02:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I have seen it and I have thoroughly read it as well.",
+      "timestamp": "00:02:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So just because I remember that on the first post, it says like, like there's some information there that it's missing.",
+      "timestamp": "00:02:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And so my question is, should I just tell him to fill out that information on the Notion from the first post and that that's going to be enough?",
+      "timestamp": "00:02:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:02:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "That would be enough.",
+      "timestamp": "00:03:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the second thing that I would like to say, since we are, it's an AI era, right?",
+      "timestamp": "00:03:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is not just for them, for yourself as well.",
+      "timestamp": "00:03:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I've been just checking out your whole LinkedIn thing.",
+      "timestamp": "00:03:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I mean, let me just share my screen.",
+      "timestamp": "00:03:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I've been checking the impression, right?",
+      "timestamp": "00:03:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So recently the first force works, the rest of them didn't work much, but I started, I wanted to start it.",
+      "timestamp": "00:03:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I wanted to think and recognized a pattern which post get better view, better impression than others.",
+      "timestamp": "00:03:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I have seen like the post like these, you know, also.",
+      "timestamp": "00:03:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is a very simple post, okay, where you are talking about the founders and the post like this where you are doing a commentary on other founders post this one and this one, right?",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:04:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And yeah, that's the comments.",
+      "timestamp": "00:04:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, they are working really well.",
+      "timestamp": "00:04:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the first thing.",
+      "timestamp": "00:04:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the second thing is, I think as of now, we need more reach and we can think about whether it would be authority content or other content, even though we will put those content as well.",
+      "timestamp": "00:04:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But I think the first thing we need to do is just aim for the reach.",
+      "timestamp": "00:04:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And for that, I think the best way is to do more.",
+      "timestamp": "00:04:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "More growth content.",
+      "timestamp": "00:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And for that, I have an idea.",
+      "timestamp": "00:05:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the idea is like, since we are talking a lot of, since we are catering a lot of tech founders, a lot of tech startups, and I think every post related to AI could be a big, big bin for us.",
+      "timestamp": "00:05:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The reason why I'm saying that is because I have seen a lot of founders, like the tech founder, I was analyzing lots of topics on LinkedIn and specifically on the tech things.",
+      "timestamp": "00:05:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And when I see the most posts that get a lot of views are something which are very trending.",
+      "timestamp": "00:05:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this week, you can see recently, there is two things that are kind of trending first, and both are related to CloudA.",
+      "timestamp": "00:05:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the first one is the, the Pentagon, the US security agency.",
+      "timestamp": "00:05:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Fathom to ban Claude because they had signed some kind of contract with them, but I mean, they need some information from Claude for some weapon-related info, but Claude thinks that is very unethical, so they just threatened to ban the Claude.",
+      "timestamp": "00:06:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "First, this is the first thing, first headline, your first news that I have read, and the second news was Claude has accused some AI companies, some Chinese AI companies that they are stealing their data.",
+      "timestamp": "00:06:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So these are the two news that I have seen a lot of posts on LinkedIn, and I have seen not really good impression, but I think it's really, really, they are doing really well on LinkedIn because they are branding, they are within.",
+      "timestamp": "00:06:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The security data thing is like two, two days before, and the Pentagon thing is like two, three days before, so I think this could be the thing that we.",
+      "timestamp": "00:06:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "We should try just optimizing for that branding topics and start talking about them.",
+      "timestamp": "00:07:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This could get us initial reach.",
+      "timestamp": "00:07:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And once we get the reach, then we can incorporate more of authority and sales content.",
+      "timestamp": "00:07:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is what I think.",
+      "timestamp": "00:07:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And this is something when we talk to the, when we take the founders interview, I think just for the five minute, five minutes, we can ask them like, this is the top two news and we can ask their opinion as well.",
+      "timestamp": "00:07:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "When we get their opinions, I think that would get us new insight from them and we can turn that insight into the content, two things happens.",
+      "timestamp": "00:07:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "First thing we get a content, which is very trending.",
+      "timestamp": "00:07:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "A second thing we put the insights, which makes this original content.",
+      "timestamp": "00:07:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So.",
+      "timestamp": "00:07:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So.",
+      "timestamp": "00:07:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I think this would also work if we try it.",
+      "timestamp": "00:08:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, the only thing is that we would have to send them those news or at least a summary or something in advance.",
+      "timestamp": "00:08:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because, for example, if you ask me about my commentary about those news, I haven't read them.",
+      "timestamp": "00:08:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I don't have any context to give.",
+      "timestamp": "00:08:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, I'm just hearing about them now that you mentioned them, you know.",
+      "timestamp": "00:08:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:08:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And they are really getting viral because, I mean, I keep I have some new newsletter that I subscribe to.",
+      "timestamp": "00:08:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I get all the information in the newsletter and just check out it and then see and not LinkedIn.",
+      "timestamp": "00:08:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It's very less on LinkedIn the way it is on Instagram.",
+      "timestamp": "00:08:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "If you follow a lot of Instagram tech, because a lot of creators are posting AI related videos.",
+      "timestamp": "00:08:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So those those videos are getting like millions of views and another thing is.",
+      "timestamp": "00:08:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It's more of a political thing.",
+      "timestamp": "00:10:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "There are a lot of racism and everything because that things get him a lot of views, obviously.",
+      "timestamp": "00:10:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I think now the trend starts on Reddit, I believe.",
+      "timestamp": "00:10:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Then it goes into another social platforms like ads, LinkedIn, and the other social media platform.",
+      "timestamp": "00:10:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "What I am seeing you just try to just try to look some top trending news in a B maybe in a week or day or whatever.",
+      "timestamp": "00:10:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:10:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Just understand them.",
+      "timestamp": "00:10:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And maybe we should create a content about them because they are trending in the market.",
+      "timestamp": "00:10:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And then we start creating a content because you have the audience who are mostly founders, I guess.",
+      "timestamp": "00:10:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Plus, if we have a big advantage, if they are into the techs and if we start talking about the tech things, only tech things which are trending, which comes under the growth content, then I think we would have more chances to get more impression rather than talking very niche specific content.",
+      "timestamp": "00:11:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Right now, the last two weeks, even though last two weeks is very less to test the content, but what I think is, let's start this because you have been posting content and there's a lot of less posts that are getting 1k impression.",
+      "timestamp": "00:11:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I have analyzed, there is two kind of posts that are getting better impression.",
+      "timestamp": "00:11:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "First is when you talk about AI and it is very trending, it is very broad topic, it is not very niche specific, just like this one.",
+      "timestamp": "00:11:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I have 100 of application of ADRO, open me, AI for every single forum.",
+      "timestamp": "00:11:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is something hiring and AI, right?",
+      "timestamp": "00:11:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is very broad topic.",
+      "timestamp": "00:11:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because it is not very niche-specific.",
+      "timestamp": "00:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This one and the second one is where you are, you pick that trending topic, something like related to tech, and you pick some trending tweet.",
+      "timestamp": "00:12:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, this could be the thing, but it tweet, just like you picked here a lot of topic, you know.",
+      "timestamp": "00:12:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This one could, this one.",
+      "timestamp": "00:12:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And I'm glad, I'm glad that you were starting to see it because, I mean, I told you, right, that every time that I, that I, that I write something about content or LinkedIn or anything related to content, like I don't get not even 500 impressions, which is insane.",
+      "timestamp": "00:12:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And, which is strange, I think, because if, if you, we are a content agency and it is important for us to talk about content and result.",
+      "timestamp": "00:12:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It's really important.",
+      "timestamp": "00:12:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It's",
+      "timestamp": "00:12:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because that comes into the sales counter.",
+      "timestamp": "00:13:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Maybe.",
+      "timestamp": "00:13:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, what I was going to say is that maybe the right strategy here is what you just said, what you said in one of the calls that we had with the team.",
+      "timestamp": "00:13:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That I, in my opinion, I mean, I think it would be great if you can join more of the team calls.",
+      "timestamp": "00:13:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it can be more in sync if you're available.",
+      "timestamp": "00:13:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Of course.",
+      "timestamp": "00:13:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But what I was saying is that maybe the right way of putting posts about content from my account is by reposting the posts from other team members of Rhetoric, which their experience is in content.",
+      "timestamp": "00:13:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because something that I've been reading...",
+      "timestamp": "00:13:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "it's been reading...",
+      "timestamp": "00:13:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So So",
+      "timestamp": "00:13:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Me posting it, maybe reposting from other members that have those core skills rather than me.",
+      "timestamp": "00:15:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The only question here would be, if reposting would have a good amount of reach?",
+      "timestamp": "00:15:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, so obviously, reposting doesn't have a good amount of reach.",
+      "timestamp": "00:15:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And even if you try, you will see it.",
+      "timestamp": "00:15:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It doesn't work.",
+      "timestamp": "00:15:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Reposting doesn't get you as much impression as it might get impression to the other people whose content you are posting.",
+      "timestamp": "00:15:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Maybe your content doesn't get that much reach the way you reposted it.",
+      "timestamp": "00:15:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "What I'm trying to say is, obviously, that you said makes sense.",
+      "timestamp": "00:15:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "What I'm trying to say is, let's just optimize for reach as of now.",
+      "timestamp": "00:15:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "That's why I'm trying to tell you that.",
+      "timestamp": "00:15:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Focus on growth content and much of like AI content, what is working in for us.",
+      "timestamp": "00:16:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Don't go any niche specific way, unless we have a reach.",
+      "timestamp": "00:16:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Once we start getting the reach, then we start talking about the content.",
+      "timestamp": "00:16:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Why I'm saying that?",
+      "timestamp": "00:16:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because if we want to attract leads through content, then it's very important that we talk about the content.",
+      "timestamp": "00:16:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because that works always.",
+      "timestamp": "00:16:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And even if we want more impression, it might get us lead, but not as much lead as if we talk about the sales content, the growth content, our services.",
+      "timestamp": "00:16:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And that's why...",
+      "timestamp": "00:16:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What do you think that, so in this case, I mean, I would love to hear your thoughts about this.",
+      "timestamp": "00:16:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what if we do like 80% growth content?",
+      "timestamp": "00:16:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "content?",
+      "timestamp": "00:16:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "content?",
+      "timestamp": "00:16:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Makes you an authority in the space, if you talk about it, because you've been a tech founder.",
+      "timestamp": "00:18:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So authority is something which works and which builds when people actually do the actual work in the real life, right?",
+      "timestamp": "00:18:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Elon Musk, if Elon Musk doesn't post anything on Twitter or something, it doesn't mean he doesn't have an authority.",
+      "timestamp": "00:18:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "He still has an authority because he actually does the work, right?",
+      "timestamp": "00:18:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "He built companies the same way for you.",
+      "timestamp": "00:18:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "You actually build the company, so you automatically have that kind of authority.",
+      "timestamp": "00:18:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And once we talk about the growth content, and if we put a little bit of our opinion or something like that, or even it's just pure growth, it automatically builds you an authority.",
+      "timestamp": "00:18:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Even they build you less authority than the other pure authority content.",
+      "timestamp": "00:18:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, it depends on how are we defining authority, right?",
+      "timestamp": "00:18:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because I was thinking about it.",
+      "timestamp": "00:18:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Authority in the industry that I'm working, which is LinkedIn, I mean, LinkedIn agency.",
+      "timestamp": "00:19:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's what I'm saying.",
+      "timestamp": "00:19:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Authority in LinkedIn?",
+      "timestamp": "00:19:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, but authority in just, you know, being an experienced founder, yes.",
+      "timestamp": "00:19:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:19:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I think two kinds of content that we, first, we capitalize the trending news as soon as possible, right?",
+      "timestamp": "00:19:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Suppose if I get some really, really good news, I mean, trending news about AI or something, we start in the next 24 to 48 hours, we start talking about that.",
+      "timestamp": "00:19:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the first thing.",
+      "timestamp": "00:19:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And second thing, what we will do, like, we will find more tweets like this.",
+      "timestamp": "00:19:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I mean, it's Paul Graham, but more figures, something more best, more authoritative figures.",
+      "timestamp": "00:19:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It could be in content, business, AI.",
+      "timestamp": "00:19:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:20:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And your commentary on this, your opinion on this, because that is actually working for your account.",
+      "timestamp": "00:20:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because as I have analyzed all these posts and those content where you give your commentary on some other authoritative figure.",
+      "timestamp": "00:20:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the second one is where you're talking about the founder things that are working really well.",
+      "timestamp": "00:20:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So only two kind of content.",
+      "timestamp": "00:20:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is what I'm thinking.",
+      "timestamp": "00:20:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And this is, I think we should aim for the next week.",
+      "timestamp": "00:20:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:20:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:20:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:20:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And something that I'm starting to do, thanks to my open clock, is that I am now, I am now.",
+      "timestamp": "00:20:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, like with all of the calls that I have, including internal calls with the team, including interview sessions, know, content interviews with the clients, like all of the calls, I have, you know, a transcript.",
+      "timestamp": "00:21:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, the OpenClaw agent extracts, you know, gets all of the transcripts and sends me a doc every week with content ideas for my LinkedIn based on everything that I've spoken the last week.",
+      "timestamp": "00:21:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, maybe I can give you some of those ideas.",
+      "timestamp": "00:21:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This is the first time that I did, that I've done this.",
+      "timestamp": "00:21:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, I think that some of them don't make a lot of sense.",
+      "timestamp": "00:21:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I need to give in some feedback to make it better.",
+      "timestamp": "00:21:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But do you want to start there or do you have any specific ideas?",
+      "timestamp": "00:21:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like, I think whatever you said sounds good to me.",
+      "timestamp": "00:21:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I mean, this.",
+      "timestamp": "00:21:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This will also work because I have, I get your real insights from the interview, right?",
+      "timestamp": "00:22:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the first thing.",
+      "timestamp": "00:22:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And second thing, I'm not sure does OpenClo do it or not, but can it go to the LinkedIn and find the trending topic related AI and everything?",
+      "timestamp": "00:22:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I think it would be able to do, I'm not sure.",
+      "timestamp": "00:22:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And then, I mean, give some ideas about that.",
+      "timestamp": "00:22:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the topic that are really trending on this particular niche and I think this would also work.",
+      "timestamp": "00:22:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Though I have extensions, I use Clio to find that idea, but if it might work because my account is related to content.",
+      "timestamp": "00:22:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So it works, it works that way, right?",
+      "timestamp": "00:22:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Your account is different.",
+      "timestamp": "00:22:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "You post different kind of content.",
+      "timestamp": "00:22:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So you might get different ideas.",
+      "timestamp": "00:22:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So what do you say?",
+      "timestamp": "00:22:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, I mean.",
+      "timestamp": "00:22:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I can train it for whatever I want.",
+      "timestamp": "00:23:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what you're saying is that I should tell it to go and do research in Reddit and in X about trending topics related to AI, tech, and all that.",
+      "timestamp": "00:23:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And give me, what, on a daily basis, just like a brief so I can just, you know, be aware of what is happening or what do you suggest?",
+      "timestamp": "00:23:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, that's really important.",
+      "timestamp": "00:23:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Whatever you give, like Reddit is something where trend starts, right?",
+      "timestamp": "00:23:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is what I'm seeing.",
+      "timestamp": "00:23:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So there is a, suppose there are 10 ideas in Reddit and they don't become trend in Reddit.",
+      "timestamp": "00:23:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This starts from Reddit.",
+      "timestamp": "00:23:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Then they go, because Reddit have very niche specific audience.",
+      "timestamp": "00:23:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "There are very less people that are on, they are on Reddit.",
+      "timestamp": "00:23:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But when the idea goes from Reddit to the other social medias, especially X, it becomes a trend on X.",
+      "timestamp": "00:23:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Then it goes into.",
+      "timestamp": "00:23:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "LinkedIn and the Instagram and all of the things.",
+      "timestamp": "00:24:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So what I'm saying is, if you go to the, if you, if Red, if OpenClose can scan ideas from Reddit, right, it doesn't, we are not sure that it would go viral or not because they just pick some ideas from there, right?",
+      "timestamp": "00:24:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "They hasn't become a trend.",
+      "timestamp": "00:24:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "They haven't become a trend yet.",
+      "timestamp": "00:24:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But if we go to the X or LinkedIn, right, and scan the ideas from there and capitalize on as much early as possible, there could be a chance that we might make the ideas viral from there.",
+      "timestamp": "00:24:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is what I'm saying.",
+      "timestamp": "00:24:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "If we start extracting idea from Reddit, so we are just guessing it might go viral.",
+      "timestamp": "00:24:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And because to capture the train early, that's what the trend there.",
+      "timestamp": "00:24:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:24:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:24:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So if we can capture the trend early from Reddit, but we are not sure that whether it will become a trend or not.",
+      "timestamp": "00:24:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, I still have a lot of capacity as of now.",
+      "timestamp": "00:26:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But the reason, when you put shoe in two boards, right, your mind works on that way and that way as well.",
+      "timestamp": "00:26:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I actually wanted to work here and there as well.",
+      "timestamp": "00:26:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So what I'm thinking is I can still take like five, six, seven clients.",
+      "timestamp": "00:26:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "As of now, I have just two clients that I am handling.",
+      "timestamp": "00:26:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "They are like, I have commitment for them.",
+      "timestamp": "00:26:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "That's why I'm working with them.",
+      "timestamp": "00:26:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Otherwise, I would have work in the agency as well.",
+      "timestamp": "00:26:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I mean, I could take like 10 clients tomorrow if I had that capacity.",
+      "timestamp": "00:26:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But I think the capacity I have is like six to seven clients as of now.",
+      "timestamp": "00:26:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And I have just two clients.",
+      "timestamp": "00:26:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I have some pipelines as I lead as well, but I am not actively reaching out to them.",
+      "timestamp": "00:26:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The reason is I don't think they are like, I really enjoy working.",
+      "timestamp": "00:26:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like at this moment, I really wanted to work with the client who I actually enjoy working with, right?",
+      "timestamp": "00:27:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And if I work with the rhetoric, then my role would be like the content role, which I really enjoy.",
+      "timestamp": "00:27:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I love writing content and all these things.",
+      "timestamp": "00:27:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "really hate, I mean, I really hate the sales and everything and doing the content interview and everything.",
+      "timestamp": "00:27:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:27:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So that's why I really wanted to join the rhetoric and reach to my goal.",
+      "timestamp": "00:27:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:27:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, no, no.",
+      "timestamp": "00:27:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I get it.",
+      "timestamp": "00:27:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But I'm just I just want to be like fully I want to fully understand because like initially the idea was to be able to give you up to 16 clients.",
+      "timestamp": "00:27:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Right.",
+      "timestamp": "00:27:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I know that like based on what you just said, you have two clients and you have capacity up to seven.",
+      "timestamp": "00:27:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I just, I just need to fully understand like the full scope to, you know.",
+      "timestamp": "00:27:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Play my cards the right way on how many clients assigned to you or maybe assign some to Andre or maybe assign some to Christy, which is the other writer.",
+      "timestamp": "00:28:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And, you know, maybe double down on sales if we still have a lot of capacity on.",
+      "timestamp": "00:28:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I think another thing is, I mean, right now I have a capacity for like I can easily handle seven clients.",
+      "timestamp": "00:28:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I might be able to handle eight clients because as I said, I work on weekends.",
+      "timestamp": "00:28:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Maybe I've said to you that if you have something, so if I work on weekends, I obviously work on weekend most of the time.",
+      "timestamp": "00:28:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I could handle my eight or nine.",
+      "timestamp": "00:28:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:28:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But when you I think if I start getting like five, six, seven clients, so there is a chance that I am getting really sure that I am getting clients from rhetoric.",
+      "timestamp": "00:28:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't have to worry about my clients because now I'm getting paid from rhetoric as I'm getting paid for.",
+      "timestamp": "00:28:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So So",
+      "timestamp": "00:28:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "It would help me to be on safer side, right?",
+      "timestamp": "00:29:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "If I'm getting more clients from rhetoric, it means I am getting paid better on rhetoric, and then I would focus more on rhetoric.",
+      "timestamp": "00:29:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So right now, I am taking the clients from my side.",
+      "timestamp": "00:29:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The reason is simple, because I want money, right?",
+      "timestamp": "00:29:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "No, no, yeah, of course.",
+      "timestamp": "00:29:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:29:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But that doesn't mean that, so that doesn't mean that you are capped at six or seven, you know, forever, right?",
+      "timestamp": "00:29:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:29:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "means that you are at seven.",
+      "timestamp": "00:29:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "yeah.",
+      "timestamp": "00:29:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, no, forever.",
+      "timestamp": "00:29:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I'm not sure, like, if, because I have said it.",
+      "timestamp": "00:29:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Make it easy for me.",
+      "timestamp": "00:29:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I can keep sending you clients, and you're going to make your own thing.",
+      "timestamp": "00:29:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And when, just let me know when you are getting to a capacity, so I can stop.",
+      "timestamp": "00:29:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, yeah, yeah.",
+      "timestamp": "00:29:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So, so yeah, so if I get",
+      "timestamp": "00:29:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like 10 or 12 clients from you.",
+      "timestamp": "00:30:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I somehow to leave my client, right?",
+      "timestamp": "00:30:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Because I become more dependent on the rhetoric.",
+      "timestamp": "00:30:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "My main goal would be serving to the rhetoric clients because 12 clients is I have a capacity.",
+      "timestamp": "00:30:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "you keep sending me the clients.",
+      "timestamp": "00:30:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And then based on that, if I really love enjoying working with more clients on rhetoric, which I actually do because that's a writing thing and which I love.",
+      "timestamp": "00:30:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So that makes sense for me.",
+      "timestamp": "00:30:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "mean, okay, cool.",
+      "timestamp": "00:30:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And by the way, Hans, he's having very, very good results.",
+      "timestamp": "00:30:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And he said that the content is really good.",
+      "timestamp": "00:30:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So yeah, I think that we're doing very good.",
+      "timestamp": "00:30:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:30:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this week I have tried for Hans.",
+      "timestamp": "00:30:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I have tried like the notion of that I have seen.",
+      "timestamp": "00:30:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And there's a lot of content.",
+      "timestamp": "00:30:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So a lot Thank",
+      "timestamp": "00:30:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Out there, which is something like you could say that that's kind of like the blog post or something like that.",
+      "timestamp": "00:31:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this week, the content I have created is more about how hands are talking.",
+      "timestamp": "00:31:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "was because the last, the first batch that I have created, was trying to understand his brand voice, right?",
+      "timestamp": "00:31:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this week, I tried to nail it down.",
+      "timestamp": "00:31:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I tried to go a bit deeper and try to make the content in such a way so that I could go one step further to nail his brand voice.",
+      "timestamp": "00:31:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I think I have created the content that keeping that thing in mind.",
+      "timestamp": "00:31:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So rest, you will review it and everything.",
+      "timestamp": "00:31:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I would take the feedback whatever you read.",
+      "timestamp": "00:31:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:31:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:31:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "mean, let me, well, actually this one, don't need to, like Andre is the one, he's the editor.",
+      "timestamp": "00:31:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So he's, he's the one that needs to review it.",
+      "timestamp": "00:31:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know whether Andre have the access of Asana's that particular task if he doesn't have because I tried to I'm not sure whether he has because it it was showing only two people have an access.",
+      "timestamp": "00:32:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, is that?",
+      "timestamp": "00:32:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Oh, yeah, you're right.",
+      "timestamp": "00:32:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, I just added Andre.",
+      "timestamp": "00:32:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, otherwise I would have tagged him like please review it and everything.",
+      "timestamp": "00:32:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, I just added him.",
+      "timestamp": "00:32:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I need to check that project to see what's there's something wrong in there.",
+      "timestamp": "00:32:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:32:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, okay.",
+      "timestamp": "00:32:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So.",
+      "timestamp": "00:32:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What is this?",
+      "timestamp": "00:33:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm just, I don't want to forget about this.",
+      "timestamp": "00:33:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Project roles, Andre, Writer, Designer, Sandeep Rawat, Edith Taylor.",
+      "timestamp": "00:33:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:33:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So Andre is now the editor.",
+      "timestamp": "00:33:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That was the issue.",
+      "timestamp": "00:33:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "He didn't have a role.",
+      "timestamp": "00:33:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:33:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "All right.",
+      "timestamp": "00:33:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So let's get started.",
+      "timestamp": "00:33:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What do you think about this idea of, I mean, it's related to LinkedIn, so maybe, I don't know.",
+      "timestamp": "00:33:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But we've been using a",
+      "timestamp": "00:33:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "lot of AI internally to streamline our processes, and that is allowing us to evolve from just a content creation agency for founders on LinkedIn to an outcome-based agency.",
+      "timestamp": "00:34:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Meaning that before, our focus was only building authority, building trust, brand awareness, which is like you can, all of that, you can put that in the umbrella of branding.",
+      "timestamp": "00:34:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But now, because we've been able to create a lot of internal systems and using a lot of tech, we are now able to get leads, or not leads, prospects.",
+      "timestamp": "00:34:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "ITAC this, it's ITAC.",
+      "timestamp": "00:34:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The",
+      "timestamp": "00:34:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Qualified Prospects, ICP Qualified Prospects to our clients in a very strategic way.",
+      "timestamp": "00:35:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So the sales teams of our clients and reach out and, you know, close a deal.",
+      "timestamp": "00:35:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it has evolved from branding to a combination of brand plus acquisition in some kind of way.",
+      "timestamp": "00:35:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's not direct acquisition because it's not like we're putting ads that are going to convert into a paid client.",
+      "timestamp": "00:35:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But it's more like a from top, top of funnel strategy to a kind of like top to middle, you know, that allows the client to end up with someone qualified that already knows.",
+      "timestamp": "00:35:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "About the company and about the founder.",
+      "timestamp": "00:36:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's from the ICP.",
+      "timestamp": "00:36:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So the probability is if someone from the sales team to reach out to them, the probability is to convert is way higher than not doing it.",
+      "timestamp": "00:36:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And so we've been starting to do this with some of our clients and they are like very, very, very, the signs have been very positive about this.",
+      "timestamp": "00:36:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And one of them, which is backed by Sequoia, one of the clients that we have, when we delivered a list of prospects, he told me like, I mean, this is amazing because, and I saw it in his face.",
+      "timestamp": "00:36:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like he won't like.",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Wow.",
+      "timestamp": "00:37:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, this is amazing because finally I can see something that it's really tangible.",
+      "timestamp": "00:37:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I know that we were creating brand awareness and all of that, but this ties everything together, he said.",
+      "timestamp": "00:37:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because in the end, and he said, this is something that I learned from one of the partners of Sequoia.",
+      "timestamp": "00:37:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "He said, there are three different types of businesses, businesses that make you, that allow you to make more money, businesses that save you money.",
+      "timestamp": "00:37:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And I forgot the third one.",
+      "timestamp": "00:37:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We would have to do research about that, but I think it's in a blog of Sequoia.",
+      "timestamp": "00:37:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And he was like, by doing this on your agency, you are positioning yourself in a place that you are...",
+      "timestamp": "00:37:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now helping your clients make more money.",
+      "timestamp": "00:38:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So he was like, I mean, in our case, we only work, our clients are enterprise.",
+      "timestamp": "00:38:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's what he said.",
+      "timestamp": "00:38:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So we just need to close one of these prospects, one, and that will pay for the entire service of rhetoric.",
+      "timestamp": "00:38:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it's going to be ROI positive, plus all of the benefits of the brand awareness, the network, the blah, blah, blah, like everything that is not very tangible because we cannot measure all of the impact that LinkedIn has.",
+      "timestamp": "00:38:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But just like with one.",
+      "timestamp": "00:38:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So he was like, for me, you are making the decision very, very, very easy to continue these services because it now makes sense for me.",
+      "timestamp": "00:38:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Before it was only like, but you're building trust, you're building authority.",
+      "timestamp": "00:38:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And I was like, how can I measure that?",
+      "timestamp": "00:38:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, how do I know that this is making sense?",
+      "timestamp": "00:38:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This is making sense, you know?",
+      "timestamp": "00:38:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I'm very excited about that, about getting the feedback like that.",
+      "timestamp": "00:39:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it is crazy because for us to be able to do this, we would need at least two or three more people to join the team to be able to work on this full time for us.",
+      "timestamp": "00:39:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And we've been able to build all of the systems.",
+      "timestamp": "00:39:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It took us a while to do it, but we are now there.",
+      "timestamp": "00:39:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Which allows us to do it at scale.",
+      "timestamp": "00:39:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And at scale, I mean like for the clients that we have.",
+      "timestamp": "00:39:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That doesn't mean that we can serve like hundreds or thousands of clients with this.",
+      "timestamp": "00:39:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But yeah, I thought that maybe that's something that could be interesting.",
+      "timestamp": "00:39:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it's like from being a just brand agency, like content creation agency, to a content plus go-to-market.",
+      "timestamp": "00:39:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's it...",
+      "timestamp": "00:39:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's It's only then You",
+      "timestamp": "00:39:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Partner or something like that.",
+      "timestamp": "00:40:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, so I think this is the way I would like to say.",
+      "timestamp": "00:40:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the way, this is how we should evolve and this is the only way.",
+      "timestamp": "00:40:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Sooner or later, we have to become an outcome-based agency.",
+      "timestamp": "00:40:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And this is just one way you have talked about, but we can go a little bit further.",
+      "timestamp": "00:40:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Even if we charge more to our clients and this is, I have observed by just observing other LinkedIn founders or LinkedIn content agencies.",
+      "timestamp": "00:40:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And what they do is, we are doing these things like getting all and who reach out to the clients.",
+      "timestamp": "00:40:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like we provide the prospects and who reach out to the clients, like we reach out to the.",
+      "timestamp": "00:40:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Prospects or the clients reach out to the prospects?",
+      "timestamp": "00:41:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The clients.",
+      "timestamp": "00:41:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Okay, the clients.",
+      "timestamp": "00:41:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Right.",
+      "timestamp": "00:41:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So another thing is, like you said last time that we are taking baby steps to get the, so that we could run ads as well.",
+      "timestamp": "00:41:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Right.",
+      "timestamp": "00:41:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is also very important because the ads on LinkedIn, it works.",
+      "timestamp": "00:41:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Obviously, it works because a lot of the season makers are there.",
+      "timestamp": "00:41:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "That's part of the process, actually.",
+      "timestamp": "00:41:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:41:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is if we start running an ads because that's what LinkedIn platform wants us to do, to run an ads.",
+      "timestamp": "00:41:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And if we run an ads, obviously for whom, suppose we have that prospects and then we upload them into the LinkedIn.",
+      "timestamp": "00:41:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So we have like funnels.",
+      "timestamp": "00:41:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the top of the funnel.",
+      "timestamp": "00:41:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Then we decide the content, right?",
+      "timestamp": "00:41:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is the top of the funnel content.",
+      "timestamp": "00:41:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is the middle and this is the bottom.",
+      "timestamp": "00:41:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And based on that strategy, we can run on ads.",
+      "timestamp": "00:41:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I could make that strategy as well if you want to.",
+      "timestamp": "00:42:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Sometimes if we start it, right?",
+      "timestamp": "00:42:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So this is the second way.",
+      "timestamp": "00:42:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And third way is a lot of people doing it.",
+      "timestamp": "00:42:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Some does it, some don't do it.",
+      "timestamp": "00:42:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The webinar things.",
+      "timestamp": "00:42:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like a lot of people say that it doesn't work, but it still works.",
+      "timestamp": "00:42:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The webinar things.",
+      "timestamp": "00:42:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So even if we start one webinar a month and we get a lot of people, even it's a free, then we get a lot of people.",
+      "timestamp": "00:42:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But I think that to do the webinar, you need to have some traction because we need to do more growth content because if not, we're going to launch a webinar and no one's going to join or there's going to be a one or two people.",
+      "timestamp": "00:42:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So, yeah, so that's why I said we run in ads.",
+      "timestamp": "00:42:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "When we run in ads, this is comes under, I don't know whether it is mid or mid of the funnel or the bottom of the funnel depends on the strategy, right?",
+      "timestamp": "00:42:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "The bottom is just converting to a paid client.",
+      "timestamp": "00:43:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So nurturing.",
+      "timestamp": "00:43:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:43:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So the good thing is when we run an ad, maybe it's on webinar.",
+      "timestamp": "00:43:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like this is what I'm going to give you.",
+      "timestamp": "00:43:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is something that and then we have like maybe 100 peoples.",
+      "timestamp": "00:43:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And if we able to convert three or four people, even two people, as you said, even if we convert the one people, it's going to get them positive ROI, right?",
+      "timestamp": "00:43:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "If we convert two or three peoples, then it would be really better.",
+      "timestamp": "00:43:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:43:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But that's the thing.",
+      "timestamp": "00:43:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like our clients are the founders of tech companies that are making millions of revenue or have raised millions.",
+      "timestamp": "00:43:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So why are they going to join a webinar by me?",
+      "timestamp": "00:43:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like that's the thing.",
+      "timestamp": "00:43:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We need to really think about the strategy to make them or their chief of staff or their manager.",
+      "timestamp": "00:43:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "why are they going to a marketing person?",
+      "timestamp": "00:43:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, that could be the thing.",
+      "timestamp": "00:44:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:44:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I didn't think about that because I was thinking the people who are doing this, maybe they are running for the coaches or maybe the other creators, right?",
+      "timestamp": "00:44:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So the ideal ICP makes difference, right?",
+      "timestamp": "00:44:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Exactly, yeah.",
+      "timestamp": "00:44:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "They are packed with work.",
+      "timestamp": "00:44:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "They are like going from one meeting to the other.",
+      "timestamp": "00:44:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:44:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's extremely busy.",
+      "timestamp": "00:44:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So they don't have time to join a webinar.",
+      "timestamp": "00:44:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:44:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, I get it.",
+      "timestamp": "00:44:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But you get the thing like what I'm trying to say.",
+      "timestamp": "00:44:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:44:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So I think it could be, I think in the future, this could be the thing.",
+      "timestamp": "00:44:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And people are charging that $5,000, $10,000 for this.",
+      "timestamp": "00:44:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Well, yeah, the thing is that, that's actually the bottleneck that we have because something that, an opportunity appeared.",
+      "timestamp": "00:44:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The owner of a podcasting agency.",
+      "timestamp": "00:44:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The agency.",
+      "timestamp": "00:44:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "He reached out to me, offering a partnership for us managing his LinkedIn, and he would create a podcast for us, a weekly podcast.",
+      "timestamp": "00:45:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I was like, okay, maybe this is interesting, maybe it makes sense to do this, like rhetoric to invest in doing all this content in exchange to get the podcast.",
+      "timestamp": "00:45:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But it's the same problem, like, what should be the strategy here to make the podcast relevant enough for our ICP to look at it and get some awareness from the right people, you know?",
+      "timestamp": "00:45:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's why we haven't started this, because I'm not sure yet.",
+      "timestamp": "00:45:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's exactly the same issue with the webinar.",
+      "timestamp": "00:45:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, what should be the right strategy to make...",
+      "timestamp": "00:45:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The right eyeballs, look at it, you know?",
+      "timestamp": "00:46:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:46:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:46:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I mean...",
+      "timestamp": "00:46:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And, like, what I think, which is, like, what others are doing, other competitors, which are doing LinkedIn B2B content for executives, they are doing just marketing things to draw the attention of the marketing team, of the CEO, so the marketing department, to make the marketing person be the champion, you know, that pitches to the CEO, hey, we should hire this agency to do your founder content.",
+      "timestamp": "00:46:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, that's what I've seen others do.",
+      "timestamp": "00:46:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I've been thinking about different strategies, but I don't know.",
+      "timestamp": "00:46:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "like, I just keep running into the, like, I think that's the only one.",
+      "timestamp": "00:46:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because, yeah, I don't know.",
+      "timestamp": "00:47:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So have you ever managed the newsletters as well?",
+      "timestamp": "00:47:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I have done a newsletter for myself, like one or two years.",
+      "timestamp": "00:47:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So lot of founders that we are working with, do anyone have a newsletter or something?",
+      "timestamp": "00:47:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "No.",
+      "timestamp": "00:47:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:47:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, I mean, we have a plan where we offer a newsletter, but no one picks that plan because it's, you know, it's a plan that is crazy expensive just to make the middle plan more affordable.",
+      "timestamp": "00:47:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:47:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So newsletter is a really good thing because the conversion on newsletter is way too high.",
+      "timestamp": "00:47:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "If they are getting like 50% open rate, if they have like 10,000 subs and even they have 50% open rate, there's a huge chances that...",
+      "timestamp": "00:47:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "They get a lot of leads from there.",
+      "timestamp": "00:47:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "This is what I have experienced for myself.",
+      "timestamp": "00:47:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't have...",
+      "timestamp": "00:47:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Much subscriber, like maybe 200 or 300, but I get a lot of leads from newsletter.",
+      "timestamp": "00:48:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I stopped posting on newsletter because I don't have much time, but even I have handled newsletter for my clients and I get more result on newsletter than writing a content on the social media platform because newsletter is not bad.",
+      "timestamp": "00:48:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Content is a bad newsletter is not bad.",
+      "timestamp": "00:48:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And the reason for that is simple.",
+      "timestamp": "00:48:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Even people comes, even they get a lot of traffic from the LinkedIn or the social media platform, then we drive the traffic through newsletter and they already, the trust has already been built through the LinkedIn content.",
+      "timestamp": "00:48:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So the lead is already warm.",
+      "timestamp": "00:48:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So then I start a LinkedIn, the newsletter sequence and sometimes the client get convert in the sequence itself.",
+      "timestamp": "00:48:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And otherwise you have to send like the daily or weekly emails and if it fits your ICP and you are.",
+      "timestamp": "00:48:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Talking to the pain points, it definitely gets converted.",
+      "timestamp": "00:49:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So that gives me the very positive ROI than normal LinkedIn content.",
+      "timestamp": "00:49:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, yeah, yeah, no.",
+      "timestamp": "00:49:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:49:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, but I think that when we started to talk about different, because we were speaking about the strategy of my content to bring more clients to rhetoric.",
+      "timestamp": "00:49:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But you started to talk about.",
+      "timestamp": "00:49:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, so, yeah, so this, this is, I am saying it because.",
+      "timestamp": "00:49:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I think you have, but you didn't post right much.",
+      "timestamp": "00:49:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I was talking about you yourself, then I went to the client, but you, you are not posting it, right?",
+      "timestamp": "00:49:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "You are not posting a newsletter or something as of now.",
+      "timestamp": "00:49:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I've done it in the past.",
+      "timestamp": "00:49:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I did a very, very advanced, I created a five-day email course, like two years ago.",
+      "timestamp": "00:49:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And so people signed, I was posting content.",
+      "timestamp": "00:49:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm...",
+      "timestamp": "00:49:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:49:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And...",
+      "timestamp": "00:49:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And",
+      "timestamp": "00:49:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Then from my content, I would send people to this five-day email course.",
+      "timestamp": "00:50:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "They would sign up, and from the emails, they learned something, and from there, they got subscribed into my newsletter.",
+      "timestamp": "00:50:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And in addition to getting my newsletter, they were getting every two or three days a conversion-led email from myself.",
+      "timestamp": "00:50:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But it wasn't very effective.",
+      "timestamp": "00:50:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "At that time, it was a course that I built about cold emailing.",
+      "timestamp": "00:50:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This was in 2023, where I was creating AI-generated images to do cold emailing using different accounts and an email strategy to sell a course for cold emailing.",
+      "timestamp": "00:50:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I've done that.",
+      "timestamp": "00:50:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I've done all of that, like very advanced sequences.",
+      "timestamp": "00:50:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We drip campaigns.",
+      "timestamp": "00:51:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "In this case, again, it's the same thing.",
+      "timestamp": "00:51:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, we could do that, but we need to define the strategy.",
+      "timestamp": "00:51:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now, the thing is that I have four minutes and I need to jump on an interview call with a client.",
+      "timestamp": "00:51:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So this has been more like a more strategy session rather than content.",
+      "timestamp": "00:51:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No?",
+      "timestamp": "00:51:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But, yeah.",
+      "timestamp": "00:51:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, yeah.",
+      "timestamp": "00:51:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "So let me know if you have any feedback on Han's content.",
+      "timestamp": "00:51:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "And other than that, just let me know the topics.",
+      "timestamp": "00:51:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I will do my research as well and send some topics to you.",
+      "timestamp": "00:51:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Like, I have those ideas in my mind, but I didn't send it.",
+      "timestamp": "00:51:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "I don't know why.",
+      "timestamp": "00:51:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "But I will also send those content to you so that you could read about it and improve about it.",
+      "timestamp": "00:51:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Then we can create content out of that.",
+      "timestamp": "00:51:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:51:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Yeah, yeah, yeah.",
+      "timestamp": "00:51:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:52:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "One last thing.",
+      "timestamp": "00:52:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Some feedback on my content is that I think that the easiest way for you is to see what I'm posting versus the original post that you write.",
+      "timestamp": "00:52:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Right?",
+      "timestamp": "00:52:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What I'm seeing is that I still feel it's a little bit more like in the tone of a young person, more, I mean, it has way less vibes of content creator than initially, but it's still not like a, yeah, like almost a 40-year-old guy who has, you know, just, I think that's something that would make sense.",
+      "timestamp": "00:52:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Just copy the both versions in.",
+      "timestamp": "00:52:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "AI and tell him, hey, give me what are the difference so we can improve on the future.",
+      "timestamp": "00:53:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:53:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "All right.",
+      "timestamp": "00:53:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "We'll do that.",
+      "timestamp": "00:53:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:53:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "All right, man.",
+      "timestamp": "00:53:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:53:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "See you.",
+      "timestamp": "00:53:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Sandeep Rawat",
+        "matched_calendar_invitee_email": "sandeep@rethoric.com"
+      },
+      "text": "Bye.",
+      "timestamp": "00:53:13"
+    }
+  ],
+  "transcript_language": "en",
+  "url": "https://fathom.video/calls/579467307"
+}

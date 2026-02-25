@@ -30,20 +30,49 @@ function log(msg) {
 }
 
 // ─────────────────────────────────────────────
+// PAYLOAD HELPERS
+// Fathom webhook payload is FLAT — no nested "meeting" object.
+// ─────────────────────────────────────────────
+function getTitle(payload) {
+  return payload?.title || payload?.meeting_title || '';
+}
+
+function getTranscriptText(payload) {
+  const t = payload?.transcript;
+  if (!t) return '';
+  if (typeof t === 'string') return t;
+  if (Array.isArray(t)) {
+    return t.map(seg => `${seg?.speaker?.display_name || 'Speaker'}: ${seg?.text || ''}`).join('\n');
+  }
+  return '';
+}
+
+function getSummary(payload) {
+  return payload?.default_summary?.markdown_formatted
+    || payload?.summary
+    || '';
+}
+
+function getAttendees(payload) {
+  return payload?.calendar_invitees || [];
+}
+
+function getMeetingDate(payload) {
+  return payload?.scheduled_start_time || payload?.recording_start_time || new Date().toISOString();
+}
+
+// ─────────────────────────────────────────────
 // CALL CLASSIFIER
 // ─────────────────────────────────────────────
 /**
  * Determines which use case(s) apply to this call.
  * Returns array of: 'weekly_checkin' | 'client_interview' | 'unknown'
  *
- * Classification logic (in priority order):
- * 1. Meeting title keywords → internal check-in
- * 2. Calendar invitee domain composition → client interview
- * 3. Fallback → unknown (flags to Slack for manual classification)
+ * Classification: title-match only (external attendees ≠ client interview)
  */
 function classifyCall(payload) {
-  const title = (payload?.meeting?.title || '').toLowerCase();
-  const attendees = payload?.meeting?.calendar_invitees || [];
+  const title = getTitle(payload).toLowerCase();
+  const attendees = getAttendees(payload);
   const attendeeDomains = attendees.map(a => (a.email || '').split('@')[1]).filter(Boolean);
 
   // Internal domain(s) — update in config.json as needed
@@ -74,7 +103,7 @@ function classifyCall(payload) {
     useCases.push('unknown');
   }
 
-  log(`Classified "${payload?.meeting?.title}" as: ${useCases.join(', ')}`);
+  log(`Classified "${getTitle(payload)}" as: ${useCases.join(', ')}`);
   return useCases;
 }
 
@@ -149,12 +178,10 @@ function postToSlack(channel, text, blocks) {
 // ─────────────────────────────────────────────
 async function processClientFeedback(payload) {
   const channelId = config.clientFeedbackSlackChannel || 'PLACEHOLDER_CHANNEL';
-  const transcript = payload?.transcript || payload?.meeting?.transcript || '';
-  const summary = payload?.summary || '';
-  const actionItems = payload?.action_items || [];
-  const meetingTitle = payload?.meeting?.title || 'Unknown';
-  const attendees = (payload?.meeting?.calendar_invitees || [])
-    .map(a => a.name || a.email).join(', ');
+  const transcript = getTranscriptText(payload);
+  const summary = getSummary(payload);
+  const meetingTitle = getTitle(payload) || 'Unknown';
+  const attendees = getAttendees(payload).map(a => a.name || a.email).join(', ');
 
   const systemPrompt = `You are a feedback capture agent for Edu's client content interviews at Rethoric (a LinkedIn content ghostwriting agency for B2B tech founders).
 
@@ -211,12 +238,10 @@ ${summary}`;
 // Saves ideas to a weekly file; Google Doc created on Monday via cron
 // ─────────────────────────────────────────────
 async function processContentIdeas(payload, callType) {
-  const transcript = payload?.transcript || payload?.meeting?.transcript || '';
-  const summary = payload?.summary || '';
-  const meetingTitle = payload?.meeting?.title || 'Unknown';
-  const meetingDate = payload?.meeting?.started_at
-    ? new Date(payload.meeting.started_at).toISOString().split('T')[0]
-    : new Date().toISOString().split('T')[0];
+  const transcript = getTranscriptText(payload);
+  const summary = getSummary(payload);
+  const meetingTitle = getTitle(payload) || 'Unknown';
+  const meetingDate = getMeetingDate(payload).split('T')[0];
 
   const isClientInterview = callType === 'client_interview';
 
@@ -305,8 +330,8 @@ async function processWeeklyCheckin(payload) {
 // ─────────────────────────────────────────────
 async function flagUnknown(payload) {
   const channelId = config.opsSlackChannel || 'PLACEHOLDER_OPS_CHANNEL';
-  const title = payload?.meeting?.title || 'Untitled';
-  const attendees = (payload?.meeting?.calendar_invitees || []).map(a => a.email).join(', ');
+  const title = getTitle(payload) || 'Untitled';
+  const attendees = getAttendees(payload).map(a => a.email).join(', ');
   const text = `⚠️ *Unclassified Fathom call received*\n*Title:* ${title}\n*Attendees:* ${attendees || 'unknown'}\nNeeds manual routing — reply with the correct use case.`;
 
   log(`[UNKNOWN] Could not classify call "${title}" — flagging to Slack`);

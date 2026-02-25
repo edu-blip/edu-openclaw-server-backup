@@ -1,0 +1,14 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "source_weights": {
+    "pdf": 1.5,
+    "web": 1.0,
+    "youtube": 0.9,
+    "twitter": 0.7
+  },
+  "time_decay_days": 90,
+  "time_decay_weight": 0.2,
+  "similarity_weight": 0.8,
+  "default_limit": 5
+}

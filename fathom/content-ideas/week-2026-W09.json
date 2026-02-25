@@ -1,0 +1,76 @@
+{
+  "ideas": [
+    {
+      "idea": "CEO involvement in AI implementation is non-negotiable",
+      "hook_angle": "Your CTO can't own your AI transformation. I learned this the hard way with 100 people on payroll.",
+      "key_points": [
+        "No one in your org will have the ownership or agency you do as founder",
+        "Can't delegate to team — many won't even read what you share or understand the urgency",
+        "Weekly All Hands demos showing real impact is how you move people from skepticism to action"
+      ],
+      "source": "Content interview with Carlos Escutia (GroWrk) — discussing how he's personally building agents despite running a 100-person team",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25"
+    },
+    {
+      "idea": "The new moat: atoms, not bits",
+      "hook_angle": "Every SaaS company is about to get commoditized. Unless you touch the physical world.",
+      "key_points": [
+        "Pure SaaS is replicable now — clients can build with agents what took millions to develop",
+        "Companies with logistics, physical goods, or real-world accountability have defensibility AI can't touch",
+        "The question isn't 'can we automate this?' It's 'who's responsible when something goes wrong?'"
+      ],
+      "source": "Content interview with Carlos (GroWrk) — explaining why logistics companies will capture more value than pure software",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25"
+    },
+    {
+      "idea": "Onboarding agents like employees is the new normal",
+      "hook_angle": "I just had a call with a founder who gives his AI agents Rippling accounts. Not as a joke.",
+      "key_points": [
+        "Future of HR tools: permission systems for agents, not just humans",
+        "Agent gets onboarded with access controls, software permissions, audit trails",
+        "This isn't sci-fi — it's happening now in early-stage B2B companies"
+      ],
+      "source": "Content interview with Carlos (GroWrk) — discussing a founder who onboards agents through his HRIS",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25"
+    },
+    {
+      "idea": "Why lean startups suddenly have the advantage",
+      "hook_angle": "I used to think you needed VC money to test hypotheses. That world just died.",
+      "key_points": [
+        "Lean Startup framework: value hypothesis + growth hypothesis both need testing",
+        "Before: testing required capital to hire engineers, marketers, growth specialists",
+        "Now: agents let you test both hypotheses at a fraction of the cost — no fundraising needed"
+      ],
+      "source": "Content interview with Carlos (GroWrk) — connecting Lean Startup principles to AI agent deployment",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25"
+    },
+    {
+      "idea": "The real growth strategy: constraints you can't ignore",
+      "hook_angle": "Forcing functions work. But only if you're willing to sign the contract first.",
+      "key_points": [
+        "Without real constraints, you delay what needs doing",
+        "GroWrk signed a deal requiring automation they hadn't built yet — deadline became non-negotiable",
+        "Strategy: commit externally to create internal urgency (but only if you know it's achievable)"
+      ],
+      "source": "Content interview with Carlos (GroWrk) — discussing how a major partnership deadline is forcing rapid AI implementation",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25"
+    }
+  ],
+  "sources": [
+    {
+      "meeting": "Content Interview: Edu and Carlos Escutia",
+      "date": "2026-02-25",
+      "callType": "client_interview"
+    }
+  ]
+}

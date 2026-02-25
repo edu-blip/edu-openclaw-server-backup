@@ -1,0 +1,4548 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "carlos@growrk.com",
+      "email_domain": "growrk.com",
+      "is_external": true,
+      "matched_speaker_display_name": "carlos escutia",
+      "name": "Carlos Escutia"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "one_or_more_external",
+  "created_at": "2026-02-25T20:03:16Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "### [Leveraging AI and automation to drive efficiency and cost savings @ 6:39](https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ?tab=summary&timestamp=399)\n\nThe discussion covered how GroWrk is using AI and automation to replace manual tasks and processes, allowing them to be more efficient and reduce costs. This includes automating internal workflows, replacing certain SaaS tools, and onboarding \"agents\" to perform work instead of human employees. The CEO emphasized the significant impact this is having on GroWrk's profitability and ability to scale.\n\n### [Importance of CEO involvement in leveraging new technologies @ 26:49](https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ?tab=summary&timestamp=1609)\n\nThe CEO emphasized the critical role he plays in driving the adoption of AI and automation within GroWrk, noting that as the founder, he has a unique ownership and agency that allows him to effectively champion these initiatives. He discussed the challenges of getting the broader team aligned and engaged with the changes.\n\n### [Recap and next steps @ 46:00](https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ?tab=summary&timestamp=2760)\n\nThe meeting concluded with a recap of the upcoming rollout of the GroWrk solution to a large financial institution customer, which will involve 5,000 users. The CEO expressed excitement about the opportunity and confidence in GroWrk's ability to execute on the security and compliance requirements.\n\n### [Challenges of the security and logistics of distributed devices @ 47:17](https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ?tab=summary&timestamp=2837)\n\nThe meeting discussed a partnership between GroWrk and a large financial institution to provide visibility and control over the institution's distributed devices and endpoints, including laptops and desktops used by employees both in offices and remotely. This allows the institution to have better oversight and security over sensitive data stored on these devices, enabling remote wiping and auditing capabilities.\n\n### [Challenges of raising venture capital in the current environment @ 50:01](https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ?tab=summary&timestamp=3001)\n\nThe founders discussed their decision to grow GroWrk organically rather than pursuing aggressive venture capital funding. They noted that many VCs are now focused on high-growth, high-risk startups, whereas GroWrk's more measured, profitable growth model does not fit that profile. The founders are exploring alternative funding options like growth equity that may be better suited to their business.\n",
+    "template_name": "Chronological"
+  },
+  "meeting_title": "Content Interview: Edu and Carlos Escutia",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-25T20:02:26Z",
+  "recording_id": 125373199,
+  "recording_start_time": "2026-02-25T19:02:08Z",
+  "scheduled_end_time": "2026-02-25T20:00:00Z",
+  "scheduled_start_time": "2026-02-25T19:00:00Z",
+  "share_url": "https://fathom.video/share/E9aLvHMg8sPCWq9rBH66rFfRGkPfvudJ",
+  "title": "Content Interview: Edu and Carlos Escutia",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero bueno, ya ves.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Increíble.",
+      "timestamp": "00:01:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, pero pues a ver, no sé si vaya a cambiar algo realmente, digo, está canigo, o sea, ahí te das cuenta realmente de quién está a cargo, ¿no?",
+      "timestamp": "00:01:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, sí, sí, sí.",
+      "timestamp": "00:01:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yo lo que pensé, que puede ser una teoría muy loca, pero para mí hace mucho sentido, es que lo, o sea, porque siempre está Shane Bowne y de, bueno, desde Andrés Manuel, ¿no?",
+      "timestamp": "00:01:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ha sido abrazos y no, no, no, balazo, ¿no?",
+      "timestamp": "00:01:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y amor y paz con los narcos y todo.",
+      "timestamp": "00:01:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y ella lo ha reforzado mucho, de que no vale la pena entrar a guerra con ellos, blablabla.",
+      "timestamp": "00:01:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, yo creo que para mí lo que hace sentido es que todo esto lo hicieron en conjunto, de cierta forma, para que pase todo esto.",
+      "timestamp": "00:01:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Probablemente el, ¿cómo se llama?",
+      "timestamp": "00:01:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "El macho o el mocho, el cuateste.",
+      "timestamp": "00:01:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En como en Guanajuato, por ejemplo, ¿no?",
+      "timestamp": "00:03:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, pues, ¿qué pasa?",
+      "timestamp": "00:03:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Bueno, en Sinaloa, Reynosa, no se digan esos lugares.",
+      "timestamp": "00:03:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, pues, ¿qué pasa?",
+      "timestamp": "00:03:09"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, el ciudadano común, pues, tiene que pagar double taxation, ¿no?",
+      "timestamp": "00:03:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque, por ejemplo, ahí donde es mi familia, es el estado de Guanajuato, originalmente.",
+      "timestamp": "00:03:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Es una ciudad industrial.",
+      "timestamp": "00:03:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todos se dedican a la fabricación textil, ropa, todo ese tipo de cosas, ¿no?",
+      "timestamp": "00:03:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y en muchos casos, pues, los que el narco de ahí, no sé, cobran piso.",
+      "timestamp": "00:03:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O es un impuesto, básicamente, ¿no?",
+      "timestamp": "00:03:43"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Por tener tus operaciones.",
+      "timestamp": "00:03:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Encima del impuesto que se le paga al gobierno federal, ¿no?",
+      "timestamp": "00:03:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, pues, ¿qué estamos haciendo?",
+      "timestamp": "00:03:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, mucha gente por eso se va.",
+      "timestamp": "00:03:53"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Dice, pues, ¿qué estamos haciendo aquí?",
+      "timestamp": "00:03:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, no hace sentido.",
+      "timestamp": "00:03:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, sí, exacto.",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "sea, como que, pero es que esa es la cosa, ¿no?",
+      "timestamp": "00:04:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "El Estado ya no puede con ellos o ya llegó al punto en donde ellos controlan el Estado y todo es una cortina para que no parezca.",
+      "timestamp": "00:04:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, es cierto, es verdad.",
+      "timestamp": "00:04:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Está bien complicado.",
+      "timestamp": "00:04:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ya quién sabe qué va a pasar, pero lo más importante es, y desde el punto de vista del gobierno donde sí lo veo, es que si no tienen los recursos y la manera de contrarrestar una respuesta así, pues no estoy de acuerdo, ni lo muevas.",
+      "timestamp": "00:04:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Los únicos que sufren son, pues sufren todos, sufre la gente, sufre la economía, porque pues ves todo el, todas las noticias, todo eso asusta el turismo, o sea, todos sufren.",
+      "timestamp": "00:04:35"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, ese es el problema y la razón por la que no se va a solucionar este tema rápido, ¿no?",
+      "timestamp": "00:04:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero bueno, ¿qué se le va a hacer?",
+      "timestamp": "00:04:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Hay que seguir aquí chambeando.",
+      "timestamp": "00:04:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Este, pues a ver, cuéntame.",
+      "timestamp": "00:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Este, pues a ver, tú dime qué, tienes alguna idea, alguna, algún tema en específico que quieras tocar para esta sesión.",
+      "timestamp": "00:05:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, no necesariamente.",
+      "timestamp": "00:05:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Creo que ya hemos abarcado mucho, hemos hablado de muchos temas, digo, temas que están hoy en día a lo mejor en, en, en, ¿cómo se llama?",
+      "timestamp": "00:05:23"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Trendy, pues son los temas de automatización, ¿no?",
+      "timestamp": "00:05:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todo lo que está pasando con OpenCloud y todas esas cosas, ¿no?",
+      "timestamp": "00:05:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Creo que, eh, eso podría ser un tema interesante porque, pues finalmente estamos desarrollando agentes que pueden trabajar como tus empleados 24-7.",
+      "timestamp": "00:05:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y aquí en GroWrk, por ejemplo, digo, no sé si leíste.",
+      "timestamp": "00:05:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿El artículo este de...?",
+      "timestamp": "00:06:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿El que mandaste?",
+      "timestamp": "00:06:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:06:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Otro.",
+      "timestamp": "00:06:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El que salió recientemente que causó caos en mercados financieros.",
+      "timestamp": "00:06:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El de...",
+      "timestamp": "00:06:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "El de...",
+      "timestamp": "00:06:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué pasa en el 2028?",
+      "timestamp": "00:06:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿No?",
+      "timestamp": "00:06:14"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Este...",
+      "timestamp": "00:06:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿No?",
+      "timestamp": "00:06:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El de Matt, no sé qué.",
+      "timestamp": "00:06:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:06:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cómo se llama?",
+      "timestamp": "00:06:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Te digo.",
+      "timestamp": "00:06:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿La foto tiene una post-it?",
+      "timestamp": "00:06:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Es un círculo.",
+      "timestamp": "00:06:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ah, no sé si vi ese.",
+      "timestamp": "00:06:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Es el C-Tuny Research.",
+      "timestamp": "00:06:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ah, no, ese no lo vi.",
+      "timestamp": "00:06:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "A ver, cuéntame de eso.",
+      "timestamp": "00:06:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Está muy bueno.",
+      "timestamp": "00:06:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Está muy bueno porque, pues, básicamente lo que hace es una proyección de lo que, teoréticamente, podría pasar con inteligencia artificial, como vamos, ¿no?",
+      "timestamp": "00:06:39"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En la economía.",
+      "timestamp": "00:06:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El impacto que tendría los layoffs, todas esas cosas, ¿no?",
+      "timestamp": "00:06:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y yo creo que tiene algo, de verdad, porque, pues, yo lo estoy viendo.",
+      "timestamp": "00:06:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, aquí en donde nosotros estamos, digo, yo estoy tomando decisiones de no contratar y de no renovar servicios, porque ya los podemos hacer internamente con agentes, entonces, tiene algo de cierto, no sé qué tan, digo, hay, he estado escuchando varias versiones, te lo voy a compartir, he estado escuchando varias versiones de gente que dicen, no, no va a pasar así, por esta razón, lo que sea, pero luego yo lo cuestiono desde el punto de vista práctico, porque, pues yo lo veo reflejado en lo que nosotros hacemos, a mí, para mí es un no-brainer que tenga un agente, perdón, perdón, que tenga un agente trabajando, en vez de que tenga un empleado que pueda hacer las cosas mejor, las 24 horas al día, ¿no?",
+      "timestamp": "00:07:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:07:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y en negocios muy operativos, intensos como los nuestros, pues, hace todo sentido del mundo, ¿no?",
+      "timestamp": "00:07:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y sí va a tener un impacto en la contratación de gente.",
+      "timestamp": "00:08:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, yo estoy tomando decisiones ya de, por ejemplo, teníamos un Ticket and System que probablemente ya no lo vamos a renovar porque hemos construido una herramienta interna que nos permite hacer eso.",
+      "timestamp": "00:08:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, sí va a tener impacto en empresas, proveedores de servicios, SaaS principalmente.",
+      "timestamp": "00:08:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí va a tener un impacto en la contratación de gente.",
+      "timestamp": "00:08:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, gente va a tener que ver la forma de, o sea, ya ahorita los ingenieros, si te fijas el nivel de los modelos y de lo que puedes hacer, pues ya los ingenieros mismos lo están viendo, ¿no?",
+      "timestamp": "00:08:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, ya ese skill ya no es realmente necesario, ¿no?",
+      "timestamp": "00:08:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que hace un año era impensable.",
+      "timestamp": "00:08:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Esas son cosas que están pasando muy rápido.",
+      "timestamp": "00:08:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, pues, el punto...",
+      "timestamp": "00:08:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todo eso impacta empresas como las nuestras, porque nosotros tenemos un incentivo para obviamente ser más eficientes y hacer más con menos, y la inteligencia artificial nos permite hacer eso, porque los agentes, por ejemplo, tenemos un agente ahí que nos hace el trabajo de cuatro a seis ingenieros, ¿no?",
+      "timestamp": "00:09:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "A una fracción del precio, entonces, del costo.",
+      "timestamp": "00:09:24"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, para nosotros, pues, no hace mucho sentido seguir desarrollando esos agentes, ¿no?",
+      "timestamp": "00:09:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso implica que ya no esté contratando a un ingeniero, ¿ves?",
+      "timestamp": "00:09:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso es en ingeniería, ahora imagínate todo lo demás, en operaciones, en ventas, en marketing, todos estos verticales tienen casos de uso donde un agente o varios agentes pueden hacer el trabajo, ¿no?",
+      "timestamp": "00:09:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, ahorita, pues, nosotros estamos transicionándonos a una empresa.",
+      "timestamp": "00:09:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Necesitan contratar a tanta gente.",
+      "timestamp": "00:11:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Claro.",
+      "timestamp": "00:11:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, sí, sí.",
+      "timestamp": "00:11:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Vamos a hacer.",
+      "timestamp": "00:11:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Un caso muy interesante es el tema de onboarding de agentes como empleados normales, ¿no?",
+      "timestamp": "00:11:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En donde una persona que está contratando, en vez de contratar a una persona, estás contratando a un agente.",
+      "timestamp": "00:11:14"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El otro día estaba hablando con un founder de un fondo que organizó una llamada para ver cómo estamos utilizando OpenCulture.",
+      "timestamp": "00:11:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y me decía, pues es que nosotros lo que hicimos es crear, no sé si voy a tener un tema de impuestos con nosotros, pero no me interesa eso ahorita, dice.",
+      "timestamp": "00:11:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Yo cuando contrato a alguien, ellos usan rippling para hacer onboarding, pues yo ya tengo el setup para un agente, porque le estoy dando permiso, lo estoy onboardeando como un empleado.",
+      "timestamp": "00:11:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, le estoy dando acceso.",
+      "timestamp": "00:11:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "A ciertas cosas, a ciertos software, pero en vez de que sea una persona física, es un agente.",
+      "timestamp": "00:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ese es el next wave de estas compañías que se dedican a hacer HR.",
+      "timestamp": "00:12:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, o sea.",
+      "timestamp": "00:12:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cómo los abordees?",
+      "timestamp": "00:12:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Cómo limites sus accesos?",
+      "timestamp": "00:12:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Sí explicó?",
+      "timestamp": "00:12:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Completamente.",
+      "timestamp": "00:12:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Todas las empresas se tienen que reorganizar, reestructurar para que se mantengan relevantes.",
+      "timestamp": "00:12:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, eso me está pasando a mí, ¿no?",
+      "timestamp": "00:12:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Si yo me quedo haciendo exactamente la creación de contenido a través de entrevista, el batch, aquí está tu contenido, el AI a un punto te va a poder, pues, generar contenido, ¿no?",
+      "timestamp": "00:12:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "La parte más relevante es la entrevista en sí, en donde discutes con una persona.",
+      "timestamp": "00:12:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Todo eso.",
+      "timestamp": "00:13:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero sí, yo deployé a mi agente de OpenClaw el fin de semana y me estoy dando cuenta que el tema de la creación de software, o sea, el concepto de desarrollar software ya no es un problema, ¿no?",
+      "timestamp": "00:13:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Así de plano, ya.",
+      "timestamp": "00:13:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No existe, no es un problema ya.",
+      "timestamp": "00:13:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Lo que sí es la habilidad de que puedas articular exactamente cómo quieres, qué quieres y cómo lo quieres, ¿no?",
+      "timestamp": "00:13:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero al final, al final no es un prompt, o sea, no es de que tienes una oportunidad de hacerlo en un prompt, ¿no?",
+      "timestamp": "00:13:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero te puedes encontrar con los problemas y es como, a ver, quiero que le cambies acá y puede borrar el code base y volverlo a hacer desde, no pasa nada.",
+      "timestamp": "00:13:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, exactamente.",
+      "timestamp": "00:13:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, ¿no?",
+      "timestamp": "00:13:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "100%, 100%.",
+      "timestamp": "00:13:43"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y luego también, pues, al otro lado, o sea, eso es una realidad, ¿no?",
+      "timestamp": "00:13:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El otro tema también ahorita, pues, el tema de los costos, ¿no?",
+      "timestamp": "00:13:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque obviamente, pues, hay costos de los tokens, de los API calls, de todas esas cosas, ¿no?",
+      "timestamp": "00:13:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero también eso está bajando.",
+      "timestamp": "00:13:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:13:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No es crear, o sea, eficientizar tu negocio, tú personalmente lo más posible para tener muchos más margen.",
+      "timestamp": "00:15:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, lo que has estado diciendo, ¿no?",
+      "timestamp": "00:15:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Hacer más con menos.",
+      "timestamp": "00:15:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Hacer lo mejor también.",
+      "timestamp": "00:15:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Perdón?",
+      "timestamp": "00:15:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y hacerlo mejor también.",
+      "timestamp": "00:15:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y hacerlo mejor.",
+      "timestamp": "00:15:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero también está del otro lado el tema de que puede ser que algunos clientes, como ya tienen esa capacidad, o algunos de tus clientes, como ya tienen esa capacidad, pues ya lo hagan ellos mismos con su propia tecnología.",
+      "timestamp": "00:15:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ese es un muy buen punto.",
+      "timestamp": "00:15:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ese es un muy buen punto.",
+      "timestamp": "00:15:37"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero ahí es donde entra la diferenciación entre un Pure SaaS Provider y alguien como nosotros.",
+      "timestamp": "00:15:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque muere cosas físicamente.",
+      "timestamp": "00:15:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Exactamente.",
+      "timestamp": "00:15:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque no es lo mismo, si me explico, bits que átomos, ¿no?",
+      "timestamp": "00:15:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, sí, o sea, si nosotros fuéramos Pure SaaS, sí.",
+      "timestamp": "00:15:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todas las SaaS van a pasar por ese problema.",
+      "timestamp": "00:15:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "mejor también.",
+      "timestamp": "00:15:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Más",
+      "timestamp": "00:15:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, nosotros ya estamos reemplazando temas de SaaS.",
+      "timestamp": "00:16:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero compañías como las nuestras que tienen un link con el mundo real, o logística, ese es super high leverage.",
+      "timestamp": "00:16:02"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, nosotros vamos a tener, tenemos realmente una oportunidad de capturar mucho más valor del que hemos capturado, ¿no?",
+      "timestamp": "00:16:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y yo creo que las empresas que realmente están mejor posicionadas para capturar ese valor es justamente esas empresas que tienen un link en el mundo real, ¿no?",
+      "timestamp": "00:16:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O donde también existe alguien que debe ser responsable por algo, porque tampoco no puedes tener a un agente.",
+      "timestamp": "00:16:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, ¿cómo vas a culpar a un agente si comete un error, no?",
+      "timestamp": "00:16:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, hay alguien que tiene que tener responsabilidad, ¿no?",
+      "timestamp": "00:16:39"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Temas de cybersecurity, de todas esas cosas, pues hay alguien que tiene que ser responsable.",
+      "timestamp": "00:16:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, empresas, pues, les va a ir bien.",
+      "timestamp": "00:16:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Las que son pure SaaS, no sé si le tienen que pensar bien, porque ahorita es fácil, es muy fácil replicar muchas cosas que...",
+      "timestamp": "00:16:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Se les invirtió mucho, mucho tiempo, mucho dinero para construirlas y ya no se necesitan, ¿no?",
+      "timestamp": "00:17:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Me llegó hoy, hoy en la mañana, yo uso de CRM Attio.",
+      "timestamp": "00:17:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Me pasé a Horspot Attio porque era como que más cool, más fácil de usar, ¿no?",
+      "timestamp": "00:17:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces me pasé, encontré un deal ahí, un YC deal y lo saqué, ¿no?",
+      "timestamp": "00:17:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Me llevo, y llevo como casi un año usándolo y me llegó hoy un mail de, oye, llevas casi un año usándolo con nuestro Startup Deal, ya va a ser el tiempo para renovar, para avisarte que el CIT, o sea, son 70 dólares por CIT, tú tienes Preferred Pricing por el deal que tenías.",
+      "timestamp": "00:17:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Le invertí una cantidad de horas para crear los workflows, para entender bien cómo usar el CRM, al final un CRM le tienes que agarrar la onda, ¿no?",
+      "timestamp": "00:17:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "sea, es toda una bestia.",
+      "timestamp": "00:17:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:17:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yo soy mail hoy en la mañana y es como, ¿por qué no le digo a mi OpenClock que me haga uno?",
+      "timestamp": "00:18:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Al cuál?",
+      "timestamp": "00:18:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Para qué voy a renovar?",
+      "timestamp": "00:18:07"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, o sea, si realmente tienen la capacidad de hacerlo y sí, o la verdad es que sí se puede hacer, esa es la verdad.",
+      "timestamp": "00:18:09"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, yo no he llegado a ese punto todavía, pero en algún punto tal vez, porque también, o nosotros sí usamos HubSpot, pero lo usamos en muchísimas partes, ¿no?",
+      "timestamp": "00:18:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces también eso también.",
+      "timestamp": "00:18:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Impacta muchas cosas también, las integraciones que hay, o sea, tal vez, pero, sí, no, no es eso.",
+      "timestamp": "00:18:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "un, si hay un, si hay un, un análisis de costo-beneficio, ¿no?",
+      "timestamp": "00:18:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Donde llegas a un punto, por ejemplo, si tienes una compañía grande y estás renovando un software por 200, 500 mil dólares.",
+      "timestamp": "00:18:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, bueno.",
+      "timestamp": "00:18:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues a lo mejor ya le pides a alguien, ¿sabes qué?",
+      "timestamp": "00:18:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Construyeme esto, ¿no?",
+      "timestamp": "00:18:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Claro.",
+      "timestamp": "00:18:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿No?",
+      "timestamp": "00:18:55"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, este, esto se viene, o sea, a mí se me hace muy claro.",
+      "timestamp": "00:18:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Te digo que lo estoy...",
+      "timestamp": "00:18:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Bienvenidos aquí con nosotros.",
+      "timestamp": "00:19:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Vamos a llegar ahí, eventualmente.",
+      "timestamp": "00:19:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No estoy ahorita enfocado en reemplazar herramientas como tal.",
+      "timestamp": "00:19:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estoy enfocado en automatizar nuestros propios procesos que comienzan con tener una estandarización de nuestros SOPs, ¿no?",
+      "timestamp": "00:19:10"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que muchas veces ni siquiera son claros.",
+      "timestamp": "00:19:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Algunas veces esos SOPs viven en la cabeza de alguien porque ha estado haciendo ese trabajo por mucho tiempo, pero no están documentados debidamente y no están estandarizados o actualizados.",
+      "timestamp": "00:19:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, el trabajo que hemos hecho las últimas semanas es crear estos templates para estandarizar los SOPs across the board, ¿no?",
+      "timestamp": "00:19:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estamos empezando en operaciones, pero lo estamos haciendo en todas las áreas.",
+      "timestamp": "00:19:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y el objetivo es que una vez que tengas estos SOPs bien documentados, que es lo que necesitas fundamentalmente para decirle a un agente, oye, ponte a hacer esto, pues listo, ya te pones a correr, ¿no?",
+      "timestamp": "00:19:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:19:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, no vamos a automatizar.",
+      "timestamp": "00:19:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todo de día para otro, pero sí tenemos targets de automatización semanal, quincenalmente, ¿no?",
+      "timestamp": "00:20:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En operaciones y así vamos a ir avanzando 5, 10% de lo que podemos avanzar hasta llegar a 90 más por ciento de automatización.",
+      "timestamp": "00:20:09"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, eso es el futuro, realmente, digo, digo que las empresas que yo creo que se van a beneficiar más son empresas como las nuestras, digo, obviamente no soy biased, pero yo creo que sí, porque por ese link con el mundo real y que tan ineficiente es el mundo logístico.",
+      "timestamp": "00:20:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, totalmente.",
+      "timestamp": "00:20:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, sí.",
+      "timestamp": "00:20:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, pues te lo digo yo, o sea, tú estás de ese lado y yo estoy de este lado en donde ofrezco un servicio que es, no lo tocas, no se transporta, no lo, sí, ¿no?",
+      "timestamp": "00:20:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, si mis clientes llegan a ese punto donde me voy a enfocar en tomarme el tiempo y hacer, y llegan a generarlo de una forma eficiente.",
+      "timestamp": "00:20:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:20:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces ya estoy frito.",
+      "timestamp": "00:21:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, bueno, ahí el tema es que también, o sea, los canales que utilizas, por ejemplo, LinkedIn, son canales que son muy estrictos, ¿no?",
+      "timestamp": "00:21:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Con agentes y cosas así.",
+      "timestamp": "00:21:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, te pueden banear de volada si detectan que tienes a un agente.",
+      "timestamp": "00:21:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, ese es un mode, ¿no?",
+      "timestamp": "00:21:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque también existe mucha sensibilidad alrededor de eso.",
+      "timestamp": "00:21:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y esa sensibilidad va a continuar creciendo conforme, pues ya ahorita lo estás viendo, ¿no?",
+      "timestamp": "00:21:29"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Open Cloud, creo que Antrópica dijo también que si estás usando también lo vas a, o sea, lo bueno es que hay muchísimos modelos, ¿no?",
+      "timestamp": "00:21:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que puedes utilizar con Open Cloud, pero están ahí.",
+      "timestamp": "00:21:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y luego, o sea, es el debate, pues, del open source versus closed source, ¿no?",
+      "timestamp": "00:21:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque también te fijas en los quimis, en todo modo, los chinos se están entrenando con toda la data de estos cuates.",
+      "timestamp": "00:21:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, ¿no?",
+      "timestamp": "00:21:55"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "I said open source.",
+      "timestamp": "00:21:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y eso me lleva a pensar a que al final todos los Markdown Files que se guardan en tu Open Cloud, los, ya sé cómo se llaman, el ToolsMD y todos estos, puede ser que al final eso sea la, ¿cómo se le diría?",
+      "timestamp": "00:22:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "El oro de una compañía.",
+      "timestamp": "00:22:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pues sí, realmente sí.",
+      "timestamp": "00:22:22"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque ahí está todo.",
+      "timestamp": "00:22:23"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ahí está todo y yo creo que por eso está ese tema de on-prem, ¿no?",
+      "timestamp": "00:22:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En vez de en la nube.",
+      "timestamp": "00:22:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, yo aquí tengo mis Mac Minis, o sea, las compramos y Daniel, que es mi lead engineer, le dije, comienza a usarlas, o sea, él está en México, pero yo las tengo aquí.",
+      "timestamp": "00:22:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y remotamente ya tiene los agentes aquí instalados y está trabajando.",
+      "timestamp": "00:22:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, ¿tú tienes tu Open Close en las Mac Minis?",
+      "timestamp": "00:22:48"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, sí, tenemos ahí, sí, o sea, porque nosotros tenemos temas de seguridad también, ¿no?",
+      "timestamp": "00:22:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que tenemos que, este, ver.",
+      "timestamp": "00:22:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y, y, y, y me...",
+      "timestamp": "00:22:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Fui por las Mac Mini porque no quería invertir ahorita en las estudio todavía.",
+      "timestamp": "00:23:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Para lo que necesitamos nosotros no lo necesitamos todavía.",
+      "timestamp": "00:23:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y no sé si van a cambiar las cosas eventualmente, pero por los temas de seguridad creo yo que es mejor tenerlos on-prem que tenerlos afuera, ¿no?",
+      "timestamp": "00:23:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, pues nada, ahí vamos.",
+      "timestamp": "00:23:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ese es el...",
+      "timestamp": "00:23:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Teo, yo estoy muy emocionado porque lo que le decía yo a una de mis inversionistas, pues esto es...",
+      "timestamp": "00:23:22"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Construir algo es muy...",
+      "timestamp": "00:23:31"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Al principio tienes toda esta energía y todo, ¿no?",
+      "timestamp": "00:23:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero después entras en los años y es un...",
+      "timestamp": "00:23:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Es drag, es como que...",
+      "timestamp": "00:23:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Es tedioso, ¿no?",
+      "timestamp": "00:23:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque tienes que estar lo mismo, resolviendo las cosas, tratando de ver por dónde y es problema, es problema.",
+      "timestamp": "00:23:43"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y no hay como breakthroughs así que son step functions reales, ¿no?",
+      "timestamp": "00:23:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Esto es un step function.",
+      "timestamp": "00:23:53"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, la tecnología que existe hoy para que realmente...",
+      "timestamp": "00:23:55"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Tienes Tienes un papel.",
+      "timestamp": "00:23:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:23:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Hagas todo nuevamente o mejor.",
+      "timestamp": "00:24:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y está súper emocionante porque es lo que también hay gente que también se ve ese futuro no tan bien, no tan brillante.",
+      "timestamp": "00:24:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque realmente sí va a reemplazar muchos trabajos.",
+      "timestamp": "00:24:14"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero yo lo que le digo pues a mi equipo es, a ver, hay tres tipos de personas aquí.",
+      "timestamp": "00:24:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, hay la gente que, como nosotros, que podemos utilizar esta tecnología en algo real que estamos haciendo y aprender, obviamente porque estamos aprendiendo y estamos viendo el impacto real que tienen nuestros clientes en la forma en que hacemos las cosas y beneficiarnos de eso.",
+      "timestamp": "00:24:22"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿No?",
+      "timestamp": "00:24:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Segundo, hay la gente que solo lee al respecto, pero no hace nada y pues nada más está viendo qué está haciendo otra gente, ¿no?",
+      "timestamp": "00:24:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y tercero, que es la gran mayoría de la gente, no tienen ni idea de lo que se viene.",
+      "timestamp": "00:24:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:24:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, ¿en qué va, en qué...",
+      "timestamp": "00:24:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿En lugar quieres estar?",
+      "timestamp": "00:25:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Dónde estás?",
+      "timestamp": "00:25:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Esto último que me dijiste fue parte de la conversión, ¿con quién lo hablaste, perdón?",
+      "timestamp": "00:25:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Esto fue una conversión interna con mi equipo.",
+      "timestamp": "00:25:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ah, es que lo de Start Function que me dijiste fue una conversión con un inversionista, ¿no?",
+      "timestamp": "00:25:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ah, sí, le mencionaba yo a un inversionista que, pues, o tenemos mucha energía, ¿no?",
+      "timestamp": "00:25:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estamos muy emocionados porque es como empezar otra vez algo con una innovación real, ¿no?",
+      "timestamp": "00:25:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Donde estás viendo el impacto rápido y material, o sea, no es algo que va a tardar meses ni años en verse reflejado.",
+      "timestamp": "00:25:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estás hablando que en semanas estás viendo, estás creando un agente, lo estás poniendo a trabajar, estás viendo los resultados y es ¡guau!",
+      "timestamp": "00:25:39"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, es emocionante, está padre, ¿no?",
+      "timestamp": "00:25:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Eso es lo que entrepreneurship is about, ¿no?",
+      "timestamp": "00:25:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, que realmente estás haciendo algo que es...",
+      "timestamp": "00:25:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso es lo que estamos haciendo, digo, mi reto más grande ahorita es hacerme tiempo para estar clavado en crear agentes y experimentar en cosas que luego veo y obviamente atender el day to day y todas las cosas que tengo aquí, ¿no?",
+      "timestamp": "00:26:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Creo que ese es un tema súper importante, ¿no?",
+      "timestamp": "00:26:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Porque también, o sea, siento que estamos como que muy en sync porque estamos, yo te digo, también estoy haciendo eso.",
+      "timestamp": "00:26:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, ¿qué tan importante es dedicarle tú como el CEO el tiempo a explorarle y a crear nuevos workflows?",
+      "timestamp": "00:26:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, 100%, es crítico.",
+      "timestamp": "00:26:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Nadie va a tener el ownership o el agency que tú tienes como founder.",
+      "timestamp": "00:26:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, no puedes delegarle esto a tu equipo.",
+      "timestamp": "00:26:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Puedes delegarle a tu equipo.",
+      "timestamp": "00:26:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y la realidad es que es muy difícil.",
+      "timestamp": "00:28:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Nosotros tenemos 100 personas en el equipo, ¿no?",
+      "timestamp": "00:28:02"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y unos sí se clavan y otros ni idea.",
+      "timestamp": "00:28:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O tú les compartes lo que sea, pero no lo leen o algo porque están muy metidos.",
+      "timestamp": "00:28:08"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, en el All Hands que tenemos, pues ahí vamos a estar presentando, pues, qué estamos haciendo, ¿no?",
+      "timestamp": "00:28:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Realmente.",
+      "timestamp": "00:28:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que se vea reflejado para que ya no, ya deje de ser este tema abstracto y realmente entiendan cuál es el impacto.",
+      "timestamp": "00:28:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque también inteligencia artificial como tal, o ha cambiado y está cambiando muy rápido, ¿no?",
+      "timestamp": "00:28:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estamos hablando cambios, cada dos semanas hay cambios brutales, ¿no?",
+      "timestamp": "00:28:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, a lo mejor hay gente que intentó utilizar herramientas o los ha estado utilizando como un search engine o muy light hace unos meses y se quedaron con la idea de que eso era todo.",
+      "timestamp": "00:28:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No.",
+      "timestamp": "00:28:48"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ahorita estamos en un punto, especialmente con los nuevos modelos de codex y todos los que se sacan salida.",
+      "timestamp": "00:28:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, sí ha habido un step function.",
+      "timestamp": "00:28:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En la capacidad que tienen estos modelos para ejecutar.",
+      "timestamp": "00:29:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, es importante mantener alineados al equipo en qué están haciendo, cómo lo están haciendo y cuál es el impacto real que está teniendo en nuestra productividad, ¿no?",
+      "timestamp": "00:29:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Claro.",
+      "timestamp": "00:29:15"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero sí, el founder 100% tiene que estar metido.",
+      "timestamp": "00:29:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, sí, sí, totalmente de acuerdo.",
+      "timestamp": "00:29:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ahora, me contesté las oportunidades de crear como RealWealth.",
+      "timestamp": "00:29:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "En un corto tiempo.",
+      "timestamp": "00:29:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cuáles son unos ejemplos de eso?",
+      "timestamp": "00:29:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, a ver, si te fijas en las compañías que han crecido más rápido en récord, o sea, de 5 a 100 millones en AR en los últimos meses, pues todas son compañías de no code.",
+      "timestamp": "00:29:35"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Sí me explico?",
+      "timestamp": "00:29:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, esa es la más fácil que puedes, ¿cómo se llama?",
+      "timestamp": "00:29:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El ejemplo más claro que puedes, que puedes...",
+      "timestamp": "00:29:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que puedes...",
+      "timestamp": "00:29:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que puedes...",
+      "timestamp": "00:29:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que puedes mencionar, pero yo lo estoy aterrizando más a la realidad de uno, ¿no?",
+      "timestamp": "00:30:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Al negocio de uno, que es lo que uno está haciendo.",
+      "timestamp": "00:30:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En el caso nuestro, muy objetivamente, son dos drivers que van a impactar nuestro profitability.",
+      "timestamp": "00:30:08"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Nosotros, personalmente, seguimos creciendo nuestro revenue, pero nuestro perfil, nuestro margen, nuestro perfil de margen es constante.",
+      "timestamp": "00:30:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, con estas herramientas, yo ya no tengo que aumentar mis gastos operativos, mis gastos operativos.",
+      "timestamp": "00:30:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "A lo mejor sí van a crecer, pero van a crecer marginalmente por, obviamente, los costos de los tokens, API calls y estas cosas, ¿no?",
+      "timestamp": "00:30:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero va a ser una fracción de lo que sería contratar a una persona, ¿no?",
+      "timestamp": "00:30:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, ese es para mí el driver principal.",
+      "timestamp": "00:30:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que yo no tengo que aumentar mi headcount o mi SGNA.",
+      "timestamp": "00:30:53"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y proporcionalmente con el nivel de crecimiento que estamos esperando.",
+      "timestamp": "00:31:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Digo, nosotros estamos en una posición de alguna manera afortunada, en el sentido de que el tema que tengo que resolver es un tema de capacidad.",
+      "timestamp": "00:31:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Tenemos demanda, tenemos, estamos creciendo, pero no es muy fácil crear esa capacidad para servir esa nueva demanda, contratando a nueva gente.",
+      "timestamp": "00:31:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque toda la gente tarda tiempo en hacer el onboarding, en agarrar la onda de lo que tienen que ser las cosas.",
+      "timestamp": "00:31:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que yo pueda remover esa barrera o ese bottleneck para escalar, pues ya me permite hacer muchas cosas, ¿no?",
+      "timestamp": "00:31:37"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Teniendo agentes que ya manejen la mayor parte de la operación que anteriormente alguien tenía que hacer, pues eso es una barrera que se remueve para escalabilidad, ¿no?",
+      "timestamp": "00:31:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y obviamente me permite...",
+      "timestamp": "00:31:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y la otra forma también es bajar nuestro SG&A sustituyendo herramientas que estábamos pagando por utilizar, ¿no?",
+      "timestamp": "00:32:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que no son realmente críticas para nosotros.",
+      "timestamp": "00:32:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque si hay herramientas que son críticas como HubSpot, que sí están muy metidas en todo y eso pues tal vez lo podríamos llegar a hacer, pero...",
+      "timestamp": "00:32:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Va a tardar mucho más tiempo, ¿no?",
+      "timestamp": "00:32:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "sí, claro.",
+      "timestamp": "00:32:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces ahí es donde estoy hablando, o capturar valor real.",
+      "timestamp": "00:32:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Proveemos un mejor servicio porque nuestros clientes van a recibir servicios más rápidos y expandemos nuestros márgenes.",
+      "timestamp": "00:32:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sin duda.",
+      "timestamp": "00:32:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:32:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ahora, esto se vuelve bien interesante porque al parecer como que...",
+      "timestamp": "00:32:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Llega a ser esto...",
+      "timestamp": "00:32:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Una de las nuevas tareas de un CEO, ¿no?",
+      "timestamp": "00:33:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Que antes como que no se discutía, o sea, antes era, pues sí, ¿no?",
+      "timestamp": "00:33:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ver cómo ser más eficientes, bajar gastos, reducir costos, crecer el revenue.",
+      "timestamp": "00:33:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y el hecho de implementar y ya meterse, o sea, meter las manos a la generación de workflows y AI, impacta ya de una forma directa, ¿no?",
+      "timestamp": "00:33:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y, o me estoy imaginando a Jamie Dimon de, ¿cómo se llama?",
+      "timestamp": "00:33:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "De JP Morgan.",
+      "timestamp": "00:33:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Tú crees que ese cuate se va a meter a moverle así?",
+      "timestamp": "00:33:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, debería, ¿no?",
+      "timestamp": "00:33:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero son personas que están en otra, en otro canal.",
+      "timestamp": "00:33:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Yo uso este framework de Lean Startup, donde está el valor del, básicamente para poder tener una empresa, tienes el valor, primero tienes que tener una hipótesis y un valor, ¿no?",
+      "timestamp": "00:36:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O hay alguien que quiere pagar por la solución que estás desarrollando.",
+      "timestamp": "00:36:15"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, sí, no, ok.",
+      "timestamp": "00:36:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si sí, pues ahí tienes algo, ¿no?",
+      "timestamp": "00:36:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si no, pues no tienes un negocio.",
+      "timestamp": "00:36:24"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y la otra es el Growth Hypothesis, ¿no?",
+      "timestamp": "00:36:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Puedes crecer ese negocio de manera consistente por los canales que sean, Facebook, LinkedIn, los canales de televisión que sean, ¿no?",
+      "timestamp": "00:36:29"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y es una hipótesis.",
+      "timestamp": "00:36:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, sí, sí, y son las dos cosas que necesitas para poder tener un negocio que crece sostenidamente.",
+      "timestamp": "00:36:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque si tienes un Value Hypothesis que sí es correcto, pero tienes un Growth Hypothesis que no es correcto, pues vas a tener un negocio chiquito, ¿no?",
+      "timestamp": "00:36:48"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si no tienes un Value Hypothesis que",
+      "timestamp": "00:36:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues no tienes ningún negocio.",
+      "timestamp": "00:37:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero si tienes Value Hypothesis que es correcto, que es probado, y un Growth Hypothesis, o sea, de crecimiento, pues tienes un negocio, ¿no?",
+      "timestamp": "00:37:02"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, este, pues eso es básicamente, ¿no?",
+      "timestamp": "00:37:11"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, y la verdad es que no sabes ninguno de eso hasta que los pruebas.",
+      "timestamp": "00:37:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O no es algo que puedes especular.",
+      "timestamp": "00:37:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Tienes que probarlo y tienes que ver si hay un Value Hypothesis, si tu Value Hypothesis se prueba y si tu Growth Hypothesis es probado.",
+      "timestamp": "00:37:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, the good news es que lo que necesitas para hacer eso ya no es la cantidad que necesitas.",
+      "timestamp": "00:37:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todo está, está disponible con estos nuevos modelos.",
+      "timestamp": "00:37:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cómo conectaste todo este, el framework de Lean Startup con, o ¿con qué lo conectaste?",
+      "timestamp": "00:37:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Con no tener que levantar dinero?",
+      "timestamp": "00:37:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿O cómo estoy tratando de conectarlo?",
+      "timestamp": "00:37:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque sí, no, porque, porque antes para poder, obviamente, eh, probar, eh, una hipótesis para poder construir un prototipo.",
+      "timestamp": "00:37:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Para probar una hipótesis de valor, pues tienes que levantar dinero.",
+      "timestamp": "00:38:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, antes para construir algo, ¿cuánto te iba a costar?",
+      "timestamp": "00:38:04"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Contatar ingenieros, hacer todo, sea, ¿sí me explico?",
+      "timestamp": "00:38:08"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, antes necesitabas levantar lana para poder hacer esas cosas.",
+      "timestamp": "00:38:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ahora ya no, ¿no?",
+      "timestamp": "00:38:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Inclusiva para probar estos canales de crecimiento, pues también, contratar gente en marketing o gente que es especialista en growth, pues ahora ya no necesitas, ya no necesitas.",
+      "timestamp": "00:38:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, puedes crear un agente que tú le dices qué es lo que quiere, que qué quieres que prueba y órale, este, te va a costar una fracción.",
+      "timestamp": "00:38:29"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "A eso me refiero.",
+      "timestamp": "00:38:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Claro.",
+      "timestamp": "00:38:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:38:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Internet follow.",
+      "timestamp": "00:38:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "El framework.",
+      "timestamp": "00:38:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Usar agents para hacerlo.",
+      "timestamp": "00:38:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:38:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok, ok.",
+      "timestamp": "00:38:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Es probable que convierta a Bucacol o algo así, ¿no?",
+      "timestamp": "00:40:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:40:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, por eso te pregunto, ¿algo de la industria que haya pasado últimamente?",
+      "timestamp": "00:40:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Algo interesante que valga la pena?",
+      "timestamp": "00:40:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "la industria?",
+      "timestamp": "00:40:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿O que pueda ser interesante para tu ICP?",
+      "timestamp": "00:40:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, o sea, un tema interesante ahorita es el tema de los costos de memoria, que ya lo hemos llenado anteriormente, ¿no?",
+      "timestamp": "00:40:27"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "De los equipos.",
+      "timestamp": "00:40:35"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Continúan subiendo de precio.",
+      "timestamp": "00:40:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Continúan subiendo de precio y la mayoría de las empresas no están preparadas para los sticker shocks que van a recibir de costos de equipo que se vienen.",
+      "timestamp": "00:40:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, viene el rollout de Apple de las M5, las chips M5, el mes que viene, ¿no?",
+      "timestamp": "00:40:51"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "subiendo de precio.",
+      "timestamp": "00:40:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso, pues, hay una disrupción porque hay gente o hay compañías que están esperando que ya metieron órdenes que tienen chips M4, pero Apple cuando está haciendo una transición de un modelo a otro, pues, para muchos de estos, estas órdenes para, para ya empezar a hacer el rollout de los nuevos modelos.",
+      "timestamp": "00:41:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso, pues, crea una disrupción.",
+      "timestamp": "00:41:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y por otro lado, tienes empresas que están adelantándose ya a esta subida de precios y ponen órdenes más grandes porque quieren asegurar inventario a mejores precios de los que se vienen.",
+      "timestamp": "00:41:23"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso, pues, crea una escasez en el mercado, ¿no?",
+      "timestamp": "00:41:39"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que suma a que resulta en mayores precios.",
+      "timestamp": "00:41:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, muchas empresas no tienen esto claro.",
+      "timestamp": "00:41:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Se esperan.",
+      "timestamp": "00:41:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Son muy reactivas.",
+      "timestamp": "00:41:55"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En vez de predecir o ver cómo...",
+      "timestamp": "00:41:57"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Cómo están las tendencias de mercado y poder tener una estrategia real, interna, en donde si tú ya sabes que vas a tener una necesidad de equipo, no te esperes a que HR te lo confirme?",
+      "timestamp": "00:42:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, tú deberías estar negociando esto activamente con tu CFO para tener el budget y de una vez meter las órdenes que necesitas antes de que suban los precios o que sigan subiendo los precios, porque probablemente vas a tener que pagar 20, 30% más de lo que estás pagando al día de hoy por esos equipos, simplemente porque son más costosos por los temas de memoria, ¿no?",
+      "timestamp": "00:42:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y no estoy hablando de las tarifas tampoco porque ya seguramente has estado escuchando mucho lo que ha pasado, ¿no?",
+      "timestamp": "00:42:39"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Existe todavía ese debate de que si es legal o si no es legal.",
+      "timestamp": "00:42:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ya la Suprema Corte dijo que no, pero pues al fin del día con esta administración pues no se sabe no, porque buscan de qué.",
+      "timestamp": "00:42:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "de por dónde sacarle la vuelta.",
+      "timestamp": "00:43:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Esa incertidumbre existe ahí.",
+      "timestamp": "00:43:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero bueno, al final del día, yo creo que los clientes igual, eso no importa, porque aunque estas tarifas se hayan revertido, realmente los únicos que les estarían regresando dinero son las compañías que pagaron tarifas, pero un consumidor, un cliente, una empresa, no les van a regresar nada.",
+      "timestamp": "00:43:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces ya se jodieron.",
+      "timestamp": "00:43:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, lo que pagaron, ya lo pagaron.",
+      "timestamp": "00:43:27"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, ¿qué está pasando aquí?",
+      "timestamp": "00:43:29"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues hay un well transfer, ¿no?",
+      "timestamp": "00:43:31"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "De alguna manera, donde pues le pagaste más al proveedor, al intermediario, el intermediario va a recibir el reembolso de las tarifas que según estaban pagando, y pues ellos son los que salen ganando y los que salen perdiendo, pues son el consumidor, el end user.",
+      "timestamp": "00:43:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero bueno, eso es, eso es un, otro tema aparte, ¿no?",
+      "timestamp": "00:43:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y específico Estados Unidos, en equipo que se compra y se consume.",
+      "timestamp": "00:43:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Y si se le van a regresar a las empresas?",
+      "timestamp": "00:44:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, ¿ya es un hecho?",
+      "timestamp": "00:44:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, bueno, pues legalmente sí.",
+      "timestamp": "00:44:07"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O ¿cuál la mecánica?",
+      "timestamp": "00:44:10"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues no lo sé.",
+      "timestamp": "00:44:15"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Y cuánto tiempo?",
+      "timestamp": "00:44:16"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues tampoco, porque seguramente lo van a pelear todos, ¿verdad?",
+      "timestamp": "00:44:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero, sí.",
+      "timestamp": "00:44:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ya.",
+      "timestamp": "00:44:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Así es.",
+      "timestamp": "00:44:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok, ok.",
+      "timestamp": "00:44:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Alguna otra cosa que esté pasando fuera de temas de memoria?",
+      "timestamp": "00:44:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "La industria, no, yo creo que, no, no, Pues eso es como que lo más relevante.",
+      "timestamp": "00:44:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No sé si haya algo más interesante ahorita que me entre.",
+      "timestamp": "00:44:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, no.",
+      "timestamp": "00:44:53"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No puedo pensar en nada.",
+      "timestamp": "00:44:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:44:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:44:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y que, pues, de alguna manera nosotros hemos podido ejecutar con el nivel de seguridad que ellos requieren.",
+      "timestamp": "00:46:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y, pues, nada, vamos a ver el rollout en los próximos meses, ¿no?",
+      "timestamp": "00:46:08"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y eso está, pues, está muy emocionante.",
+      "timestamp": "00:46:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque se hizo una cuenta bastante grande.",
+      "timestamp": "00:46:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "5,000 usuarios, o sea, que 5,000 usuarios que van a estar en GroWrk.",
+      "timestamp": "00:46:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, correcto.",
+      "timestamp": "00:46:24"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Correcto.",
+      "timestamp": "00:46:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y este es un banco, entonces, una institución financiera tiene niveles de cumpleaños mucho más altos, ¿no?",
+      "timestamp": "00:46:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No podemos hablar del, no podemos decir el nombre.",
+      "timestamp": "00:46:35"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, no, no, no, porque, o sea, te lo puedo, no, no, porque es confidencial, todo es confidencial, sí, es.",
+      "timestamp": "00:46:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero sí podemos decir un banco donde la vamos a manejar 5,000.",
+      "timestamp": "00:46:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, es un banco, una institución financiera, sí, institución financiera.",
+      "timestamp": "00:46:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:46:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "5,000, ¿qué, qué, usuarios es la mejor?",
+      "timestamp": "00:46:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué es lo que se le va a...",
+      "timestamp": "00:47:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "cuál era el problema y cuál ya no va a ser el problema, digamos, como ustedes?",
+      "timestamp": "00:47:10"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues el problema es no tener visibilidad completa de todos los equipos que tiene la institución distribuidos en todo el país, ¿no?",
+      "timestamp": "00:47:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ya sea en oficinas o en oficinas de casa, ¿no?",
+      "timestamp": "00:47:27"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, porque así es como opera esa institución.",
+      "timestamp": "00:47:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, tener visibilidad sobre todos estos endpoints, todos estos...",
+      "timestamp": "00:47:37"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "esas terminales, pues es una parte crítica.",
+      "timestamp": "00:47:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "El poder administrar la logística para tener visibilidad de en dónde se encuentran los equipos, ya sea en un escritorio o en tránsito o en una bodega.",
+      "timestamp": "00:47:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Les permite a estas organizaciones, pues, asegurarse de que tienen control sobre la data que vive en estas terminales, ¿no?",
+      "timestamp": "00:48:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Y de qué?",
+      "timestamp": "00:48:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque puede ser que puedas hacer el wiping de estas terminales de manera remota, pero si esta terminal no está conectada a internet, pues no puedes hacer nada.",
+      "timestamp": "00:48:14"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y esos datos siguen estando en esa laptop, ¿no?",
+      "timestamp": "00:48:26"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En este terminal.",
+      "timestamp": "00:48:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y esa es la sensibilidad.",
+      "timestamp": "00:48:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, por medio de nosotros, pues, pueden tener acceso a, pueden controlar todo esto de manera segura.",
+      "timestamp": "00:48:33"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Puedes saber que un equipo que está en tránsito, donde se encuentra, con data que es crítica o que es importante o sensible, que está siendo manejada de una manera organizada, y, pues, tener todo esto en tiempo real, ¿no?",
+      "timestamp": "00:48:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:48:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Para temas de auditoría, para temas de compliance, que, pues, eso es lo más importante para este tipo de instituciones, ¿no?",
+      "timestamp": "00:49:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, todo eso lo pueden lograr por medio de nosotros, lo han logrado, lo validaron ahora que estuvieron haciendo el trial, y, bueno, estamos moviendo en esa dirección y efectivamente, ¿no?",
+      "timestamp": "00:49:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Súper, súper.",
+      "timestamp": "00:49:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:49:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y me dijiste que, o sea, sí, los fondos de bici ahorita ya, pues, nada más están enfocados en empresas que están creciendo a lo loco y no necesariamente en empresas, pues, como la tuya, ¿no?",
+      "timestamp": "00:49:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Que están estructuradas, que van creciendo de forma saludable, pero no a lo loco, ¿no?",
+      "timestamp": "00:49:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Eh?",
+      "timestamp": "00:49:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué quiere decir, o sea, qué quiere decir eso para tu Growth Strategy?",
+      "timestamp": "00:49:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué quiere decir eso que vas a seguir creciendo con dinero de tus clientes de forma, pues, lenta, pero segura?",
+      "timestamp": "00:49:52"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Bueno, que esa ha sido la estrategia igual, la nuestra.",
+      "timestamp": "00:50:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Al final del día, nosotros hemos sido muy lean.",
+      "timestamp": "00:50:09"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, eso realmente es una suerte, porque desde un principio decidí que así íbamos a crecer nosotros.",
+      "timestamp": "00:50:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero no, no, no.",
+      "timestamp": "00:50:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Realmente no me dediqué a, voy a ir a levantar una serie A y luego una serie B, porque ya hice eso anteriormente y no me gustó nada el juego.",
+      "timestamp": "00:50:21"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y la verdad tampoco estaba convencido de que este negocio era para eso.",
+      "timestamp": "00:50:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Creo que un negocio para poder levantar y a ese ritmo, pues es un negocio que realmente tú crees que puedes crecerlo a 100 millones rápido.",
+      "timestamp": "00:50:34"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Me explico?",
+      "timestamp": "00:50:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, en uno o dos años, no en varios años.",
+      "timestamp": "00:50:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, muy pocos negocios realmente pueden hacer eso.",
+      "timestamp": "00:50:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero sí levantaste una ronda inicial, ¿no?",
+      "timestamp": "00:50:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, claro.",
+      "timestamp": "00:50:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, sí.",
+      "timestamp": "00:50:56"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Una seed, sí.",
+      "timestamp": "00:50:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Si no, levantamos 3 millones.",
+      "timestamp": "00:50:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cuál es tu objetivo con eso de inversionista?",
+      "timestamp": "00:51:02"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Con esos tres, yo llego a 100, yo no necesito levantar más, o vamos en camino.",
+      "timestamp": "00:51:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si hacemos las cosas bien, ejecutamos bien, no puedo, obviamente todo esto es confidencial, pero nosotros actualmente estamos haciendo revenue 15 millones, pero todo ha sido orgánico.",
+      "timestamp": "00:51:11"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Me explico?",
+      "timestamp": "00:51:30"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, de ese capital que levantamos inicialmente, pues la mitad todavía está en el bando.",
+      "timestamp": "00:51:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, sí, sí.",
+      "timestamp": "00:51:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, pero mi pregunta es, ¿qué es lo que tienes pensado hacer con este inversionista que te invirtió en una seed?",
+      "timestamp": "00:51:36"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ah, sí, bueno, yo creo que eventualmente, creo que hay otros tipos de inversionistas, ¿no?",
+      "timestamp": "00:51:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Que pueden caber bien aquí, más bien como Grow Equity, ese tipo de cosas, ¿no?",
+      "timestamp": "00:51:50"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No necesariamente venture, y estos inversionistas pueden comprar.",
+      "timestamp": "00:51:55"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:51:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:51:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pues el buyout de esos inversionistas de venture capital iniciales.",
+      "timestamp": "00:52:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, sí regresamos obviamente dinero, pero no estamos amarrados a las, ¿cómo se llama?",
+      "timestamp": "00:52:05"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Expectativas de un venture fund.",
+      "timestamp": "00:52:12"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y ahora obviamente en nuestro caso, pues como levantamos poco dinero, pues tampoco tengo la presión de que tengo que hacer algo.",
+      "timestamp": "00:52:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Claro, sí, sí, sí.",
+      "timestamp": "00:52:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, o sea, me imagino que ni te están, ni te molestan, ni te dicen nada.",
+      "timestamp": "00:52:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, no.",
+      "timestamp": "00:52:27"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, sea, alguno que otro me preguntará, oye, ¿tienes pensado levantar?",
+      "timestamp": "00:52:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sí, o no.",
+      "timestamp": "00:52:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Es que, y esto te pregunto porque yo estoy exactamente igual, o sea, yo levanté hace cinco años, ¿no?",
+      "timestamp": "00:52:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Desde que entré, sí, y pues terminé haciendo esto.",
+      "timestamp": "00:52:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y ahorita poco a poco le estoy regresando el capital, ¿no?",
+      "timestamp": "00:52:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Es como, oye, pues ya tengo algo de cash flow, pues te regreso sabiendo que esto ya no va a ser un unicornio, ¿no?",
+      "timestamp": "00:52:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:52:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y me dice nada, madre, yo pensé que había valido, madre.",
+      "timestamp": "00:52:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:52:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿No?",
+      "timestamp": "00:52:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "pensé",
+      "timestamp": "00:52:59"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, es que eso es, y es que también uno como founder pues tiene que ser honesto, porque la primera vez que haces esto, o sea, digo que el mundo ha cambiado mucho, o sea, hace unos años sí era una posibilidad, ¿no?",
+      "timestamp": "00:53:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero en el mundo de hoy con inteligencia artificial, si no estás metido ahí realmente y estás viendo esos growth rates, pues no, o sea, no te hagas wait, o sea, no hagas tonto tampoco a la gente que está, o sea, que también es válido, by the way, o sea, un negocio como nuestro pues funciona, no hay una necesidad real y realmente crea gastros reales, ¿no?",
+      "timestamp": "00:53:14"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Este, pero no tiene ese perfil de crecimiento de un venture fund para querer.",
+      "timestamp": "00:53:38"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O yo tratar de voltearme e ir a conseguir funding de un VC, pues no.",
+      "timestamp": "00:53:44"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, no hace sentido.",
+      "timestamp": "00:53:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Ves algún, sobre esta conversión, algún ángulo que pueda estar interesante para postear o no?",
+      "timestamp": "00:53:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, o sea,",
+      "timestamp": "00:53:58"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Los Growth Equity Funds, ¿cómo se llama?",
+      "timestamp": "00:54:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Todos estos fondos que no tienen perfil diferente de Venture Funds, creo que son perfectamente válidos.",
+      "timestamp": "00:54:03"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "el capital como tal, creo que es importante que tengas claro cuál es la realidad, ¿no?",
+      "timestamp": "00:54:09"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Creo que es importante hablar de eso.",
+      "timestamp": "00:54:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Porque también muchos, muchos founders están así como que, o no les queda claro eso, ¿no?",
+      "timestamp": "00:54:19"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Como que, ¿por qué es difícil levantar?",
+      "timestamp": "00:54:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "¿Por qué es más difícil levantar hoy de fondos de Venture Capital que antes?",
+      "timestamp": "00:54:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Por esa razón.",
+      "timestamp": "00:54:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si no tienes esos ritmos de crecimiento que estás viendo, esas empresas grandes como Lovable, como, o sea, ¿no?",
+      "timestamp": "00:54:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué estás haciendo?",
+      "timestamp": "00:54:41"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estás en otro, estás en otro, en otro nivel, ¿no?",
+      "timestamp": "00:54:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, no, no pierdes el tiempo ahí.",
+      "timestamp": "00:54:45"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Usa lo que tengas que hacer para poder llegar a ese, a ese, a ese nivel o que puedas mostrar que realmente existe la posibilidad de tener esos niveles de crecimiento y solo entonces.",
+      "timestamp": "00:54:47"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Ve a levantar, ¿no?",
+      "timestamp": "00:55:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Si no, nomás estás perdido en tu tiempo.",
+      "timestamp": "00:55:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, sí, sí, totalmente.",
+      "timestamp": "00:55:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Claro.",
+      "timestamp": "00:55:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Tenemos once.",
+      "timestamp": "00:55:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Un post más.",
+      "timestamp": "00:55:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué se te ocurre?",
+      "timestamp": "00:55:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Alguna, a ver, si checas tu calendario, ¿tienes alguna reunión que hayas tenido en los últimos días que igual y tenga algo que te recuerde de alguna conversación o un tema interesante?",
+      "timestamp": "00:55:17"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No, realmente, o sea, tengo varias cosas interesantes, pero nada de esto se pueden, creo que, hablar al respecto.",
+      "timestamp": "00:55:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, estoy ahorita, estamos trabajando en un partnership, pues, que...",
+      "timestamp": "00:55:53"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Con un HRIS grande, pero nada, está complicado, son muchas integraciones, son estandarización de precios a nivel global, operaciones.",
+      "timestamp": "00:56:01"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Estoy corriendo contra reloj porque el volumen que se nos viene, pues es más grande que realmente lo que podemos actualmente servir con los procesos que tenemos.",
+      "timestamp": "00:56:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y por eso es que tenemos la prisa para automatizar con la gente muchas cosas, ¿no?",
+      "timestamp": "00:56:28"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Es como ese forcing function que tenemos ahorita, pero...",
+      "timestamp": "00:56:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Hay algo que hayas, o sea, para no tener que hablar de ese tema específico, algo que hayas aprendido o algo que...",
+      "timestamp": "00:56:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Porque creo que pueden haber varios temas que podemos hablar de eso sin hablar sobre la partnership.",
+      "timestamp": "00:56:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí, yo creo que, yo creo que algo que he aprendido es que si no...",
+      "timestamp": "00:56:54"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "existen constraints reales, luego te tomas más tiempo en hacer las cosas que tienes que hacer, ¿no?",
+      "timestamp": "00:57:00"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, cuando estás en una posición donde tienes un constraint, sabes que tienes un constraint y realmente se vienen las cosas, se viene el tiempo, pues es la forma de tratar de llegar a esos tiempos, ¿no?",
+      "timestamp": "00:57:06"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "De manera efectiva.",
+      "timestamp": "00:57:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Y en el caso muy particular nuestro, pues es este, ¿no?",
+      "timestamp": "00:57:22"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Tenemos una ola de volumen que se nos viene y eso es lo que nos está forzando a que nos apuremos a automatizar cosas que las íbamos automatizando, pero no con el nivel de urgencia que requeríamos, ¿no?",
+      "timestamp": "00:57:25"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O que se necesitaba.",
+      "timestamp": "00:57:42"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, que ya tenemos un deadline donde al final del mes que viene, de marzo, vamos a hacer el rollout, pues ya es un tiempo real donde, ok, tendríamos que asegurarnos de que estas cosas donde tenemos cuellos de botellas reales, pues las resolvemos.",
+      "timestamp": "00:57:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Cómo sugieres que implementar estos time constraints para otros founders?",
+      "timestamp": "00:58:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Porque por un lado puedes decir, órale, tiene que estar en tres días, ¿no?",
+      "timestamp": "00:58:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, no, no, no.",
+      "timestamp": "00:58:13"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "O sea, sí, sí.",
+      "timestamp": "00:58:15"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Va a depender mucho de tu caso, ¿no?",
+      "timestamp": "00:58:18"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "En el caso nuestro, pues son constraints que se vinieron porque ya estamos firmando obligaciones con prospectos, ¿no?",
+      "timestamp": "00:58:20"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Entonces, obviamente, lo estamos haciendo sabiendo que podemos hacer algo al respecto, ¿no?",
+      "timestamp": "00:58:32"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "No firmar algo sin saber que no podemos hacerlo y luego meternos en problemas, ¿no?",
+      "timestamp": "00:58:40"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Pero es eso, ¿no?",
+      "timestamp": "00:58:46"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Sí tienes que crear constraints reales, sí tienes que forzarte a que haya ese forcing function, ¿no?",
+      "timestamp": "00:58:49"
+    },
+    {
+      "speaker": {
+        "display_name": "carlos escutia",
+        "matched_calendar_invitee_email": "carlos@growrk.com"
+      },
+      "text": "Donde te estás comprometiendo algo con una tercera parte y...",
+      "timestamp": "00:58:56"
+    }
+  ],
+  "transcript_language": "es",
+  "url": "https://fathom.video/calls/579467242"
+}

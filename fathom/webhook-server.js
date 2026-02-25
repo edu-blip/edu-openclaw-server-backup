@@ -98,7 +98,7 @@ const server = http.createServer((req, res) => {
         return;
       }
 
-      log(`Received webhook: meeting="${payload?.meeting?.title}" id=${payload?.meeting?.id}`);
+      log(`Received webhook: meeting="${payload?.title || payload?.meeting_title}" id=${payload?.recording_id}`);
 
       // Respond immediately (Fathom expects quick 200)
       res.writeHead(200, { 'Content-Type': 'application/json' });

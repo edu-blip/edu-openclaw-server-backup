@@ -78,6 +78,47 @@ curl -s https://167.99.162.160/fathom-webhook
 
 ---
 
+## Knowledge Base (RAG System)
+
+**Built:** 2026-02-24 | **Docs:** `kb/README.md`
+
+### Overview
+Semantic search over ingested URLs (web, YouTube, Twitter, PDFs). Triggered via Slack.
+
+### Quick Commands
+```bash
+# Ingest a URL
+python3 kb/ingest.py <url>
+python3 kb/ingest.py <url> --verbose
+
+# Search the KB
+python3 kb/search.py "your query"
+python3 kb/search.py "query" --limit 10 --type web
+
+# DB management
+python3 kb/ingest.py --stats
+python3 kb/ingest.py --list
+```
+
+### Architecture
+- **DB:** `/root/.openclaw/workspace/kb/kb.db` (SQLite)
+- **Embeddings:** OpenAI `text-embedding-3-small`
+- **Entities:** Claude `claude-haiku-4-5`
+- **Ranking:** `(0.8 × cosine_sim + 0.2 × time_decay) × source_weight`
+- **Extractors:** trafilatura → BS4 (web) | youtube-transcript-api → yt-dlp (YouTube) | Grok API (Twitter) | pdfplumber (PDF)
+
+### Slack Integration
+- **Ingest trigger:** URL dropped in `#knowledge-base`
+- **Search trigger:** `@tony search: <query>` in any channel
+- Call `kb/ingest.py ingest_url(url)` and `kb/search.py search(query)` from handler
+
+### Pending
+- Browser paywall extraction (Chrome relay placeholder in `extractors/web.py`)
+- Wire up Slack handler to call ingest/search automatically
+- `#knowledge-base` channel needs to be created in Slack workspace
+
+---
+
 ## Examples
 
 ```markdown
