@@ -15,6 +15,8 @@
 ## Setup Backlog
 All pending setup/config/skills tasks live in `SETUP.md`. Check it whenever Edu is at a terminal ready to work on configuration.
 
+**🔴 Next integration reminder:** Before starting ANY new integration, remind Edu about **GitHub automated backup** first — currently zero backup on the server. Needs GitHub PAT, takes ~30 min to set up. See SETUP.md for details.
+
 ## API Keys in .env
 - `OPENAI_API_KEY` — OpenAI (Whisper, etc.)
 - `BRAVE_API_KEY` — Brave web search

@@ -19,6 +19,13 @@ When Edu is at a terminal, just ask: **"What's on the setup list?"** and I'll ru
 - [ ] **Humanizer skill** → find + install from ClaWHub or similar
 - [ ] **Bird / Twitter skill** → for reading tweets shared in chat (check ClaWHub for the exact name)
 
+## 🔒 Backup & Recovery
+
+- [ ] **GitHub automated backup** → Push workspace to private GitHub repo + daily cron auto-commit/push. Also covers API key export reminder (save `.env` contents to 1Password). KB database (140KB SQLite) to include too.
+  - Needs: GitHub account + personal access token (PAT) from Edu — 2 min setup
+  - Impact: full disaster recovery in minutes if server dies
+  - ⚠️ **Currently zero backup — highest priority next integration**
+
 ## 🔧 Other
 
 - [x] **Audio/voice note transcription** → Working as of 2026-02-21. Slack file downloads fixed (added `files:read` scope).
@@ -26,4 +33,4 @@ When Edu is at a terminal, just ask: **"What's on the setup list?"** and I'll ru
 
 ---
 
-*Last updated: 2026-02-21*
+*Last updated: 2026-02-24*
