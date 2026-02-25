@@ -1,0 +1,363 @@
+#!/usr/bin/env node
+/**
+ * Fathom Call Processor
+ * Routes a queued webhook payload to the appropriate use case handlers.
+ * Called by webhook-server.js with the path to a .json queue file.
+ */
+
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
+
+const payloadFile = process.argv[2];
+if (!payloadFile || !fs.existsSync(payloadFile)) {
+  console.error('Usage: node processor.js <path-to-payload.json>');
+  process.exit(1);
+}
+
+// Load config
+const CONFIG_FILE = path.join(__dirname, 'config.json');
+const config = fs.existsSync(CONFIG_FILE) ? JSON.parse(fs.readFileSync(CONFIG_FILE)) : {};
+
+const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN || config.slackBotToken || '';
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || config.anthropicApiKey || '';
+const LOG_FILE = path.join(__dirname, 'processor.log');
+
+function log(msg) {
+  const line = `[${new Date().toISOString()}] ${msg}\n`;
+  process.stdout.write(line);
+  fs.appendFileSync(LOG_FILE, line);
+}
+
+// ─────────────────────────────────────────────
+// CALL CLASSIFIER
+// ─────────────────────────────────────────────
+/**
+ * Determines which use case(s) apply to this call.
+ * Returns array of: 'weekly_checkin' | 'client_interview' | 'unknown'
+ *
+ * Classification logic (in priority order):
+ * 1. Meeting title keywords → internal check-in
+ * 2. Calendar invitee domain composition → client interview
+ * 3. Fallback → unknown (flags to Slack for manual classification)
+ */
+function classifyCall(payload) {
+  const title = (payload?.meeting?.title || '').toLowerCase();
+  const attendees = payload?.meeting?.calendar_invitees || [];
+  const attendeeDomains = attendees.map(a => (a.email || '').split('@')[1]).filter(Boolean);
+
+  // Internal domain(s) — update in config.json as needed
+  const internalDomains = config.internalDomains || ['rethoric.co', 'rethoric.com'];
+
+  const INTERNAL_TITLE_PATTERNS = config.internalTitlePatterns || [
+    'weekly sync', 'check-in', 'check in', 'team sync', 'standup',
+    'monday sync', 'thursday sync', 'internal'
+  ];
+
+  const CLIENT_TITLE_PATTERNS = config.clientTitlePatterns || [
+    'content interview', 'interview', 'monthly interview', 'recording'
+  ];
+
+  const matchesInternal = INTERNAL_TITLE_PATTERNS.some(p => title.includes(p));
+  const matchesClient = CLIENT_TITLE_PATTERNS.some(p => title.includes(p));
+
+  const useCases = [];
+
+  if (matchesInternal) {
+    useCases.push('weekly_checkin');
+  } else if (matchesClient) {
+    // Only classify as client_interview if the title explicitly matches —
+    // external attendees alone are NOT sufficient (sales calls, intros, etc.)
+    useCases.push('client_interview');
+  } else {
+    // Unknown: flag to #tony-ops for manual classification
+    useCases.push('unknown');
+  }
+
+  log(`Classified "${payload?.meeting?.title}" as: ${useCases.join(', ')}`);
+  return useCases;
+}
+
+// ─────────────────────────────────────────────
+// CLAUDE API HELPER
+// ─────────────────────────────────────────────
+function callClaude(systemPrompt, userContent, model = 'claude-sonnet-4-5') {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify({
+      model,
+      max_tokens: 4096,
+      system: systemPrompt,
+      messages: [{ role: 'user', content: userContent }]
+    });
+
+    const req = https.request({
+      hostname: 'api.anthropic.com',
+      path: '/v1/messages',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'Content-Length': Buffer.byteLength(body)
+      }
+    }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          resolve(parsed?.content?.[0]?.text || '');
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+// ─────────────────────────────────────────────
+// SLACK HELPER
+// ─────────────────────────────────────────────
+function postToSlack(channel, text, blocks) {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify({ channel, text, ...(blocks ? { blocks } : {}) });
+    const req = https.request({
+      hostname: 'slack.com',
+      path: '/api/chat.postMessage',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${SLACK_BOT_TOKEN}`,
+        'Content-Length': Buffer.byteLength(body)
+      }
+    }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => resolve(JSON.parse(data)));
+    });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+// ─────────────────────────────────────────────
+// USE CASE B: CLIENT FEEDBACK
+// ─────────────────────────────────────────────
+async function processClientFeedback(payload) {
+  const channelId = config.clientFeedbackSlackChannel || 'PLACEHOLDER_CHANNEL';
+  const transcript = payload?.transcript || payload?.meeting?.transcript || '';
+  const summary = payload?.summary || '';
+  const actionItems = payload?.action_items || [];
+  const meetingTitle = payload?.meeting?.title || 'Unknown';
+  const attendees = (payload?.meeting?.calendar_invitees || [])
+    .map(a => a.name || a.email).join(', ');
+
+  const systemPrompt = `You are a feedback capture agent for Edu's client content interviews at Rethoric (a LinkedIn content ghostwriting agency for B2B tech founders).
+
+Your job: detect any client feedback about the writing, content quality, voice representation, or Rethoric's services. Return ONLY structured JSON.
+
+Rules:
+- Capture implicit feedback too — hints, hesitations, or soft suggestions count
+- Never editorialize beyond what was said
+- If zero feedback found, return: {"has_feedback": false}
+- If feedback found: {"has_feedback": true, "client_name": "...", "feedback_items": [{"summary": "...", "direct_quote": "...", "context": "..."}]}`;
+
+  const userContent = `Meeting: ${meetingTitle}
+Attendees: ${attendees}
+
+TRANSCRIPT:
+${transcript || 'No transcript available — check summary below.'}
+
+SUMMARY:
+${summary}`;
+
+  log(`[USE CASE B] Analyzing transcript for client feedback...`);
+  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+
+  let parsed;
+  try {
+    parsed = JSON.parse(result.replace(/```json|```/g, '').trim());
+  } catch (e) {
+    log(`[USE CASE B] JSON parse error: ${e.message}\nRaw: ${result}`);
+    return;
+  }
+
+  if (!parsed.has_feedback) {
+    log(`[USE CASE B] No client feedback found — no Slack message sent.`);
+    return;
+  }
+
+  // Format Slack message
+  const clientName = parsed.client_name || 'Unknown client';
+  const items = parsed.feedback_items || [];
+  let text = `*Client Feedback Detected* — ${clientName} (${meetingTitle})\n\n`;
+  items.forEach((item, i) => {
+    text += `*Feedback ${items.length > 1 ? `${i + 1}` : ''}:* ${item.summary}\n`;
+    if (item.direct_quote) text += `*Direct quote:* _"${item.direct_quote}"_\n`;
+    if (item.context) text += `*Context:* ${item.context}\n`;
+    text += '\n';
+  });
+
+  log(`[USE CASE B] Posting feedback to Slack channel ${channelId}`);
+  await postToSlack(channelId, text);
+}
+
+// ─────────────────────────────────────────────
+// USE CASE C: CONTENT IDEAS (accumulator)
+// Saves ideas to a weekly file; Google Doc created on Monday via cron
+// ─────────────────────────────────────────────
+async function processContentIdeas(payload, callType) {
+  const transcript = payload?.transcript || payload?.meeting?.transcript || '';
+  const summary = payload?.summary || '';
+  const meetingTitle = payload?.meeting?.title || 'Unknown';
+  const meetingDate = payload?.meeting?.started_at
+    ? new Date(payload.meeting.started_at).toISOString().split('T')[0]
+    : new Date().toISOString().split('T')[0];
+
+  const isClientInterview = callType === 'client_interview';
+
+  const systemPrompt = `You are a content intelligence agent for Edu Mussali, founder of Rethoric — a LinkedIn content ghostwriting agency for B2B tech founders. Edu is a 4x founder with deep expertise in B2B content strategy.
+
+Your job: mine this transcript and surface high-quality LinkedIn content IDEAS (not finished posts) that reflect Edu's voice as a thought leader.
+
+Context: ${isClientInterview
+    ? "This is a CLIENT CONTENT INTERVIEW. Edu is the interviewer; the client is a Series A+ B2B founder. Focus on insights Edu shares, his reactions, frameworks he uses, or what clients say that Edu could comment on ('I had a conversation with a founder about X')."
+    : "This is an INTERNAL TEAM CHECK-IN. Look for strategic decisions, lessons learned, mistakes discussed, or business insights worth sharing publicly."}
+
+Return ONLY valid JSON:
+{
+  "has_ideas": true/false,
+  "reason_if_none": "...",
+  "ideas": [
+    {
+      "idea": "One-line topic",
+      "hook_angle": "Opening tension or insight that makes this worth reading",
+      "key_points": ["point 1", "point 2", "point 3"],
+      "source": "Meeting name + approximate context",
+      "content_bucket": "Growth | Authority | Conversion"
+    }
+  ]
+}
+
+Rules:
+- 0 ideas if nothing strong — never force it
+- Every idea must trace directly to something said
+- Ideas should reflect intelligence and earned experience
+- Target: B2B founders, operators, VCs — high-signal only
+- Max 5 ideas per single transcript (weekly aggregation caps at 10)`;
+
+  const userContent = `Meeting: ${meetingTitle} (${meetingDate})
+
+TRANSCRIPT:
+${transcript || 'No transcript — using summary below.'}
+
+SUMMARY:
+${summary}`;
+
+  log(`[USE CASE C] Mining transcript for content ideas...`);
+  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+
+  let parsed;
+  try {
+    parsed = JSON.parse(result.replace(/```json|```/g, '').trim());
+  } catch (e) {
+    log(`[USE CASE C] JSON parse error: ${e.message}`);
+    return;
+  }
+
+  // Save to weekly ideas file (Monday cron will pick these up and create the Google Doc)
+  const weekFile = path.join(__dirname, 'content-ideas', `week-${getISOWeek()}.json`);
+  fs.mkdirSync(path.dirname(weekFile), { recursive: true });
+
+  const existing = fs.existsSync(weekFile) ? JSON.parse(fs.readFileSync(weekFile)) : { ideas: [], sources: [] };
+  existing.sources.push({ meeting: meetingTitle, date: meetingDate, callType });
+
+  if (parsed.has_ideas && parsed.ideas?.length > 0) {
+    existing.ideas.push(...parsed.ideas.map(i => ({ ...i, meeting: meetingTitle, date: meetingDate })));
+    log(`[USE CASE C] Added ${parsed.ideas.length} ideas to ${weekFile}`);
+  } else {
+    log(`[USE CASE C] No strong ideas from this transcript: ${parsed.reason_if_none || 'none given'}`);
+  }
+
+  fs.writeFileSync(weekFile, JSON.stringify(existing, null, 2));
+}
+
+// ─────────────────────────────────────────────
+// USE CASE A: WEEKLY CHECK-IN (stub — awaiting Asana keys)
+// ─────────────────────────────────────────────
+async function processWeeklyCheckin(payload) {
+  log(`[USE CASE A] Weekly check-in received — STUB (awaiting Asana + Google keys)`);
+
+  // Save payload for later processing when keys are available
+  const stubDir = path.join(__dirname, 'pending-checkins');
+  fs.mkdirSync(stubDir, { recursive: true });
+  const file = path.join(stubDir, `${Date.now()}.json`);
+  fs.writeFileSync(file, JSON.stringify(payload, null, 2));
+  log(`[USE CASE A] Saved to ${file} for processing once Asana keys are configured`);
+}
+
+// ─────────────────────────────────────────────
+// UNKNOWN: flag to Slack
+// ─────────────────────────────────────────────
+async function flagUnknown(payload) {
+  const channelId = config.opsSlackChannel || 'PLACEHOLDER_OPS_CHANNEL';
+  const title = payload?.meeting?.title || 'Untitled';
+  const attendees = (payload?.meeting?.calendar_invitees || []).map(a => a.email).join(', ');
+  const text = `⚠️ *Unclassified Fathom call received*\n*Title:* ${title}\n*Attendees:* ${attendees || 'unknown'}\nNeeds manual routing — reply with the correct use case.`;
+
+  log(`[UNKNOWN] Could not classify call "${title}" — flagging to Slack`);
+  if (SLACK_BOT_TOKEN && channelId !== 'PLACEHOLDER_OPS_CHANNEL') {
+    await postToSlack(channelId, text);
+  }
+}
+
+// ─────────────────────────────────────────────
+// ISO WEEK HELPER
+// ─────────────────────────────────────────────
+function getISOWeek(date = new Date()) {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+  return `${d.getUTCFullYear()}-W${String(weekNo).padStart(2, '0')}`;
+}
+
+// ─────────────────────────────────────────────
+// MAIN
+// ─────────────────────────────────────────────
+async function main() {
+  const payload = JSON.parse(fs.readFileSync(payloadFile));
+  const useCases = classifyCall(payload);
+
+  for (const useCase of useCases) {
+    try {
+      if (useCase === 'weekly_checkin') {
+        await processWeeklyCheckin(payload);
+        await processContentIdeas(payload, 'weekly_checkin');
+      } else if (useCase === 'client_interview') {
+        await processClientFeedback(payload);
+        await processContentIdeas(payload, 'client_interview');
+      } else {
+        await flagUnknown(payload);
+      }
+    } catch (err) {
+      log(`Error processing use case ${useCase}: ${err.message}\n${err.stack}`);
+    }
+  }
+
+  // Archive processed file
+  const archiveDir = path.join(path.dirname(payloadFile), '..', 'archive');
+  fs.mkdirSync(archiveDir, { recursive: true });
+  fs.renameSync(payloadFile, path.join(archiveDir, path.basename(payloadFile)));
+  log(`Archived: ${payloadFile}`);
+}
+
+main().catch(err => {
+  log(`FATAL: ${err.message}\n${err.stack}`);
+  process.exit(1);
+});

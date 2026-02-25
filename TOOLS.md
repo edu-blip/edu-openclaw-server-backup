@@ -31,6 +31,53 @@ Things like:
 
 ---
 
+## Fathom Integration (Rethoric)
+
+**Built:** 2026-02-24 | **Docs:** `fathom/README.md`
+
+### Service
+- Webhook server: `systemctl status fathom-webhook` (Node.js, port 8001)
+- Logs: `fathom/webhook.log` and `fathom/processor.log`
+- Config: `fathom/config.json` ← edit this to adjust title patterns, channel IDs
+
+### Webhook URL
+`https://167.99.162.160/fathom-webhook` — registered in Fathom settings (Edu's account)
+
+### Call Classification (title-match, lowercase)
+| Pattern | Routes to |
+|---|---|
+| `team check-in` | Use Case A — Asana (weekly check-in) |
+| `content interview`, `rethoric interview`, `content call` | Use Cases B + C |
+| Anything else | Flags to #tony-ops |
+
+### Slack Channels
+- `#client-feedback` → `C0AGYTU4N9Y` (Use Case B output)
+- `#tony-ops` → `C0AHBCJQJKS` (unclassified call alerts)
+
+### API Keys (all in `/root/.openclaw/.env`)
+- `FATHOM_API_KEY`, `FATHOM_WEBHOOK_SECRET`, `ANTHROPIC_API_KEY`, `SLACK_BOT_TOKEN`
+
+### Pending
+- Use Case A (Asana): awaiting `ASANA_TOKEN` + `GOOGLE_SERVICE_ACCOUNT` from Edu
+- Use Case C (Google Doc): awaiting Google Workspace credentials
+
+### Common Tasks
+```bash
+# Check if webhook server is running
+systemctl status fathom-webhook
+
+# Tail live logs
+journalctl -u fathom-webhook -f
+
+# Adjust call title patterns
+nano fathom/config.json  # edit internalTitlePatterns / clientTitlePatterns
+
+# Manually test the endpoint
+curl -s https://167.99.162.160/fathom-webhook
+```
+
+---
+
 ## Examples
 
 ```markdown

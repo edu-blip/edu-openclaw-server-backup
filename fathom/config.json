@@ -1,0 +1,20 @@
+{
+  "internalDomains": ["rethoric.co", "rethoric.com"],
+  "internalTitlePatterns": [
+    "team check-in", "team check in", "weekly sync", "check-in", "check in",
+    "team sync", "standup", "monday sync", "thursday sync", "internal", "team check"
+  ],
+  "clientTitlePatterns": [
+    "content interview", "rethoric interview", "content call"
+  ],
+  "clientFeedbackSlackChannel": "C0AGYTU4N9Y",
+  "opsSlackChannel": "C0AHBCJQJKS",
+  "notes": {
+    "clientFeedbackSlackChannel": "Replace with Slack channel ID for client feedback. Ask Edu.",
+    "opsSlackChannel": "Defaults to #tony-ops — change if needed.",
+    "internalDomains": "Emails with these domains = internal team. Confirmed: rethoric.com",
+    "internalTitlePatterns": "Confirmed: 'Team check-in'. Others are fallback patterns.",
+    "clientTitlePatterns": "CRITICAL: Ask Edu what his monthly client content interview calls are titled in Google Calendar.",
+    "classificationNote": "Title-match only. External attendees alone do NOT indicate client interview — sales/intro calls also have external attendees."
+  }
+}

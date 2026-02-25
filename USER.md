@@ -1,6 +1,6 @@
 # USER.md - About Your Human
 
-- **Name:** Edu
+- **Name:** Eduardo Mussali
 - **What to call them:** Edu
 - **Pronouns:**
 - **Timezone:** PST (San Diego, CA)
@@ -18,7 +18,7 @@
 - Vision: just chat on Slack and have me handle everything — minimal terminal time
 - Needs clear guidance: "here's what I can fix automatically" vs "here's what you need to do (with exact steps)"
 
-## Business Details — Rhetoric (LinkedIn Content Agency)
+## Business Details — Rethoric (LinkedIn Content Agency)
 
 ### ICP
 - Series A+ B2B tech founders, C-level execs, startup founders

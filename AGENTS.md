@@ -45,6 +45,15 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 📖 Document Every Build
+
+After completing any integration, script, automation, or tool:
+1. **Add a section to `TOOLS.md`** — quick-reference: what it is, key commands, config location, pending items
+2. **Create a `<name>/README.md`** inside the project folder — full runbook: architecture, use cases, file structure, ops procedures, pending work
+3. Do this **before** the thread closes — not later, not "when it's finished"
+
+This is non-negotiable. Future-me needs this. Don't skip it.
+
 ### 🔄 Save As You Go — Not At The End
 
 **Never wait for "end of session" to write memory.** You can't detect when a thread goes cold.

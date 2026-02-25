@@ -1,0 +1,20 @@
+[2026-02-25T01:41:40.785Z] Fathom webhook server listening on port 8001
+[2026-02-25T02:00:40.867Z] Fathom webhook server listening on port 8001
+[2026-02-25T02:11:25.359Z] Fathom webhook server listening on port 8001
+[2026-02-25T02:11:41.119Z] Received webhook: meeting="Content Interview - Test Client" id=test-001
+[2026-02-25T02:11:41.123Z] Queued: /root/.openclaw/workspace/fathom/queue/1771985501123-9gt4zu.json
+[2026-02-25T02:11:49.367Z] Processor done for 1771985501123-9gt4zu: [2026-02-25T02:11:41.171Z] Classified "Content Interview - Test Client" as: client_interview
+[2026-02-25T02:11:41.173Z] [USE CASE B] Analyzing transcript for client feedback...
+[2026-02-25T02:11:45.953Z] [USE CASE B] Posting feedback to Slack channel PLACEHOLDER_CHANNEL_ID
+[2026-02-25T02:11:46.165Z] [USE CASE C] Mining transcript for content ideas...
+[2026-02-25T02:11:49.360Z] [USE CASE C] No strong ideas from this transcript: This is an operational feedback session about writing style and tone. No substantive insights, frameworks, or repeatable lessons shared that would serve B2B founders as thought leadership. It's internal process work, not external-facing intelligence.
+[2026-02-25T02:11:49.361Z] Archived: /root/.openclaw/workspace/fathom/queue/1771985501123-9gt4zu.json
+[2026-02-25T02:12:05.947Z] Received webhook: meeting="Team check-in" id=test-002
+[2026-02-25T02:12:05.948Z] Queued: /root/.openclaw/workspace/fathom/queue/1771985525948-ircr2i.json
+[2026-02-25T02:12:09.678Z] Processor done for 1771985525948-ircr2i: [2026-02-25T02:12:06.001Z] Classified "Team check-in" as: weekly_checkin
+[2026-02-25T02:12:06.005Z] [USE CASE A] Weekly check-in received — STUB (awaiting Asana + Google keys)
+[2026-02-25T02:12:06.005Z] [USE CASE A] Saved to /root/.openclaw/workspace/fathom/pending-checkins/1771985526005.json for processing once Asana keys are configured
+[2026-02-25T02:12:06.005Z] [USE CASE C] Mining transcript for content ideas...
+[2026-02-25T02:12:09.672Z] [USE CASE C] No strong ideas from this transcript: Transcript contains only placeholder text ('test') with no actual meeting content, strategic insights, lessons learned, or business intelligence to extract.
+[2026-02-25T02:12:09.673Z] Archived: /root/.openclaw/workspace/fathom/queue/1771985525948-ircr2i.json
+[2026-02-25T02:20:21.929Z] Fathom webhook server listening on port 8001
