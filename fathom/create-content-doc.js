@@ -78,6 +78,9 @@ function formatIdeasAsMarkdown(data, isoWeek) {
     buckets[bucket].forEach((idea, i) => {
       doc += `### ${i + 1}. ${idea.idea}\n\n`;
       doc += `**Hook angle:** ${idea.hook_angle}\n\n`;
+      if (idea.edu_post_angle) {
+        doc += `**Edu's angle:** ${idea.edu_post_angle}\n\n`;
+      }
       if (idea.key_points?.length) {
         doc += `**Key points:**\n`;
         idea.key_points.forEach(p => { doc += `- ${p}\n`; });
@@ -116,38 +119,53 @@ async function createDoc(isoWeek) {
   const tmpFile = `/tmp/edu-content-ideas-${isoWeek}.md`;
   fs.writeFileSync(tmpFile, markdown);
 
-  log(`Uploading to Google Drive: "${docTitle}"`);
+  const existingDocId = data.googleDocId && data.googleDocId !== 'None' ? data.googleDocId : null;
+  log(`${existingDocId ? 'Updating' : 'Creating'} Google Doc: "${docTitle}"`);
   try {
-    const result = execSync(
-      `gog drive upload "${tmpFile}" --name "${docTitle}" --parent "${DRIVE_FOLDER_ID}" --convert-to=doc --account ${GOG_ACCOUNT} --json`,
-      { env: GOG_ENV, encoding: 'utf8' }
-    );
-    let parsed;
-    try { parsed = JSON.parse(result); } catch (e) { log(`Warning: could not parse upload JSON: ${e.message}`); }
-    let fileId = parsed?.file?.id || parsed?.id || null;
-    let url = parsed?.file?.webViewLink
-      || (fileId ? `https://docs.google.com/document/d/${fileId}/edit` : null);
+    let fileId, url;
 
-    // Fallback: search Drive for the doc by name if URL wasn't returned
-    if (!url) {
-      log(`URL not returned from upload — searching Drive for "${docTitle}"...`);
-      try {
-        const searchResult = execSync(
-          `gog drive search "${docTitle}" --account ${GOG_ACCOUNT} --json`,
-          { env: GOG_ENV, encoding: 'utf8' }
-        );
-        const searchParsed = JSON.parse(searchResult);
-        const files = searchParsed?.files || searchParsed?.items || [];
-        const match = files.find(f => f.name === docTitle);
-        if (match) {
-          fileId = match.id;
-          url = match.webViewLink || `https://docs.google.com/document/d/${match.id}/edit`;
-          log(`Found via search: ${url}`);
-        }
-      } catch (se) { log(`Search fallback failed: ${se.message}`); }
+    if (existingDocId) {
+      // Update existing doc in-place using gog docs write
+      execSync(
+        `gog docs write "${existingDocId}" --file "${tmpFile}" --replace --markdown --force --account ${GOG_ACCOUNT}`,
+        { env: GOG_ENV, encoding: 'utf8' }
+      );
+      fileId = existingDocId;
+      url = `https://docs.google.com/document/d/${fileId}/edit`;
+      log(`Updated existing Google Doc: ${docTitle} → ${url}`);
+    } else {
+      // Create new doc via Drive upload
+      const result = execSync(
+        `gog drive upload "${tmpFile}" --name "${docTitle}" --parent "${DRIVE_FOLDER_ID}" --convert-to=doc --account ${GOG_ACCOUNT} --json`,
+        { env: GOG_ENV, encoding: 'utf8' }
+      );
+      let parsed;
+      try { parsed = JSON.parse(result); } catch (e) { log(`Warning: could not parse upload JSON: ${e.message}`); }
+      fileId = parsed?.file?.id || parsed?.id || null;
+      url = parsed?.file?.webViewLink
+        || (fileId ? `https://docs.google.com/document/d/${fileId}/edit` : null);
+
+      // Fallback: search Drive for the doc by name if URL wasn't returned
+      if (!url) {
+        log(`URL not returned from upload — searching Drive for "${docTitle}"...`);
+        try {
+          const searchResult = execSync(
+            `gog drive search "${docTitle}" --account ${GOG_ACCOUNT} --json`,
+            { env: GOG_ENV, encoding: 'utf8' }
+          );
+          const searchParsed = JSON.parse(searchResult);
+          const files = searchParsed?.files || searchParsed?.items || [];
+          const match = files.find(f => f.name === docTitle);
+          if (match) {
+            fileId = match.id;
+            url = match.webViewLink || `https://docs.google.com/document/d/${match.id}/edit`;
+            log(`Found via search: ${url}`);
+          }
+        } catch (se) { log(`Search fallback failed: ${se.message}`); }
+      }
+      if (!url) url = 'URL unavailable — check Google Drive';
+      log(`Created Google Doc: ${docTitle} → ${url}`);
     }
-    if (!url) url = 'URL unavailable — check Google Drive';
-    log(`Created Google Doc: ${docTitle} → ${url}`);
 
     // Mark the weekly file as published
     data.publishedAt = new Date().toISOString();
