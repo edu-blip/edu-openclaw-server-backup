@@ -5,10 +5,10 @@
       "hook_angle": "Your CTO can't own your AI transformation. I learned this the hard way with 100 people on payroll.",
       "key_points": [
         "No one in your org will have the ownership or agency you do as founder",
-        "Can't delegate to team — many won't even read what you share or understand the urgency",
+        "Can't delegate to team \u2014 many won't even read what you share or understand the urgency",
         "Weekly All Hands demos showing real impact is how you move people from skepticism to action"
       ],
-      "source": "Content interview with Carlos Escutia (GroWrk) — discussing how he's personally building agents despite running a 100-person team",
+      "source": "Content interview with Carlos Escutia (GroWrk) \u2014 discussing how he's personally building agents despite running a 100-person team",
       "content_bucket": "Authority",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
@@ -17,11 +17,11 @@
       "idea": "The new moat: atoms, not bits",
       "hook_angle": "Every SaaS company is about to get commoditized. Unless you touch the physical world.",
       "key_points": [
-        "Pure SaaS is replicable now — clients can build with agents what took millions to develop",
+        "Pure SaaS is replicable now \u2014 clients can build with agents what took millions to develop",
         "Companies with logistics, physical goods, or real-world accountability have defensibility AI can't touch",
         "The question isn't 'can we automate this?' It's 'who's responsible when something goes wrong?'"
       ],
-      "source": "Content interview with Carlos (GroWrk) — explaining why logistics companies will capture more value than pure software",
+      "source": "Content interview with Carlos (GroWrk) \u2014 explaining why logistics companies will capture more value than pure software",
       "content_bucket": "Authority",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
@@ -32,9 +32,9 @@
       "key_points": [
         "Future of HR tools: permission systems for agents, not just humans",
         "Agent gets onboarded with access controls, software permissions, audit trails",
-        "This isn't sci-fi — it's happening now in early-stage B2B companies"
+        "This isn't sci-fi \u2014 it's happening now in early-stage B2B companies"
       ],
-      "source": "Content interview with Carlos (GroWrk) — discussing a founder who onboards agents through his HRIS",
+      "source": "Content interview with Carlos (GroWrk) \u2014 discussing a founder who onboards agents through his HRIS",
       "content_bucket": "Growth",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
@@ -45,9 +45,9 @@
       "key_points": [
         "Lean Startup framework: value hypothesis + growth hypothesis both need testing",
         "Before: testing required capital to hire engineers, marketers, growth specialists",
-        "Now: agents let you test both hypotheses at a fraction of the cost — no fundraising needed"
+        "Now: agents let you test both hypotheses at a fraction of the cost \u2014 no fundraising needed"
       ],
-      "source": "Content interview with Carlos (GroWrk) — connecting Lean Startup principles to AI agent deployment",
+      "source": "Content interview with Carlos (GroWrk) \u2014 connecting Lean Startup principles to AI agent deployment",
       "content_bucket": "Authority",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
@@ -57,21 +57,21 @@
       "hook_angle": "Forcing functions work. But only if you're willing to sign the contract first.",
       "key_points": [
         "Without real constraints, you delay what needs doing",
-        "GroWrk signed a deal requiring automation they hadn't built yet — deadline became non-negotiable",
+        "GroWrk signed a deal requiring automation they hadn't built yet \u2014 deadline became non-negotiable",
         "Strategy: commit externally to create internal urgency (but only if you know it's achievable)"
       ],
-      "source": "Content interview with Carlos (GroWrk) — discussing how a major partnership deadline is forcing rapid AI implementation",
+      "source": "Content interview with Carlos (GroWrk) \u2014 discussing how a major partnership deadline is forcing rapid AI implementation",
       "content_bucket": "Growth",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
     },
     {
       "idea": "Why we stopped doing the most obvious thing agencies must do",
-      "hook_angle": "We built sophisticated systems — AI enrichment, automated workflows, analytics dashboards. Then realized we weren't doing cold outreach. The most basic thing.",
+      "hook_angle": "We built sophisticated systems \u2014 AI enrichment, automated workflows, analytics dashboards. Then realized we weren't doing cold outreach. The most basic thing.",
       "key_points": [
         "Easy to chase shiny automation when the fundamentals aren't in place",
         "Cold outreach = controllable pipeline, not dependent on algorithm luck",
-        "Real mistake: confusing innovation with execution — you need both"
+        "Real mistake: confusing innovation with execution \u2014 you need both"
       ],
       "source": "Team check-in discussion on lead generation gaps and outreach strategy",
       "content_bucket": "Authority",
@@ -82,9 +82,9 @@
       "idea": "The hidden cost of 'free' tools that aren't built for scale",
       "hook_angle": "Shield gives us one week of analytics free. After that? $200/month per client. At 10 clients, that's $24k/year for data we could pull ourselves.",
       "key_points": [
-        "Free tiers are bait — vendors know you'll get locked in",
+        "Free tiers are bait \u2014 vendors know you'll get locked in",
         "Building your own infra sounds hard until you price out SaaS at scale",
-        "We're exploring custom API + OpenClaw instead — same data, owned infrastructure"
+        "We're exploring custom API + OpenClaw instead \u2014 same data, owned infrastructure"
       ],
       "source": "Discussion on Shield costs and exploring custom analytics platform",
       "content_bucket": "Authority",
@@ -97,7 +97,7 @@
       "key_points": [
         "Automation is tempting but reputation is not recoverable via prompt engineering",
         "Hybrid approach: AI drafts, human reviews, founder sends = speed + safety",
-        "The founder's network is the asset — don't gamble it on a hallucination"
+        "The founder's network is the asset \u2014 don't gamble it on a hallucination"
       ],
       "source": "Discussion on AI-generated outreach and reputational risk management",
       "content_bucket": "Authority",
@@ -108,7 +108,7 @@
       "idea": "How we price a service before we know if it works",
       "hook_angle": "Client idea: rewrite their landing page copy to boost conversions. Pricing options: $2k flat or $5k if we beat their current rate. We said no to both.",
       "key_points": [
-        "Tempting to sell before you've run the workflow — resist it",
+        "Tempting to sell before you've run the workflow \u2014 resist it",
         "First: define process. Then: automate process. Then: add premium layers.",
         "Premature productization = you're now servicing a thing you don't understand"
       ],
@@ -144,5 +144,6 @@
     }
   ],
   "publishedAt": "2026-02-27T04:19:28.656Z",
-  "googleDocUrl": "unknown"
+  "googleDocUrl": "https://docs.google.com/document/d/1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304/edit",
+  "googleDocId": "1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304"
 }
