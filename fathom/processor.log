@@ -22,3 +22,21 @@
 [2026-02-25T20:10:30.040Z] [USE CASE C] Mining transcript for content ideas...
 [2026-02-25T20:10:51.705Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
 [2026-02-25T20:10:51.706Z] Archived: fathom/queue/reprocess-carlos.json
+[2026-02-25T20:46:14.410Z] Classified "30 Min Meeting between Marco Podesta" as: unknown
+[2026-02-25T20:46:14.412Z] [UNKNOWN] Could not classify call "30 Min Meeting between Marco Podesta" — flagging to Slack
+[2026-02-25T20:46:14.698Z] Archived: /root/.openclaw/workspace/fathom/queue/1772052374370-hjckfa.json
+[2026-02-26T18:30:40.591Z] Classified "Rethoric intro call: Edu and Oleksandr Yaroshenko" as: unknown
+[2026-02-26T18:30:40.594Z] [UNKNOWN] Could not classify call "Rethoric intro call: Edu and Oleksandr Yaroshenko" — flagging to Slack
+[2026-02-26T18:30:40.900Z] Archived: /root/.openclaw/workspace/fathom/queue/1772130640555-hbt8qb.json
+[2026-02-26T20:30:04.293Z] Classified "Team check-in" as: weekly_checkin
+[2026-02-26T20:30:04.296Z] [USE CASE A] Weekly check-in received — STUB (awaiting Asana + Google keys)
+[2026-02-26T20:30:04.298Z] [USE CASE A] Saved to /root/.openclaw/workspace/fathom/pending-checkins/1772137804296.json for processing once Asana keys are configured
+[2026-02-26T20:30:04.299Z] [USE CASE C] Mining transcript for content ideas...
+[2026-02-26T20:30:25.742Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
+[2026-02-26T20:30:25.743Z] Archived: /root/.openclaw/workspace/fathom/queue/1772137804255-3gowou.json
+[2026-02-27T04:19:20.553Z] [USE CASE C] Starting weekly content doc creation for 2026-W09
+[2026-02-27T04:19:20.556Z] [USE CASE C] Processing 10 ideas from week 2026-W09 (2 sources)
+[2026-02-27T04:19:20.557Z] [USE CASE C] Uploading to Google Drive: "Edu content ideas - week 9 2026"
+[2026-02-27T04:19:28.656Z] [USE CASE C] Created Google Doc: Edu content ideas - week 9 2026 → unknown
+[2026-02-27T04:19:28.975Z] [USE CASE C] Slack notified: true
+[2026-02-27T04:20:44.985Z] [BRIEFING] No upcoming check-ins in window — nothing to do

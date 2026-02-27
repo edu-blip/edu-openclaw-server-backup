@@ -1,0 +1,5747 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "andre@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "andre",
+      "name": "Andre Topini"
+    },
+    {
+      "email": "carlos@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Carlos Domínguez",
+      "name": "Carlos Domínguez"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "only_internal",
+  "created_at": "2026-02-26T20:28:40Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "## Meeting Purpose\n\n[Define and test new lead generation and client service workflows.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=0.0)\n\n## Key Takeaways\n\n  - [**New Lead Enrichment Workflow:** A new workflow uses Clay to enrich post engagers, costing \\~$20/post. This is viable for \\~5 clients on the current plan and will be tested on Growrk to demonstrate value before their contract ends.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1527.0)\n  - [**Automated Outreach Strategy:** To scale lead generation, the team will automate sourcing and message drafting for personalized LinkedIn outreach. This hybrid approach mitigates AI risk by requiring manual review before sending from Eduardo's profile.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4681.0)\n  - [**Future Analytics Platform:** The team will explore building a custom analytics platform using the LinkedIn API and OpenClaw. This would replace Shield, integrate analytics into the core product, and reduce costs.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=638.0)\n\n## Topics\n\n### LinkedIn Ads & Landing Pages\n\n  - [**Ad Sponsorship:** All sponsored posts run via the client's company page, not their personal profile.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=70.0)\n      - [**Requirement:** The individual whose content is being sponsored must be an admin on the company page.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=70.0)\n  - [**Landing Page Tracking:** The team's tracking system is confirmed to be working, as test URLs (e.g., `/y-combinator`) are appearing in the RB2B dashboard.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=229.0)\n      - [**Client Requirement:** Clients must duplicate their landing pages to enable A/B testing and accurate attribution for ad campaigns.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=273.0)\n  - [**Future Service Idea:** Offer to rewrite client landing page copy to improve conversion rates.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=289.0)\n      - [**Pricing Models Discussed:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=480.0)\n          - [Fixed fee (e.g., $2k)](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=480.0)\n          - [Performance-based fee (e.g., $5k, paid only if demo bookings increase)](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=480.0)\n      - [**Decision:** Defer this until the core ad workflow is fully defined and automated.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=507.0)\n\n### Lead Enrichment Workflow\n\n  - [**Process:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1390.0)\n    1.  [**Export:** Manually export post engagement CSVs from Shield.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1390.0)\n    2.  [**Run:** Use a Cloud Code script to process the CSV, scrape profiles, and enrich leads via Clay.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1390.0)\n    3.  [**Review:** Manually review the AI-generated lead list for accuracy.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=2136.0)\n  - [**Cost Analysis:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1788.0)\n      - [**Clay Credits:** \\~$20 per post (based on qualified leads).](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1788.0)\n      - [**Scraping:** \\~$1–$3 per 1,000 scrapes.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1644.0)\n      - [**Total:** Viable for \\~5 clients on the current plan.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1835.0)\n  - [**Immediate Test:** The workflow will be run for Growrk to demonstrate value before their contract ends next month.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1527.0)\n  - [**Strategic Application:** The process can be used to scrape engagers from competitor posts (e.g., Project 33) to generate new leads.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=2576.0)\n\n### Automated LinkedIn Outreach Strategy\n\n  - [**Goal:** Build a consistent lead generation engine beyond BotDog.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=2598.0)\n  - [**Proposed Workflow:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4681.0)\n    1.  [**Source Leads:** Use Apollo to build targeted lists (e.g., Series A founders).](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=3492.0)\n    2.  [**Filter & Scrape:** Use the enrichment process to filter for active posters (e.g., \\>2k followers, recent activity).](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=3602.0)\n    3.  [**Draft Messages:** Use AI to draft personalized messages based on a lead's recent posts.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4504.0)\n    4.  [**Manual Review:** A human reviews and edits each message to ensure quality and prevent reputational risk.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4657.0)\n    5.  [**Send:** Manually send messages from Eduardo's profile to leverage his network and avoid LinkedIn account risk.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=3171.0)\n  - [**Lead Magnet:** Offer a free, personalized LinkedIn strategy audit to drive responses.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4108.0)\n\n### Future: Custom Analytics Platform\n\n  - [**Problem:** Shield's pricing model (free for 1 week of data, then $200/month/client) is not scalable.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=750.0)\n  - [**Solution:** Explore building a custom analytics platform using the LinkedIn API and OpenClaw.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=638.0)\n      - [**Rationale:** This would integrate analytics directly into the rhetoric platform, reduce costs, and improve the client experience.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=871.0)\n      - [**Feasibility:** Eduardo's experience building a similar API connection with OpenClaw and Fathom suggests this is achievable.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=918.0)\n\n## Next Steps\n\n  - [**Carlos:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1527.0)\n      - [Run the lead enrichment workflow for Growrk.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1527.0)\n      - [Test scraping engagers from a Project 33 post.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=2576.0)\n      - [Inform Luca to connect his LinkedIn account to Shield.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=1110.0)\n  - [**Andre:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4461.0)\n      - [Assist Carlos with lead sourcing for the new outreach strategy.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4461.0)\n  - [**Eduardo:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4215.0)\n      - [Explore using OpenClaw to automate sourcing of newly funded startups.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4215.0)\n  - [**All:**](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4681.0)\n      - [Define the full workflow for the new automated outreach strategy.](https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p?tab=summary&timestamp=4681.0)\n",
+    "template_name": "General"
+  },
+  "meeting_title": "Team check-in",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-26T20:28:22Z",
+  "recording_id": 125755141,
+  "recording_start_time": "2026-02-26T19:07:59Z",
+  "scheduled_end_time": "2026-02-26T20:00:00Z",
+  "scheduled_start_time": "2026-02-26T19:00:00Z",
+  "share_url": "https://fathom.video/share/hs6pG-EyjFPsSw133fjpYDpeuuo55Z5p",
+  "title": "Team check-in",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entire workflow, as we're going to need to guide our clients on all of this.",
+      "timestamp": "00:00:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:00:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "No.",
+      "timestamp": "00:00:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, yeah, and I mean, looks like the, oh, I can see the auto approval right here in the, let me show you.",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, I did some search on propensity and it said that in the same notification, you can change the, but I'm not sure.",
+      "timestamp": "00:00:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, so I get the notifications here.",
+      "timestamp": "00:00:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I have one from one year ago.",
+      "timestamp": "00:00:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't even know who set this one up.",
+      "timestamp": "00:00:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But here, auto approvals.",
+      "timestamp": "00:00:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, turn on, give rhetoric permission to sponsor any of your LinkedIn posts.",
+      "timestamp": "00:00:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so this is not, so this is the clients adding the auto approval.",
+      "timestamp": "00:00:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "For their company page to sponsor the posts, right?",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:01:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So just to fully understand, everything runs via the company page, even though we are sponsoring the person content.",
+      "timestamp": "00:01:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that is why the person needs to be an admin in the business page.",
+      "timestamp": "00:01:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:01:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, because I have seen, and actually I was thinking about that earlier when I was scrolling, doing commenting.",
+      "timestamp": "00:01:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like I saw some of the feature posts and it says like the name of the person and it's sponsored by or promoted by and the name of the company.",
+      "timestamp": "00:01:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So it's not just like a normal boost.",
+      "timestamp": "00:01:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It says who that ad, like to which company the ad is attributed.",
+      "timestamp": "00:01:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Result, but I don't know if they are really recommending that or just like do not put all your budget into one single piece of content.",
+      "timestamp": "00:03:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, yeah, I think that's it because if you sponsor more posts, I don't think you're going to spend more.",
+      "timestamp": "00:03:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It's just going to distribute the budget.",
+      "timestamp": "00:03:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, because here I selected like a lifetime budget and that's it because what you can do is set a daily budget, set both things like a daily and lifetime budget or a lifetime budget of the whole campaign.",
+      "timestamp": "00:03:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, yeah, I think it makes sense to have multiple ones I want.",
+      "timestamp": "00:03:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, we just need to see which ones.",
+      "timestamp": "00:03:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Edu, was telling Andre that the thing from the web pages is working.",
+      "timestamp": "00:03:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like I know, like I got into our B2Bs and now it says like the top.",
+      "timestamp": "00:03:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Up URL is the normal one, and the second one is the one that says the slash Y Combinator.",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So I guess I haven't seen the one that says LinkedIn, but it means that we're tracking it.",
+      "timestamp": "00:04:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So once we are running the ads, let's hope we see an increase there on clicks through that URL.",
+      "timestamp": "00:04:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Where did you saw that?",
+      "timestamp": "00:04:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "On the RB2B dashboard.",
+      "timestamp": "00:04:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:04:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool, cool.",
+      "timestamp": "00:04:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, so that's something that we need to also consider to tell the clients, right?",
+      "timestamp": "00:04:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "To duplicate their landing page.",
+      "timestamp": "00:04:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, yeah, yeah.",
+      "timestamp": "00:04:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Andre even was saying that, I mean, Andre, I don't know if you want to say, I think that you explained it better.",
+      "timestamp": "00:04:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, it was just a thought.",
+      "timestamp": "00:04:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I don't know if it makes sense for us.",
+      "timestamp": "00:04:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I",
+      "timestamp": "00:04:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But while me and Carlos were chatting, I had the idea of maybe we could rewrite their landing page copy, something that we believe will convert better, A-B test their copy against ours, and see which one drives the most.",
+      "timestamp": "00:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Primarily, we're going to track demo calls.",
+      "timestamp": "00:05:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And I think this could be interesting.",
+      "timestamp": "00:05:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I'm not sure if it makes sense for us to scale this as a different thing.",
+      "timestamp": "00:05:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It's just an idea.",
+      "timestamp": "00:05:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I'm not sure if it makes sense for us to do that.",
+      "timestamp": "00:05:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:05:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:05:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:05:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, it's a very...",
+      "timestamp": "00:05:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, it makes a lot of sense.",
+      "timestamp": "00:05:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Definitely.",
+      "timestamp": "00:05:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't know if we're going to be able to do A-B testing because we, in that case, we now need to get access into their Google Analytics.",
+      "timestamp": "00:05:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And, you know, that's...",
+      "timestamp": "00:05:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:05:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:05:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:05:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "A new workflow and more time spent on us doing that.",
+      "timestamp": "00:06:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But what I think it could make sense is just rewriting the copy for what we're trying to achieve from that funnel.",
+      "timestamp": "00:06:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or maybe we can test it.",
+      "timestamp": "00:06:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, I don't know if it makes sense because of timing or not.",
+      "timestamp": "00:06:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But let's say we tell them, like, hey, update to this URL on the first week that we're going to run these ads.",
+      "timestamp": "00:06:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And we put the ads just for one week.",
+      "timestamp": "00:06:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And then on the second week, or I mean, I don't know, just to put an example, right?",
+      "timestamp": "00:06:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "On the second week, now they update the URL that they have in their profile and their company page to the other version.",
+      "timestamp": "00:06:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And maybe that's how we can test.",
+      "timestamp": "00:06:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We can even see, like, first of all, maybe even running the same post.",
+      "timestamp": "00:06:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, so we're using the same method of people getting interested.",
+      "timestamp": "00:06:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Fee, but ask them to pay only once we surpass their current demo booking rate.",
+      "timestamp": "00:08:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So just for example, it could be a fixed fee of $2,000 to rewrite the thing for them, whether it converts better or not.",
+      "timestamp": "00:08:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Or like $5,000, but they only pay if it converts, you know?",
+      "timestamp": "00:08:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I don't just thinking all out.",
+      "timestamp": "00:08:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, I think we should think about that a little.",
+      "timestamp": "00:08:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "First, we need to fully understand the process, run the process, and once that we run it, then we need to automate the process, and once that it's automated, we can add more shiny things to it, no?",
+      "timestamp": "00:08:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:08:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:08:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:08:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:08:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So I wanted to test that, but I was asking Coldware, can you do that?",
+      "timestamp": "00:10:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I don't know if it was hallucination or not, but it said, yeah, I can download every Monday or every time you need.",
+      "timestamp": "00:10:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "This is a specific, like, file.",
+      "timestamp": "00:10:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So yeah, I need to test it.",
+      "timestamp": "00:10:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, it will be awesome if I can do that, but if if not, I mean, it doesn't bother me just going through the clients, filtering and exporting.",
+      "timestamp": "00:10:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I was thinking this morning that, like, in the end, we are using Shield to see, you know, like, basic stuff.",
+      "timestamp": "00:10:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, my point is, maybe we can find.",
+      "timestamp": "00:10:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "point point typefirmish, the is, You",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Another service like that, or maybe even with Claw, with OpenClaw.",
+      "timestamp": "00:11:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, I haven't, I don't know, build an analytics platform like that, but with an API.",
+      "timestamp": "00:11:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And for us to be able to just connect the API and extract the information like that, instead of doing this, which is going to be clunky, sometimes it's going to fail.",
+      "timestamp": "00:11:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know if with LinkedIn's official API you can do it, I'm not sure.",
+      "timestamp": "00:11:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yes, of course you can, because that's how S.H.I.E.D.",
+      "timestamp": "00:11:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "is doing it.",
+      "timestamp": "00:11:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like, the difference with, we are paying for S.H.I.E.L.D.",
+      "timestamp": "00:11:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because they just created this sort of, like, platform.",
+      "timestamp": "00:11:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "A where agencies are allowed to offer this to their clients to connect multiple accounts in the same workspace with different permissions.",
+      "timestamp": "00:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's just easier for us to switch between clients.",
+      "timestamp": "00:12:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "That's it.",
+      "timestamp": "00:12:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "In the end, they are using the LinkedIn APIs to get the data.",
+      "timestamp": "00:12:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, if you check, we can see the same data in Ordinal, but the problem is that we can only see the one week of data, and if you want to see more, we need to upgrade to 200 per month per client year.",
+      "timestamp": "00:12:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:12:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:12:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I was thinking that I'm not sure if it's too ambitious to build it with, uh, ...",
+      "timestamp": "00:12:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Based on the experience that I have, you just tell it.",
+      "timestamp": "00:13:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You just tell it, build this, and he builds it.",
+      "timestamp": "00:13:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:13:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, we're looking at the same thing now with Cloud Code.",
+      "timestamp": "00:13:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "They were saying that's pretty much why they added this new remote version.",
+      "timestamp": "00:13:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, now you can put it on your computer and let it go all the time that you want or need.",
+      "timestamp": "00:13:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, I mean, we can check.",
+      "timestamp": "00:13:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, I guess if we have the API connection and everything, we can see if it does download the data.",
+      "timestamp": "00:13:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And if it does, I guess it's pretty much replacing Shield.",
+      "timestamp": "00:13:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I mean, do you think that the clients use Shield?",
+      "timestamp": "00:13:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like, they do click on on Shield.",
+      "timestamp": "00:13:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Do you see the analytics there, or it's just the things that we share with them?",
+      "timestamp": "00:14:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:14:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, there must be some of them that they use it, but we really don't know.",
+      "timestamp": "00:14:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What I know is that most of them, they don't.",
+      "timestamp": "00:14:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "They don't even know how to access it.",
+      "timestamp": "00:14:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "There's exceptions.",
+      "timestamp": "00:14:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "remember Jesse was, like, he was using it sometimes.",
+      "timestamp": "00:14:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But I mean, it would be ideal if we can integrate that into the rhetoric platform.",
+      "timestamp": "00:14:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, for sure.",
+      "timestamp": "00:14:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Imagine, they just connect with their profile once, and once that is already connected, you know, for scheduling, it's already connected for the analytics as well.",
+      "timestamp": "00:14:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm-hmm.-hmm.",
+      "timestamp": "00:14:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Who work?",
+      "timestamp": "00:14:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, if the...",
+      "timestamp": "00:14:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "If it's the same API, we don't need to change pretty much a lot of things.",
+      "timestamp": "00:15:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It's just creating the UI and connecting with it.",
+      "timestamp": "00:15:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And that's it.",
+      "timestamp": "00:15:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:15:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:15:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, again, I don't know.",
+      "timestamp": "00:15:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, I already built an API connection with OpenClaw and Fathom.",
+      "timestamp": "00:15:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it can extract like the pending things that I have before each meeting and it's now kind of like doing the same with Daval does, but automatically, which is amazing, that he's now, for every call that I have during the week, it creates a Google Doc every Monday and it adds all of the content ideas based on all of the calls that I had.",
+      "timestamp": "00:15:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So like calls with clients, calls with internal calls, so I can just open that doc.",
+      "timestamp": "00:15:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And see the ones that I want to talk about and use that as a supporting document for the interview.",
+      "timestamp": "00:16:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And at some point, maybe the interviewees will not even going to be needed, which is exactly what Davao is doing.",
+      "timestamp": "00:16:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You know?",
+      "timestamp": "00:16:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:16:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, like, that's already live and it was very, very simple.",
+      "timestamp": "00:16:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, I don't know if I'm dreaming, but if we can just tell, hey, here's my project or my platform, take a look at it, don't change anything, just look at all of the files, make sure that you understand everything, look, and once that it understands, just, we want to add an analytic section like Shield.",
+      "timestamp": "00:16:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, look at Shield and maybe it can build it in one day, I don't know.",
+      "timestamp": "00:16:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Maybe we need to test it.",
+      "timestamp": "00:17:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The code work.",
+      "timestamp": "00:17:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, we can just put it on a separate, like, version or something and see if it lands it or not.",
+      "timestamp": "00:17:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, wait, wait a minute.",
+      "timestamp": "00:17:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Christine from Checkr, she's asking me for the call link.",
+      "timestamp": "00:17:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I guess it's for, to schedule a call with Luca.",
+      "timestamp": "00:17:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And she said, I noticed one of the invites disappeared.",
+      "timestamp": "00:17:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know why.",
+      "timestamp": "00:17:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "What does she mean with that?",
+      "timestamp": "00:17:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "She messaged you directly?",
+      "timestamp": "00:17:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:17:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, I saw that Luca canceled one call, I think.",
+      "timestamp": "00:17:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let me check.",
+      "timestamp": "00:17:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But, yeah, he canceled February.",
+      "timestamp": "00:17:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "February 27, tomorrow, he cancelled.",
+      "timestamp": "00:18:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:18:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I'm not sure if he refers to...",
+      "timestamp": "00:18:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I guess he refers to that.",
+      "timestamp": "00:18:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The one that I should send is the one that is content in the interview, right?",
+      "timestamp": "00:18:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "One hour.",
+      "timestamp": "00:18:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:18:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "By the way, guys, Luca's account isn't connected to Shield.",
+      "timestamp": "00:18:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It's not?",
+      "timestamp": "00:18:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No.",
+      "timestamp": "00:18:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:18:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I was just checking his results, but I can only see Daniel's.",
+      "timestamp": "00:18:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Can you tell him, Carlos?",
+      "timestamp": "00:18:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:18:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Can tell him?",
+      "timestamp": "00:18:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:18:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I was like...",
+      "timestamp": "00:18:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Looking at his content, and you can see the difference, at least in engagement, I had the impression numbers, but at least the engagement numbers are way better with the content that we wrote compared to what he was posting before.",
+      "timestamp": "00:19:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "If you take a look at comparables, you can see the difference.",
+      "timestamp": "00:19:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like the first one we posted already got way more engagement than the first one than the other ones he was posting.",
+      "timestamp": "00:19:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, yeah, yeah.",
+      "timestamp": "00:19:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I also noticed.",
+      "timestamp": "00:19:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:19:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's great.",
+      "timestamp": "00:19:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, I mean, it's a clear difference between the quality of the posts.",
+      "timestamp": "00:19:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I just want to make sure.",
+      "timestamp": "00:19:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Can I start telling some of our clients that we can now offer them the entire EnBridge?",
+      "timestamp": "00:19:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And all of that without any issues or not yet?",
+      "timestamp": "00:20:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't think you are very confident about that.",
+      "timestamp": "00:20:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, I'm looking at the result, but I guess, I mean, what I shared with you on the list that I created for InfraCost, it looked really good.",
+      "timestamp": "00:20:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:20:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So.",
+      "timestamp": "00:20:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now, based on that, like that list was from how many posts?",
+      "timestamp": "00:20:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's just from one.",
+      "timestamp": "00:20:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:20:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:20:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, because right now the workflow, how it works, it finds the one that has most likes and comments.",
+      "timestamp": "00:20:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "No, it was from two.",
+      "timestamp": "00:20:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It was from the top post from last week from Hassan and one, the top post of Ali.",
+      "timestamp": "00:20:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:20:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:20:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:20:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm-hmm.-hmm.-hmm.",
+      "timestamp": "00:20:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Mm Mm",
+      "timestamp": "00:20:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now, yesterday I sent out a message about defining the workflow for categorizing each piece of content, each post, into the three different buckets, because that connects with this.",
+      "timestamp": "00:21:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't think we need to waste time on tokens and credits, enriching posts that are more in the growth side.",
+      "timestamp": "00:21:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't know, because, like, in the end, it's theory, right?",
+      "timestamp": "00:21:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, it makes sense in theory that you should only do this for the ones that are more, like, folks on conversion or authority.",
+      "timestamp": "00:21:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But maybe the other ones work as well.",
+      "timestamp": "00:21:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, like, I don't know.",
+      "timestamp": "00:21:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The thing is that I'm very blind on how much it.",
+      "timestamp": "00:21:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Costs to do this, and really how long it takes to do it.",
+      "timestamp": "00:22:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So can you give me some clarification on that?",
+      "timestamp": "00:22:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like let's say that we want to do it for Mesmer.",
+      "timestamp": "00:22:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like we want to do one for Mesmer.",
+      "timestamp": "00:22:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you need to start now, like when is it going to be ready?",
+      "timestamp": "00:22:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like is it something that will take you like five minutes to do?",
+      "timestamp": "00:22:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Two minutes, one minute, half an hour?",
+      "timestamp": "00:22:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So the workflow that I have right now, it could take around 20 minutes or less.",
+      "timestamp": "00:22:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Why is that?",
+      "timestamp": "00:22:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because of the processing that the AA does in the scraping of the post, for example.",
+      "timestamp": "00:22:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, it's not relevant to understand the process.",
+      "timestamp": "00:22:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like my point is, what is relevant is in those 20 minutes, you are doing things.",
+      "timestamp": "00:22:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "delusions.",
+      "timestamp": "00:22:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "on Well, so",
+      "timestamp": "00:22:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or it's like you click a button, and 20 minutes after, we get the result.",
+      "timestamp": "00:23:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So in those 20 minutes, I go to Shield, I download a CSV, I put it in the folder, and now with the YOLO mode, because without it, it was asking me every time to do a bunch of things.",
+      "timestamp": "00:23:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But now with that mode enabled, I just tell it like, hey, there is a use the most recent CSV inside Mesmer's folder, use the ICP, and it already has instructions.",
+      "timestamp": "00:23:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So enter, and it does now everything.",
+      "timestamp": "00:23:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And in those 20 minutes, it's running.",
+      "timestamp": "00:23:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I tried to do it, like maybe two clients at the same time, but when I was setting up, for example, because I was doing it first for Hassan, and I was going to put it at the same time in another cloud code with Ali.",
+      "timestamp": "00:23:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But when I was just typing, it finished the other thing, so I couldn't do it at the same time.",
+      "timestamp": "00:24:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "In this case, for InfraCost is different because I want to do it on both accounts.",
+      "timestamp": "00:24:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like why to have a single final list for them if they just need one.",
+      "timestamp": "00:24:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But in this case, I guess if we have more clients, I can run the same things in different cloud code.",
+      "timestamp": "00:24:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, like if everything's set up by using different terminals, I can run it for different clients with no problem.",
+      "timestamp": "00:24:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:24:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And in terms of costs, apparently it's not, I mean, by the way, Kristen just told me that Luca had a family commitment.",
+      "timestamp": "00:24:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So that's why he canceled, but now she is scheduled another one tomorrow.",
+      "timestamp": "00:25:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Tomorrow?",
+      "timestamp": "00:25:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:25:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "In another time.",
+      "timestamp": "00:25:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Oh, yeah.",
+      "timestamp": "00:25:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I can see it.",
+      "timestamp": "00:25:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:25:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yo, have we done the enrichments for Carlos, Growrk?",
+      "timestamp": "00:25:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "No.",
+      "timestamp": "00:25:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think in terms of priority, it should be the next one in line because his contract is ending.",
+      "timestamp": "00:25:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "No real results yet in terms of revenue.",
+      "timestamp": "00:25:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, and I was thinking, like, they already post their posts to the right audience.",
+      "timestamp": "00:25:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So in this case, it's just handing them the people who reacted.",
+      "timestamp": "00:25:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, so if we could do that, put them on next on the list.",
+      "timestamp": "00:26:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "If you're able to deliver them something of value.",
+      "timestamp": "00:26:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And like, is it ending next month, Edu?",
+      "timestamp": "00:26:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:26:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, I think we have one more.",
+      "timestamp": "00:26:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We have one more interview.",
+      "timestamp": "00:26:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, because we don't want to do that last minute because they'll be like, oh, you're just doing this now because the contract's about to end.",
+      "timestamp": "00:26:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "We don't want to give up that impression.",
+      "timestamp": "00:26:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:26:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "That will run it.",
+      "timestamp": "00:26:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So in terms of costs,",
+      "timestamp": "00:26:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It isn't that, like, it isn't really expensive.",
+      "timestamp": "00:27:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I think it's pretty cheap because now with the filtering, the play credits are not just wasted like that because pretty much we're saving by credits because we're not using their AI integration to filter each person because Cloud Code is doing it.",
+      "timestamp": "00:27:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, the scraping of the profiles, it's, like, it's really cheap.",
+      "timestamp": "00:27:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I think it's, like, $1 or $3 per 1,000 scrapes.",
+      "timestamp": "00:27:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And so, yeah, I think, I mean, it's pretty cheap.",
+      "timestamp": "00:27:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I'm using also Cloud Code through the Cloud account.",
+      "timestamp": "00:27:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I'm not using API credits.",
+      "timestamp": "00:27:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, yeah, I think it's cheap.",
+      "timestamp": "00:27:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, yeah.",
+      "timestamp": "00:27:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, yeah.",
+      "timestamp": "00:27:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, give me something more tangible.",
+      "timestamp": "00:28:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's pretty cheap.",
+      "timestamp": "00:28:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Does that mean that we can enrich each post of each client every day if we want and we are going to be okay in terms of tokens, in terms of API costs, in terms of Play tokens as well?",
+      "timestamp": "00:28:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What does that mean?",
+      "timestamp": "00:28:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Can we do this for 100 different clients?",
+      "timestamp": "00:28:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or at some point we would have to get into the enterprise plan?",
+      "timestamp": "00:28:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I just want to understand.",
+      "timestamp": "00:28:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe with Clay, Clay could be the only thing that can maybe stop us there.",
+      "timestamp": "00:28:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because if we're going to run it every day, or maybe I can add a step there.",
+      "timestamp": "00:28:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because right now, how it works, it just finishes.",
+      "timestamp": "00:29:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It does the whole process.",
+      "timestamp": "00:29:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And after getting the qualified leads, now it checks the leads that we sent previously and removes the ones that are not there.",
+      "timestamp": "00:29:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But maybe I can add that filtering way before that.",
+      "timestamp": "00:29:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And we just waste credit.",
+      "timestamp": "00:29:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We just use credits on the ones that are completely new.",
+      "timestamp": "00:29:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, I mean, I guess we need to keep testing.",
+      "timestamp": "00:29:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It isn't expensive.",
+      "timestamp": "00:29:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because the run could be cents.",
+      "timestamp": "00:29:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, it's less than $1 to run everything.",
+      "timestamp": "00:29:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe just the click credits are the only thing.",
+      "timestamp": "00:29:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But for example, yesterday, I only used $40.",
+      "timestamp": "00:29:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And we have $2,000.",
+      "timestamp": "00:29:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, $40 for...",
+      "timestamp": "00:29:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "One post?",
+      "timestamp": "00:30:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or two posts.",
+      "timestamp": "00:30:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So 20 per post?",
+      "timestamp": "00:30:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mhm.",
+      "timestamp": "00:30:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And those 20 per post is based on the engagement?",
+      "timestamp": "00:30:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It's based on the qualified people.",
+      "timestamp": "00:30:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So that's why, like, imagine if we get a bunch of the core ICP that we have defined for that client, it will use more.",
+      "timestamp": "00:30:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But if not, then it won't use it.",
+      "timestamp": "00:30:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, I mean, let's put an average of 30 per post.",
+      "timestamp": "00:30:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And if it's three posts a week, it will be 360 credits a month per client.",
+      "timestamp": "00:30:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So...",
+      "timestamp": "00:30:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So...",
+      "timestamp": "00:30:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So...",
+      "timestamp": "00:30:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "360 credits a month per client?",
+      "timestamp": "00:31:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "An approximate.",
+      "timestamp": "00:31:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I'm just doing some averages here.",
+      "timestamp": "00:31:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So with our plan right now, we can do up to five clients, five and a half.",
+      "timestamp": "00:31:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "If someone is not getting a bunch of leads from their ICP.",
+      "timestamp": "00:31:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And 360 is for how many posts?",
+      "timestamp": "00:31:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "For all of their posts?",
+      "timestamp": "00:31:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thinking they're posting three times a week.",
+      "timestamp": "00:31:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "For all of the posts?",
+      "timestamp": "00:31:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:31:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:31:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Well, I don't think that we should do it.",
+      "timestamp": "00:31:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that cost is...",
+      "timestamp": "00:31:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So is there a difference if someone...",
+      "timestamp": "00:31:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like if we do this for a post that has, I don't know, like 10...",
+      "timestamp": "00:31:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:31:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:31:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's like just adding a CSV file in Google Drive, in the Client Folder.",
+      "timestamp": "00:33:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, that's basically the manual part.",
+      "timestamp": "00:33:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If that's just it, then that means that for now, the only manual part would be, let's say, Monday, 9 a.m., it's export time, Shield export time.",
+      "timestamp": "00:33:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yay.",
+      "timestamp": "00:33:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you export all of the clients, put them in their Google Drive, and then run the automation in cloud code.",
+      "timestamp": "00:33:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's it.",
+      "timestamp": "00:33:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Correct?",
+      "timestamp": "00:33:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:33:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's it?",
+      "timestamp": "00:33:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pretty much.",
+      "timestamp": "00:33:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, I mean, I will need to run it locally.",
+      "timestamp": "00:33:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, if you download the Google Drive thing on your Mac, you can have the files locally, and they sync to Google Drive.",
+      "timestamp": "00:34:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so that means that doing it for one more client or one less is literally switching workspace in Shield and exporting the data, which is one minute.",
+      "timestamp": "00:34:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, are you sure?",
+      "timestamp": "00:34:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yes, I mean, I just need to go to Shield, click on the client workspace, select from what it is.",
+      "timestamp": "00:34:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let me frame it like this.",
+      "timestamp": "00:34:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let's say that from starting on Monday, we're doing this for infra cost.",
+      "timestamp": "00:34:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "For,ějetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetibejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetejetej",
+      "timestamp": "00:34:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So imagine, that's version number one.",
+      "timestamp": "00:35:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We're doing it in Freckles.",
+      "timestamp": "00:35:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "In a different world, now let's think that starting on Monday, we're doing it for all of the clients.",
+      "timestamp": "00:35:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Does that scare you?",
+      "timestamp": "00:35:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's like, oh my God, I'm going to have a lot of work or nothing changes.",
+      "timestamp": "00:35:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It doesn't scare me because it will take time that I can use for the commenting, but I mean...",
+      "timestamp": "00:35:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "What time?",
+      "timestamp": "00:35:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Exporting the files and putting them in the folder?",
+      "timestamp": "00:35:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, and now when they're ready, making sure we...",
+      "timestamp": "00:35:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I check, I mean, I double check also what the AI gave me and if there was any errors or something.",
+      "timestamp": "00:35:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so there is more than just exporting them in the folder.",
+      "timestamp": "00:35:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's what I'm trying to get.",
+      "timestamp": "00:35:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:35:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Shade, Stacker, which is Michael, and Dabal.",
+      "timestamp": "00:38:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:38:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think Dabal gets so many leads.",
+      "timestamp": "00:38:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:38:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, for sure.",
+      "timestamp": "00:38:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I mean, with Dabal, we are also running BotDog.",
+      "timestamp": "00:38:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I'm sending him a list of people there.",
+      "timestamp": "00:38:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So I guess it will be an extra thing.",
+      "timestamp": "00:38:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, it will benefit him.",
+      "timestamp": "00:38:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:38:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The only thing that I don't know is how his sales team is handling everything.",
+      "timestamp": "00:38:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because I have seen, like, when I'm commenting, people are answering his messages.",
+      "timestamp": "00:38:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But some of them, they just leave it at read.",
+      "timestamp": "00:38:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know if they contact them.",
+      "timestamp": "00:38:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And somewhere else, or I don't know.",
+      "timestamp": "00:39:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But yeah, I think that I will get a bunch of leads.",
+      "timestamp": "00:39:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:39:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:39:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, let's test it.",
+      "timestamp": "00:39:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, that's the only way that we can know.",
+      "timestamp": "00:39:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The thing is that the most important thing is test it, like you actually doing the workflow.",
+      "timestamp": "00:39:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And there is where you're going to be like, okay, this took me more time.",
+      "timestamp": "00:39:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This we need to fix.",
+      "timestamp": "00:39:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This is not working well.",
+      "timestamp": "00:39:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's the way that we define a workflow.",
+      "timestamp": "00:39:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:39:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:39:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:39:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And also, I mean...",
+      "timestamp": "00:39:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Should we add mine based on the...",
+      "timestamp": "00:39:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, because we're going to start doing the ads.",
+      "timestamp": "00:39:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, with Jerez, probably I don't need to download Shield.",
+      "timestamp": "00:40:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I need to tell Cloud Code, like, hey, like, download people from this specific link, you know, or telling it, like, if we know which post we are using to target people, then let's just give the AI those links.",
+      "timestamp": "00:40:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Those, like, the URL of the post, or what do you mean?",
+      "timestamp": "00:40:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:40:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, and I mean, it wouldn't make sense to export them.",
+      "timestamp": "00:40:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "just need to download them from Shield.",
+      "timestamp": "00:40:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I will already know which are the ones that are going to attract the ICP.",
+      "timestamp": "00:40:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But yeah, let's just do it.",
+      "timestamp": "00:40:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you're getting the, just to make sure, you are getting, everything starts from the LinkedIn profile, the URL, right, of the people.",
+      "timestamp": "00:40:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And we extract the URL using AP5.",
+      "timestamp": "00:40:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "right.",
+      "timestamp": "00:40:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay?",
+      "timestamp": "00:40:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But what is a tool that takes the people that engage and converts, like, 10 likes into 10 profiles?",
+      "timestamp": "00:42:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "AP5.",
+      "timestamp": "00:42:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that doesn't put our client's account at risk?",
+      "timestamp": "00:42:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No.",
+      "timestamp": "00:42:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because we're not using, there's no connection, right?",
+      "timestamp": "00:42:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, no.",
+      "timestamp": "00:42:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, I mean, there is no one at risk, like, not even our accounts, nothing.",
+      "timestamp": "00:42:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, everything is handled by their service.",
+      "timestamp": "00:42:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "That's why we can even, like, that's the reason why we can bypass the thing about using the official LinkedIn's API.",
+      "timestamp": "00:42:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Now we can take a post of a competitor if we want to, and we can run that same process with no problem.",
+      "timestamp": "00:42:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:42:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "If you want, maybe we can take one post of Project 33 and...",
+      "timestamp": "00:42:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Let's get people from that.",
+      "timestamp": "00:43:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:43:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Definitely.",
+      "timestamp": "00:43:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, let's try that.",
+      "timestamp": "00:43:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:43:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:43:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I need to go to pick up my son from school, so I need to jump.",
+      "timestamp": "00:43:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But I think that there's so many things that we are not doing to get leads.",
+      "timestamp": "00:43:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's for rhetoric that we really need to activate.",
+      "timestamp": "00:43:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, we are kind of like relying only in the traditional bot dog thing and putting content out there.",
+      "timestamp": "00:43:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And we've said it many times, but we are not committing to the...",
+      "timestamp": "00:43:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm going to try to use...",
+      "timestamp": "00:43:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We Open Co-op for this, to try to get new ideas for Bookface, to do that more often, but there are so many other things that we can do, and so if you have any ideas, yeah, just, it would be great if you can chat about that, to leave it in the transcription, because I really need to go now.",
+      "timestamp": "00:44:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And then I'm going to focus on using this thing to try to do that automatically.",
+      "timestamp": "00:44:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It could be called outreach, I mean, I can connect instantly and start sending emails.",
+      "timestamp": "00:44:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, but I leave it up to you, and think about that.",
+      "timestamp": "00:44:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This transcript is going to be read by this AI, so make sure to talk about actionable items.",
+      "timestamp": "00:45:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So my question is, if I leave, the call continues with Fathom or the noticulor leaves?",
+      "timestamp": "00:45:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, I think it continues.",
+      "timestamp": "00:45:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay, so I'm...",
+      "timestamp": "00:45:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or should I leave the call like this?",
+      "timestamp": "00:45:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You guys help me.",
+      "timestamp": "00:45:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I mean, I'm going to be back in 15 minutes, but I don't know if you're going to still be here, so...",
+      "timestamp": "00:45:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "No, no worries.",
+      "timestamp": "00:45:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Leave.",
+      "timestamp": "00:45:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And if not, if something happens, I put my Fathom.",
+      "timestamp": "00:45:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:45:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:45:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "All right.",
+      "timestamp": "00:45:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:45:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Bye.",
+      "timestamp": "00:45:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Bye-bye.",
+      "timestamp": "00:45:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yes, the recording and taking notes, so...",
+      "timestamp": "00:45:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Still works.",
+      "timestamp": "00:45:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Got it.",
+      "timestamp": "00:45:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:45:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "The first thing that came to my mind...",
+      "timestamp": "00:45:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "You",
+      "timestamp": "00:45:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It's going back to doing code outreach, which is something I think we never should stop doing.",
+      "timestamp": "00:46:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like even if we're getting many leads from BookFace and from LinkedIn Organic, we should always be doing outreach.",
+      "timestamp": "00:46:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And I'm not sure if open co-op can do this, but the way to do outreach, especially for what we do, is to send highly personalized messages to relevant people.",
+      "timestamp": "00:46:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Do you hear a background noise?",
+      "timestamp": "00:46:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It's starting to get a bit loud over here.",
+      "timestamp": "00:46:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Wait, can you give me a minute?",
+      "timestamp": "00:46:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Erud is asking me about the Fathom.",
+      "timestamp": "00:46:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:46:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Okay.",
+      "timestamp": "00:46:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It's weird because his Fathom, it says to view recording and everything, but here it says recording and clicking notes.",
+      "timestamp": "00:47:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So just to make sure, think I will put mine.",
+      "timestamp": "00:47:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But Gemini is recording anyways, right?",
+      "timestamp": "00:47:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:47:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, so I think it's...",
+      "timestamp": "00:47:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Do you hear a background noise from my mic?",
+      "timestamp": "00:47:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Because it's starting to get a bit loud here.",
+      "timestamp": "00:47:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "A little bit, but it isn't that big of a deal.",
+      "timestamp": "00:47:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So what I was saying, I don't think we should...",
+      "timestamp": "00:47:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And the way you do it is by sending highly personalized messages to relevant people.",
+      "timestamp": "00:48:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So I don't know if Open Call can do this automatically, but the way we should do it, it's come up, it's find people on LinkedIn who might be a fit and give them some advice on, especially people who have, who are posting or have been posting and like give them a little piece of advice on how they could have improved their latest posts or something like that and offer them to do a personalized audit of their profile and their strategy.",
+      "timestamp": "00:48:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I don't know if Open Call can do this, like look at a profile, see if they're posting, if they are.",
+      "timestamp": "00:48:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Look at their previous posts and write a message, giving them a little piece of advice on how they could have improved that.",
+      "timestamp": "00:49:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I don't know if that's too personalized of a job.",
+      "timestamp": "00:49:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "What do you think?",
+      "timestamp": "00:49:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I think it's possible.",
+      "timestamp": "00:49:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The only thing that I don't know is how Edo's OpenClaw is set up in the way that if it has access to a screen, you know, into his LinkedIn account.",
+      "timestamp": "00:49:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "That's the only thing that I'm thinking about.",
+      "timestamp": "00:49:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I don't know if we're putting Edo's account at risk.",
+      "timestamp": "00:49:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I don't know if LinkedIn is looking for some way to stop that.",
+      "timestamp": "00:49:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So that's maybe my only concern.",
+      "timestamp": "00:49:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But, I mean, I'm thinking.",
+      "timestamp": "00:49:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I'm thinking.",
+      "timestamp": "00:49:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "you.",
+      "timestamp": "00:49:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "On their LinkedIn profile, if they are a project manager or not, and so on.",
+      "timestamp": "00:51:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So.",
+      "timestamp": "00:51:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Hmm.",
+      "timestamp": "00:51:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe, I don't know, we need to test, because I tried to set up my own open claw and I couldn't really do it that well.",
+      "timestamp": "00:51:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know how it work if we give it, like, burner account and for it to have its own LinkedIn account, start getting profiles, like, already checking everything, and maybe just getting a list of, hey, here is the list of people that I have identified as part of the ICP.",
+      "timestamp": "00:51:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Here is the possible message that you can send in now.",
+      "timestamp": "00:51:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We sent that message through Edo's account.",
+      "timestamp": "00:52:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe like a summary of leads or something.",
+      "timestamp": "00:52:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "00:52:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Again, just thinking about...",
+      "timestamp": "00:52:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "You're on mute.",
+      "timestamp": "00:52:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Sorry.",
+      "timestamp": "00:52:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Either way, if that's possible, just do an open call.",
+      "timestamp": "00:52:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "We need to figure out a way to do this.",
+      "timestamp": "00:52:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But if not, like, I don't know if Edo has time to do that.",
+      "timestamp": "00:52:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I don't know if you have time to do that.",
+      "timestamp": "00:52:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Or if we should hire an SDR.",
+      "timestamp": "00:52:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "It can even be like a commission-based person to do this.",
+      "timestamp": "00:52:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But like manually.",
+      "timestamp": "00:52:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And that's something, and this person should do it from Edo's profile.",
+      "timestamp": "00:52:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Why?",
+      "timestamp": "00:52:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Because...",
+      "timestamp": "00:52:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Because...",
+      "timestamp": "00:52:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "That's on LinkedIn, you have a limited amount of people you can send cold messages to.",
+      "timestamp": "00:53:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "You can even buy more tokens, more credits with Sales Navigator and stuff, but still not many.",
+      "timestamp": "00:53:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "You can send 100 messages a week, for example, without burning all your credits.",
+      "timestamp": "00:53:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So we should do it from Edu's account because he already has a network that we can message.",
+      "timestamp": "00:53:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And we should keep messaging, like, we run the bot talk campaigns to increase his network and increase the amount of people we can message for free.",
+      "timestamp": "00:53:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And use the tokens to send cold outreach to people that are, like, hyper-specific, like, hyper-curated.",
+      "timestamp": "00:53:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And, like, I think it's too specific of a job for AI to do, at least for now.",
+      "timestamp": "00:53:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So...",
+      "timestamp": "00:53:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So...",
+      "timestamp": "00:53:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "If we can't figure out a way to have AI do it, I think we should have an SDR do it.",
+      "timestamp": "00:54:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, I think that's the best thing we should do, we can do to keep a constant lead flow.",
+      "timestamp": "00:54:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Something that I was thinking about, it's first, it's weird.",
+      "timestamp": "00:54:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know how LinkedIn manages that thing of the credits, because I have sent some cold emails, now with the premium feature, like, I see the founder and I tell him, like, hey, like, I would love to manage your LinkedIn content plus maybe something else, and it says messaging for free.",
+      "timestamp": "00:54:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I don't like, when does it charge you for those in-mail credits.",
+      "timestamp": "00:54:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I think that, oh yeah, now I think I remember.",
+      "timestamp": "00:54:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The email credits are charged if you don't send the connection request, like if you want to send that direct message and you want them to see it on their inbox.",
+      "timestamp": "00:55:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "That's, I think, when they charge it.",
+      "timestamp": "00:55:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And sometimes it's free.",
+      "timestamp": "00:55:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like sometimes it says like, hey, like even same LinkedIn there, it says why this message is free.",
+      "timestamp": "00:55:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I think the first message that you can send, like to bad people or because of something they have there, you can send it for free.",
+      "timestamp": "00:55:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So let me just test here.",
+      "timestamp": "00:55:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think if the person replies to your email message, you get the credit back.",
+      "timestamp": "00:55:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "There's something like that.",
+      "timestamp": "00:55:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So here, for example, to this guy, premium, new message, and I didn't send any connection requests.",
+      "timestamp": "00:55:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I just clicked on message and it says.",
+      "timestamp": "00:55:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The Open Profile Premium feature allows anyone on LinkedIn to contact a premium member for free, even if they're not in the sender's network.",
+      "timestamp": "00:56:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So I guess if you message other premium people and they don't have that post, there's no problem.",
+      "timestamp": "00:56:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Um, yeah, the fact is we should have someone sending messages from Edu's account.",
+      "timestamp": "00:56:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "We can, like, build a list.",
+      "timestamp": "00:56:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like, we should have the connections list with the people we want to reach out to.",
+      "timestamp": "00:56:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And maybe we can, like, stop sending the I love to manage our LinkedIn message and send a connection without any message or send.",
+      "timestamp": "00:56:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Again, thank Thank Thank Thank Thank you.",
+      "timestamp": "00:56:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "You",
+      "timestamp": "00:56:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "With the message that I just told you, like giving them some piece of advice on their content and offering a free audit, then for the people who reply, yes, Edu or me, we can do an audit on the profile.",
+      "timestamp": "00:57:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And that's it.",
+      "timestamp": "00:57:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "That's the strategy.",
+      "timestamp": "00:57:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But I think like we shouldn't, we cannot stop doing it because we've been doing this on and off, but we never actually do it.",
+      "timestamp": "00:57:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And honestly, I think that's, that's the, like when you have an agency, like doing code outreach is the most basic thing you have to do and we're not doing it.",
+      "timestamp": "00:57:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So I think before you think about any other ways, like I also had the other idea of being like a clay partner to get leads from their, from their network.",
+      "timestamp": "00:57:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But I don't think we're doing the basic thing, which is called outreach yet, so I think we should do that first.",
+      "timestamp": "00:58:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "What are you doing?",
+      "timestamp": "00:58:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, sure.",
+      "timestamp": "00:58:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "mean, the only thing is then how will the process be?",
+      "timestamp": "00:58:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like if we're doing that, I'm just thinking, right?",
+      "timestamp": "00:58:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Probably.",
+      "timestamp": "00:58:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "What we can do is use Apollo.",
+      "timestamp": "00:58:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, I mean, we're already using it to create lists.",
+      "timestamp": "00:58:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because I go there, I put Series A founders, or I mean, C-level people.",
+      "timestamp": "00:58:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But maybe in those cases, we can have like two lists.",
+      "timestamp": "00:58:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "feel the list using Sales Navigator?",
+      "timestamp": "00:58:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "00:58:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The only thing that Sales Navigator doesn't let you do, it's to...",
+      "timestamp": "00:58:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "That's what I can do.",
+      "timestamp": "01:00:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "It's, let's say, I download one list from Apollo, right?",
+      "timestamp": "01:00:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So let's say 1,000 people.",
+      "timestamp": "01:00:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "500, I will put them in BotDog.",
+      "timestamp": "01:00:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And the other 500, I can run them into now this system with scraping and filtering.",
+      "timestamp": "01:00:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We scrape them.",
+      "timestamp": "01:00:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "get the people who have over 2,000 followers.",
+      "timestamp": "01:00:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Plus, if we get that they have been active in the last 30 or 90 days, like by posting, maybe those are the ones that we can, like, have.",
+      "timestamp": "01:00:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And you can send that personalized message, you know?",
+      "timestamp": "01:00:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because now we know that they have posted.",
+      "timestamp": "01:00:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "When was the last time they have posted and if they have over 2,000 followers?",
+      "timestamp": "01:00:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Maybe that makes sense?",
+      "timestamp": "01:00:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:00:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And see if they're active on LinkedIn.",
+      "timestamp": "01:03:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But I'm trying to check here, like, what's the information that we do get.",
+      "timestamp": "01:03:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So here, for example, when I scrape someone, LinkedIn Profile Scraper, their company, image URL, your location.",
+      "timestamp": "01:03:13"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "Oh, I just realized.",
+      "timestamp": "01:03:45"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "Oh, never mind.",
+      "timestamp": "01:03:48"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "I don't have to leave now.",
+      "timestamp": "01:03:49"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "I'll go back to my PC.",
+      "timestamp": "01:03:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "No, no, never mind.",
+      "timestamp": "01:03:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "No, I don't think I get the person who, when was the last time they posted?",
+      "timestamp": "01:04:03"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "No, I guess, I mean, yeah, as you said, we need to do it manually.",
+      "timestamp": "01:04:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Amen.",
+      "timestamp": "01:04:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thank you for trying to figure it out, how to automate it.",
+      "timestamp": "01:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "Yeah, just give me a minute.",
+      "timestamp": "01:05:06"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "Just one second.",
+      "timestamp": "01:05:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, no worries.",
+      "timestamp": "01:05:09"
+    },
+    {
+      "speaker": {
+        "display_name": "andre",
+        "matched_calendar_invitee_email": "andre@rethoric.com"
+      },
+      "text": "Yo, back.",
+      "timestamp": "01:05:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yo, yo.",
+      "timestamp": "01:05:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yo, I don't know why I can't hear you.",
+      "timestamp": "01:05:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "you.",
+      "timestamp": "01:05:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "01:05:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "01:05:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "01:05:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Thank",
+      "timestamp": "01:05:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And my camera is not working now.",
+      "timestamp": "01:06:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Now I think I can hear you.",
+      "timestamp": "01:06:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Can you repeat what you said?",
+      "timestamp": "01:06:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Oh, I couldn't hear you, but now I can.",
+      "timestamp": "01:06:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Oh, yeah, I was saying that I thought I had to leave, but I have one hour still.",
+      "timestamp": "01:06:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Okay.",
+      "timestamp": "01:06:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, yeah, I mean, so we were saying called outreach, right?",
+      "timestamp": "01:06:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "In this case, to have something more tangible to do will be, okay, let's continue by using BotDoc, but then...",
+      "timestamp": "01:06:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Let's, because we're going to have it two ways.",
+      "timestamp": "01:07:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know, like, again, thinking out loud.",
+      "timestamp": "01:07:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "We source people from Apollo.",
+      "timestamp": "01:07:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We have one list that is running in Vado.",
+      "timestamp": "01:07:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The other list, we manually go to each profile and check and manually send the personalized messages.",
+      "timestamp": "01:07:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Or, and I don't know if it's better or not.",
+      "timestamp": "01:07:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Let's say, let's run everything on a bot.campaign without any messaging, just connection requests.",
+      "timestamp": "01:07:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And after a couple of days, we look at the ones that they have connected with, that we have connected with.",
+      "timestamp": "01:07:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And from those, because now they're a connection, we can send out the personalized message.",
+      "timestamp": "01:07:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I don't know if it's better because probably they, they saw.",
+      "timestamp": "01:07:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Edo's profile when accepting the connection or something, they might have a notion on who he is.",
+      "timestamp": "01:08:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe that could be even, like, better.",
+      "timestamp": "01:08:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know.",
+      "timestamp": "01:08:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:08:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "This, we should, they'll see the banner as well.",
+      "timestamp": "01:08:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So they'll see that we worked with some big companies.",
+      "timestamp": "01:08:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So they'll get the context.",
+      "timestamp": "01:08:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "They'll know what we do.",
+      "timestamp": "01:08:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And then, like, a day or two later, we reach out to them, giving them some piece of advice that they can implement.",
+      "timestamp": "01:08:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Also, offering a free profile LinkedIn strategy audit.",
+      "timestamp": "01:08:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And then, we do that from Edu's profile because of the network.",
+      "timestamp": "01:08:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "And we also, simultaneously, run the, like, we should create, like, a very curated list of people who should spend the in-mail credits.",
+      "timestamp": "01:08:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I mean, it's probably the same thing.",
+      "timestamp": "01:10:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Maybe what changes is where we source the leads from.",
+      "timestamp": "01:10:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I don't know if I can do it now, but using perplexity, I think that now you can schedule tasks, I mean, you could do it before on ChatGPT and stuff, but I think that perplexity has a better way to do some research.",
+      "timestamp": "01:10:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I'm probably just asking for it to every new week.",
+      "timestamp": "01:10:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So it was the startups who raised over $5 million or something.",
+      "timestamp": "01:10:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So each week we have the newest ones list and they're, I don't the press release.",
+      "timestamp": "01:10:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "We just find them on LinkedIn, and again, we send that personalized messaging asking if they want a free audit, if they need help, or even with OpenClaw, I think that OpenClaw can handle that for editing, like doing research every certain amount of time, and getting the newest startups that have just raised.",
+      "timestamp": "01:11:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, yeah, yeah, for sure.",
+      "timestamp": "01:11:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think it's easy for you to do.",
+      "timestamp": "01:11:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:11:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:11:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Are we, so, we're just using clay to do the enrichments right now, right?",
+      "timestamp": "01:11:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "We're not doing anything else with it.",
+      "timestamp": "01:11:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "No.",
+      "timestamp": "01:11:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Are we able to become a clay partner?",
+      "timestamp": "01:11:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Just by doing it?",
+      "timestamp": "01:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Not sure.",
+      "timestamp": "01:12:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Because I don't know if you remember, they said that first we need to check the thing, the skill thing, the course they have there, and also do it or work with another company or client.",
+      "timestamp": "01:12:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So that's the thing.",
+      "timestamp": "01:12:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, need case studies, right?",
+      "timestamp": "01:12:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, case studies.",
+      "timestamp": "01:12:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And so I guess if they were delivering results and using clay, probably that's the thing.",
+      "timestamp": "01:12:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "What I was thinking is that something we could do, it's, wait, there's another rhetoric note, care, trying to join.",
+      "timestamp": "01:12:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Well, that makes sense.",
+      "timestamp": "01:12:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I know.",
+      "timestamp": "01:12:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, do it.",
+      "timestamp": "01:12:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "01:12:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Well, yeah.",
+      "timestamp": "01:12:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, we're only saying things on how resource leads, and the only different thing that we will do is sending manual messages, right?",
+      "timestamp": "01:14:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Okay.",
+      "timestamp": "01:14:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, and for people who do respond, we need to record the audience.",
+      "timestamp": "01:14:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, but I can do it.",
+      "timestamp": "01:14:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "If I do, if doesn't have time or doesn't want to do it, I'm able to do that.",
+      "timestamp": "01:14:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, I mean, I can help you with sourcing the leads, trying to see if the five leads sourcing thing does really work.",
+      "timestamp": "01:14:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, just get the list of people we see.",
+      "timestamp": "01:14:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "01:14:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, so it'll be hard for AI to message them with the personalized message, I think that's something that Clay offers, that based now with all the information that you have, we can create the messaging, but it's more prepared for, for email, but I mean, I guess we can do the same thing, if we create a template or something, we just have delete, and what's the best messaging we can use, using the same.",
+      "timestamp": "01:15:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The message will depend on what they posted.",
+      "timestamp": "01:15:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:15:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "That's the thing, the agent should be able to read their posts.",
+      "timestamp": "01:15:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, with the same profile post scraper that I already use, scrape their two latest posts..оля Same thing.",
+      "timestamp": "01:15:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Same The been",
+      "timestamp": "01:15:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And create something like that.",
+      "timestamp": "01:16:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, I was looking at one thing.",
+      "timestamp": "01:16:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "what if it's an announcement?",
+      "timestamp": "01:16:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Like, it should be like a proper content post for the message to be relevant.",
+      "timestamp": "01:16:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, yeah, yeah.",
+      "timestamp": "01:16:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I mean, we'll need to add those guardrails.",
+      "timestamp": "01:16:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, if it's an announcement, do not create anything.",
+      "timestamp": "01:16:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Just tell us that, hey, his latest post is just this.",
+      "timestamp": "01:16:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And that's it.",
+      "timestamp": "01:16:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "01:16:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "mean, it's possible.",
+      "timestamp": "01:16:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "But I was thinking.",
+      "timestamp": "01:16:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Because I just remember.",
+      "timestamp": "01:16:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I was reading one LinkedIn post of someone that said that.",
+      "timestamp": "01:16:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, hey, this guy apparently personalized message me.",
+      "timestamp": "01:16:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I know it's AI because this post, what I said, it was something like, oh, I don't remember now.",
+      "timestamp": "01:16:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "The guy said that he was.",
+      "timestamp": "01:16:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So New York City, and if someone wanted to connect, that he was there.",
+      "timestamp": "01:17:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And the guy sent the messaging, the message, and he was like, lol, I forgot about to remove the scheduling of that thing.",
+      "timestamp": "01:17:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "I'm not in New York City right now.",
+      "timestamp": "01:17:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "And I don't know what other thing the message said, that it was pretty obvious that it was based on the post, you know.",
+      "timestamp": "01:17:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "So, I mean, that was a funny thing.",
+      "timestamp": "01:17:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "But in this case, I mean, I don't know, we just need to test it.",
+      "timestamp": "01:17:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Let's see if that does really work.",
+      "timestamp": "01:17:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think the risky thing here is that if the AI ends up saying some , then it's gonna take a hit on Edu's reputation.",
+      "timestamp": "01:17:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah.",
+      "timestamp": "01:17:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "So we need to make sure that the AI really is able to...",
+      "timestamp": "01:17:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, that's why I was saying, like, what we can automate is not the process of sending the messaging, but the lead sourcing plus the creation of the initial message, and based on, and even scoring, and based on what we have, now we decide if we send, copy that message, we send it, or if we create something from scratch.",
+      "timestamp": "01:18:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Like, don't know, imagine having a dashboard where, hey, these are the leads that are already scored, plus here are the messages that I have, the two maybe different messages that I have created based on him, and you can copy it and click on a button that it redirects you to their profile, so you can send a message to them.",
+      "timestamp": "01:18:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "That's pretty much it, if you need to adjust manually, we adjust it, and send it.",
+      "timestamp": "01:18:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, I think it makes sense.",
+      "timestamp": "01:19:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "I think we should give Adul the context because his AI isn't going to be able to just create a workflow based on what we said, I think.",
+      "timestamp": "01:19:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Let's see.",
+      "timestamp": "01:19:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Okay.",
+      "timestamp": "01:19:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Okay.",
+      "timestamp": "01:19:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, I think that's what we should start doing.",
+      "timestamp": "01:19:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Yeah, for sure.",
+      "timestamp": "01:19:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Messaging even more.",
+      "timestamp": "01:19:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, and be consistent.",
+      "timestamp": "01:19:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Nice stop.",
+      "timestamp": "01:19:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yep.",
+      "timestamp": "01:19:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "01:19:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "man.",
+      "timestamp": "01:19:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "If you need anything else, just let me know.",
+      "timestamp": "01:19:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, same.",
+      "timestamp": "01:19:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Nice, so we'll talk soon.",
+      "timestamp": "01:20:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Yeah, take care.",
+      "timestamp": "01:20:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": "carlos@rethoric.com"
+      },
+      "text": "You too, bye-bye.",
+      "timestamp": "01:20:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Andre Topini",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Bye.",
+      "timestamp": "01:20:06"
+    }
+  ],
+  "transcript_language": "en",
+  "url": "https://fathom.video/calls/580699989"
+}

@@ -1,0 +1,892 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "marcoopodesta@gmail.com",
+      "email_domain": "gmail.com",
+      "is_external": true,
+      "matched_speaker_display_name": "Marco Podesta",
+      "name": "marcoopodesta@gmail.com"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "one_or_more_external",
+  "created_at": "2026-02-25T20:44:38Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "## Meeting Purpose\n\n[Verify the AWS account for the Rhetoric dev environment.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=169.0)\n\n## Key Takeaways\n\n  - [**AWS Verification Blocked:** The verification process for the `dev@rethoric.com` account is blocked, as it requires a credit card to complete registration.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=450.0)\n  - [**MFA Decision:** Multi-Factor Authentication (MFA) was skipped to avoid tying the shared account to a single user's device, ensuring team access.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=377.0)\n  - [**Development Update:** Marco is focused on resolving voice-related issues to deliver current features by Friday.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=603.0)\n  - [**AI Automation Brainstorm:** The team discussed using new AI tools (Perplexity, Cloud Code) to automate workflows like financial analysis and lead generation.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=32.0)\n\n## Topics\n\n### AWS Account Verification\n\n  - [The team followed Marco's guide to verify the `dev@rethoric.com` account, which is the root user for the Rhetoric AWS environment.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=260.0)\n  - [**Process Steps:**](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=260.0)\n    1.  [Log into the `dev@rethoric.com` Gmail account.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=260.0)\n    2.  [Access the AWS console via the root user login.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=327.0)\n    3.  [Search for and select Amazon Simple Email Service (SES).](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=310.0)\n  - [**Blocker:** The process is blocked at the \"Complete Your AWS Registration\" step, which requires a credit card.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=450.0)\n      - [**Rationale:** This is a standard AWS security measure to confirm identity and prevent abuse.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=450.0)\n      - [**Action:** Eduardo will provide the card details to proceed.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=450.0)\n\n### Development Status\n\n  - [Marco reported that current development is focused on resolving voice-related issues.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=603.0)\n  - [**Goal:** Deliver all current features with correct functionality by Friday.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=630.0)\n\n### AI Automation Brainstorm\n\n  - [Carlos shared ideas for using new AI tools to automate business workflows.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=32.0)\n  - [**Perplexity (Pro/Max Tiers):**](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=43.0)\n      - [**Capability:** Schedule tasks with computer access (e.g., browse the web, analyze data).](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=43.0)\n      - [**Use Cases:**](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=63.0)\n          - [Automated financial analysis of stocks (e.g., NVIDIA).](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=43.0)\n          - [Weekly summaries of companies that raised capital → for sales outreach.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=83.0)\n  - [**Cloud Code:**](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=100.0)\n      - [**Capability:** Remote monitoring and control from a phone.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=100.0)\n      - [**Status:** Carlos's account is currently blocked (\"Remote Control is not enabled\").](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=100.0)\n\n## Next Steps\n\n  - [**Eduardo:** Provide credit card details to complete AWS registration.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=450.0)\n  - [**Marco:** Resolve voice-related issues to deliver current features by Friday.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=603.0)\n  - [**Marco:** Schedule a follow-up meeting for Friday to review the delivery.](https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD?tab=summary&timestamp=630.0)\n",
+    "template_name": "General"
+  },
+  "meeting_title": "30 Min Meeting between Eduardo Mussali and Marco Podesta",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-25T20:44:31Z",
+  "recording_id": 125414542,
+  "recording_start_time": "2026-02-25T20:33:13Z",
+  "scheduled_end_time": "2026-02-25T21:00:00Z",
+  "scheduled_start_time": "2026-02-25T20:30:00Z",
+  "share_url": "https://fathom.video/share/APgvYEoAksiEuqzgWAygKqVbXvJo1esD",
+  "title": "30 Min Meeting between Marco Podesta",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Poder hacer, o ponerle como un Chrome Job, o sea, ya Scheduling Task, directo en el Cowork.",
+      "timestamp": "00:00:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Ah, sí?",
+      "timestamp": "00:00:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Sí, entonces ya dije, no, pues ya con esta alarme, a ver si sí le pongo que cada lunes ya tenga listo en la carpeta los archivos de Shield y ver si ya casi, casi en piloto automático.",
+      "timestamp": "00:00:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y de hecho, maravilloso.",
+      "timestamp": "00:00:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Sí, también, es que era lo que estaba ahorita viendo para justo ver en qué workflows poder empezar a ver lo de mismo go to market y así.",
+      "timestamp": "00:00:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y ahora también ProPlexity acaba de sacar con, bueno, o sea, está solo para los pro, que diga, para los max y después a los pro.",
+      "timestamp": "00:00:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Este, como que un tipo Open Club, porque no es Open Club, pero ya como con más...",
+      "timestamp": "00:00:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Capacidades de computadora y así.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y decirle como que igual, Schedule, o sea, cada lunes, revisa el stock de NVIDIA y compara esto y el otro y entrega un archivo ya en Excel con todo el análisis financiero o así.",
+      "timestamp": "00:01:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Entonces también como que el Scheduling y aparte el uso de computadora.",
+      "timestamp": "00:01:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y ahí estaba, por ejemplo, pensando de que igual, o sea, cada semana o cada ciertos días, un summary de las empresas que levantaron capital o algo por el estilo.",
+      "timestamp": "00:01:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Estaría súper, sí.",
+      "timestamp": "00:01:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Para el outreach, ¿no?",
+      "timestamp": "00:01:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:01:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y también que ahora Cloud Code ya metió en remoto, o sea, desde el teléfono, como que ya dejar la computadora ahí y si vas, sea, nada más vas monitoreando a la gente y le mandas el mensaje y todo.",
+      "timestamp": "00:01:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Y ahorita lo quise probar, pero...",
+      "timestamp": "00:01:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Dice que está deshabilitado para el, para el, ¿cómo que dice?",
+      "timestamp": "00:02:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Remote Control is not enabled, contact your administrator, pero estaría interesante ver, ir viendo esto.",
+      "timestamp": "00:02:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:02:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Órale.",
+      "timestamp": "00:02:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Qué interesante la pelea.",
+      "timestamp": "00:02:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Sí, a veces todo el mundo, es lo que estoy viendo, sea, literal estaba de que buscando qué más ir agregando.",
+      "timestamp": "00:02:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Y que van saliendo estos updates.",
+      "timestamp": "00:02:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Interesante.",
+      "timestamp": "00:02:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Qué hubo, Marco?",
+      "timestamp": "00:02:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "¿Qué onda?",
+      "timestamp": "00:02:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "onda?",
+      "timestamp": "00:02:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "¿Todo bien?",
+      "timestamp": "00:02:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "¿Todo bien?",
+      "timestamp": "00:02:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, todo bien.",
+      "timestamp": "00:02:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pero bueno, pues a ver, démosle.",
+      "timestamp": "00:02:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Pues va, pues hace unos días mandé un documento de los steps para la verificación de AWS.",
+      "timestamp": "00:02:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Si quieren podemos continuar.",
+      "timestamp": "00:02:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:02:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Ok, a ver, entonces comparto mi pantalla.",
+      "timestamp": "00:03:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "A ver, entonces, ¿quieres que abra ese documento o tú me vas diciendo o cómo le hacemos?",
+      "timestamp": "00:03:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Si puedes abrirlo ya que ahí están ciertos, ciertos URLs y contraseñas que ya vienen escritas ahí.",
+      "timestamp": "00:03:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Ahí, Wiley, lo que decías en el documento, Marco, que mejor hacerlo desde el navegador en incógnito, ¿no?",
+      "timestamp": "00:03:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Sí, sí.",
+      "timestamp": "00:03:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "¿Por qué?",
+      "timestamp": "00:03:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Vas a entrar en una cuenta.",
+      "timestamp": "00:03:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "O sea, si quieres lo puedes hacer ahí, más, es una cuenta de Gmail separada la que tienes ahí.",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "O sea, como es con el, o sea, la cuenta de Google, el login.",
+      "timestamp": "00:04:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok, bueno, ver, ya está acá.",
+      "timestamp": "00:04:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Pues si puedes empezar entrando por Gmail.",
+      "timestamp": "00:04:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "La contraseña es RhetoricDev123%.",
+      "timestamp": "00:04:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Y de ahí, la consola de AWS.",
+      "timestamp": "00:04:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "También en, a ver.",
+      "timestamp": "00:04:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:04:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Espera, se está presentando nada más la tabla.",
+      "timestamp": "00:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:05:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Entonces ahí donde dice Search, se puede buscar SES.",
+      "timestamp": "00:05:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Esa que te aparece, Amazon Simple Limit Service.",
+      "timestamp": "00:05:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Y le das Get Started with Amazon SES.",
+      "timestamp": "00:05:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Abajito te va a aparecer uno de, Sign in using root user email.",
+      "timestamp": "00:05:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Yes, dev arroba retoric.com Next, la misma contraseña, retoric dev 123% Thank you.",
+      "timestamp": "00:05:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Thank Thank you.",
+      "timestamp": "00:05:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:05:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "En Gmail.",
+      "timestamp": "00:06:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "El primerito que te aparece.",
+      "timestamp": "00:06:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Justo.",
+      "timestamp": "00:06:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Ahí pide un factor de autenticación que si quieres puede ser a través de tu aplicación o se puede saltar y vemos cómo hacerlo después.",
+      "timestamp": "00:06:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ahí está, hace un segundo.",
+      "timestamp": "00:06:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Lo hago en el de Google.",
+      "timestamp": "00:06:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Sí, por favor.",
+      "timestamp": "00:06:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "El de Google, de dev, de retórica.",
+      "timestamp": "00:06:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ah, pues estoy pensando si poner el passkey en, es que siempre uso todos mis passwords en iCloud Keychain.",
+      "timestamp": "00:06:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Bueno, ahí la cosa a considerar es que...",
+      "timestamp": "00:06:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Entonces, cada vez que yo tenga que acceder a AWS, voy a tener que ver eso.",
+      "timestamp": "00:07:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Bueno.",
+      "timestamp": "00:07:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "No sé si por mientras me quieras saltar o guardar en la cuenta de dev arroba retórica.",
+      "timestamp": "00:07:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O sea, pues no te puedo crear a este otro usuario.",
+      "timestamp": "00:07:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "O bueno, ya, luego.",
+      "timestamp": "00:07:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Entonces, ¿qué?",
+      "timestamp": "00:07:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "¿Skip for now?",
+      "timestamp": "00:07:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "No.",
+      "timestamp": "00:07:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Y Complete Your AWS Registration, básicamente te va a pedir registrar una cuenta de tarjeta, te va a enviar un dólar, te va a quitar un dólar.",
+      "timestamp": "00:07:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Aquí no sé si quieras dejar de compartir o como gustes.",
+      "timestamp": "00:07:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Vale.",
+      "timestamp": "00:07:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Ya igual, Security Code está aquí.",
+      "timestamp": "00:07:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Month and Expiration, ¿por qué no se llenó eso?",
+      "timestamp": "00:07:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:08:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:08:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Bueno, pues digo que ya no.",
+      "timestamp": "00:10:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí, es que dijo que quería aprovechar.",
+      "timestamp": "00:10:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Es pura resolución de voz.",
+      "timestamp": "00:10:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Hola.",
+      "timestamp": "00:10:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Creo que hay un marco.",
+      "timestamp": "00:10:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Sí, se me entraba mucho.",
+      "timestamp": "00:10:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Sí, de la parte de desarrollo es pura resolución de voz en este momento.",
+      "timestamp": "00:10:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Ok.",
+      "timestamp": "00:10:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Voy a agendar para el viernes.",
+      "timestamp": "00:10:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Features actuales con funcionamiento correcto y viernes ya poder hacer la entrega.",
+      "timestamp": "00:10:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Bueno, escuché que agendas para el viernes y hablamos, ¿no?",
+      "timestamp": "00:10:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sí.",
+      "timestamp": "00:10:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Órale.",
+      "timestamp": "00:10:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Sale.",
+      "timestamp": "00:10:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Marco Podesta",
+        "matched_calendar_invitee_email": "marcoopodesta@gmail.com"
+      },
+      "text": "Gracias.",
+      "timestamp": "00:10:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Gracias.",
+      "timestamp": "00:10:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Carlos Domínguez",
+        "matched_calendar_invitee_email": null
+      },
+      "text": "Bye.",
+      "timestamp": "00:10:58"
+    }
+  ],
+  "transcript_language": "es",
+  "url": "https://fathom.video/calls/579834163"
+}

@@ -1,0 +1,2860 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "oleks@headway.inc",
+      "email_domain": "headway.inc",
+      "is_external": true,
+      "matched_speaker_display_name": "Oleksandr Yaroshenko",
+      "name": "oleks@headway.inc"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "one_or_more_external",
+  "created_at": "2026-02-26T18:28:49Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "## Deal Information\n\n### Prospect\n\n  - [Oleksandr Yaroshenko, Chief of Staff at Headway (fast-growing edtech with 5 products; \\>170M downloads across 170+ countries; \\~550 employees distributed across Spain, Ukraine, Cyprus, Poland). Leads Investor Relations; active on LinkedIn with \\~4k followers.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=219.0)\n\n### Call Context\n\n  - [Intro call (referred by Carlos from rethoric). Headway exploring C‑suite-in-the-spotlight program via LinkedIn to strengthen employer brand, general brand awareness, and showcase leadership expertise. Internal comms team is under-resourced; Oleksandr currently self-writes posts.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=45.0)\n\n### Seats\n\n  - [Initial: 1 profile (Oleksandr) to pilot.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=376.0)\n  - [Target expansion: broad C‑suite and leadership cohort: CMO, CTO, COO, CPO, Head of People, and Oleksandr. Potentially CEO later.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=154.0)\n\n### Budget\n\n  - [Not explicitly stated. Prospect sought pricing tiers and discount structure. Acknowledged 3.5k/month per profile and discounting for volume; evaluating ROI vs hiring/employer branding goals. Interested in annual prepay discount.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1002.0)\n\n### Current State\n\n  - [In-house comms team manages CEO presence; Oleksandr writes his own content, posts somewhat regularly. Limited bandwidth for graphics/data visuals/reports. No external ghostwriting cadence or analytics benchmarking.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=97.0)\n\n### Pain Points\n\n  - [Under-resourced comms team can’t scale consistent executive content.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=97.0)\n  - [Oleksandr lacks time for high-quality visuals/assets and deeper content production while running IR.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1920.0)\n  - [Need to balance content for multiple goals (employer brand, investor interest, eventual B2B demand gen) without sounding self-promotional or AI-generated.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=462.0)\n  - [Unclear performance benchmarks and algorithm strategy; inconsistent results after posting pauses.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2340.0)\n\n### Specific Requirements\n\n  - [Consistency via a streamlined process (monthly interviews feeding 3–5 posts/week).](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=411.0)\n  - [Strategy mix: growth (distribution), authority (industry POV), and selective conversion (talent applications via UTMs; investor intro calls).](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=462.0)\n  - [Performance tracking/benchmarks vs large dataset (percentiles by follower count) with monthly KPI summaries.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=583.0)\n  - [Warm lead extraction from post engagers for future B2B conversion when relevant.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=855.0)\n  - [Editorial quality: strong hooks, non-AI voice, persona-aligned narratives (Oleksandr’s lens: advice to earlier-stage founders that also signals to investors).](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=161.0)\n  - [Visual guidance: prefers graphics/templates but open to evidence-based approach on what currently performs (contextual photos + text).](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1512.0)\n\n### Tech Stack\n\n  - [Not discussed in detail. Mentioned capability/interest in UTM tracking for recruiting and potential CRM/sales team handoff for warm outreach.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=493.0)\n\n### Objections\n\n  - [Visual production: Oleksandr expected vendor-created graphics/templates aligned to brand. Edu clarified graphics aren’t core because they underperform vs contextual photos/text; exception for one-off announcements. Objection partially addressed by data/examples and process notes.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1512.0)\n  - [ROI for non-demand-gen use case: Concern over cost vs visuals he could DIY. Addressed by positioning value in strategy, consistency, hooks, benchmarking, and multi-profile program impact; still to validate via pilot outcomes.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1920.0)\n\n### Other Solutions Under Evaluation\n\n  - [None named. Oleksandr referenced admired profiles (e.g., Andrew Young; Aleona) as quality bar, not vendors.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1789.0)\n\n### Timeline\n\n  - [Pilot now with 1 profile to “easier way into the organization,” then expand to more accounts/leaders.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=376.0)\n  - [Headway’s B2B product MVP mid-March; launch likely April. That team could become a client for demand gen focus soon after.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1086.0)\n\n### Decision Maker\n\n  - [Not explicitly defined. Oleksandr appears primary sponsor for pilot; broader rollout may involve CMO/leadership and potentially CEO.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=154.0)\n\n### Procurement Process\n\n  - [Not detailed. Oleksandr asked about minimum term and prepay discounts, implying internal approval contingent on pricing/ROI and possibly annual prepay consideration.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2232.0)\n\n### Next steps\n\n  - [Eduardo to send formal proposal with:](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2223.0)\n      - [Tiered pricing (3.5k per profile; 3k at 2 seats; 2.8k at 3+)](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1441.0)\n      - [Posting cadence options (3x/week base; up to daily with higher tier)](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=431.0)\n      - [Interview cadence (60–90 mins/month)](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=431.0)\n      - [Monthly KPI summary methodology](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=583.0)\n      - [Annual prepay option with 20% discount](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2232.0)\n  - [Oleksandr to review internally, align on pilot profile (self) and timing relative to B2B launch.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2223.0)\n  - [If approved: schedule first monthly interview; define content strategy pillars (growth/authority/conversion split), target audiences (talent, investors, future B2B ICP), and photo asset plan.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2223.0)\n\n## Q\\&A\n\n### Questions We Asked\n\n#### Who on the C‑suite would participate?\n\n  - [Oleksandr confirmed initial seat for himself; future expansion to CMO, CTO, COO, CPO, Head of People; CEO currently led by comms.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=154.0)\n\n#### Company profile and scale (team size, funding, geography)?\n\n  - [Headway scaled bootstrapped until 2025; now \\~550 people across ES/UA/CY/PL; 170M+ downloads in 170+ countries; 5 edtech products.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=219.0)\n\n#### Goals for content (demand gen vs brand)?\n\n  - [Primary: employer branding and general brand awareness; authority building. Secondary conversions: recruiting via UTMs and investor interest; later B2B demand gen.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=462.0)\n\n#### Visual/content collaboration and what performs on LinkedIn?\n\n  - [Edu outlined current best performers: contextual photos + strong text or text-only; carousels/infographics now underperform. Rethoric doesn’t routinely create graphics; will guide on contextual images and can produce occasional announcement graphics.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1512.0)\n\n#### Pricing, tiers, discounts?\n\n  - [Edu shared: 3.5k/mo/profile (3x/week, 1 monthly interview); 5k/10k tiers for added complexity (newsletters, 7x/week); volume discounts (2 seats = 3k each; 3+ = 2.8k each); annual prepay 20% discount.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1441.0)\n\n#### Expected outcomes/benchmarks?\n\n  - [Edu: can likely double profile visits in first 2 months; grow Oleksandr from \\~4k to \\>10k followers in \\~12 months with consistency; long-term large-scale growth (e.g., 150k) requires 3+ years at 5x/week and tight content-market fit.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2361.0)\n\n### Questions They Asked\n\n#### Tiers/pricing and fit given limited direct conversion today?\n\n  - [Edu positioned value in awareness/employer brand + investor interest; shared tiered pricing and volume discounts; suggested warm outreach from engager extraction for future B2B.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1002.0)\n\n#### Contract term and prepayment discounts?\n\n  - [Annual prepay available with 20% discount; month-to-month otherwise. Proposal will include both options.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=2232.0)\n\n#### Content plan approval, ability to make changes, and who handles visuals?\n\n  - [Collaborative process: monthly interview feeds drafts; client reviews/edits in platform; Rethoric specifies needed contextual images in notes; client supplies photos. Occasional one-off graphics for announcements possible. Strategy adjusts to performance.](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1512.0)\n\n#### Examples of B2C LinkedIn strategy and hiring-focused executive branding?\n\n  - [Edu shared sample B2C profile using frequent viral CTAs; and Checkr CTO example focused on engineering thought leadership to drive hiring, with light conversion cadence (e.g., hiring posts biweekly).](https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv?tab=summary&timestamp=1157.0)\n",
+    "template_name": "Sales"
+  },
+  "meeting_title": "Rethoric intro call: Edu and Oleksandr Yaroshenko",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-26T18:28:37Z",
+  "recording_id": 125704909,
+  "recording_start_time": "2026-02-26T17:45:46Z",
+  "scheduled_end_time": "2026-02-26T18:05:00Z",
+  "scheduled_start_time": "2026-02-26T17:45:00Z",
+  "share_url": "https://fathom.video/share/XzkqketH-DRpsJMFaU7Bqy_7s8_LMGPv",
+  "title": "Rethoric intro call: Edu and Oleksandr Yaroshenko",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Hi, hi, hi.",
+      "timestamp": "00:00:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "How are you?",
+      "timestamp": "00:00:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "How are you?",
+      "timestamp": "00:00:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I'm good, I'm good.",
+      "timestamp": "00:00:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "The sun is shining, the weather is nice in Madrid.",
+      "timestamp": "00:00:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "How are you?",
+      "timestamp": "00:00:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I'm good, I'm good.",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That always happens to me.",
+      "timestamp": "00:00:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I say, how are you and the other person at the same time.",
+      "timestamp": "00:00:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "How are you?",
+      "timestamp": "00:00:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Are you in Ukraine or where are you calling from?",
+      "timestamp": "00:00:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "No, I'm in Madrid.",
+      "timestamp": "00:00:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "We have an office in Madrid as well.",
+      "timestamp": "00:00:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Oh, nice, nice.",
+      "timestamp": "00:00:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Do you speak Spanish?",
+      "timestamp": "00:00:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Un poquito.",
+      "timestamp": "00:00:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Muy bien, muy bien.",
+      "timestamp": "00:00:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Well, great meeting you, Alexander.",
+      "timestamp": "00:00:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm Edo, I'm the founder of Rhetoric.",
+      "timestamp": "00:00:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I think that you were in contact with Carlos from my team, right?",
+      "timestamp": "00:00:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And I guess that the idea here is to put more content out there for the CEO of Headway or what's the plan?",
+      "timestamp": "00:00:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically, basically, we have an idea that...",
+      "timestamp": "00:00:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically C-Suite in the Spotlight via LinkedIn content and having some sort of title writers, ghostwriters for our C-Suite is a good idea in many terms.",
+      "timestamp": "00:01:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "It's mainly not for demand generation, but rather for correct employer brand as well as just general awareness of our company as well as expertise in the field of each of the members is a good thing.",
+      "timestamp": "00:01:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And we have already like our own internal communications team, yet as a fast growing company, that's like a typical pain that you are under-resourced and our communications team is no acceptance to that.",
+      "timestamp": "00:01:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So I am, for example, writing my own content as well as like while CO is...",
+      "timestamp": "00:01:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Being led by our communications team mostly, so from this perspective, VC demands value in just putting the C-suite and just leadership of the team to the LinkedIn media in general, with varying type of content.",
+      "timestamp": "00:02:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And so basically to have this new media outlet that we run.",
+      "timestamp": "00:02:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Got it, got it.",
+      "timestamp": "00:02:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so you're interested in doing this for the C-suite, like who specifically on the C-suite?",
+      "timestamp": "00:02:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So it will be me, chief of staff, while I'm running mostly investor relations.",
+      "timestamp": "00:02:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And the way I positioned my content is that I basically target entrepreneurs and give advice to probably an earlier stage entrepreneurs.",
+      "timestamp": "00:02:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "However, as",
+      "timestamp": "00:02:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "The lens of the advice is such that if investors read, they would seem the thought process quite reasonable and that this company might be interesting for them.",
+      "timestamp": "00:03:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So this is like my personal lens that I developed for myself and that I tried to use.",
+      "timestamp": "00:03:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But for the rest, it would be CMO, CTO, COO, as well as CPO, if I didn't mention.",
+      "timestamp": "00:03:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically, everyone as well as head of people.",
+      "timestamp": "00:03:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So we don't have like a chief HR officer, but we have head of people, which is on the same level.",
+      "timestamp": "00:03:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:03:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:03:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Got it.",
+      "timestamp": "00:03:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Can you tell me a little bit more about the company?",
+      "timestamp": "00:03:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like how many people is in the company?",
+      "timestamp": "00:03:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I think it's a bootstrap business or is it VC backed or how is it?",
+      "timestamp": "00:03:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So there is like no quick answer to that.",
+      "timestamp": "00:03:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But overall, we were bootstrapped until 2025 and the company has grown from...",
+      "timestamp": "00:03:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "zero to 550 people.",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "It was rooted in Ukraine, but right now it's a global company with more than 170 million downloads over 170 countries.",
+      "timestamp": "00:04:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "We have five different products in the educational technology area, and our mission is to help people grow via redefining the life of learning.",
+      "timestamp": "00:04:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So the company, yes, as I mentioned, it's 550 people right now that are distributed across Spain, Ukraine, Cyprus, and Poland.",
+      "timestamp": "00:04:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Got it.",
+      "timestamp": "00:04:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I see.",
+      "timestamp": "00:04:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Great, great.",
+      "timestamp": "00:04:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Perfect.",
+      "timestamp": "00:04:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:04:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you said you're looking to do this for like four to five different profiles.",
+      "timestamp": "00:04:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Is that right?",
+      "timestamp": "00:04:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I'm more of a safe zone guy, and also I don't have enough time to develop graphics or create some sort of reports that you have to engage with the post to get access to, and so on.",
+      "timestamp": "00:06:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So there is definitely a big upside potential in that, and also I'm kind of disciplined about posting regularly, so as I have seen in your presentation in advance, that you have this cooperative mode, it's not like 100% on you, but rather a cooperation of efforts between two people, and I would be a good example of that because I'm already doing that, so I'm interested in that, and it could be just an easier way into the organization to talk about more accounts to lead.",
+      "timestamp": "00:06:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, yeah, totally.",
+      "timestamp": "00:06:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, so the strategy is everything.",
+      "timestamp": "00:06:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, there's two really important parts.",
+      "timestamp": "00:06:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "One of them is posting consistently.",
+      "timestamp": "00:06:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Which is the hardest part, to be honest.",
+      "timestamp": "00:07:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's very difficult if you try to come up with a new idea, block some time to write the content, all that.",
+      "timestamp": "00:07:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So we make all that very easy by doing a monthly interview.",
+      "timestamp": "00:07:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's a one-hour call.",
+      "timestamp": "00:07:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And from that call, we can extract around 12 different topics.",
+      "timestamp": "00:07:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So we can post three times per week.",
+      "timestamp": "00:07:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you want to post more often, we can do that by posting five times a week.",
+      "timestamp": "00:07:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But we would need like 90-minute sessions, one hour and a half every month.",
+      "timestamp": "00:07:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that tackles the main problem, which is consistency.",
+      "timestamp": "00:07:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "From there, we need to think about strategy.",
+      "timestamp": "00:07:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And for strategy, it depends on what are your goals.",
+      "timestamp": "00:07:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you already told me that it's not demand generation or anything like that.",
+      "timestamp": "00:07:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's more like brand awareness, employee advocacy, and that type of stuff.",
+      "timestamp": "00:07:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So...",
+      "timestamp": "00:07:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So...",
+      "timestamp": "00:07:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "There's three types of content.",
+      "timestamp": "00:08:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Growth content, authority, content, and conversion.",
+      "timestamp": "00:08:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So in this case, conversion is the least relevant.",
+      "timestamp": "00:08:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The first two are the most important ones.",
+      "timestamp": "00:08:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "It actually could be a conversion, but in each way.",
+      "timestamp": "00:08:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically, in my specific case, it could be two things that we could be optimizing for.",
+      "timestamp": "00:08:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "One could be getting recommendations of people or getting people who apply via, for example, special UTM mark to certain job openings via my posts.",
+      "timestamp": "00:08:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But another one could be, for example, getting investors interested in us and getting, like, some sort of a kindly invite to get an intro call with me.",
+      "timestamp": "00:08:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But also for me to sort who is getting in, who is not, who is getting some sort of an auto-reply that you are just...",
+      "timestamp": "00:08:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Not our interest zone, but also cert, probably just a cert that came up to my mind would be, yeah, I mean, it just came and slipped.",
+      "timestamp": "00:09:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay, whatever.",
+      "timestamp": "00:09:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "If I recall, I will have them.",
+      "timestamp": "00:09:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, yeah, Because there are some options that we can track the performance of the post as well and how specific we want the audience.",
+      "timestamp": "00:09:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, yeah, yeah, yeah.",
+      "timestamp": "00:09:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, you know, growth content is usually to get more distribution, more impressions, more followers.",
+      "timestamp": "00:09:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Depending on the amount of followers, it usually correlates the amount of impressions that you're going to have.",
+      "timestamp": "00:09:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We, every month, we send a monthly report that explains, wait, it's not a monthly report, it's a monthly KPI summary because those are the most important things, comparing to 50,000 accounts.",
+      "timestamp": "00:09:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, that way, we can really understand.",
+      "timestamp": "00:09:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "let's see.",
+      "timestamp": "00:09:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "How the account is performing because the LinkedIn algorithm is private, so we really don't know exactly what is working, but we have some signs based on what other accounts are doing.",
+      "timestamp": "00:10:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So our approach is comparing the performance with 50,000 different accounts, and then we can see, based on the number of followers that you have, if the posts are getting the median in terms of impressions in the 25th percentile or in the 90th percentile or in the 1%.",
+      "timestamp": "00:10:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's how we can really understand, like, if we're going into the right direction or not in terms of impressions.",
+      "timestamp": "00:10:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's for the growth content.",
+      "timestamp": "00:10:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's, think about that as a top of funnel because you need to have a lot of impressions, lot of brand awareness, distribution.",
+      "timestamp": "00:10:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "From there,",
+      "timestamp": "00:10:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You need to start posting content that is authority, which is speaking about the industry that the company is in without speaking about the company itself, right?",
+      "timestamp": "00:11:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So just lessons, mistakes, frameworks, just to give value to other people without asking anything in return.",
+      "timestamp": "00:11:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's the most important thing.",
+      "timestamp": "00:11:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Just sharing, sharing, sharing.",
+      "timestamp": "00:11:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "When you do that, that builds trust.",
+      "timestamp": "00:11:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you build trust, people are going to be interested.",
+      "timestamp": "00:11:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And this is very important for the investors.",
+      "timestamp": "00:11:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you just share, share, share, share in a strategic way by saying, we've been growing and things, but without promoting the company, it makes them very curious.",
+      "timestamp": "00:11:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, this guy is not crying too hard, but it looks like he's doing very well.",
+      "timestamp": "00:11:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I want to know them, you know?",
+      "timestamp": "00:11:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And in the end, you have conversion, which usually...",
+      "timestamp": "00:11:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Conversion is for the end customer, which is using case studies or using things like that.",
+      "timestamp": "00:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But in your case, I don't think it makes a lot of sense because it's more like a B2C company, right?",
+      "timestamp": "00:12:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically we have mostly B2C audience right now, but eventually one of our sales modes, businesses that we are, well, business lines that we are right now working on, that is being developed by an in-house team, they will be launching, for example, B2B, as well as we have like a B2B sort of a packaging for our B2C solution.",
+      "timestamp": "00:12:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So it's like an employee benefits or there is like partnerships with Revolut across several countries.",
+      "timestamp": "00:12:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically every Revolut Ultra card holder has access to one of our products called Headway.",
+      "timestamp": "00:12:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So, and some similar things are happening across the board.",
+      "timestamp": "00:12:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So we have like more than 400 different...",
+      "timestamp": "00:12:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Like brands with whom we have B2B relations, yet most of our business is still B2C.",
+      "timestamp": "00:13:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Got it, got it.",
+      "timestamp": "00:13:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:13:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Well, in that case, that would make a lot of sense.",
+      "timestamp": "00:13:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like the thing is that in B2B usually, or like if you try to find like an ROI from organic content, it works when the average contract value is very high.",
+      "timestamp": "00:13:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And what I mean very high, more than $50,000.",
+      "timestamp": "00:13:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That way you can get one or two customers and just, you know, pay for the entire year of the service.",
+      "timestamp": "00:13:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And you get for free like all the run awareness and everything else, you know.",
+      "timestamp": "00:13:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's when it makes sense.",
+      "timestamp": "00:13:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "When it doesn't make a lot of sense is when you're selling like a 10-month subscription or something like that.",
+      "timestamp": "00:13:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Where you would have to have like thousands of people, which in that case is more like growth content, trying to go viral as much as possible and doing some tactics to extract leads, which is also something that we can do.",
+      "timestamp": "00:14:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We can get everyone that engages on each post.",
+      "timestamp": "00:14:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We can extract their LinkedIn profile.",
+      "timestamp": "00:14:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Once that we have their profile, we enrich them by having their email, their phone number, all the details about themselves and their company.",
+      "timestamp": "00:14:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And by having all of that data, we can then filter them to only keep the ones that are on your ICP.",
+      "timestamp": "00:14:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And when we have that list, we push that to your sales team so they can reach out to them.",
+      "timestamp": "00:14:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's not called outreach.",
+      "timestamp": "00:14:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's warm outreach because these are people that already know the company and already know the people in the company because they have...",
+      "timestamp": "00:14:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "been engaging with their content, but the sales team is reaching out to them.",
+      "timestamp": "00:15:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So their side, it's like, oh, what a coincidence.",
+      "timestamp": "00:15:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I've been engaging with the content of this guy.",
+      "timestamp": "00:15:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's only the sales guy reached out to me.",
+      "timestamp": "00:15:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And if they're the ICP, they're going to be naturally interested.",
+      "timestamp": "00:15:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's a strategy that works really, really well.",
+      "timestamp": "00:15:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you want to do conversion at some point.",
+      "timestamp": "00:15:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But yeah, if you try to think about this as, I mean, I know that you said initially it would be one profile, but if you think about many different profiles, the best approach is doing like on a vertical basis.",
+      "timestamp": "00:15:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So each profile based on the expertise that they have, focusing a specific vertical, a specific, because they, each one of them have a specific experience and trajectory.",
+      "timestamp": "00:15:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's really important actually, because the algorithm is built in a way that you need to be speaking about the things that you actually know and LinkedIn knows.",
+      "timestamp": "00:15:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Based on where you have been working on.",
+      "timestamp": "00:16:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, for example, if you've been working on startups for the last 10 years and suddenly you start talking about cooking, it's not going to work.",
+      "timestamp": "00:16:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like the algorithm is not going to distribute your content because he knows that you're not an experienced person in that topic.",
+      "timestamp": "00:16:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, you know, that is why it's really important to pick the right people to define the right narrative when doing these employee advocacy programs, which are, yeah.",
+      "timestamp": "00:16:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But anyways, do you have any specific questions that I can answer to you?",
+      "timestamp": "00:16:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, probably the one thing, because it's going to be very obvious.",
+      "timestamp": "00:16:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So, like the tiers and pricing of your services and how you can see it working with, for example, our not so much optimized conversions, at least at this point in time.",
+      "timestamp": "00:16:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So we could definitely calculate, for example, ROI on closed vacancies, but again, the average price for that is definitely not like 50K for us internally, least from what we were estimating in terms of having calculated the average close time and the price of a recruiter, et cetera, et cetera.",
+      "timestamp": "00:17:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "While B2B contracts are usually, like, they defer, if we can unlock the audience and basically open up, like, accounts who will buy, like, 100 different, 100 of subscriptions per account, so to say, then it might make sense because, like, on average, our subscription for B2B would be maybe, I don't know, so So",
+      "timestamp": "00:17:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "$35, I think, for a year or something like that.",
+      "timestamp": "00:18:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So we can calculate some sort of unit economy there.",
+      "timestamp": "00:18:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But again, if you're talking about primarily driving audience and awareness as a first goal, but then eventually probably we will also bring the team who is developing from grown-up B2B products and that will be released quite likely by mid-March, I think, or or maybe closer to April.",
+      "timestamp": "00:18:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So probably the MVP will be in mid-March for public testing, but the real launch may be in April.",
+      "timestamp": "00:18:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So that could be also a prospective client because for them demand generation is kind of crucial.",
+      "timestamp": "00:18:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And also they will be focusing on English-speaking markets, primarily UK, US.",
+      "timestamp": "00:18:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So most of our business is B2C in the US.",
+      "timestamp": "00:18:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So more than 50% of our revenue comes from the US.",
+      "timestamp": "00:18:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So, yeah, there is definitely a room to grow in terms of cooperation, but just to get a sense of how it works and to test the pilots, you know, what our priorities are.",
+      "timestamp": "00:19:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, yeah, yeah, totally.",
+      "timestamp": "00:19:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let me share you a profile.",
+      "timestamp": "00:19:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So here's a profile, much review, you know, this guy.",
+      "timestamp": "00:19:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I just sent it here on the messages.",
+      "timestamp": "00:19:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Just a second.",
+      "timestamp": "00:19:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "This is a very good example of someone that is selling a B2C product on LinkedIn, and the strategy is just putting viral content that has the highest probabilities on going viral.",
+      "timestamp": "00:19:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And at the end of each post, if you notice, at the end of each post...",
+      "timestamp": "00:19:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:19:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:19:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "...",
+      "timestamp": "00:19:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "As often as possible for the sake of getting as many people on the pipeline to convert, but then having the other profiles, maybe the CEO or the CMO or whoever, doing more like a thought leadership for brand advocacy, for employee engagement, or the chief of, not the chief of, head of people, you said?",
+      "timestamp": "00:21:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:21:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Do more related to how amazing is working at Headway, without saying that directly, you know, but making people excited.",
+      "timestamp": "00:21:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's how you create a strategy that connects with all of the goals that you're looking for.",
+      "timestamp": "00:21:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, I can give you an example.",
+      "timestamp": "00:21:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm not sure if you know Checkr, the background checks company.",
+      "timestamp": "00:21:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, no, I don't.",
+      "timestamp": "00:21:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "It's a huge company.",
+      "timestamp": "00:21:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "They're making one build.",
+      "timestamp": "00:21:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So here's a profile of the CTO.",
+      "timestamp": "00:22:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And the example with this guy is that he's positioning himself as a thought leader for the engineering space because the goal is to make him a very visual person in the technical space to get more engineers.",
+      "timestamp": "00:22:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Into the company.",
+      "timestamp": "00:22:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So this is an example of a strategy just for that, to hire engineers.",
+      "timestamp": "00:22:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And if you look at it, it's not like he's speaking constantly about, yeah, we're hiring engineers.",
+      "timestamp": "00:22:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But he's getting the eyeballs of engineers.",
+      "timestamp": "00:22:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You know?",
+      "timestamp": "00:22:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So the conversion in this case is maybe once every two weeks.",
+      "timestamp": "00:22:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "He puts like, we are hiring engineers, blah, blah, blah.",
+      "timestamp": "00:22:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "don't yeah, yeah.",
+      "timestamp": "00:22:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, well, in terms of pricing, our plans start at 3.5K per month, per profile, for posting three times a week, one monthly interview.",
+      "timestamp": "00:24:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And from there, we have a 5K plan and a 10K plan, depending on the complexity, if you want a newsletter, if you want to post seven times a week.",
+      "timestamp": "00:24:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And we do discounts based on the amount of people when we are managing more than one.",
+      "timestamp": "00:24:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, yeah, what would be the potential range of discounts from one to five?",
+      "timestamp": "00:24:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so it's a tiered pricing.",
+      "timestamp": "00:24:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So for one is 3.5K, for two, it goes down to 3K per profile, for three and beyond, it goes to 2.8K per profile.",
+      "timestamp": "00:24:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's like the minimum that we can manage on a per-profile basis.",
+      "timestamp": "00:25:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I see.",
+      "timestamp": "00:25:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay, I got it.",
+      "timestamp": "00:25:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So does the content plan somehow get agreed and then there could be changes to the content, also you develop the visuals, how the specifics works?",
+      "timestamp": "00:25:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yes, but it depends on what is performing well.",
+      "timestamp": "00:25:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So for example, two years ago, carousels, infographics, things like that were performing very well.",
+      "timestamp": "00:25:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Not anymore.",
+      "timestamp": "00:25:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So right now we are not doing those type of things because they are not performing well.",
+      "timestamp": "00:25:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What is performing well is pictures, like real pictures.",
+      "timestamp": "00:25:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you're saying that you're speaking, I saw your latest post that you were going to speak or use.",
+      "timestamp": "00:25:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Something about a webinar or something like that.",
+      "timestamp": "00:26:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that makes sense.",
+      "timestamp": "00:26:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, there's a picture where you appear and it adds visual context to the information of the post.",
+      "timestamp": "00:26:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Those are the ones that perform well.",
+      "timestamp": "00:26:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And the thing is that we cannot create graphics.",
+      "timestamp": "00:26:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What performs well is pictures.",
+      "timestamp": "00:26:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what we do is every time that we send the batch of content for review, we have a notes section in the platform that we use.",
+      "timestamp": "00:26:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And in the notes section, we include, please include a picture about speaking with a team or a picture doing X, Y, and Z.",
+      "timestamp": "00:26:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you just need to put the picture in there or take the picture and just add it there because that's what is working right now.",
+      "timestamp": "00:26:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:26:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:26:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically, LinkedIn has become an Instagram.",
+      "timestamp": "00:27:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "It's pictures of faces and videos.",
+      "timestamp": "00:27:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yes, but there's a difference because there's a lot of people that are starting to use LinkedIn as kind of like Instagram, which is mainly content creators, which are uploading pictures just for the sake of adding a picture to the post.",
+      "timestamp": "00:27:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And then them looking at the horizon or them like just working at the computer and someone taking a picture of them working.",
+      "timestamp": "00:27:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Those don't usually perform well.",
+      "timestamp": "00:27:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like what it really performs well is a picture that adds visual context to the information of the post.",
+      "timestamp": "00:27:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So if you're speaking about the latest off-site with the team, then add a picture with the team during the off-site.",
+      "timestamp": "00:27:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you're speaking about that, you spoke at a conference and add a picture of you speaking at that conference.",
+      "timestamp": "00:27:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Those are the ones that make sense.",
+      "timestamp": "00:28:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now, that doesn't mean that all of the posts need to have a picture because the best performing content right now is posts with an image and posts on single text-based posts, those two.",
+      "timestamp": "00:28:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it's a combination of both and LinkedIn is doing this because they know that it's not always relevant to have an image.",
+      "timestamp": "00:28:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So my point is that, yes, we generate images.",
+      "timestamp": "00:28:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "if you're announcing, you know, that you're raising, you raised us, I don't know, Series A or whatever, we could create a graphic for that because it's like more like an announcement.",
+      "timestamp": "00:28:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But we don't do that on a regular basis because that is not the type of content that is performing well, like adding an image, you know, a graphic design just for the sake of adding something to a post.",
+      "timestamp": "00:28:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:28:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:28:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Makes sense.",
+      "timestamp": "00:28:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So in this first profile, I have seen like the latest post was like about quote quote for startups and there was like some sort of different things that it could be used for as far as I got the post, but I was just briefly glancing at it.",
+      "timestamp": "00:29:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So was it like developed by you or was it developed by the guy himself or his team, whatever?",
+      "timestamp": "00:29:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Sorry, I didn't.",
+      "timestamp": "00:29:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So yeah, I looked at this post and his latest post was about quote quote for startups and basically there is some sort of a visual, which is not a picture, but like it just developed visual.",
+      "timestamp": "00:29:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So was it done by your team or was it done by him or his team?",
+      "timestamp": "00:29:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, but by his team.",
+      "timestamp": "00:29:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "By his team.",
+      "timestamp": "00:29:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:29:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I see.",
+      "timestamp": "00:29:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:29:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:29:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "There is like one profile that I can show you, which I like, there are two very good profiles that I really like.",
+      "timestamp": "00:29:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "One would be Andrew Young, if you know him.",
+      "timestamp": "00:29:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Instructing a data room, the right way to create investor materials, and to do that in a generalized way without being very too specific so that I disclose unnecessary data about the company, right?",
+      "timestamp": "00:32:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So this is like my vision of how I would approach my content, but I don't have enough resources, as of now, at least, to drive the graphic design, for example, of it, while maintaining the company's colors, templates, et cetera, et cetera.",
+      "timestamp": "00:32:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So this is why I was asking if you are developing these pictures, because without that, just posting some sort of a text, yeah, I can do it with Quote Cowork.",
+      "timestamp": "00:32:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I still do it.",
+      "timestamp": "00:32:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Maybe there is definitely an upside in that, but it doesn't cost me like 3.5K per month, right?",
+      "timestamp": "00:32:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So in my view, I should see some leap from where I am to what I could be getting.",
+      "timestamp": "00:32:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "In the services offered and partially the differentiator is obviously the strategy that is your strong aspect and to combine the growth with the authority and the conversion types of content in a right mix, but also to create sort of a content that I wouldn't be able to create myself, speaking about, for example, visuals.",
+      "timestamp": "00:33:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So I don't think that you should.",
+      "timestamp": "00:33:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let me, I mean, I'm looking at Aleona.",
+      "timestamp": "00:33:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So this is a perfect example.",
+      "timestamp": "00:33:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "If you're looking at her latest posts, you can see the last one from three hours ago.",
+      "timestamp": "00:33:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It has a carousel that has, it says, how is AI changing finance, right?",
+      "timestamp": "00:33:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:33:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that has 25 likes, right?",
+      "timestamp": "00:33:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:33:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "The one of yesterday, it has 33 likes, right?",
+      "timestamp": "00:34:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Then if you go down, you see another one that has like, it says 54%, that has 60.",
+      "timestamp": "00:34:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Then below that, SAS Valuations Cheat Sheet, that's 64.",
+      "timestamp": "00:34:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Then the next one is 64, right?",
+      "timestamp": "00:34:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, that's 65.",
+      "timestamp": "00:34:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, that's one, yes.",
+      "timestamp": "00:34:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "One, and then the CFO stat, that performed well, yes.",
+      "timestamp": "00:34:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But then, look, if you keep scrolling, you see one from four weeks ago, where he's there with an eye, where it says she turns a Google Sheet MVP.",
+      "timestamp": "00:34:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Four weeks ago.",
+      "timestamp": "00:34:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let me show you my screen.",
+      "timestamp": "00:34:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:34:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "This one.",
+      "timestamp": "00:35:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yep.",
+      "timestamp": "00:35:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So on this one, she has almost 500 likes.",
+      "timestamp": "00:35:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And this is exactly what I'm saying.",
+      "timestamp": "00:35:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, this screenshot is adding visual context to the copy.",
+      "timestamp": "00:35:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Here's another one.",
+      "timestamp": "00:35:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "She's saying something about the interview or something, a conversation that happened with Blake Huddleston, and she's with him here.",
+      "timestamp": "00:35:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Here, 100 likes.",
+      "timestamp": "00:35:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Again, talking about the co-founders of Brex and the acquisition, picture of them, the founders of Brex, 164.",
+      "timestamp": "00:35:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Same thing, you know, she runs finance for a 500.",
+      "timestamp": "00:35:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "She's speaking about her, 256 likes.",
+      "timestamp": "00:35:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So my point with this is that you should be optimizing for what the algorithm is prioritizing now.",
+      "timestamp": "00:35:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's what I'm saying.",
+      "timestamp": "00:35:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like, right now, it's not...",
+      "timestamp": "00:35:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Prioritizing this type of content, you know, so that's just one, like, important tip that you shouldn't be focused in, I need graphics, you should be focused on what is LinkedIn, what is working for LinkedIn right now.",
+      "timestamp": "00:36:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Makes sense.",
+      "timestamp": "00:36:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, so that's one, and the other one was, what is, oh yeah, the hooks.",
+      "timestamp": "00:36:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, the hooks are the most important part of the post.",
+      "timestamp": "00:36:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, so, yeah, like, it's the strategy, what you're getting, the hook, which we spend more than 50% of the time that we write a post just working on the hook.",
+      "timestamp": "00:36:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's really, really important.",
+      "timestamp": "00:36:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And lastly, you know, the making sure that it's not gonna sound like AI.",
+      "timestamp": "00:36:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Alright.",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Alright.",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Right.",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That everything flows.",
+      "timestamp": "00:37:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, absolutely.",
+      "timestamp": "00:37:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Right.",
+      "timestamp": "00:37:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But yeah, if you want, I can send you a proposal with all the services and all that.",
+      "timestamp": "00:37:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "What would be the minimal reasonable period of time to have a subscription to your service?",
+      "timestamp": "00:37:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Or maybe there is a sort of a discount if we pay it in advance?",
+      "timestamp": "00:37:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Actually, yeah, we do have 20% discount if you commit for a yearly plan.",
+      "timestamp": "00:37:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So the prices that I gave you are on a month to month.",
+      "timestamp": "00:37:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But in the proposal, you're going to see the option of monthly or yearly.",
+      "timestamp": "00:37:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So if you pick a yearly plan, you pay for the entire year in advance and we give you an additional 20% off for the entire engagement.",
+      "timestamp": "00:37:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.-hmm.",
+      "timestamp": "00:37:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:37:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And what would be quite...",
+      "timestamp": "00:37:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "But there was like a big topic of it.",
+      "timestamp": "00:39:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So I got like 280 likes, for example, based on our trip to US when we were opening an office and another one when I was studying in Harvard.",
+      "timestamp": "00:39:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So these two performed really well after some sort of a pause.",
+      "timestamp": "00:39:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "And then there was like, again, a deep way to, like, reversion to the meme, basically.",
+      "timestamp": "00:39:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:39:19"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I would say that we can get you, I mean, it's very difficult to guess non-follower numbers.",
+      "timestamp": "00:39:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, of course.",
+      "timestamp": "00:39:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "But I'm pretty sure that we can double the amount of profile visits on your profile in, I would say, in the first two months.",
+      "timestamp": "00:39:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And in one year, I'm pretty sure that we could surpass 10,000 followers.",
+      "timestamp": "00:39:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "So basically going from 4,000 to 10,000, right?",
+      "timestamp": "00:39:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Like doubling, basically.",
+      "timestamp": "00:39:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:39:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Mm-hmm.",
+      "timestamp": "00:39:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Results like 150k of followers for Yuri, how long did it take?",
+      "timestamp": "00:40:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Or what was he doing?",
+      "timestamp": "00:40:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Or was it like some sort of dead bodies followers or what's that?",
+      "timestamp": "00:40:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You need to be posting at least three years without stopping five times per week.",
+      "timestamp": "00:40:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's mainly because of the feedback loops that you get.",
+      "timestamp": "00:40:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So with Yuri, what you can see is that there is content market fit.",
+      "timestamp": "00:40:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So he posts a lot about YC, about Y Combinator, about before YC and after YC, the picture of him doing YC, talking about the ARR of his company.",
+      "timestamp": "00:40:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's the most important thing.",
+      "timestamp": "00:40:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like when you start posting, you need to start getting like the signals of what is like the narrative that is triggering the people to engage with your content.",
+      "timestamp": "00:40:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So when you do that for a long period of time.",
+      "timestamp": "00:40:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So",
+      "timestamp": "00:40:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And you post very often, you get those signals faster.",
+      "timestamp": "00:41:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's more volume.",
+      "timestamp": "00:41:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So you just need to double down on what is working.",
+      "timestamp": "00:41:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You can speak in a hundred different ways about how you got into YC, but in the end, how did you got into YC?",
+      "timestamp": "00:41:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's the same thing, but you can say it in a hundred different ways.",
+      "timestamp": "00:41:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So that's what makes it effective because it's repurposing the same content that you know that works.",
+      "timestamp": "00:41:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And when you create this, let's say, menu of items that you know that perform well, when you have gotten to that point that you have 10 or 20 different types of posts that every time that you post about that, it goes viral.",
+      "timestamp": "00:41:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You just need to keep using them and speak about that in different ways.",
+      "timestamp": "00:41:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And that's when you really start compounding the growth, but it takes time to create that menu of items that perform well.",
+      "timestamp": "00:41:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:41:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "Okay.",
+      "timestamp": "00:41:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Oleksandr Yaroshenko",
+        "matched_calendar_invitee_email": "oleks@headway.inc"
+      },
+      "text": "I think.",
+      "timestamp": "00:41:58"
+    }
+  ],
+  "transcript_language": "en",
+  "url": "https://fathom.video/calls/580699994"
+}

@@ -177,7 +177,6 @@ def format_message(anthropic_data, openai_data, date_str, is_alert=False, thresh
     # Anthropic total
     anthropic_total = sum(v["total"] for v in anthropic_data.values())
     openai_total = openai_data.get("total", 0)
-    brave_note = "~$0.00 (flat subscription)"
     grand_total = anthropic_total + openai_total
 
     lines = []
@@ -208,9 +207,6 @@ def format_message(anthropic_data, openai_data, date_str, is_alert=False, thresh
     if openai_data.get("tts_cost", 0) > 0:
         lines.append(f"  · TTS: ${openai_data['tts_cost']:.4f}")
     lines.append(f"  *Subtotal: ${openai_total:.4f}*")
-    
-    lines.append("")
-    lines.append(f"*Brave Search:* {brave_note}")
     
     lines.append("")
     lines.append(f"{'─' * 32}")

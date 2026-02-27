@@ -87,8 +87,13 @@ function classifyCall(payload) {
     'content interview', 'interview', 'monthly interview', 'recording'
   ];
 
+  const SALES_TITLE_PATTERNS = config.salesTitlePatterns || [
+    'rethoric intro call', 'intro call', 'discovery call'
+  ];
+
   const matchesInternal = INTERNAL_TITLE_PATTERNS.some(p => title.includes(p));
   const matchesClient = CLIENT_TITLE_PATTERNS.some(p => title.includes(p));
+  const matchesSales = SALES_TITLE_PATTERNS.some(p => title.includes(p));
 
   const useCases = [];
 
@@ -98,6 +103,9 @@ function classifyCall(payload) {
     // Only classify as client_interview if the title explicitly matches —
     // external attendees alone are NOT sufficient (sales calls, intros, etc.)
     useCases.push('client_interview');
+  } else if (matchesSales) {
+    // Sales/discovery calls — log quietly, no alert. CRM integration TBD.
+    useCases.push('sales_call');
   } else {
     // Unknown: flag to #tony-ops for manual classification
     useCases.push('unknown');
@@ -326,6 +334,22 @@ async function processWeeklyCheckin(payload) {
 }
 
 // ─────────────────────────────────────────────
+// SALES CALL: log quietly, no alert (CRM integration TBD)
+// ─────────────────────────────────────────────
+async function processSalesCall(payload) {
+  const title = getTitle(payload) || 'Untitled';
+  const attendees = getAttendees(payload).map(a => a.email).join(', ');
+  log(`[SALES] Discovery/intro call detected — logged, no alert. Title: "${title}" | Attendees: ${attendees}`);
+
+  // Save for future CRM integration
+  const salesDir = path.join(__dirname, 'sales-calls');
+  fs.mkdirSync(salesDir, { recursive: true });
+  const file = path.join(salesDir, `${Date.now()}.json`);
+  fs.writeFileSync(file, JSON.stringify(payload, null, 2));
+  log(`[SALES] Saved to ${file} for future CRM pipeline`);
+}
+
+// ─────────────────────────────────────────────
 // UNKNOWN: flag to Slack
 // ─────────────────────────────────────────────
 async function flagUnknown(payload) {
@@ -367,6 +391,8 @@ async function main() {
       } else if (useCase === 'client_interview') {
         await processClientFeedback(payload);
         await processContentIdeas(payload, 'client_interview');
+      } else if (useCase === 'sales_call') {
+        await processSalesCall(payload);
       } else {
         await flagUnknown(payload);
       }

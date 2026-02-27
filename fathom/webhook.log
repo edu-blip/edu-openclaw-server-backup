@@ -30,3 +30,21 @@
 [2026-02-25T20:05:03.955Z] Archived: /root/.openclaw/workspace/fathom/queue/1772049903589-ssboaa.json
 [2026-02-25T20:10:23.919Z] Fathom webhook server listening on port 8001
 [2026-02-25T20:11:08.814Z] Fathom webhook server listening on port 8001
+[2026-02-25T20:46:14.367Z] Received webhook: meeting="30 Min Meeting between Marco Podesta" id=125414542
+[2026-02-25T20:46:14.370Z] Queued: /root/.openclaw/workspace/fathom/queue/1772052374370-hjckfa.json
+[2026-02-25T20:46:14.705Z] Processor done for 1772052374370-hjckfa: [2026-02-25T20:46:14.410Z] Classified "30 Min Meeting between Marco Podesta" as: unknown
+[2026-02-25T20:46:14.412Z] [UNKNOWN] Could not classify call "30 Min Meeting between Marco Podesta" — flagging to Slack
+[2026-02-25T20:46:14.698Z] Archived: /root/.openclaw/workspace/fathom/queue/1772052374370-hjckfa.json
+[2026-02-26T18:30:40.554Z] Received webhook: meeting="Rethoric intro call: Edu and Oleksandr Yaroshenko" id=125704909
+[2026-02-26T18:30:40.557Z] Queued: /root/.openclaw/workspace/fathom/queue/1772130640555-hbt8qb.json
+[2026-02-26T18:30:40.905Z] Processor done for 1772130640555-hbt8qb: [2026-02-26T18:30:40.591Z] Classified "Rethoric intro call: Edu and Oleksandr Yaroshenko" as: unknown
+[2026-02-26T18:30:40.594Z] [UNKNOWN] Could not classify call "Rethoric intro call: Edu and Oleksandr Yaroshenko" — flagging to Slack
+[2026-02-26T18:30:40.900Z] Archived: /root/.openclaw/workspace/fathom/queue/1772130640555-hbt8qb.json
+[2026-02-26T20:30:04.254Z] Received webhook: meeting="Team check-in" id=125755141
+[2026-02-26T20:30:04.257Z] Queued: /root/.openclaw/workspace/fathom/queue/1772137804255-3gowou.json
+[2026-02-26T20:30:25.749Z] Processor done for 1772137804255-3gowou: [2026-02-26T20:30:04.293Z] Classified "Team check-in" as: weekly_checkin
+[2026-02-26T20:30:04.296Z] [USE CASE A] Weekly check-in received — STUB (awaiting Asana + Google keys)
+[2026-02-26T20:30:04.298Z] [USE CASE A] Saved to /root/.openclaw/workspace/fathom/pending-checkins/1772137804296.json for processing once Asana keys are configured
+[2026-02-26T20:30:04.299Z] [USE CASE C] Mining transcript for content ideas...
+[2026-02-26T20:30:25.742Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
+[2026-02-26T20:30:25.743Z] Archived: /root/.openclaw/workspace/fathom/queue/1772137804255-3gowou.json

@@ -64,6 +64,71 @@
       "content_bucket": "Growth",
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25"
+    },
+    {
+      "idea": "Why we stopped doing the most obvious thing agencies must do",
+      "hook_angle": "We built sophisticated systems — AI enrichment, automated workflows, analytics dashboards. Then realized we weren't doing cold outreach. The most basic thing.",
+      "key_points": [
+        "Easy to chase shiny automation when the fundamentals aren't in place",
+        "Cold outreach = controllable pipeline, not dependent on algorithm luck",
+        "Real mistake: confusing innovation with execution — you need both"
+      ],
+      "source": "Team check-in discussion on lead generation gaps and outreach strategy",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-02-26"
+    },
+    {
+      "idea": "The hidden cost of 'free' tools that aren't built for scale",
+      "hook_angle": "Shield gives us one week of analytics free. After that? $200/month per client. At 10 clients, that's $24k/year for data we could pull ourselves.",
+      "key_points": [
+        "Free tiers are bait — vendors know you'll get locked in",
+        "Building your own infra sounds hard until you price out SaaS at scale",
+        "We're exploring custom API + OpenClaw instead — same data, owned infrastructure"
+      ],
+      "source": "Discussion on Shield costs and exploring custom analytics platform",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-02-26"
+    },
+    {
+      "idea": "When AI writes your outreach, who takes the reputational hit?",
+      "hook_angle": "We almost automated personalized LinkedIn DMs. Then asked: what happens when the AI says something stupid from the founder's account?",
+      "key_points": [
+        "Automation is tempting but reputation is not recoverable via prompt engineering",
+        "Hybrid approach: AI drafts, human reviews, founder sends = speed + safety",
+        "The founder's network is the asset — don't gamble it on a hallucination"
+      ],
+      "source": "Discussion on AI-generated outreach and reputational risk management",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-02-26"
+    },
+    {
+      "idea": "How we price a service before we know if it works",
+      "hook_angle": "Client idea: rewrite their landing page copy to boost conversions. Pricing options: $2k flat or $5k if we beat their current rate. We said no to both.",
+      "key_points": [
+        "Tempting to sell before you've run the workflow — resist it",
+        "First: define process. Then: automate process. Then: add premium layers.",
+        "Premature productization = you're now servicing a thing you don't understand"
+      ],
+      "source": "Discussion on landing page copy rewrite service and pricing models",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-02-26"
+    },
+    {
+      "idea": "The enrichment economics: $20/post, 5 clients max",
+      "hook_angle": "We built a lead enrichment system using Clay. Costs ~$20 per post. Our current plan caps us at 5 clients. Here's why that clarity matters.",
+      "key_points": [
+        "Unit economics force you to confront scale constraints early",
+        "Better to know your ceiling at 5 clients than discover it at 10",
+        "Now the roadmap is clear: optimize cost per lead or upgrade infrastructure"
+      ],
+      "source": "Cost analysis of Clay-based lead enrichment workflow",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-02-26"
     }
   ],
   "sources": [
@@ -71,6 +136,13 @@
       "meeting": "Content Interview: Edu and Carlos Escutia",
       "date": "2026-02-25",
       "callType": "client_interview"
+    },
+    {
+      "meeting": "Team check-in",
+      "date": "2026-02-26",
+      "callType": "weekly_checkin"
     }
-  ]
+  ],
+  "publishedAt": "2026-02-27T04:19:28.656Z",
+  "googleDocUrl": "unknown"
 }

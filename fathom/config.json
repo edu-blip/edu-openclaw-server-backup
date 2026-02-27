@@ -7,6 +7,9 @@
   "clientTitlePatterns": [
     "content interview", "rethoric interview", "content call"
   ],
+  "salesTitlePatterns": [
+    "rethoric intro call", "intro call", "discovery call"
+  ],
   "clientFeedbackSlackChannel": "C0AGYTU4N9Y",
   "opsSlackChannel": "C0AHBCJQJKS",
   "notes": {

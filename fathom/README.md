@@ -34,7 +34,7 @@ processor.js — classifies call by title
 - Pre-call briefing fires 1 hour before each Monday + Thursday check-in via Google Calendar API
 - On-demand queries answered via Asana API (not transcript re-reads)
 
-**Still needs:** `ASANA_TOKEN`, `ASANA_PROJECT_ID`, `GOOGLE_SERVICE_ACCOUNT_JSON`
+**Still needs:** `ASANA_TOKEN`, `ASANA_PROJECT_ID` (Google Calendar already works via gogcli)
 
 ### B — Client Interview Feedback → #client-feedback ✅
 - Reads full transcript, detects any client feedback about:
@@ -47,7 +47,7 @@ processor.js — classifies call by title
 - If zero feedback detected: silent (no message sent)
 - One consolidated message per call even if multiple feedback points
 
-### C — Edu LinkedIn Content Ideas → Weekly Google Doc ✅ (accumulator running, Doc creation pending)
+### C — Edu LinkedIn Content Ideas → Weekly Google Doc ✅ FULLY LIVE
 - Mines transcripts for high-quality LinkedIn ideas from Edu's perspective
 - Sources: client interview insights (Edu's commentary + client quotes Edu could riff on) + team check-in insights
 - Accumulates to `fathom/content-ideas/week-YYYY-WXX.json` throughout the week
@@ -55,7 +55,8 @@ processor.js — classifies call by title
 - Doc name format: `"Edu content ideas - week 8 2026"`
 - 5–10 ideas max per week. Quality over volume. No padding.
 
-**Still needs:** `GOOGLE_SERVICE_ACCOUNT_JSON`, `GOOGLE_DRIVE_FOLDER_ID`
+**Drive folder:** `1xiMgCRlVGhTWc79PIgaZ72zWcp9g5iq1` (Rethoric > Marketing > LinkedIn content) ✅
+**Cron:** Every Monday 9 AM PST ✅
 
 ---
 
