@@ -48,3 +48,4 @@
 [2026-02-26T20:30:04.299Z] [USE CASE C] Mining transcript for content ideas...
 [2026-02-26T20:30:25.742Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
 [2026-02-26T20:30:25.743Z] Archived: /root/.openclaw/workspace/fathom/queue/1772137804255-3gowou.json
+[2026-02-27T14:52:00.832Z] Fathom webhook server listening on port 8001

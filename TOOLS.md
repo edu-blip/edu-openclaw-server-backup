@@ -54,3 +54,12 @@ All in `/root/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`,
 ## Cost Monitor
 - Script: `scripts/cost-monitor.py`
 - Output: daily digest → `#tony-alerts`
+
+---
+
+## Gateway Ready Notification
+- Script: `scripts/notify-gateway-ready.sh`
+- Trigger: `@reboot` cron (30s delay after boot)
+- Output: posts to `#tony-alerts` when gateway is healthy
+- Logs: `/var/log/notify-gateway-ready.log`
+- Manual restarts: Tony replies in the active thread after confirming health

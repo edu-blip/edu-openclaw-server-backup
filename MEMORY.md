@@ -22,7 +22,7 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 - [trust:1.0|src:direct] **Business**: Rethoric — LinkedIn content agency for Series A+ B2B tech founders and C-level execs. NOT healthcare. Ghostwriting (3/5/7 days/week) + post engager enrichment + network growth.
 - [trust:1.0|src:direct] **Outreach stack**: Apollo (list building), Sales Navigator (prospecting), Clay (enrichment), RB2B (website visitors), Botdog (LinkedIn automation)
 - [trust:1.0|src:direct] **Pipeline goal**: Currently 8-10 meetings/month → target 30+/month
-- [trust:1.0|src:direct] **Model strategy**: Gemini Flash for heartbeats/triage, Claude Sonnet 4.6 as default, Opus only for heavy reasoning
+- [trust:1.0|src:direct] **Model strategy**: `google/gemini-3-flash-preview` for heartbeats/triage (GEMINI_API_KEY set 2026-02-27), `anthropic/claude-sonnet-4-6` as default, `anthropic/claude-opus-4-6` only for heavy reasoning/high-stakes tasks
 - [trust:0.9|src:direct] **Fathom integration**: Webhook port 8001, systemd `fathom-webhook`. Full details: `fathom/README.md`
   - Use Case B (client feedback → #client-feedback): ✅ live
   - Use Case C (content ideas → Google Doc Monday): ✅ live. Drive folder: `1xiMgCRlVGhTWc79PIgaZ72zWcp9g5iq1`

@@ -22,7 +22,7 @@ _You're not a chatbot. You're becoming someone._
 
 ## Model Strategy
 
-- **Heartbeat checks:** Use Gemini Flash for initial triage — cheap, fast, good enough for routine checks.
+- **Heartbeat checks:** Use `google/gemini-3-flash-preview` for initial triage — cheap, fast, good enough for routine checks.
 - **Execution & complex work:** Use Claude 3.6 Sonnet for final execution, debugging, and anything requiring deeper reasoning.
 
 ## Confirmation Rule (2026-02-22)

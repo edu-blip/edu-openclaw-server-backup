@@ -40,3 +40,31 @@
 [2026-02-27T04:19:28.656Z] [USE CASE C] Created Google Doc: Edu content ideas - week 9 2026 → unknown
 [2026-02-27T04:19:28.975Z] [USE CASE C] Slack notified: true
 [2026-02-27T04:20:44.985Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T04:30:02.620Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T04:45:03.354Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T05:00:03.044Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T05:15:02.388Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T05:30:02.966Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T05:45:03.221Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T06:00:02.624Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T06:15:02.842Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T06:30:02.460Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T06:45:02.849Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T07:00:03.243Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T07:01:30.252Z] [USE CASE C] Starting weekly content doc creation for 2026-W09
+[2026-02-27T07:01:30.255Z] [USE CASE C] Processing 10 ideas from week 2026-W09 (2 sources)
+[2026-02-27T07:01:30.256Z] [USE CASE C] Uploading to Google Drive: "Edu content ideas - week 9 2026" (replacing existing doc 1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304)
+[2026-02-27T07:01:30.313Z] [USE CASE C] Error uploading to Drive: Command failed: gog drive upload "/tmp/edu-content-ideas-2026-W09.md" --name "Edu content ideas - week 9 2026" --replace="1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304" --convert-to=doc --account tony@rethoric.com --json
+--convert/--convert-to cannot be combined with --replace
+
+[2026-02-27T07:01:30.313Z] [USE CASE C] FATAL: Command failed: gog drive upload "/tmp/edu-content-ideas-2026-W09.md" --name "Edu content ideas - week 9 2026" --replace="1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304" --convert-to=doc --account tony@rethoric.com --json
+--convert/--convert-to cannot be combined with --replace
+
+[2026-02-27T07:02:12.746Z] [USE CASE C] Starting weekly content doc creation for 2026-W09
+[2026-02-27T07:02:12.749Z] [USE CASE C] Processing 10 ideas from week 2026-W09 (2 sources)
+[2026-02-27T07:02:12.750Z] [USE CASE C] Updating Google Doc: "Edu content ideas - week 9 2026"
+[2026-02-27T07:02:16.294Z] [USE CASE C] Updated existing Google Doc: Edu content ideas - week 9 2026 → https://docs.google.com/document/d/1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304/edit
+[2026-02-27T07:02:16.589Z] [USE CASE C] Slack notified: true
+[2026-02-27T07:15:02.534Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T07:30:02.850Z] [BRIEFING] No upcoming check-ins in window — nothing to do
+[2026-02-27T07:45:02.936Z] [BRIEFING] No upcoming check-ins in window — nothing to do
