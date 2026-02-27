@@ -31,6 +31,13 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 - [trust:1.0|src:direct] **Server security**: SSH hardened 2026-02-23 (no password auth, no root login). fail2ban running. ~3500 brute-force attempts/day = normal.
 - [trust:0.9|src:observed] **GitHub backup**: Server has ZERO backup. Remind Edu before every new integration.
 - [trust:1.0|src:direct] **Rethoric Platform**: Internal content workflow app (Marco, freelance). Not yet active. Edu wants to own it/stop relying on Marco. HIGH RISK — manages content calendar + client comms. Vision: sub-agent engineer takeover. Discuss soon.
+- [trust:1.0|src:direct] **Edu's LinkedIn content strategy — bucket definitions** (2026-02-26):
+  - **Authority**: Thought leadership in Edu's specific niche (LinkedIn content, ghostwriting, B2B founder content strategy). Builds ICP trust. Works well as paid promo targeting ICP. Niche-specific.
+  - **Growth**: Highest viral potential. Startup/founder ecosystem broadly — fundraising, hiring, AI, YC, company building. Beyond niche. Use to grow reach + followers.
+  - **Conversion**: Case studies + direct CTA to book a call. Max 20% of content. Sparingly.
+  - Balance shifts by quarterly goal: growth for reach, authority for ICP trust, conversion for pipeline.
+- [trust:1.0|src:direct] **Content doc purpose**: Supporting doc for Edu's weekly content interview with ghostwriter. Long-term vision: doc specific enough that writer creates content WITHOUT interviewing Edu.
+- [trust:1.0|src:direct] **Content sub-agent**: Edu wants a dedicated content agent for ideation, extraction, research. Discussed 2026-02-26 — scope it out.
 - [trust:1.0|src:direct] **Slack channels**: #tony-alerts → C0AHBCJQJKS | #client-feedback → C0AGYTU4N9Y
 - [trust:1.0|src:direct] **CRITICAL — Google data**: NEVER delete or change anything in Edu's Google (calendar, drive, docs, sheets) without explicit consent. Read-only by default. Rule set 2026-02-26.
 - [trust:1.0|src:direct] **Google integration**: gogcli v0.11.0. Account: tony@rethoric.com. Calendars visible: "Rethoric" (edu@rethoric.com) + "Personal" (eduardomussali@gmail.com). Always use `--all` flag for calendar events. Drive: shared team files accessible. Details: TOOLS.md.
