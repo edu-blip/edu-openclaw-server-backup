@@ -1,0 +1,30 @@
+{
+  "_comment": "Cost Monitor configuration. Edit here — never edit the script directly.",
+
+  "alert_threshold_usd": 20.00,
+  "slack_channel_id": "C0AHBCJQJKS",
+  "sessions_dir": "/root/.openclaw/agents/main/sessions",
+
+  "providers": {
+    "_comment": "Display names for known provider prefixes. Any unknown prefix is shown as-is.",
+    "anthropic": "Anthropic (Claude)",
+    "google":    "Google (Gemini)",
+    "openai":    "OpenAI",
+    "xai":       "xAI (Grok)",
+    "mistral":   "Mistral",
+    "meta":      "Meta (Llama)",
+    "cohere":    "Cohere"
+  },
+
+  "pricing_overrides": {
+    "_comment": "Optional manual pricing (USD per 1M tokens) for models that OpenClaw doesn't compute costs for. Format: { input, output, cache_read, cache_write }. Leave empty if OpenClaw already reports costs in logs.",
+    "models": {}
+  },
+
+  "openai_usage_api": {
+    "_comment": "Tracks Whisper, TTS, and any other OpenAI consumption-based APIs not in session logs.",
+    "enabled": true,
+    "whisper_cost_per_minute": 0.006,
+    "tts_cost_per_million_chars": 15.0
+  }
+}
