@@ -53,6 +53,9 @@ All in `/root/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`,
 
 ## Cost Monitor
 - Script: `scripts/cost-monitor.py`
+- Config: `scripts/cost-monitor-config.json` — edit thresholds, channel ID, provider display names here. Never edit the script.
+- Auto-detects ALL providers/models from logs — zero code changes when new models are added
+- Per-provider + per-model breakdown in every digest
 - Output: daily digest → `#tony-alerts`
 
 ---
