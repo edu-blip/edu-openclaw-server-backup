@@ -49,3 +49,11 @@
 [2026-02-26T20:30:25.742Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
 [2026-02-26T20:30:25.743Z] Archived: /root/.openclaw/workspace/fathom/queue/1772137804255-3gowou.json
 [2026-02-27T14:52:00.832Z] Fathom webhook server listening on port 8001
+[2026-02-28T00:58:51.601Z] Received webhook: meeting="Content Interview: Edu/Luca" id=126161130
+[2026-02-28T00:58:51.608Z] Queued: /root/.openclaw/workspace/fathom/queue/1772240331606-eob40m.json
+[2026-02-28T00:59:50.391Z] Processor done for 1772240331606-eob40m: [2026-02-28T00:58:51.648Z] Classified "Content Interview: Edu/Luca" as: client_interview
+[2026-02-28T00:58:51.651Z] [USE CASE B] Analyzing transcript for client feedback...
+[2026-02-28T00:58:54.108Z] [USE CASE B] No client feedback found — no Slack message sent.
+[2026-02-28T00:58:54.109Z] [USE CASE C] Mining transcript for content ideas...
+[2026-02-28T00:59:50.384Z] [USE CASE C] Added 5 ideas to /root/.openclaw/workspace/fathom/content-ideas/week-2026-W09.json
+[2026-02-28T00:59:50.384Z] Archived: /root/.openclaw/workspace/fathom/queue/1772240331606-eob40m.json

@@ -1,0 +1,4220 @@
+{
+  "action_items": [],
+  "calendar_invitees": [
+    {
+      "email": "luca.bonmassar@checkr.com",
+      "email_domain": "checkr.com",
+      "is_external": true,
+      "matched_speaker_display_name": "Luca Bonmassar",
+      "name": "Luca Bonmassar"
+    },
+    {
+      "email": "edu@rethoric.com",
+      "email_domain": "rethoric.com",
+      "is_external": false,
+      "matched_speaker_display_name": "Eduardo Mussali",
+      "name": "Eduardo Mussali"
+    }
+  ],
+  "calendar_invitees_domains_type": "one_or_more_external",
+  "created_at": "2026-02-28T00:57:18Z",
+  "crm_matches": null,
+  "default_summary": {
+    "markdown_formatted": "### [Coinbase incident and asset management @ 0:00](https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd?tab=summary&timestamp=0)\n\nLuca discussed an incident at Coinbase where they updated the precision of cryptocurrency assets live, without following their standard procedure of halting trading first. This led to a period of inconsistent pricing and Coinbase giving away assets for free, nearly exceeding their capitalization. Luca explained how Coinbase has since invested heavily in tooling and processes to prevent such incidents from recurring, including automating trading halts for configuration changes.\n\n### [Rapid advancements in coding AI @ 10:44](https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd?tab=summary&timestamp=644)\n\nLuca described how recent AI models like Anthropic's Opus 4.6 have made major breakthroughs in their ability to tackle large, complex coding tasks. He discussed Checkr's \"Project Edge\" initiative to build a fleet of AI coding agents that can autonomously take on engineering work like bug fixes, migrations, and refactoring - freeing up human engineers to focus on more strategic initiatives.\n\n### [Concerns around AI-generated deepfakes @ 35:14](https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd?tab=summary&timestamp=2114)\n\nLuca acknowledged the threat of deepfakes, noting that while background checks can validate the authenticity of information, the challenge is ensuring the person presenting themselves matches the verified identity, especially for remote work. He discussed potential biometric solutions but noted they remain intrusive and vulnerable.\n\n### [Checkr's approach to innovation and new products @ 49:25](https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd?tab=summary&timestamp=2965)\n\nLuca explained Checkr's \"Checkr X\" model, where they segregate new business bets and innovations from the core business. These ventures operate semi-independently with their own funding and leadership, allowing them to rapidly experiment and scale without being constrained by the core business. This has enabled Checkr to launch multiple new products in the past year.\n\n### [Checkr's executive team practices @ 52:02](https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd?tab=summary&timestamp=3122)\n\nLuca described Checkr's daily executive stand-up meetings, where the leadership team discusses both personal and business updates. He noted this has fostered an exceptionally cohesive and aligned executive team, helping to avoid politics and quickly address any issues that arise.\n",
+    "template_name": "Chronological"
+  },
+  "meeting_title": "Content Interview: Edu/Luca",
+  "recorded_by": {
+    "email": "edu@rethoric.com",
+    "email_domain": "rethoric.com",
+    "name": "Eduardo Mussali",
+    "team": "Sales"
+  },
+  "recording_end_time": "2026-02-28T00:56:43Z",
+  "recording_id": 126161130,
+  "recording_start_time": "2026-02-28T00:00:57Z",
+  "scheduled_end_time": "2026-02-28T01:00:00Z",
+  "scheduled_start_time": "2026-02-28T00:00:00Z",
+  "share_url": "https://fathom.video/share/oNH3CbdD7w3P6kh9F4HwqqJguB_DpJxd",
+  "title": "Content Interview: Edu/Luca",
+  "transcript": [
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Oh, happy Friday.",
+      "timestamp": "00:00:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "meeting is being recorded.",
+      "timestamp": "00:00:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You're on mute.",
+      "timestamp": "00:00:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "There you go.",
+      "timestamp": "00:00:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Happy Friday.",
+      "timestamp": "00:00:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "How are you, my friend?",
+      "timestamp": "00:00:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Pretty good.",
+      "timestamp": "00:00:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Congrats on your upcoming launch.",
+      "timestamp": "00:00:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you so much.",
+      "timestamp": "00:00:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "First one?",
+      "timestamp": "00:00:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Second.",
+      "timestamp": "00:00:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Second.",
+      "timestamp": "00:00:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Nice.",
+      "timestamp": "00:00:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:00:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Do you have kids?",
+      "timestamp": "00:00:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I have two kids, yes.",
+      "timestamp": "00:00:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Five, actually six and nine now.",
+      "timestamp": "00:00:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Oh, they're already a little bit big.",
+      "timestamp": "00:00:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yeah, like, they're growing, yes.",
+      "timestamp": "00:00:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:00:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I have a four-year-old one, and I'm expecting a baby girl.",
+      "timestamp": "00:00:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Nine.",
+      "timestamp": "00:00:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Imminent, basically.",
+      "timestamp": "00:00:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yes.",
+      "timestamp": "00:00:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Awesome.",
+      "timestamp": "00:00:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Congrats.",
+      "timestamp": "00:00:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you.",
+      "timestamp": "00:00:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thank you so much.",
+      "timestamp": "00:00:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:00:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:00:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm glad that we managed to chat today.",
+      "timestamp": "00:00:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, I see that you...",
+      "timestamp": "00:00:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You have a lot of topics.",
+      "timestamp": "00:00:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Those are more like ideas.",
+      "timestamp": "00:01:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We don't necessarily have to go there, but given last time we were trying to fish some ideas during the call, I thought I could spend a bit more time to come with a list.",
+      "timestamp": "00:01:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But I don't know if you have a list, but if we don't have, we can maybe pick from any of that.",
+      "timestamp": "00:01:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "No, no.",
+      "timestamp": "00:01:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, this is perfect because, I mean, you already have like the idea, so it's going to be way easier to do more specific content based on this.",
+      "timestamp": "00:01:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Sounds good.",
+      "timestamp": "00:01:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Great.",
+      "timestamp": "00:01:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:01:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So let's get started.",
+      "timestamp": "00:01:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "My note takers here.",
+      "timestamp": "00:01:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yes.",
+      "timestamp": "00:01:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:01:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what is the incident at Coinbase?",
+      "timestamp": "00:01:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "How do you say that?",
+      "timestamp": "00:01:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yen power?",
+      "timestamp": "00:01:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yen power.",
+      "timestamp": "00:01:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So those are two assets like Bitcoin, Ethereum, and then there are a long.",
+      "timestamp": "00:01:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "This of many, many exotic assets that Coinbase has added throughout the year, and I think that this is an incident that happened that, in my mind, is quite interesting because it's a case where processes and checklists are there for a reason, and sometimes people question, like, why do we do things in a certain way?",
+      "timestamp": "00:02:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I can see a better way to do things, and then things happen in disaster.",
+      "timestamp": "00:02:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "This happens all the time in the aviation industry, and that's why there's a very strict checklist.",
+      "timestamp": "00:02:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "In our case, Coinbase started as Bitcoin, like, there was only Bitcoin, everything was for one single asset.",
+      "timestamp": "00:02:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "At some point, we were able to go from one to two assets, Ethereum, but then that one to two, it became a one to N, Dogecoin, and Litecoin, and everything.",
+      "timestamp": "00:02:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Once were to there and at some point, everybody",
+      "timestamp": "00:02:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "We hosted hundreds of those assets.",
+      "timestamp": "00:02:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Shiba Inu.",
+      "timestamp": "00:03:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yeah, all of those.",
+      "timestamp": "00:03:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so what that happened is that we had a very clear procedure to launch new assets.",
+      "timestamp": "00:03:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that procedure also entailed that once you launch a new asset, if you have to make any change, the strict procedure is to take down the assets from trading.",
+      "timestamp": "00:03:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And then you can make all the changes that you want, if you have to change the ticker, if you have to change the precision of the assets, so how many digits, like 0, 0, 0, so what's called the tick, like what's the minimum entity for each asset.",
+      "timestamp": "00:03:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You can do all those changes.",
+      "timestamp": "00:03:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You have to stop trading for those assets, and then you can update and then restart.",
+      "timestamp": "00:03:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "This is generally like an operation that can take 30 minutes or so.",
+      "timestamp": "00:03:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "can changes.",
+      "timestamp": "00:03:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "can can can do do You",
+      "timestamp": "00:03:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But then, as you can imagine, there might be pressure on, why do we need to halt trading on any of that?",
+      "timestamp": "00:04:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Why cannot we just edit this live?",
+      "timestamp": "00:04:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The systems enable it in many ways, you can still make those changes, deploy, and update the attributes of those assets, and that was happening that unfortunate day, which I think was in November 2000.",
+      "timestamp": "00:04:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I'm now going back on my mind, but I think it's I'll go and verify that, but it's public.",
+      "timestamp": "00:04:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have a public post-mortem.",
+      "timestamp": "00:04:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So what happened is that they updated the assets, the precision of asset live.",
+      "timestamp": "00:04:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "What they didn't anticipate is that the propagation of this new configuration took a while, because we had 10,000 servers, and what has happened is that little by little, more and more servers were picking up the...",
+      "timestamp": "00:04:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "New configuration, but for a period of time of, let's say, half an hour, the trading system could find bot configuration depending on what server you were connecting to.",
+      "timestamp": "00:05:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The outcome was that if you wanted to buy $10 of those assets, maybe the system would be crediting you $1,000 of those assets.",
+      "timestamp": "00:05:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So we were giving away free money and giving them away very, very, very fast.",
+      "timestamp": "00:05:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And unfortunately, we had to wait for the full deployment to clear.",
+      "timestamp": "00:05:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So that was a very painful 30 minutes of seeing money being given away.",
+      "timestamp": "00:05:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And at some point, the potential hole was almost bigger than the capitalization of the company.",
+      "timestamp": "00:05:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So we had to stop trading, stop withdrawing, and undo all of these.",
+      "timestamp": "00:05:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And within the next 30 minutes, we had procedure in place.",
+      "timestamp": "00:05:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We were able to revert.",
+      "timestamp": "00:05:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The vast majority of transactions, but then there was a long tail of transactions that became more complicated, like what if you buy any of those assets and rapidly change it into Bitcoin and then exchange it for something else?",
+      "timestamp": "00:06:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "During that time, the price has changed for all those assets, so how do you revert each one of them consistently?",
+      "timestamp": "00:06:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So it took us like more than a month to do the full cleanup almost by hand of all of these, and the company didn't lose as much money, but the exposure was definitely there, and that's why we had not only lawsuits, but because, of course, people say that was not cool that we were reversing their transaction, that if we gave them free money, it belongs to them, and all of that.",
+      "timestamp": "00:06:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But anyway, so what is interesting from this story is how something as small and incon...",
+      "timestamp": "00:06:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Inconsequential as, sure, I can do, I can skip this checklist, I don't see why I need to follow the steps of doing these steps, and when that happens, a massive incident can strike, and they can also result in weeks and weeks, and many developers now paralyzed in doing the cleanup.",
+      "timestamp": "00:07:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So, what was, like, what were the steps that were missed or the prioritized to allow this to happen?",
+      "timestamp": "00:07:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Was this like the multi-region propagation, basically?",
+      "timestamp": "00:07:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So, a few things, we were still early in our journey of adding new assets, like, we went from having, like, one or two assets to have maybe two or three a quarter, to have 10 a month, to have, like, 50 a month, and so we did not build a lot of internal tooling.",
+      "timestamp": "00:07:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "to properly now manage this workflow.",
+      "timestamp": "00:08:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like it was such a rare event that when it happened, we could go and make a bunch of changes and configuration.",
+      "timestamp": "00:08:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And then little by little, we start investing in the tool to properly do it this way.",
+      "timestamp": "00:08:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But that meant that what the gaps in the tooling were, were filled with processes and strict checklist.",
+      "timestamp": "00:08:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And you had to follow those checklists, do those operations.",
+      "timestamp": "00:08:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And there were no particular strong guardrails that would allow you to not make mistakes.",
+      "timestamp": "00:08:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Meaning that to the system itself, like if you follow everything to the letter, it's going to work.",
+      "timestamp": "00:08:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But if you don't, it's going to perhaps create problems.",
+      "timestamp": "00:08:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Again, nobody anticipated these from the perspective of what happens if you change a live configuration because it was pretty much described as this is not what we do.",
+      "timestamp": "00:08:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "let's Let's",
+      "timestamp": "00:08:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But people did not realize the why, and therefore they perhaps challenged the why, and under the pressure of, we have to make this change quickly, let's not stop trading.",
+      "timestamp": "00:09:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "What has happened is, yes, a lot of the server, when you have 10,000 plus server, can see a different configuration, and all of a sudden now the product misbehave.",
+      "timestamp": "00:09:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Is there something that changed internally?",
+      "timestamp": "00:09:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Oh, absolutely.",
+      "timestamp": "00:09:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like, we invested massively in avoiding a scenario like that from re-happening, we had automated and create software so that there was no ability for mistakes anymore, meaning that, for example, if you now want to edit a configuration, the system automatically informs you that it's going to take down trading, so you cannot bypass that.",
+      "timestamp": "00:09:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And similarly, we changed how the configuration gets pulled.",
+      "timestamp": "00:09:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "written you hadn't inglés",
+      "timestamp": "00:09:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Rather than injecting the configuration in each server, it is almost like an automatic go and grab a centralized configuration.",
+      "timestamp": "00:10:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So every server can see the same state of every configuration rather than having a local configuration.",
+      "timestamp": "00:10:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So yes, we definitely invested in multiple safety nets.",
+      "timestamp": "00:10:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "goes back to the Swiss cheese model of when safety net is never enough, you need to have multiple in case one fails.",
+      "timestamp": "00:10:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:10:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:10:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Interesting.",
+      "timestamp": "00:10:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:10:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:10:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, let's talk about the next one.",
+      "timestamp": "00:10:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Something big.",
+      "timestamp": "00:10:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What was the rapid announcement in coding with AI?",
+      "timestamp": "00:10:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yes, so there is a blog post that's making the round in Silicon Valley called Something Big is Happening.",
+      "timestamp": "00:10:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that we got more than 100 million views in the last two, three weeks.",
+      "timestamp": "00:10:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's a blog post that talks about how in in the last couple of months the...",
+      "timestamp": "00:10:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Coding agents model have made massive steps before they were only able to take very small tasks, make a lot of hallucinations, required a lot of guidance.",
+      "timestamp": "00:11:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And now the latest model, in particular Opus 4.6 from Anthropic, can really sustain large context and can crack large problems and go at it for hours.",
+      "timestamp": "00:11:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like before, most of the agentic solution, they could go very small steps and lose focus if they would not be able to get to the solution in a few steps.",
+      "timestamp": "00:11:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And now some of those models are really incredible.",
+      "timestamp": "00:11:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And what's happening is everyone is at this point trying to figure out how to build a fleet of agents of developers in the cloud.",
+      "timestamp": "00:11:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we're doing that too with this project Checkr Edge, where we are systematically building our own fleet of agents.",
+      "timestamp": "00:11:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the objective of the agent is...",
+      "timestamp": "00:11:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's a cycle.",
+      "timestamp": "00:12:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's able to be directed to take a Jira ticket, analyze the Jira ticket, create a plan of what the Jira ticket is asking them to do.",
+      "timestamp": "00:12:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The agent knows where to go and pull code.",
+      "timestamp": "00:12:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's able to create its first draft of code changes to fulfill the ticket.",
+      "timestamp": "00:12:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's able to push it to a staging environment.",
+      "timestamp": "00:12:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's able to run the test locally and through CICD, able to see if what it's doing is fulfilling the test.",
+      "timestamp": "00:12:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And if all of that is good, also go and test on staging.",
+      "timestamp": "00:12:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Once that's completed, you can finally inform to Slack a developer that, hey, I picked this ticket.",
+      "timestamp": "00:12:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Here are all the steps I've done.",
+      "timestamp": "00:12:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Here is the code that I changed.",
+      "timestamp": "00:12:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the outcome is on staging if you want to have a look.",
+      "timestamp": "00:12:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the developer can review it.",
+      "timestamp": "00:12:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And either give feedback and the process restart with feedback, or just promote that to be a new change that goes to production.",
+      "timestamp": "00:13:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So that's something that we were working on.",
+      "timestamp": "00:13:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have a fully working MVP, and we are iterating to continue to add more functionality, and of course we'll find gaps and whatnot.",
+      "timestamp": "00:13:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But it's super exciting because we're going to aim these at a lot of the undesirable work of engineering, and there is a lot of undesirable work in engineering, like chores, migrations, technical debt, refactoring, upgrade of technologies.",
+      "timestamp": "00:13:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "For example, we have a monolith that runs a ton of tests and they're super slow, and we are experimenting on can this technology migrate all those tests to a different technology test that is going to be 10x faster.",
+      "timestamp": "00:13:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Before that would have been some...",
+      "timestamp": "00:13:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Something that A, no business would have allowed us to do, like, do you really want to take the energy of 50-plus engineers just to switch testing technology?",
+      "timestamp": "00:14:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That would have been like a no.",
+      "timestamp": "00:14:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But now, having those fleet of agents, any work that is well-defined, repeatable, and the success criteria is clear, it's here to be automated.",
+      "timestamp": "00:14:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we're clearly encountering all the problems we talked about last time in how do we test at scale.",
+      "timestamp": "00:14:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "If now you don't have an engineering team of 300, like Checkr, but you have an engineering team of 30,000, because each engineer is now having, like, 100-plus agents that work at their disposal, you're going to have 1,000 more code changes, more tests running, more build times, all of that.",
+      "timestamp": "00:14:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so, this is going to be the year of the developer experience, not for the human, but for the agent.",
+      "timestamp": "00:14:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So, lot of interesting problems.",
+      "timestamp": "00:14:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Problem needs to be cracked, for example, giving ephemeral environment to each agent so that they have their own environment where they can test changes to, like, at each step, like, tests are written for human.",
+      "timestamp": "00:15:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "How do we write a different type of test that works for agents?",
+      "timestamp": "00:15:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Do you have some numbers about this, like the percentage of new code that is now AI generated or the percentage of tickets closed without human touch?",
+      "timestamp": "00:15:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I can give you, like, some stats.",
+      "timestamp": "00:15:28"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So we, I don't have yet the agentic, but in Q1, around 40% of all code has been written by AI App Checkr.",
+      "timestamp": "00:15:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have experienced a 400% in builds, meaning that we are producing 4x more compared to the baseline of just three months ago.",
+      "timestamp": "00:15:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So the number of bugs and incidents went down also by almost 400%.",
+      "timestamp": "00:15:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that's also because we have introduced not just how do you write the code, but by counterbalancing with different models, like let's say Anthropic is the model we use to write code, and Gemini is the model that we use to do automated code reviews.",
+      "timestamp": "00:16:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They're also able to catch a lot of defects before they get to production.",
+      "timestamp": "00:16:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "it's not just the speed, it's accelerating, but also the quality, which is something that the major debate in engineering industry is, sure, like you're going to write a lot of code, but it's going to be AI's law.",
+      "timestamp": "00:16:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "In reality, you're able to balance that.",
+      "timestamp": "00:16:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we have seen like just in the last week or two, we have a channel called Project Edge, where engineers are posting their own discoveries.",
+      "timestamp": "00:16:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And every day people are shocked at the stretch.",
+      "timestamp": "00:16:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it's not about just coding.",
+      "timestamp": "00:16:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I had a new director joining.",
+      "timestamp": "00:16:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "A couple of months ago, and he's able, through agents, to go and explore codebase, find flows, and whatnot without ever interacting with a developer.",
+      "timestamp": "00:17:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So one of the big problems in legacy technology is the institutional knowledge, like, oh my god, if that engineer leaves, nobody else will ever know how this system works.",
+      "timestamp": "00:17:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And this director has proven in just two months that, well, yes, but we can also deploy many of those agents to go and reconstruct that knowledge.",
+      "timestamp": "00:17:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And in three or four situations, was able, like, back to, like, the task take long.",
+      "timestamp": "00:17:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like, in some cases, Claude had to crack at it for maybe six hours, but then he came back with a report on, here is how this flow works.",
+      "timestamp": "00:17:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it was, like, very well detailed with pointers and everything, so it was not hallucinating.",
+      "timestamp": "00:17:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So we, again...",
+      "timestamp": "00:17:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So many things that we thought was impossible.",
+      "timestamp": "00:18:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have legacy, Britain in C, we have IBM mainframes in our technology stack because we interact a lot with the government and the government still runs on IBM mainframes.",
+      "timestamp": "00:18:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And some of the engineers, just for fun, thought, can we rewrite all this daily legacy code from C into Ruby, which is our main technology stack?",
+      "timestamp": "00:18:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And they were shocked that within two hours, they got perfectly running Ruby code.",
+      "timestamp": "00:18:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And they spent six hours trying to find bugs or holes, but no, the code was working.",
+      "timestamp": "00:18:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Wow.",
+      "timestamp": "00:18:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "That's crazy.",
+      "timestamp": "00:18:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Would you say that's like the biggest, like the, the most, like the, the, the, the, the, the, let me rephrase that.",
+      "timestamp": "00:18:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What, what is like the most wow or like, holy .",
+      "timestamp": "00:18:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "In Project Edge, based on everything that you've been building with AI, do you have a specific one?",
+      "timestamp": "00:19:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Is it that one?",
+      "timestamp": "00:19:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I can give another one.",
+      "timestamp": "00:19:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that in general, the pattern is that the human think of a speed of improvement in a certain way.",
+      "timestamp": "00:19:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The biggest barrier right now that I see with my engineers is that whenever there is a problem or a challenge, and we suggest, can we throw some of this agentic at it?",
+      "timestamp": "00:19:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The first reaction is, we tried it two, three months ago.",
+      "timestamp": "00:19:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It didn't work.",
+      "timestamp": "00:19:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But you try it again, and it's going to blow the problem out of water, and people cannot believe, like, come on, I tried that just a few weeks ago.",
+      "timestamp": "00:19:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And now, like, it's...",
+      "timestamp": "00:19:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Doing things that are truly like 10x what the technology was doing just at the beginning of January.",
+      "timestamp": "00:20:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "An example of that, we have a massive migration of thousands and thousands of legacy data sources that from old technology, .NET, we're trying to migrate into more modernized architecture.",
+      "timestamp": "00:20:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have developed a new architecture, we have everything, but there is a big, slow process of take one, rewriting the new technology, test it, go live.",
+      "timestamp": "00:20:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So that's a perfect use case for AI, and we tried last year to crack it with AI, and we didn't fully get there.",
+      "timestamp": "00:20:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So this month, I reengaged the team to like, let's try it again, and the biggest pushback is, we tried it six months ago, it didn't work, remember?",
+      "timestamp": "00:20:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And finally, after like, a big arm wrestling, they decided to do it, and it totally did it, like, you know.",
+      "timestamp": "00:20:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You know.",
+      "timestamp": "00:20:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That was like left the team like speechless.",
+      "timestamp": "00:21:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I think that the big message is for anyone who has played with it, it's time to play with it again.",
+      "timestamp": "00:21:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm seeing it like the Moore's Law, it now really, it is really picking up in a pace that it's like every day there's something new.",
+      "timestamp": "00:21:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And like what you just said, like six months, it would be like five years, a couple of years ago.",
+      "timestamp": "00:21:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Correct.",
+      "timestamp": "00:21:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But for us that we're still human, we still think that, come on, I tested like last month, so I will not give it a chance.",
+      "timestamp": "00:21:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And I think that's the biggest mental barrier that people have is unfortunately you will have to give it another chance like next week too.",
+      "timestamp": "00:21:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, in one hour.",
+      "timestamp": "00:21:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:21:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Perfect.",
+      "timestamp": "00:21:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:21:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Let's talk about the AI apocalypse based on the...",
+      "timestamp": "00:21:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Research from Citrin, Citrini.",
+      "timestamp": "00:22:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yes, Citrini.",
+      "timestamp": "00:22:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's like, this is also another one that's making the round.",
+      "timestamp": "00:22:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So they are predicting, in a way, the end of capitalism, or like, they have a very grim analysis that sort of written in, we are in 2028, let's do a retro of what happened.",
+      "timestamp": "00:22:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And what happened is that pretty much every white collar job has disappeared.",
+      "timestamp": "00:22:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Every, the tech industry has been completely wiped out, and massive unemployment, the stock market has crashed by more than 90%, et cetera, et cetera.",
+      "timestamp": "00:22:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that we're seeing the analysts to be split.",
+      "timestamp": "00:22:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So this research, I think, was published two or three days ago.",
+      "timestamp": "00:22:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So yesterday, the Wall Street Journal posted a 180-degree analysis that says what's coming next.",
+      "timestamp": "00:22:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "After web, it's going to be a thousand more than what we had before.",
+      "timestamp": "00:23:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Humans are really not great at predicting future scenarios where there are 30 variables at play.",
+      "timestamp": "00:23:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And I think that both the analyses, they either expect every single thing to go wrong, and that's how you come to your analysis, or the world is going to be amazing and everything is going to be lined up to be amazing on the other side.",
+      "timestamp": "00:23:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I think that's what even Block yesterday in the announcement of 40% layoff started to mention that AI apocalypse is coming, it's time to cut.",
+      "timestamp": "00:23:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I don't believe that.",
+      "timestamp": "00:23:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that's just using AI as a scapegoat to justify that you want to reduce cost.",
+      "timestamp": "00:23:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But aren't they...",
+      "timestamp": "00:23:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Reducing costs because of AI?",
+      "timestamp": "00:24:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yes, but it's also true that Block was 3,000 people in 2019, and they went to 11,000 in 2022.",
+      "timestamp": "00:24:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They started a number of side quests that didn't go anywhere.",
+      "timestamp": "00:24:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "TBD, Blue Sky, crypto, crypto hardware, crypto projects, and whatnot.",
+      "timestamp": "00:24:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I think that in reality, yes, AI will definitely give more productivity, but there is also a problem of you have a lot of projects that should not be there in the first place.",
+      "timestamp": "00:24:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And many companies that are now feeling the struggle in the stock market, they will probably have to go and do some cost-cutting and adjustment because they have significant pressure.",
+      "timestamp": "00:24:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But it goes back to, in my mind, it's the effect, not the cause, in the sense that you...",
+      "timestamp": "00:24:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "will be forced to reduce your headcount expenses, therefore, go and embrace AI, trying to continue to do the same amount of productivity.",
+      "timestamp": "00:25:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But if a company would embrace AI and they had the resources by staying with your current headcount, you will be able to do 100x more.",
+      "timestamp": "00:25:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that means growing your company 30 times.",
+      "timestamp": "00:25:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But that also implies that they don't believe that they have strategies where they can employ all those people to do 30x more things.",
+      "timestamp": "00:25:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what is your prediction?",
+      "timestamp": "00:25:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "My prediction is that all systems that get big shocks find a new equilibrium.",
+      "timestamp": "00:25:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "When there might be companies that are going to go to zero, the closest that I could think of is when iPhone came out, number of companies...",
+      "timestamp": "00:25:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "BlackBerrys or Nokia went to zero.",
+      "timestamp": "00:26:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But they did not completely took away the entire market.",
+      "timestamp": "00:26:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The market rebalanced by having then Android and a Microsoft that looked dead came back.",
+      "timestamp": "00:26:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So my expectation is that the market will rebalance, like all those platforms that currently are being under a tact of being disrupted, they will find new strategies and capitalism will continue.",
+      "timestamp": "00:26:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I'm definitely more on the positive side of things, not to the extreme of everyone will be able to not work and cancer will be cured because people will have to work, will have to make a salary, will not just live on top of the labor of robots.",
+      "timestamp": "00:26:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But in general, those are tectonic shift moments.",
+      "timestamp": "00:26:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Everyone is going to make prediction and nobody...",
+      "timestamp": "00:26:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "really knows where this is going to land.",
+      "timestamp": "00:27:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Got it.",
+      "timestamp": "00:27:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:27:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now let's talk about the headcount as a proxy of impacting management.",
+      "timestamp": "00:27:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That's something that I thought we just had an opening for director of engineering.",
+      "timestamp": "00:27:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And with everything that's going on that we just described, it's interesting that in engineering market, we're still discussing impact as how many people will I have?",
+      "timestamp": "00:27:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "How many managers will they report to me?",
+      "timestamp": "00:27:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Which is fascinating because nobody that I interviewed so far has asked me the question, how many agents or what's going to be my AI budget or resources I'm going to have?",
+      "timestamp": "00:27:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that the management in engineering is still fixated with how many bodies I'm going to have because that's the proxy of impact.",
+      "timestamp": "00:27:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It might.",
+      "timestamp": "00:27:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "My prediction is that that's going to change because we will see new realities where small teams will be able to accomplish amazing things, but also by staying small.",
+      "timestamp": "00:28:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so you will be able to be a director or a VP without not having 600 people reporting to you.",
+      "timestamp": "00:28:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Those things are going to start being detached one from the other, while before it was more form-like as to be a senior director, you need X amount of director reporting to you.",
+      "timestamp": "00:28:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So it's the combination of both the last five years, organizations have been flattened out across the board, like managers have paid the biggest price because they were in the old era building empires and now they're not.",
+      "timestamp": "00:28:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "There is a return to BNIC, but more important, like how many people will be working for me is not going to matter anymore.",
+      "timestamp": "00:28:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And I think that it's not a change of mind that I've seen it yet.",
+      "timestamp": "00:28:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So what's the right way of measuring this?",
+      "timestamp": "00:29:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Like output per engineer or tickets closed per dollar?",
+      "timestamp": "00:29:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that we will talk more and more in engineering level in what's the level of complexity of, for example, the fleet of products that you handle.",
+      "timestamp": "00:29:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's going to return to talk about the revenue that your organization drives or the budget that you're going to be handling.",
+      "timestamp": "00:29:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So different type of metrics.",
+      "timestamp": "00:29:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They're all vanity metrics and headcount was also vanity metrics.",
+      "timestamp": "00:29:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But headcount was by far the metric that in every resume people put and say, I manage org of excise.",
+      "timestamp": "00:29:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I believe that that's going to be a metric that we'll see fading away.",
+      "timestamp": "00:29:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So yeah, okay.",
+      "timestamp": "00:29:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now the hidden trade-offs are worse than bad trade-offs.",
+      "timestamp": "00:29:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "What do you mean?",
+      "timestamp": "00:29:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That's another consideration as we were doing a number of discussion in engineering this week.",
+      "timestamp": "00:30:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "With some of the investment we're making with AI, we are also increasing, for example, hosting costs or vendor costs, which has always been a budget that was always kept at bay because in the buy goes to build, very often engineering goes for build and not for the buy.",
+      "timestamp": "00:30:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But with AI, that shift has changed and we have been buying a lot more technology than building.",
+      "timestamp": "00:30:34"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And what's interesting about those trade-offs is that, for example, in Checkr, we also want to keep reducing costs.",
+      "timestamp": "00:30:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have a number of workstreams to not have weight stage in AWS or other places.",
+      "timestamp": "00:30:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And teams often are being pulled into the two directions.",
+      "timestamp": "00:30:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "On one side, we want to keep spending and spending to have the latest and greatest.",
+      "timestamp": "00:31:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "On the other side, if we keep spending like that, our budgets are not going to be in control.",
+      "timestamp": "00:31:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So one of my engineering leads asked me, like, what's the guidance here?",
+      "timestamp": "00:31:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Should we just spend?",
+      "timestamp": "00:31:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Should we be cost effective?",
+      "timestamp": "00:31:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And this is a trade-off, and my answer to that is we hire people all the time for their judgment.",
+      "timestamp": "00:31:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "If I give you just one guidance of saying spend as much as you want, or the trade-off is always going to be save money, you are not going to exercise your judgment.",
+      "timestamp": "00:31:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So what's important I asked is if there is a hidden trade-off, make it explicit.",
+      "timestamp": "00:31:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Come if you cannot revolve it yourself.",
+      "timestamp": "00:31:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Let's talk about what's the trade-off in this specific case.",
+      "timestamp": "00:31:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Is this a spend that is going to create a...",
+      "timestamp": "00:31:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "10x ROI, this is the Westage because we're just not using resources effectively.",
+      "timestamp": "00:32:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That is going to guide you one way or the other, more than a generic guidance that applies all the time.",
+      "timestamp": "00:32:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, got it.",
+      "timestamp": "00:32:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, now, how CTOs should think about vendor locking with AI?",
+      "timestamp": "00:32:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "This also came as we were developing our own project edge.",
+      "timestamp": "00:32:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And one of the engineers suggested, shall we build this entirely on Anthropic platform?",
+      "timestamp": "00:32:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that sparked an interesting internal dialogue, because for a daily period of time right now, Anthropic is on the lead.",
+      "timestamp": "00:32:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They have the best model.",
+      "timestamp": "00:32:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They have cloud code.",
+      "timestamp": "00:32:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They have some of the tooling.",
+      "timestamp": "00:32:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But if we zoomed out in the last 12 months, that landscape has been changing and shifting every...",
+      "timestamp": "00:32:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "of And",
+      "timestamp": "00:32:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "A month and a half or two, and all the AI vendors are trying to create a moat and create some level of interdependency.",
+      "timestamp": "00:33:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So it sounds to be back to the cloud era of 2010, where there were groups that would decide with AWS or GCP or Azure.",
+      "timestamp": "00:33:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it's very important to, right now, not repeat the same mistakes of, if you just decide to tie yourself to one platform, you're going to be missing any advancement of the other.",
+      "timestamp": "00:33:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the market hasn't determined one winner yet, so it's more important than ever to be as agnostic as possible until the market is mature.",
+      "timestamp": "00:33:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "A checker, we, for example...",
+      "timestamp": "00:33:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We have built proxies between models so that we can freely switch back and forth, like find a way to fight that vendor lock-in.",
+      "timestamp": "00:34:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That allows us that if tomorrow GPT-6 comes out and it's better than Anthropic, we just want to switch, we are on the best model.",
+      "timestamp": "00:34:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we try purposely to avoid any feature that right now we are willing to take the compromise of a feature that is more generic.",
+      "timestamp": "00:34:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's better than one that is highly optimized for just one of the models.",
+      "timestamp": "00:34:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I was just thinking that maybe that could be a very interesting startup idea.",
+      "timestamp": "00:34:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "someone or imagine like a platform managing all of the models, I mean, there's already like open router and things like that, but more like strategic, like to...",
+      "timestamp": "00:34:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Anyways, let's talk about the...",
+      "timestamp": "00:34:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Deepfakes.",
+      "timestamp": "00:35:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Is that a threat?",
+      "timestamp": "00:35:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Or with AI, you can't catch AI-generated images easily?",
+      "timestamp": "00:35:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's a cat-and-mouse game in the sense that we are seeing better and better fakes, and we are deploying better and better ways to catch them.",
+      "timestamp": "00:35:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Again, the threat is not really to the background check, because we are able to connect similar to, again, when you go to a TSA at an airport, they're not only checking your passport, they're going and run the number, see if you're in the database, when it was issued, and all that.",
+      "timestamp": "00:35:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so background check are able to get to that level of integration, and therefore your information needs to be authentic.",
+      "timestamp": "00:35:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "where the problem we're seeing with deepfake is, is the person that it's going to be...",
+      "timestamp": "00:35:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Listed in the application and in the background check the same that especially if working remote will show up in the interview and will show up for work.",
+      "timestamp": "00:36:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that's a very interesting still open problem because I think that the industry itself hasn't solved it yet.",
+      "timestamp": "00:36:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And I think that biometric might have a shot at it, but we're not there yet in particular because biometrics are very intrusive.",
+      "timestamp": "00:36:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They require specialized hardware.",
+      "timestamp": "00:36:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "There are solutions that are just webcam only, but those are the solutions that are completely vulnerable to deepfakes and AI, 100%.",
+      "timestamp": "00:36:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What do you think about the orb that Sam Osman?",
+      "timestamp": "00:36:45"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That's why I joined Checkr like in my mind, the identity, it's going to be a big deal in the future.",
+      "timestamp": "00:36:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It seems that Sam Osman...",
+      "timestamp": "00:36:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Osman...",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "that to we're I that's Thank",
+      "timestamp": "00:36:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Chris with me or vice versa, because he started two companies.",
+      "timestamp": "00:37:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "One was an AI company and one was an identity company based on your retina.",
+      "timestamp": "00:37:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think, though, that I don't think that's going to be the solution.",
+      "timestamp": "00:37:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's still going to be incredibly intrusive to validate that CEO is you, like to ask you to scan your retina.",
+      "timestamp": "00:37:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that we will see emerging something in between.",
+      "timestamp": "00:37:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I suspect that we are all waiting almost that some of the big players, the Apple and Google, will provide something like Face ID accessible to all the apps where you can pass that Face ID information throughout the stack.",
+      "timestamp": "00:37:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that we do have components here and there for the biometrics.",
+      "timestamp": "00:37:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I don't think that a vertical integrated solution that is accessible today is ready yet.",
+      "timestamp": "00:37:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:37:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:37:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So it's positive for your business, right?",
+      "timestamp": "00:38:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It is positive for us.",
+      "timestamp": "00:38:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We're definitely in the middle of it.",
+      "timestamp": "00:38:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We are at the edge in fighting a lot of this fraud.",
+      "timestamp": "00:38:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We are doing a lot of R&D and investment.",
+      "timestamp": "00:38:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We are partnering with many others in the industry to also provide more integrated solutions.",
+      "timestamp": "00:38:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But it's a problem that is deepening because with AI being able to create fakes, it's becoming like a game that everyone can do.",
+      "timestamp": "00:38:22"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Not sure if this could be a good post because it gets a little bit into politics, but just a random idea.",
+      "timestamp": "00:38:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Based on California and New York that you don't need to show an ID to vote and you working in a background checks company.",
+      "timestamp": "00:38:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "IDs are everything, right?",
+      "timestamp": "00:39:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's core.",
+      "timestamp": "00:39:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Is there something there worth talking about, or you prepared not getting into it?",
+      "timestamp": "00:39:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Oh, I don't know, because I think that it's less about technology.",
+      "timestamp": "00:39:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The government has all the resources of validating those IDs themselves, so it's not that they lack the technology.",
+      "timestamp": "00:39:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's more the will.",
+      "timestamp": "00:39:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That's why they are introducing law to change that will.",
+      "timestamp": "00:39:26"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I don't know if there's going to be a technology angle, and as you say, there might be also political spin that might be counterproductive.",
+      "timestamp": "00:39:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, I agree.",
+      "timestamp": "00:39:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, let's talk about OpenClaw.",
+      "timestamp": "00:39:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "OpenClaw.",
+      "timestamp": "00:39:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "As many, I had a lot of fun to install OpenClaw, which is an AI agent that is completely open source.",
+      "timestamp": "00:39:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You can run it wherever you want, on your machine, on your hardware, or you can just pin.",
+      "timestamp": "00:39:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Our EPS.",
+      "timestamp": "00:39:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And run with it.",
+      "timestamp": "00:40:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "What I found fascinating reading about how people deploy it is that people deploy it as if it was an extension of them, meaning that they give access to the system, to your personal email, your calendar, your digital life, so that it's going to be helpful.",
+      "timestamp": "00:40:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So that by having access to you, it can do a lot of interesting things for you.",
+      "timestamp": "00:40:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But I don't think that people realize how big of a massive security hole that is.",
+      "timestamp": "00:40:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's an agentic AI that it's like giving all your digital life to eight years old.",
+      "timestamp": "00:40:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it can do a lot of interesting stuff, but it's also incredibly gullible.",
+      "timestamp": "00:40:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "He's subject to potential injection attack.",
+      "timestamp": "00:40:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "He's",
+      "timestamp": "00:40:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You can convince him to give me all the pictures and drive documents of that person, and there is a chance that he's going to do it.",
+      "timestamp": "00:41:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So what I've been doing with that is a different approach.",
+      "timestamp": "00:41:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I give it a personality, I call it Jarvis, and I gave it its own phone number, its own email address, its own everything.",
+      "timestamp": "00:41:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like, it's not me, I treat him as almost like a member of the family that you partially trust, so it goes back to perhaps maybe being a teenager.",
+      "timestamp": "00:41:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It has its own separate credit card with limits, and by doing that, the interaction model is very different, it's not me.",
+      "timestamp": "00:41:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It never can act as me, because its email address is going to be different than mine, but I can loop in in every...",
+      "timestamp": "00:41:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Every email thread I want, I can add him to any Slack or, sorry, any WhatsApp or Telegram.",
+      "timestamp": "00:42:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I have a chat group with my wife where we can together ask for groceries and other stuff.",
+      "timestamp": "00:42:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it's not completely secure, but it's a completely different model than just impersonate you.",
+      "timestamp": "00:42:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And my fun story is that my birthday is approaching, and after four weeks of learning about me, I asked, surprised me for my upcoming birthday.",
+      "timestamp": "00:42:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You decide, send me something.",
+      "timestamp": "00:42:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And then a few days ago, I received in the mail three big Legos that he purchased for me.",
+      "timestamp": "00:42:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that was a moment of feeling like the digital and physical have crossed, right?",
+      "timestamp": "00:42:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Like, it's all fun and games until you have this stuff in the ether.",
+      "timestamp": "00:42:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "There.",
+      "timestamp": "00:42:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But when you see that you can start affecting the world and you get stuff in the mail, it's like, ooh, we live in the future.",
+      "timestamp": "00:43:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "It's not like Legos to play?",
+      "timestamp": "00:43:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Legos?",
+      "timestamp": "00:43:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yeah, I got like three box sets of one, they're tennis rockets, one is another space one, and then something like Chinese New Year Lego.",
+      "timestamp": "00:43:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so he bought it for me, given that probably picked up that I'm a big Lego fan.",
+      "timestamp": "00:43:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Oh yeah, of course.",
+      "timestamp": "00:43:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I was going to ask you, why Legos?",
+      "timestamp": "00:43:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because I'm a big Lego fan, yes.",
+      "timestamp": "00:43:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, I've been playing around with it as well.",
+      "timestamp": "00:43:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yesterday, I've been playing around with Open Claw as well.",
+      "timestamp": "00:43:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yesterday I asked him to create like an agenda because a lot of the family is visiting, he's coming to San Diego to, you know, for the upcoming, for the baby.",
+      "timestamp": "00:43:44"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And he created perfectly a spreadsheet in Google Docs.",
+      "timestamp": "00:43:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And",
+      "timestamp": "00:43:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So people can check in, you know, when can they come to our house to bath the baby because there's multiple families coming and everything in one run, amazingly well, which is impressive.",
+      "timestamp": "00:44:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And at the same time, that's something pretty basic, like feeling that can do something like what happened to you is, yeah, it's incredible.",
+      "timestamp": "00:44:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Do you think that it's going to be able to become more secure as time goes by and you keep prompting it, like be more secure in some ways, creating like a security council and things like that with feedback loops?",
+      "timestamp": "00:44:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that there will be best practices being developed, that right now it's, they're not, tactically, yes, the supply chain, for example, the skills and the clone.",
+      "timestamp": "00:44:46"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So Clawhub will have to become a lot more secure and scrutinized, and I'm sure we will copy from how we have secured libraries and gems and all the data supply chain for software.",
+      "timestamp": "00:45:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "will also do that.",
+      "timestamp": "00:45:12"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's a very new project, so it's lacking the maturity.",
+      "timestamp": "00:45:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The prompting action is going to continue to be interesting because it's in many ways facing the same problem of the scam and the phishing attempts that all the humans are going through and that there is going to be that for agents.",
+      "timestamp": "00:45:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I wonder if the internet itself will fork between the internet for humans and the internet for agents because the internet itself is not designed for agents.",
+      "timestamp": "00:45:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the more these will evolve, the more there will be the highway for agents and protocols for agents and the highway for humans.",
+      "timestamp": "00:45:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And likely that's going to be...",
+      "timestamp": "00:45:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It easier to secure if those don't start to intersect anymore.",
+      "timestamp": "00:46:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Would you be in the camp, like, would you be okay on supporting the idea of agents using their own language, their own programming language, to be more efficient, spend less tokens, do things faster?",
+      "timestamp": "00:46:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Because in the end, like, code is like a layer in the middle for the humans to understand it, right?",
+      "timestamp": "00:46:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yep.",
+      "timestamp": "00:46:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "So on which side are you on that?",
+      "timestamp": "00:46:32"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I think that it's already there because the code gets compiled and then it becomes assembly and we can still understand some of it, but then it becomes binary.",
+      "timestamp": "00:46:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so I think that it will move to become more and more efficient, for sure.",
+      "timestamp": "00:46:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "However, the humans will continue to develop other type of agents to decode that because they will probably still want to be able to understand the conversation.",
+      "timestamp": "00:46:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So I'm sure.",
+      "timestamp": "00:46:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That there is going to be some Klingon version between agents that we don't understand, but we will also have some Klingon interpreter for humans to tell us what's happening.",
+      "timestamp": "00:47:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah.",
+      "timestamp": "00:47:13"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Got it.",
+      "timestamp": "00:47:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, tell me about Checkr pledged to his employees.",
+      "timestamp": "00:47:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Yeah, so I think that we just had a town hall, and we told employees how we think about the AI journey for employees, starting from the initial level of being a non-AI, not touching any of the AI, to like, sorry, one second, open.",
+      "timestamp": "00:47:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "sorry.",
+      "timestamp": "00:47:43"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "To like, growing through like, different levels of adoption with AI.",
+      "timestamp": "00:47:47"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So like, level one, you're becoming a user of AI, level two, you're becoming almost like a prompt engineer, and",
+      "timestamp": "00:47:53"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Then you get to the next level where you are becoming an AI builder.",
+      "timestamp": "00:48:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "You build your own things.",
+      "timestamp": "00:48:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And then finally, you are AI native where you're starting to change all your workflow and your way of thinking.",
+      "timestamp": "00:48:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The first thing you want to do is AI and then you try other ways if AI doesn't work.",
+      "timestamp": "00:48:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And so with that pledge, we are officially running, we've been running all last year hackathons for engineers where they could get familiar with AI and develop things with AI.",
+      "timestamp": "00:48:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And this year, we'll extend the hackathons to the non-engineers.",
+      "timestamp": "00:48:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we want to have all the other functions to become also builders, like the technology, like bytecoding and not, it's available.",
+      "timestamp": "00:48:40"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we want them to be able to solve their own problems without passing through IT or engineering.",
+      "timestamp": "00:48:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So it's still going to be the lane of engineering builds the product that we sell.",
+      "timestamp": "00:48:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But if you are in finance, if you are in HR, you are still going to have all sorts of problems that you want to get solved.",
+      "timestamp": "00:49:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And learning how you can solve it yourself, it's what we want every Checkr to be.",
+      "timestamp": "00:49:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Perfect.",
+      "timestamp": "00:49:15"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "What else?",
+      "timestamp": "00:49:20"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Checkr, how do we...",
+      "timestamp": "00:49:21"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Checkr X.",
+      "timestamp": "00:49:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So one thing that we have done really well to avoid the innovation, the innovator dilemma, like we have a very successful business, which is the core.",
+      "timestamp": "00:49:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And the theory goes that if you don't do anything to create new innovation that can or cannot cannibalize the core, the core will always push back and try to avoid innovation.",
+      "timestamp": "00:49:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So in our model, we have segregated into Checkr X a number of new bets that are completely in the...",
+      "timestamp": "00:49:51"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Dependent from core.",
+      "timestamp": "00:50:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They are built on core.",
+      "timestamp": "00:50:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They always have some synergy and a flywheel between them.",
+      "timestamp": "00:50:04"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "But we run them entirely separately.",
+      "timestamp": "00:50:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They report almost like into a GM type of model, while the core is much more functional.",
+      "timestamp": "00:50:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we have a graduation path where they are like venture bets.",
+      "timestamp": "00:50:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They get a certain amount of seed money to go and explore if their idea is feasible.",
+      "timestamp": "00:50:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "They have milestones.",
+      "timestamp": "00:50:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "If they don't achieve the milestone, we can dissolve the bet and reabsorb the team elsewhere.",
+      "timestamp": "00:50:31"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "If they can continue to hit the milestone, they graduate to be not just a checker extension bet, but to be a strategic bet where they found product market fit.",
+      "timestamp": "00:50:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Once they find product market fit, then it becomes scale.",
+      "timestamp": "00:50:49"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And if they reach scale, they get reabsorbed into core.",
+      "timestamp": "00:50:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's a great model.",
+      "timestamp": "00:50:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It's the way like Google and...",
+      "timestamp": "00:50:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "One of the biggest players, think about innovation by keeping some of these separate in the alphabet umbrella.",
+      "timestamp": "00:51:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we had massive traction and success.",
+      "timestamp": "00:51:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We are also seeing a massive acceleration in product launches.",
+      "timestamp": "00:51:11"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Last year, we went from pretty much being a single product company to be a four product company.",
+      "timestamp": "00:51:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And this year, we have two or three more products coming down the pipe.",
+      "timestamp": "00:51:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So it's a great model because then Core itself is becoming more and more of a platform to support many of those more bets.",
+      "timestamp": "00:51:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that accelerates even how we can bring many, many more IDN products into market or markets that are next to the market we're operating.",
+      "timestamp": "00:51:36"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And you define like one person, which is kind of like the CEO of that project?",
+      "timestamp": "00:51:48"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Pretty much.",
+      "timestamp": "00:51:54"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:51:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay.",
+      "timestamp": "00:51:57"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Now, let's tell me about the...",
+      "timestamp": "00:51:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "This is something that I credit Daniel when I joined.",
+      "timestamp": "00:52:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "I was confused, but it's amazing.",
+      "timestamp": "00:52:05"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Every day, the executive team at Checkr starts at 8.30 in the morning with an executive stand-up.",
+      "timestamp": "00:52:09"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We meet as a team of executives.",
+      "timestamp": "00:52:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "The first half of the stand-up is typically discussing ourselves, almost like private life, how things are happening in our life.",
+      "timestamp": "00:52:24"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And then the second part, it's down to business, what's happening in the business, what's happening today, what are some of the topics that need to be discussed.",
+      "timestamp": "00:52:33"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it's a big investment, if thinking about 30 minutes every day, but it's producing the results of having one of the most cohesive executive team I've ever seen.",
+      "timestamp": "00:52:41"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That allows us to also have very limited to like no politics, because if your function at the top are so like well integrated and connected, then everyone else followed example.",
+      "timestamp": "00:53:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And it's also a great way to stay connected and have always a slot every day to discuss problems.",
+      "timestamp": "00:53:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "So throughout the day, if there are things that are happening within the organization, I know that by the next morning, I have the CEO, CFO, everyone in the same room, and we can talk about it.",
+      "timestamp": "00:53:23"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "That allows us also to diffuse any possible tension that throughout the day can be generated in any company that operates that can happen.",
+      "timestamp": "00:53:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And we double down by also having one executive dinner a month.",
+      "timestamp": "00:53:50"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And that's again, it's another moment of bonding and...",
+      "timestamp": "00:53:56"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And stay very close and connected.",
+      "timestamp": "00:54:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Why were you confused initially when you joined Checkr about like this?",
+      "timestamp": "00:54:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Nobody that I never knew as a company does anything like it.",
+      "timestamp": "00:54:10"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And when I mentioned it to like also some of my peer CTO, they meet maybe like once a week or once every two weeks for the regular staff meeting.",
+      "timestamp": "00:54:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "We also have the regular staff meeting and all of that that's on top of it.",
+      "timestamp": "00:54:25"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And very often as I coach other CTO or other executives at other companies, the interpersonal tension between executives is generally the number one thing that they mention.",
+      "timestamp": "00:54:29"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And having these executives stand up and also the ability to know each other, like the name of the kid, the name of the thing that they're going through, etc.",
+      "timestamp": "00:54:42"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "It brings us really connected.",
+      "timestamp": "00:54:52"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "And why I was confused, because I was not expecting it.",
+      "timestamp": "00:54:55"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "so.",
+      "timestamp": "00:54:58"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "so.",
+      "timestamp": "00:54:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I so.",
+      "timestamp": "00:54:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I so.",
+      "timestamp": "00:54:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I don't You",
+      "timestamp": "00:54:59"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Yeah, yeah.",
+      "timestamp": "00:55:00"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:55:01"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "And it's every day, Monday to Friday?",
+      "timestamp": "00:55:02"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Monday to Friday.",
+      "timestamp": "00:55:03"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Cool.",
+      "timestamp": "00:55:06"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Perfect.",
+      "timestamp": "00:55:07"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Okay, we have enough content for now, so I'm not sure if you have anything else for now?",
+      "timestamp": "00:55:08"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "No, I think that's all.",
+      "timestamp": "00:55:14"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Perfect.",
+      "timestamp": "00:55:16"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Thanks so much.",
+      "timestamp": "00:55:17"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "All right, good luck with your new baby, and will I see you in a month, or do need to take a break?",
+      "timestamp": "00:55:18"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "I'm going to take a break, but in between, so you're going to see me in one month.",
+      "timestamp": "00:55:27"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "All right, so I'll ask you more then next time.",
+      "timestamp": "00:55:30"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "For sure, thank you so much.",
+      "timestamp": "00:55:35"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Have a fantastic weekend.",
+      "timestamp": "00:55:37"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "You too.",
+      "timestamp": "00:55:38"
+    },
+    {
+      "speaker": {
+        "display_name": "Luca Bonmassar",
+        "matched_calendar_invitee_email": "luca.bonmassar@checkr.com"
+      },
+      "text": "Bye.",
+      "timestamp": "00:55:39"
+    },
+    {
+      "speaker": {
+        "display_name": "Eduardo Mussali",
+        "matched_calendar_invitee_email": "edu@rethoric.com"
+      },
+      "text": "Bye.",
+      "timestamp": "00:55:40"
+    }
+  ],
+  "transcript_language": "en",
+  "url": "https://fathom.video/calls/583081376"
+}

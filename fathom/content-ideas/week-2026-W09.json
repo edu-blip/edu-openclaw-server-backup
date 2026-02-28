@@ -139,6 +139,76 @@
       "meeting": "Team check-in",
       "date": "2026-02-26",
       "edu_post_angle": "We built a lead enrichment system in Clay for our founder clients — pulls ICP data, intent signals, company news. Costs ~$20 per post in credits. Our current Clay plan caps us at 5 clients max before we'd need to upgrade. I used to see that as a problem. Now I see it as clarity: we know our exact unit economics and growth ceiling. That constraint forced us to focus on high-ticket clients, not scale for scale's sake."
+    },
+    {
+      "idea": "Why engineers still resist retrying AI (even though models 10x in weeks)",
+      "hook_angle": "\"We tried that 6 months ago. It didn't work.\" — The biggest blocker to AI adoption isn't the tech. It's this mental trap.",
+      "edu_post_angle": "I had a conversation with a Series B CTO who tried using AI agents to migrate thousands of legacy .NET data sources last year — failed. They tried again this month. It worked perfectly. The team was speechless. Here's what Edu would say: Most founders underestimate how fast AI is improving. If you tried something with Claude in Q4 2024 and it didn't work, you're making a massive mistake by not retrying it now. At Rethoric, Edu's been deploying Tony (his AI COO) to handle outreach and ops — and even he has to keep pushing clients to re-test things they dismissed weeks ago. The pace of improvement is so fast that 'we tried that' is no longer a valid objection. Edu's advice: Build a forcing function into your process. Re-test failed AI experiments every 4–6 weeks. The model that couldn't do X in January might crush it in March.",
+      "key_points": [
+        "CTO tried AI migration 6 months ago — failed. Tried again this month — worked perfectly.",
+        "Biggest blocker: 'We tried that already' mentality when models are improving weekly",
+        "Edu's forcing function: Re-test failed AI experiments every 4–6 weeks"
+      ],
+      "source": "Content Interview: Edu/Luca (2026-02-28) — AI agent migration story",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28"
+    },
+    {
+      "idea": "Hidden trade-offs are worse than bad trade-offs (how to coach judgment in your team)",
+      "hook_angle": "Your team asks: 'Should we spend or save?' If you give them a straight answer, you're killing their judgment.",
+      "edu_post_angle": "Luca (CTO at Checkr) told me his eng lead came to him stuck: 'Do we keep spending on AI tools or start cutting costs?' Most CTOs would pick a side. Luca didn't. He said: 'Make the trade-off explicit. If you can't resolve it yourself, bring it to me with the context.' Here's why Edu would love this: At Rethoric, Edu hires for judgment — not execution of orders. If he tells his team 'always spend' or 'always save,' they stop thinking. Instead, he's building Tony (his AI COO) to surface hidden trade-offs in the agency's ops and force conversations when decisions need executive input. The lesson for founders: Your job isn't to eliminate trade-offs. It's to make sure your team sees them clearly. If someone's stuck, don't give them the answer — give them the framework to decide. That's how you scale judgment, not just headcount.",
+      "key_points": [
+        "CTO's eng lead asked: spend or save? CTO said: make the trade-off explicit first",
+        "Edu's version: Hire for judgment, not execution. Don't answer — give the framework",
+        "How Tony (AI COO) surfaces hidden trade-offs and forces strategic conversations"
+      ],
+      "source": "Content Interview: Edu/Luca (2026-02-28) — Hidden trade-offs discussion",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28"
+    },
+    {
+      "idea": "Headcount is no longer a proxy for impact (how to measure engineering leadership in the AI era)",
+      "hook_angle": "Every director Checkr interviewed asked: 'How many people will report to me?' None asked: 'How many agents will I have?'",
+      "edu_post_angle": "Luca told me something wild: They're hiring a Director of Engineering. Every candidate asks about headcount. None ask about AI budget or agent resources. Meanwhile, Checkr just hit 40% AI-generated code in Q1 — and small teams are doing what used to take 10x the people. Here's Edu's take: Founders are still stuck in the old playbook. They think impact = team size. But at Rethoric, Edu's using Tony (his AI COO) to do the work of 3–4 ops hires. His bottleneck isn't headcount — it's process design and judgment. The metrics that matter now: Revenue per engineer. Complexity of products shipped. Budget managed. Not bodies on the org chart. If you're still hiring (or pitching yourself) based on 'I managed a team of X,' you're about to get left behind.",
+      "key_points": [
+        "Director candidates ask about headcount, not AI resources — outdated mental model",
+        "Checkr: 40% AI-generated code, small teams doing 10x more work",
+        "New metrics: revenue per engineer, product complexity, budget — not team size"
+      ],
+      "source": "Content Interview: Edu/Luca (2026-02-28) — Headcount as proxy discussion",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28"
+    },
+    {
+      "idea": "Daily exec stand-ups = zero politics (Checkr's secret to executive alignment)",
+      "hook_angle": "Most executive teams meet once a week. Checkr's CTO meets with the C-suite every single morning at 8:30am. Here's why it works.",
+      "edu_post_angle": "Luca joined Checkr and was confused: Why are we doing daily exec stand-ups? 30 minutes every morning with the CEO, CFO, full C-suite. Half personal life updates, half business. One month in? Monthly exec dinners on top of that. He told me it's the most cohesive executive team he's ever seen. Zero politics. Every functional leader knows what's happening across the business in real time. If tension builds during the day, it gets diffused by 8:30am the next morning. Here's why Edu would care: At Rethoric, Edu's a solo founder — but as he scales, alignment at the top will be everything. Most agencies (and startups) fail because the leadership team operates in silos. Daily stand-ups force transparency and kill the 'my team vs your team' mentality before it starts. Edu's version for founders: You don't need daily stand-ups at 10 people. But once you hit 3–5 leaders (eng, ops, sales, product), consider it. The cost is 2.5 hours/week per exec. The ROI is eliminating weeks of misalignment and backstabbing.",
+      "key_points": [
+        "Checkr exec team: daily 30min stand-up (8:30am) + monthly dinners = zero politics",
+        "Half personal, half business — builds trust and surfaces tension before it escalates",
+        "Edu's take: Once you hit 3–5 leaders, daily alignment kills silos and backstabbing"
+      ],
+      "source": "Content Interview: Edu/Luca (2026-02-28) — Executive stand-up discussion",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28"
+    },
+    {
+      "idea": "Why I gave my AI agent its own phone number, credit card, and personality (not just access to my accounts)",
+      "hook_angle": "Everyone's giving their AI agents access to their email, calendar, and bank accounts. That's a massive security hole. Here's the better way.",
+      "edu_post_angle": "Luca set up Open Claw (his AI agent) differently than most people. Instead of giving it access to his personal accounts, he gave it: its own phone number, its own email address, its own credit card (with limits). He treats it like a member of the family — not an extension of himself. Why? Because AI agents are gullible. They're like an 8-year-old with access to your digital life. Prompt injection attacks are real. Someone could convince the agent to leak your files, send money, or worse. Here's Edu's version: At Rethoric, Edu's building Tony (his AI COO) to handle ops, outreach, and workflow automation. But he's NOT giving Tony full access to Rethoric's client CRM or bank accounts. Instead, Tony operates in a sandboxed environment with clear boundaries. The lesson for founders deploying AI agents: Don't impersonate. Segregate. Give your agent its own identity, its own limited resources, and loop it into workflows where you control the final decision. That's how you get 80% of the upside with 20% of the risk.",
+      "key_points": [
+        "Luca gave his AI agent (Open Claw) its own phone, email, credit card — not access to his accounts",
+        "Why: AI agents are gullible, vulnerable to prompt injection and security holes",
+        "Edu's approach with Tony: sandboxed environment, clear boundaries, human-in-the-loop on final decisions"
+      ],
+      "source": "Content Interview: Edu/Luca (2026-02-28) — Open Claw security discussion",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28"
     }
   ],
   "sources": [
@@ -151,6 +221,11 @@
       "meeting": "Team check-in",
       "date": "2026-02-26",
       "callType": "weekly_checkin"
+    },
+    {
+      "meeting": "Content Interview: Edu/Luca",
+      "date": "2026-02-28",
+      "callType": "client_interview"
     }
   ],
   "publishedAt": "2026-02-27T07:02:16.294Z",
