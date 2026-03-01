@@ -264,19 +264,24 @@ def ingest_all_archives() -> list:
 
 def cmd_list():
     """List all ingested Fathom transcripts."""
-    sources = store.list_sources(source_type=SOURCE_TYPE)
-    if not sources:
+    conn = store.get_connection()
+    rows = conn.execute(
+        "SELECT id, url, title, metadata, extracted_at FROM sources WHERE source_type = ? ORDER BY extracted_at DESC",
+        (SOURCE_TYPE,)
+    ).fetchall()
+    conn.close()
+    if not rows:
         print("No Fathom transcripts ingested yet.")
         return
-    print(f"\n{'Date':<12} {'Title':<50} {'ID'}")
+    print(f"\n{'Date':<12} {'Title':<50} {'Recording ID'}")
     print("-" * 80)
-    for s in sources:
-        meta = json.loads(s.get("metadata") or "{}")
-        date = meta.get("meeting_date", "?")
-        title = (s.get("title") or "")[:48]
-        rid = meta.get("recording_id", "?")
+    for row in rows:
+        meta = json.loads(row["metadata"] or "{}")
+        date = meta.get("meeting_date", row["extracted_at"][:10] if row["extracted_at"] else "?")
+        title = (row["title"] or "")[:48]
+        rid = meta.get("recording_id", row["url"].split("/")[-1])
         print(f"{date:<12} {title:<50} {rid}")
-    print(f"\nTotal: {len(sources)} transcript(s)")
+    print(f"\nTotal: {len(rows)} transcript(s)")
 
 
 def cmd_stats():
