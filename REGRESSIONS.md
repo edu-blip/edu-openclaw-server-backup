@@ -15,6 +15,8 @@ Format: `[YYYY-MM-DD] What went wrong → Rule`
 - [2026-02-27] Proposed modifying systemd service file before considering safer alternatives → Always do risk analysis BEFORE proposing a solution. Lead with the safest viable approach, not the most direct one.
 - [2026-02-27] Left "waiting on response…" as last message after spawning sub-agent — Edu had to follow up with "?" → After ANY sub-agent completes, immediately send Edu a proactive Slack DM with the result. Never leave a dangling status message.
 - [2026-02-27] Used `channel` instead of `target` in message react tool → Correct syntax: `action=react, target=<channelId>, messageId=<ts>, emoji=<name>`. Always use `target`, never `channel`.
+- [2026-02-28] Nightly extraction (isolated cron) reported "no sessions today" despite a full conversation with Edu — it only reads workspace files, not session JSONL logs → Extraction prompt now explicitly scans session logs first (step 0) to detect activity before concluding it was a quiet day.
+- [2026-02-28] Cron jobs with `delivery: "last"` posted to DM thread instead of #tony-alerts — "last" is fragile (routes wherever agent replied most recently) → All cron jobs must use explicit `delivery.channel + delivery.to` — never `"last"`.
 
 - [2026-02-26] Google integration set up — critical risk: writing/deleting Edu's calendar, drive, or docs without consent → **Google data is READ-ONLY by default. Any write/delete requires explicit Edu GO per-action, every time. No exceptions.**
 
