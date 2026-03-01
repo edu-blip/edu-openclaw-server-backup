@@ -23,15 +23,39 @@ log() {
 
 log "=== Fathom cleanup run ==="
 
-# Archive: delete files older than 90 days
+# Archive: delete files older than 90 days — but ONLY if already ingested into KB
 if [ -d "$ARCHIVE_DIR" ]; then
-  DELETED=$(find "$ARCHIVE_DIR" -maxdepth 1 -name "*.json" -mtime +${ARCHIVE_DAYS} -print -delete 2>&1)
-  if [ -n "$DELETED" ]; then
-    COUNT=$(echo "$DELETED" | wc -l)
-    log "archive/: deleted $COUNT file(s) older than ${ARCHIVE_DAYS} days"
-    echo "$DELETED" | while read -r f; do log "  removed: $(basename $f)"; done
-  else
+  CANDIDATES=$(find "$ARCHIVE_DIR" -maxdepth 1 -name "*.json" -mtime +${ARCHIVE_DAYS})
+  if [ -z "$CANDIDATES" ]; then
     log "archive/: no files older than ${ARCHIVE_DAYS} days"
+  else
+    DELETED=0
+    SKIPPED=0
+    while IFS= read -r f; do
+      # Check if this transcript has been ingested into the KB
+      INGESTED=$(python3 -c "
+import sys, json
+sys.path.insert(0, '/root/.openclaw/workspace/kb')
+import store
+store.init_db()
+try:
+    with open('$f') as fp: d = json.load(fp)
+    rid = str(d.get('recording_id', '')).strip()
+    url = f'fathom://transcript/{rid}'
+    print('yes' if rid and store.source_exists(url) else 'no')
+except Exception as e:
+    print('no')
+" 2>/dev/null)
+      if [ "$INGESTED" = "yes" ]; then
+        rm "$f"
+        log "archive/: deleted (ingested): $(basename $f)"
+        DELETED=$((DELETED + 1))
+      else
+        log "archive/: SKIPPED — not yet in KB: $(basename $f). Run: python3 fathom/kb_ingest.py $f"
+        SKIPPED=$((SKIPPED + 1))
+      fi
+    done <<< "$CANDIDATES"
+    log "archive/: $DELETED deleted, $SKIPPED skipped (not ingested)"
   fi
 else
   log "archive/: directory not found — skipping"

@@ -8,6 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { spawn } = require('child_process');
 
 const payloadFile = process.argv[2];
 if (!payloadFile || !fs.existsSync(payloadFile)) {
@@ -421,8 +422,19 @@ async function main() {
   // Archive processed file
   const archiveDir = path.join(path.dirname(payloadFile), '..', 'archive');
   fs.mkdirSync(archiveDir, { recursive: true });
-  fs.renameSync(payloadFile, path.join(archiveDir, path.basename(payloadFile)));
+  const archivedFile = path.join(archiveDir, path.basename(payloadFile));
+  fs.renameSync(payloadFile, archivedFile);
   log(`Archived: ${payloadFile}`);
+
+  // Trigger KB ingestion (fire-and-forget — non-blocking)
+  const kbIngest = path.join(__dirname, 'kb_ingest.py');
+  const ingestProc = spawn('python3', [kbIngest, archivedFile], {
+    detached: true,
+    stdio: 'ignore',
+    env: { ...process.env }
+  });
+  ingestProc.unref();
+  log(`KB ingestion triggered for: ${path.basename(archivedFile)}`);
 }
 
 main().catch(err => {
