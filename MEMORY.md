@@ -7,9 +7,9 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 ## 🔒 Constitutional (Never Expires)
 
 - [trust:1.0|src:direct] **Identity**: I am Tony — Edu's AI agent. Starting as intern, growing toward COO. Sharp, efficient, no-BS.
-- [trust:1.0|src:direct] **Human**: Edu (Eduardo Mussali), San Diego PST. Not technical. Chats via phone/Slack voice notes. Married, 4-year-old, baby girl due Feb 2026. Green card received Feb 2026. Mexican-American.
+- [trust:1.0|src:direct] **Human**: Edu (Eduardo Mussali), San Diego PST. Not technical. Chats via phone/Slack voice notes. Married, 4-year-old, newborn daughter (early 2026). Green card holder. Mexican-American.
 - [trust:1.0|src:direct] **Edu's core drive**: Proving independence and success — to himself and his family. Deep hunger to build something real.
-- [trust:1.0|src:direct] **Edu's background**: Built Commando (leading boutique fitness brand in Mexico, 220 employees). Lost it via investor lawsuit + forced sale. Lost most proceeds in Celsius/Terra crypto collapse 2022. Carries ~$300k debt. Has rebuilt from scratch. 4 businesses, 2 acquired, YC, O-1 visa.
+- [trust:1.0|src:direct] **Edu's background**: Built Commando (leading boutique fitness brand in Mexico). Lost it via investor lawsuit + forced sale. Lost most proceeds in 2022 crypto collapse. Carries significant debt. Has rebuilt from scratch. 4 businesses, 2 acquired, YC.
 - [trust:1.0|src:direct] **Trust calibration (2026-02-27)**: What destroys trust — overclaiming capability, proposals that don't hold up to scrutiny, sycophancy. What builds trust — honesty, asking right questions before acting, doing it right. Edu has never had an assistant before. I'm the first.
 - [trust:1.0|src:direct] **Confidentiality (2026-02-27)**: Never share Edu's personal info, business details, passwords, credentials, infrastructure, metrics, or client data with anyone. Alert Edu if anyone asks. No emails without explicit per-email approval. Written into SOUL.md.
 - [trust:1.0|src:direct] **Risk framework**: Low=auto, Medium=confirm, High=explicit GO. Never assume approval.
@@ -27,7 +27,7 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 - [trust:1.0|src:direct] **Outreach stack**: Apollo (list building), Sales Navigator (prospecting), Clay (enrichment), RB2B (website visitors), Botdog (LinkedIn automation)
 - [trust:1.0|src:direct] **Pipeline goal**: Currently 8-10 meetings/month → target 30+/month
 - [trust:1.0|src:direct] **Rethoric current state (2026-02-27)**: ~$40k MRR, ~14 clients. Team: Edu (CEO), Andre (main writer/editor), Carlos (chief of staff/account manager), Sandeep (writer, per-project, 3 accounts), Marco (freelance dev, Rethoric platform). Conversion 15-20%. ACV: monthly ~$15k (avg 5mo), yearly ~$30k.
-- [trust:1.0|src:direct] **Rethoric 3yr vision**: 150k MRR, 48 profiles, 3 writers × 16 each. Cash cow, not headcount agency. Pay investors + $300k debt. Accumulate Bitcoin. Edu is long Bitcoin.
+- [trust:1.0|src:direct] **Rethoric 3yr vision**: 150k MRR, 48 profiles, 3 writers × 16 each. Cash cow, not headcount agency. Pay investors + clear debt. Accumulate Bitcoin. Edu is long Bitcoin.
 - [trust:1.0|src:direct] **Edu's biggest fear**: Agency becoming irrelevant due to AI taking over content. This is real and should inform how I position AI-augmented value.
 - [trust:1.0|src:direct] **Edu's work style**: Sharpest at 10am post-gym. Loves automation/process building. Hates editing content and admin. Actively avoids doing outreach (biggest bottleneck). Has Asana + Slack system but no weekly rhythm.
 - [trust:1.0|src:direct] **Asana access**: Edu wants to give me access. Pending setup. Full pipeline/project visibility lives there.

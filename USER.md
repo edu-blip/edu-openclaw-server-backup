@@ -8,12 +8,12 @@
 
 ## Background
 - 4 startups built, 2 acquired. Got into YC.
-- Moved from Mexico to US on an O-1 visa (special talent). Green card received Feb 2026.
-- Built **Commando** — the leading boutique fitness studio brand in Mexico. 220 employees at peak. Lost it after years of lawsuits with a former investor who eventually bought him out. Sold under pressure, exhausted.
-- After selling Commando, invested the proceeds in Celsius (crypto platform) and Terra (collapsed May 2022). Lost most of it. Also didn't repay a loan he took years back to avoid dilution in Commando — invested that in crypto instead. Now carries ~$300k in debt that he services monthly.
+- Moved from Mexico to US. Green card holder (received early 2026).
+- Built **Commando** — the leading boutique fitness studio brand in Mexico. Lost it after years of lawsuits with a former investor who eventually bought him out. Sold under pressure, exhausted.
+- After selling Commando, lost most proceeds in the 2022 crypto collapse. Carries significant debt he services monthly.
 - Loves tech but is NOT technical — no coding, no command line comfort
 - Primarily chats via phone/Slack voice notes
-- Just received his green card. Wife expecting a baby girl any day (as of Feb 2026). Already has a 4-year-old.
+- Married. Has a young child (4 years old) and a newborn daughter (born early 2026).
 
 ## What Drives Him
 - Wants to prove he can be independent and successful — specifically to show family he made it by his own means.
@@ -99,7 +99,7 @@
 - 150k MRR managing 48 profiles, 3 writers each managing 16
 - Possibly scale further with AI/OpenClaw (TBD)
 - Be a cash cow — NOT a big headcount agency
-- Pay back investors, clear $300k debt, start accumulating Bitcoin, invest for financial freedom
+- Pay back investors, clear debt, start accumulating Bitcoin, invest for financial freedom
 - Access to Asana for full pipeline/project visibility → needs to be set up
 
 ### Future Automations (after more clients)
@@ -115,7 +115,7 @@
 - **Avoids:** Doing outreach (biggest bottleneck)
 
 ## Personal Life
-- **Family:** Married. 4-year-old. Baby girl due any day (Feb 2026).
+- **Family:** Married. 4-year-old and newborn daughter (early 2026).
 - **Decompresses via:** Gym, running, podcasts, YouTube (learning-focused)
 - **Health:** Works out 6x/week. Tracks calories/macros with Cal AI app. 10k steps/day goal. Working well — but sleep has been suffering since getting deep into OpenClaw.
 - **Spends on:** Restaurants, home improvement. Rent is very high.
