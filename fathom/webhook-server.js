@@ -13,6 +13,10 @@ const { execFile } = require('child_process');
 
 const PORT = 8001;
 const WEBHOOK_SECRET = process.env.FATHOM_WEBHOOK_SECRET || '';
+if (!WEBHOOK_SECRET) {
+  process.stderr.write('[FATAL] FATHOM_WEBHOOK_SECRET not set — refusing to start\n');
+  process.exit(1);
+}
 const QUEUE_DIR = path.join(__dirname, 'queue');
 const LOG_FILE = path.join(__dirname, 'webhook.log');
 
@@ -31,13 +35,23 @@ function log(msg) {
  * HMAC is computed over: `${timestamp}.${rawBody}`
  */
 function verifySignature(rawBody, signatureHeader) {
-  if (!WEBHOOK_SECRET || !signatureHeader) return true; // skip if no secret configured
+  // Always require the secret — never accept unsigned requests
+  if (!WEBHOOK_SECRET) return false;
+  if (!signatureHeader) return false;
+
   const parts = Object.fromEntries(
     signatureHeader.split(',').map(p => p.split('='))
   );
   const timestamp = parts['t'];
   const v1 = parts['v1'];
   if (!timestamp || !v1) return false;
+
+  // Replay attack protection: reject requests older than 5 minutes
+  const age = Math.abs(Date.now() / 1000 - Number(timestamp));
+  if (isNaN(age) || age > 300) {
+    log(`Rejected: webhook timestamp too old (age=${Math.round(age)}s)`);
+    return false;
+  }
 
   const expected = crypto
     .createHmac('sha256', WEBHOOK_SECRET)

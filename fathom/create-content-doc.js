@@ -17,7 +17,12 @@ const CONTENT_IDEAS_DIR = path.join(__dirname, 'content-ideas');
 const LOG_FILE = path.join(__dirname, 'processor.log');
 const DRIVE_FOLDER_ID = '1xiMgCRlVGhTWc79PIgaZ72zWcp9g5iq1'; // Rethoric > Marketing > LinkedIn content
 const GOG_ACCOUNT = 'tony@rethoric.com';
-const GOG_ENV = { ...process.env, GOG_KEYRING_PASSWORD: 'gogcli-server-keyring' };
+// GOG_KEYRING_PASSWORD must be set in the environment (cron injects it; never hardcode here)
+if (!process.env.GOG_KEYRING_PASSWORD) {
+  process.stderr.write('[FATAL] GOG_KEYRING_PASSWORD not set — refusing to run\n');
+  process.exit(1);
+}
+const GOG_ENV = { ...process.env };
 
 function log(msg) {
   const line = `[${new Date().toISOString()}] [USE CASE C] ${msg}\n`;
@@ -215,6 +220,13 @@ const targetWeek = process.argv[2] || (() => {
   }
   return getISOWeek(); // fallback: current week (for manual runs)
 })();
+
+// Validate isoWeek format before using it in shell commands
+const ISO_WEEK_RE = /^\d{4}-W(0[1-9]|[1-4]\d|5[0-3])$/;
+if (!ISO_WEEK_RE.test(targetWeek)) {
+  log(`FATAL: Invalid week format "${targetWeek}" — expected YYYY-WNN`);
+  process.exit(1);
+}
 
 log(`Starting weekly content doc creation for ${targetWeek}`);
 createDoc(targetWeek).catch(err => {
