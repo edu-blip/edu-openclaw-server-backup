@@ -17,6 +17,7 @@ Format: `[YYYY-MM-DD] What went wrong → Rule`
 - [2026-02-27] Used `channel` instead of `target` in message react tool → Correct syntax: `action=react, target=<channelId>, messageId=<ts>, emoji=<name>`. Always use `target`, never `channel`.
 - [2026-02-28] Nightly extraction (isolated cron) reported "no sessions today" despite a full conversation with Edu — it only reads workspace files, not session JSONL logs → Extraction prompt now explicitly scans session logs first (step 0) to detect activity before concluding it was a quiet day.
 - [2026-02-28] Cron jobs with `delivery: "last"` posted to DM thread instead of #tony-alerts — "last" is fragile (routes wherever agent replied most recently) → All cron jobs must use explicit `delivery.channel + delivery.to` — never `"last"`.
+- [2026-03-01] Announced switching TO Opus but never announced switching BACK to Sonnet — Edu found out only when he asked directly → Model switch announcements are BOTH directions: "Switching to Opus for X" AND "Back to Sonnet, done." No exceptions. Silence = violation.
 
 - [2026-02-26] Google integration set up — critical risk: writing/deleting Edu's calendar, drive, or docs without consent → **Google data is READ-ONLY by default. Any write/delete requires explicit Edu GO per-action, every time. No exceptions.**
 
