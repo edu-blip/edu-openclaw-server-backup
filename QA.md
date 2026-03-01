@@ -1,6 +1,6 @@
 # QA.md — Quality Assurance & Security Gate
 
-Last updated: 2026-03-01
+Last updated: 2026-03-01 (full audit run)
 
 ---
 
@@ -48,97 +48,215 @@ No coding starts until Edu says "yes" to the above.
 
 ### Sign-off
 - [ ] Both QA checklists passed
-- [ ] QA log entry added below (Integration Status table)
+- [ ] QA log entry added below (QA Log section)
 - [ ] Edu notified with pass/fail evidence before "ready" is declared
 
 ---
 
-## Integration Status — Live Inventory
+## Integration Status — Full Audit (2026-03-01)
 
-Format: `Status` = ✅ QA verified | ⚠️ Partially tested | ❌ Broken/unknown | 🔄 Pending QA
+Format: ✅ QA verified | ⚠️ Working but issues found | ❌ Broken | 🚫 Not built | 🔒 Security issue
 
 ---
 
 ### 🔁 Always-On Services
 
-| Integration | Status | Last QA | Notes |
-|---|---|---|---|
-| fail2ban | ⚠️ | Never formal QA | Running (confirmed via systemctl). No end-to-end block test done. |
-| fathom-webhook service | ⚠️ | Never formal QA | systemd running. Use Cases B+C deployed. No structured end-to-end test with real Fathom payload since setup. |
-| Security scanner (full, Sun 3:30am) | ⚠️ | Never formal QA | Cron exists. scan_history.json present. Output/alerting not verified. |
-| Security scanner (diff, Mon–Sat 3:30am) | ⚠️ | Never formal QA | Same as above. |
+**fathom-webhook (systemd service)** — ✅ RUNNING
+- Service: active and stable
+- Use Case B (client feedback → #client-feedback): receiving real webhooks, classifying calls, processing client transcripts. Last payload: 2026-02-28.
+- Use Case C (content ideas mining): extracting ideas from calls, writing to week JSON files. Last run: 2026-02-28, added 5 ideas.
+- Use Case A (check-in → Asana): ❌ STUB — pending Asana PAT
+- Signature verification: FATHOM_WEBHOOK_SECRET is set and enforced — webhook rejects unsigned requests
+- Issue found: None functionally. Security findings logged below.
+
+**fail2ban** — ✅ RUNNING
+- 1 jail active (sshd)
+- Currently banning 6 IPs, 2417 total banned since deployment
+- 19,837 failed attempts filtered. Working as intended.
 
 ---
 
 ### ⏰ Cron Jobs
 
-| Integration | Schedule | Status | Last QA | Notes |
-|---|---|---|---|---|
-| Cost monitor — hourly alert | Every hour | ⚠️ | Never formal QA | Runs, but alert threshold behavior and Slack delivery not end-to-end tested. |
-| Cost monitor — daily digest | Daily 8am PST | ⚠️ | Never formal QA | Digest logic not formally verified. |
-| Fathom — Monday content doc | Mon 9am PST | ⚠️ | Never formal QA | Script exists. Google Drive output not verified live post-setup. |
-| Fathom — pre-call briefing | Every 15min Mon+Thu | ⚠️ | Never formal QA | Fires when calendar has calls. Not verified with a real upcoming meeting. |
-| Fathom — cleanup | Daily 2am PST | ⚠️ | Never formal QA | Cleanup logic not verified end-to-end. |
-| notify-gateway-ready | @reboot (+30s) | ⚠️ | Never formal QA | Posts to #tony-alerts. Not re-tested since setup. |
+**Cost monitor — hourly alert** — ✅ RUNNING
+- Running every hour, reading session logs correctly
+- Today's cost tracking: $10.19 as of last check, under $20 threshold
+- Threshold logic working (no false alerts)
+- Issue: daily digest posting to Slack not directly confirmed via log — only threshold checks visible
+
+**Cost monitor — daily digest** — ⚠️ UNCONFIRMED
+- Cron fires at 8am PST daily
+- Log shows hourly checks working but no digest-specific entry visible in today's log
+- Next step: verify digest appeared in #tony-alerts after 8am today
+
+**notify-gateway-ready (@reboot)** — ✅ CONFIRMED
+- Fired this morning at 11:45am PST after gateway restart
+- Slack post confirmed: "#tony-alerts received ✅ Tony is back online. Gateway restarted and healthy."
+- Full Slack API response confirmed in log
+
+**Fathom — Monday content doc (Mon 9am PST)** — ⚠️ PARTIAL
+- Cron fires and runs create-content-doc.js
+- Error found on 2026-02-27: `--convert-to cannot be combined with --replace` caused first attempt to fail
+- Second path succeeded: Updated existing Google Doc via gog CLI directly
+- Doc link confirmed: https://docs.google.com/document/d/1PJ6mifw7WD2iDRKp8X5wiaaXTkqILfbxqwN0swWo304/edit
+- Slack notified: true
+- Issue: The Drive upload error path is untested. If gog doc update fails, the fallback may silently fail.
+
+**Fathom — pre-call briefing (every 15min Mon+Thu)** — ⚠️ UNCONFIRMED WITH REAL MEETING
+- Cron fires correctly every 15 minutes
+- All logged runs: "No upcoming check-ins in window — nothing to do"
+- Not tested against a real upcoming meeting — no way to confirm alert fires correctly
+- Next test: verify Tuesday (Mon) when there's a real meeting on the calendar
+
+**Fathom — cleanup (daily 2am PST)** — ⚠️ UNCONFIRMED
+- Script is well-built: deletes archive files >90 days (only if KB-ingested), pending >30 days
+- No files are old enough to trigger yet (all content from Feb 2026)
+- Has not run in any meaningful way — purely timing-based gap
+- Cleanup.log not checked — will confirm tomorrow
+
+**Security scanner — full (Sun 3:30am PST)** — ⚠️ RUNNING BUT SILENT
+- Ran at 12:37am PST (manual/baseline) — found 175 findings in scan_history.json
+- Cron log file (/var/log/security-scanner.log) is 0 bytes — scanner produces no stdout
+- Finding: results only go to scan_history.json. No alerting mechanism exists.
+- No one is notified when critical findings are found. This is broken.
+- Fix needed: scanner should post critical/high findings to #tony-alerts
+
+**Security scanner — diff (Mon-Sat 3:30am PST)** — ⚠️ SAME ISSUE
+- Same silent logging problem as full scan
 
 ---
 
 ### 🤖 OpenClaw Crons
 
-| Integration | Schedule | Status | Last QA | Notes |
-|---|---|---|---|---|
-| nightly-extraction | Daily 11pm PST | ⚠️ | Never formal QA | Status=ok in cron list. But output accuracy not verified (see REGRESSIONS 2026-02-28). |
-| healthcheck:update-status | Mon 9am PST | ⚠️ | Never formal QA | idle — hasn't run yet since set up. |
+**nightly-extraction (11pm PST)** — ⚠️ STATUS OK BUT ACCURACY UNVERIFIED
+- Last ran 16h ago, status=ok
+- Known regression: previously reported "no sessions" on a day with real activity (see REGRESSIONS.md 2026-02-28)
+- Fix was applied but accuracy not re-verified since
+
+**healthcheck:update-status (Mon 9am PST)** — ❌ NEVER RAN
+- Status: idle — has not run since being created
+- First scheduled run: tomorrow (Mon March 2)
 
 ---
 
 ### 🔧 Manual Scripts / Tools
 
-| Integration | Status | Last QA | Notes |
-|---|---|---|---|
-| gogcli (Google: Gmail, Calendar, Drive) | ⚠️ | Partial | Auth works. Calendar reads confirmed. Drive/Docs write never tested deliberately. |
-| xsearch.py (X search) | ⚠️ | Never formal QA | Ran manually, appeared to work. No structured test. |
-| xread.py (X post reader) | ⚠️ | Never formal QA | Same as above. |
-| kb/ingest.py (Knowledge Base ingest) | ⚠️ | Never formal QA | Ran during setup. Retrieval accuracy not verified. |
-| kb/search.py (Knowledge Base search) | ⚠️ | Never formal QA | Same as above. |
-| agents/scout | ⚠️ | Never formal QA | Exists. Role/readiness not documented. |
+**gogcli (Google: Gmail, Calendar, Drive)** — ✅ LIVE TEST PASSED
+- Live test: `gog calendar events --all --account tony@rethoric.com --days 3`
+- Returned 8 real calendar events from Rethoric + Personal calendars
+- Auth working, both calendars visible
+
+**xsearch.py (X search)** — ✅ LIVE TEST PASSED
+- Live test: `python3 scripts/xsearch.py "LinkedIn content"`
+- Returned structured results with sources and citations
+- Grok API responding correctly
+
+**xread.py (X post reader)** — ⚠️ NOT RE-TESTED
+- Previously worked. Not re-tested this session — depends on same Grok API as xsearch (which passed).
+
+**kb/ingest.py + kb/search.py (Knowledge Base)** — ✅ LIVE TEST PASSED
+- Search test: `python3 kb/search.py "LinkedIn content strategy"`
+- Returned 4 relevant results with scores, entity extraction, and source attribution
+- Fathom transcripts correctly indexed (5h ago)
+- Ingest not re-tested but search confirms data is in the DB
+
+**agents/scout** — ❌ NOT DOCUMENTED / NOT TESTED
+- Directory exists with SOUL.md and README.md
+- Role and readiness not tested. Needs documentation.
 
 ---
 
-### ⏳ Pending / Not Live
+### 🤖 Sub-Agents & Model Routing
 
-| Integration | Status | Notes |
-|---|---|---|
-| Fathom Use Case A (check-in → Asana) | ❌ Pending | Blocked on Asana PAT + Project ID |
-| GitHub automated backup | ❌ Not built | Active hold in ACTIVE_CONTEXT.md |
+**Sub-agent spawning (general)** — ✅ CONFIRMED
+- QA test sub-agent spawned successfully this session
+- Opus sub-agent spawned earlier this session (for QA process design)
+- Mechanism works
+
+**Karpathy (openai/gpt-5.1-codex-max)** — ✅ CONFIGURED
+- Model appears in `openclaw models list`
+- Not spawned in a live task this session — configured but not live-tested
+- openai/gpt-5.1-codex and openai/gpt-5.1-codex-max: both `configured`
+- openai-codex/gpt-5.3-codex: available but requires ChatGPT Pro OAuth (different provider)
+
+**Model routing** — ✅ WORKING
+- Default: anthropic/claude-sonnet-4-6 — active this session
+- Opus: anthropic/claude-opus-4-6 — spawned this session
+- Gemini Flash (google/gemini-3-flash-preview): configured for heartbeats, not live-tested today
 
 ---
 
-## Weekly Regression Run (Sundays)
+### ⏳ Not Built / Pending
 
-Every Sunday, a QA agent smoke-tests all ✅ verified integrations:
-- Trigger each live service/script
-- Confirm expected output
-- Check systemd service health
-- Report pass/fail to #tony-alerts
+**Fathom Use Case A (check-in → Asana)** — ❌ BLOCKED
+- Needs Asana Personal Access Token + Project ID from Edu
 
-If anything fails: alert Edu immediately, mark as ❌ in this file, investigate.
+**GitHub automated backup** — ❌ NOT BUILT
+- Active hold in ACTIVE_CONTEXT.md
+
+**Security scanner alerting** — ❌ NOT BUILT
+- Scanner finds issues but never tells anyone
+
+---
+
+## 🚨 Critical Issues Found in This Audit
+
+### STOP — Immediate Action Required
+
+**[CRITICAL] AWS credentials exposed in Fathom transcript**
+- File: `fathom/archive/1772052374370-hjckfa.json`
+- What happened: dev@rethoric.com AWS root password was spoken aloud in a recorded meeting, transcribed by Fathom, stored in plaintext on the server.
+- Risk: Full AWS account takeover. Access to all AWS services, S3, RDS, billing.
+- Action required: Edu must rotate dev@rethoric.com Gmail password + all AWS root credentials NOW. Enable MFA on the AWS root account.
+
+### High Priority Fixes (This Week)
+
+**[HIGH] Security scanner never alerts anyone**
+- 175 findings exist in scan_history.json. Nobody is notified. Fix: add a cron step that reads scan_history.json and posts new CRITICAL/HIGH findings to #tony-alerts.
+
+**[HIGH] GOG_KEYRING_PASSWORD hardcoded in source files**
+- Files: `fathom/create-content-doc.js`, `fathom/precall-briefing.js`
+- The keyring password is in source code as a string literal. Should be env var only.
+
+**[HIGH] All services run as root**
+- Any exploitation gives full server access. Long-term fix: create a dedicated service user.
+
+**[HIGH] No backup**
+- Server has zero backup. Single point of failure. Fix: GitHub backup (30-min job).
+
+**[MEDIUM] Archive files not encrypted**
+- Client call transcripts stored as plaintext JSON. Contains client PII, business strategy.
+- Fix: chmod 600 on archive directory at minimum.
+
+**[MEDIUM] fathom/archive should be added to .gitignore before GitHub backup goes live**
+- Contains full client transcripts — must NOT be committed to git.
 
 ---
 
 ## QA Log — Historical Record
 
-Each QA pass gets an entry here.
-
 ```
-[YYYY-MM-DD] Integration: <name>
-  Tester: QA sub-agent (or Tony)
-  Functional: PASS / FAIL — <evidence>
-  Security: PASS / FAIL — <finding>
-  Action: <what was fixed, if anything>
-```
+[2026-03-01] FULL SYSTEM AUDIT
+  Tester: Tony (main session)
+  Scope: All live integrations, crons, sub-agents, model routing
 
-*(No entries yet — QA process starts 2026-03-01)*
+  Functional results:
+  PASS: fathom-webhook service, fail2ban, cost monitor (hourly), notify-gateway-ready,
+        gogcli (calendar), xsearch.py, kb/search.py, sub-agent spawning,
+        model routing (Sonnet/Opus), Karpathy model config
+
+  PARTIAL/UNCONFIRMED: cost monitor daily digest, fathom Monday doc (error on first
+        attempt, fallback succeeded), pre-call briefing (no real meeting to test against),
+        nightly extraction (accuracy), fathom cleanup (no old files yet)
+
+  BROKEN: security scanner alerting (silent — no notifications), healthcheck cron
+        (never ran), agents/scout (undocumented), Fathom Use Case A (pending Asana)
+
+  Security:
+  CRITICAL: AWS credentials in fathom transcript archive — requires immediate rotation
+  175 total findings from security scanner (26 critical, 65 high, 69 medium, 15 low)
+  Mitigating factor: FATHOM_WEBHOOK_SECRET confirmed set and enforced
+```
 
 ---
 
@@ -162,3 +280,15 @@ ls -la <path>
 # Check who a service runs as
 systemctl show <service> | grep User
 ```
+
+---
+
+## Weekly Regression Run (Sundays)
+
+Every Sunday, a QA agent smoke-tests all ✅ verified integrations:
+- Trigger each live service/script
+- Confirm expected output
+- Check systemd service health
+- Post pass/fail to #tony-alerts
+
+Next run: 2026-03-08
