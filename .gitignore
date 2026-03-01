@@ -1,0 +1,65 @@
+# ============================================================
+# .gitignore — Workspace Git Exclusions
+# Pre-configured for GitHub backup. Ready to use when backup is set up.
+# ============================================================
+
+# ----- NEVER COMMIT: Credentials & Secrets -----
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+
+# ----- NEVER COMMIT: Client Data & Transcripts -----
+# Fathom call transcripts contain client PII, confidential business info
+fathom/archive/
+fathom/pending-checkins/
+fathom/queue/
+
+# ----- NEVER COMMIT: Personal/Sensitive Context -----
+# These contain Edu's personal and financial details
+MEMORY.md
+USER.md
+memory/
+
+# ----- NEVER COMMIT: Generated/Runtime State -----
+fathom/briefing-state.json
+fathom/cleanup.log
+fathom/webhook.log
+fathom/processor.log
+security-scanner/scan_history.json
+security-scanner/alerted_ids.json
+
+# ----- NEVER COMMIT: Knowledge Base (SQLite + embeddings) -----
+kb/kb.db
+kb/__pycache__/
+kb/embedder/__pycache__/
+
+# ----- NEVER COMMIT: Python Cache -----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# ----- NEVER COMMIT: Temp / OS files -----
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# ----- NEVER COMMIT: Node modules (if ever added) -----
+node_modules/
+
+# ----- SAFE TO COMMIT (intentionally not excluded) -----
+# - All .js, .py, .sh source files
+# - AGENTS.md, SOUL.md, IDENTITY.md, TOOLS.md, REGRESSIONS.md
+# - ACTIVE_CONTEXT.md, HEARTBEAT.md, FEEDBACK.md, BACKLOG.md
+# - QA.md
+# - fathom/config.json (no secrets in it)
+# - security-scanner/scanner.py
+# - scripts/ (source only)
+# - kb/ source files (not the db)

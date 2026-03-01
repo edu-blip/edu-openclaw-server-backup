@@ -18,7 +18,12 @@ const path = require('path');
 
 const STATE_FILE = path.join(__dirname, 'briefing-state.json');
 const LOG_FILE = path.join(__dirname, 'processor.log');
-const GOG_ENV = { ...process.env, GOG_KEYRING_PASSWORD: 'gogcli-server-keyring' };
+// GOG_KEYRING_PASSWORD must be injected via environment (cron sets it; never hardcode here)
+if (!process.env.GOG_KEYRING_PASSWORD) {
+  process.stderr.write('[FATAL] GOG_KEYRING_PASSWORD not set — refusing to run\n');
+  process.exit(1);
+}
+const GOG_ENV = { ...process.env };
 const GOG_ACCOUNT = 'tony@rethoric.com';
 const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN || '';
 const EDU_SLACK_CHANNEL = 'C0AHBCJQJKS'; // #tony-ops (direct briefings go here until a dedicated channel is set)

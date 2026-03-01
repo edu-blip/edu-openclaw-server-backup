@@ -18,14 +18,19 @@ echo "[$(date)] Waiting for gateway to become healthy..."
 while [ $elapsed -lt $MAX_WAIT ]; do
     if openclaw gateway status 2>/dev/null | grep -q "RPC probe: ok"; then
         echo "[$(date)] Gateway healthy. Sending notification."
-        curl -s -X POST "https://slack.com/api/chat.postMessage" \
+        RESPONSE=$(curl -s -X POST "https://slack.com/api/chat.postMessage" \
             -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
             -H "Content-Type: application/json" \
             -d "{
                 \"channel\": \"$CHANNEL\",
                 \"text\": \":white_check_mark: *Tony is back online.* Gateway restarted and healthy.\"
-            }" > /dev/null
-        echo "[$(date)] Notification sent."
+            }")
+        echo "[$(date)] Slack response: $RESPONSE"
+        if echo "$RESPONSE" | grep -q '"ok":true'; then
+            echo "[$(date)] Notification sent successfully."
+        else
+            echo "[$(date)] WARNING: Slack API returned error. Check token/channel."
+        fi
         exit 0
     fi
     sleep $INTERVAL
