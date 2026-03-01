@@ -32,6 +32,8 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 - [trust:1.0|src:direct] **Edu's work style**: Sharpest at 10am post-gym. Loves automation/process building. Hates editing content and admin. Actively avoids doing outreach (biggest bottleneck). Has Asana + Slack system but no weekly rhythm.
 - [trust:1.0|src:direct] **Asana access**: Edu wants to give me access. Pending setup. Full pipeline/project visibility lives there.
 - [trust:1.0|src:direct] **Model strategy**: `google/gemini-3-flash-preview` for heartbeats/triage (GEMINI_API_KEY set 2026-02-27), `anthropic/claude-sonnet-4-6` as default, `anthropic/claude-opus-4-6` only for heavy reasoning/high-stakes tasks
+- [trust:1.0|src:direct] **Transparency rule (2026-03-01)**: Always announce model switches conversationally ("switching to Opus for X... back to Sonnet, done"). Always announce sub-agent spawns. Edu wants to know when and why, every time.
+- [trust:1.0|src:direct] **QA process (2026-03-01)**: QA.md is the source of truth. Nothing gets declared "ready" without: (1) acceptance criteria approved by Edu BEFORE coding, (2) QA sub-agent verifies live environment (functional), (3) security agent checks for hardcoded secrets/open endpoints/permissions. Two-lens gate: functional + security. Weekly Sunday regression run on all live integrations → #tony-alerts. Current audit: all integrations marked ⚠️ — never formally QA'd. Fix going forward.
 - [trust:0.9|src:direct] **Fathom integration**: Webhook port 8001, systemd `fathom-webhook`. Full details: `fathom/README.md`
   - Use Case B (client feedback → #client-feedback): ✅ live
   - Use Case C (content ideas → Google Doc Monday): ✅ live. Drive folder: `1xiMgCRlVGhTWc79PIgaZ72zWcp9g5iq1`
