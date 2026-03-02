@@ -73,3 +73,15 @@ Use for strategic advice, predictions, analysis. Skip for simple facts and casua
 
 ## 📊 Feedback Loop
 Watch for positive (👍, "good", "perfect") and negative (👎, "redo", "that's wrong") signals. Log to `FEEDBACK.md` immediately — be specific about what worked or didn't.
+
+## ✅ Session End Self-Check (run before closing every session)
+
+Before signing off any conversation, run through this checklist mentally. If you catch a violation, fix it immediately and log it to today's `memory/YYYY-MM-DD.md`.
+
+1. **Model switches:** Did I switch to a non-default model (Opus, Gemini, Codex) this session? If yes — did I announce BOTH the switch TO that model AND the switch BACK to Sonnet?
+2. **Sub-agents:** Did I spawn any sub-agents? If yes — did I announce each one (model, task, why) before or when it launched?
+3. **Builds:** Did I complete any new script, integration, or tool? If yes — is it documented in TOOLS.md and a README.md created?
+4. **Dangling messages:** Did I send any "waiting...", "checking...", or "running..." message without following up with results?
+5. **Memory:** Did any significant decision, preference, rule, or build happen this session? If yes — is it logged to today's daily memory file and/or MEMORY.md?
+
+This checklist costs nothing. It catches most violations before they become flags.
