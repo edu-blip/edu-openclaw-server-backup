@@ -2,7 +2,7 @@
 """
 Tony's Automated Security Review System v1.1
 Spec: security-review-spec-v1.1.docx
-Targets: /root/.openclaw/workspace + /usr/lib/node_modules/openclaw
+Targets: /home/openclaw/.openclaw/workspace + /usr/lib/node_modules/openclaw
 Schedule: Nightly diff 3:30 AM Mon-Sat (Gemini 3 Flash) | Weekly full 3:30 AM Sunday (Sonnet 4.6)
 On-demand: --deep-dive FIND-001
 """
@@ -20,11 +20,11 @@ SUPPRESSIONS_FILE = SCRIPT_DIR / ".security-suppressions.json"
 
 DEFAULT_CONFIG = {
     "scan_targets": [
-        "/root/.openclaw/workspace",
+        "/home/openclaw/.openclaw/workspace",
         "/usr/lib/node_modules/openclaw"
     ],
     "models": {
-        "nightly_diff": "gemini-2.0-flash-exp",
+        "nightly_diff": "gemini-2.5-flash",
         "weekly_full": "claude-sonnet-4-6",
         "deep_dive": "claude-opus-4-6"
     },
@@ -49,7 +49,7 @@ def load_config() -> dict:
 # ─── API KEYS ─────────────────────────────────────────────────────────────────
 
 def load_env() -> dict:
-    env_file = Path("/root/.openclaw/.env")
+    env_file = Path("/home/openclaw/.openclaw/.env")
     env = {}
     if env_file.exists():
         for line in env_file.read_text().splitlines():
@@ -471,7 +471,7 @@ def call_gemini(model: str, system_prompt: str, user_prompt: str,
 # ─── COST TRACKING ────────────────────────────────────────────────────────────
 
 PRICING = {
-    'gemini-2.0-flash-exp':     {'input': 0.50,  'output': 3.00},
+    'gemini-2.5-flash':         {'input': 0.15,  'output': 0.60},
     'gemini-3-flash-preview':   {'input': 0.50,  'output': 3.00},
     'claude-sonnet-4-6':        {'input': 3.00,  'output': 15.00},
     'claude-opus-4-6':          {'input': 5.00,  'output': 25.00},
