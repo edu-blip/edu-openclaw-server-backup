@@ -383,6 +383,78 @@ async function flagUnknown(payload) {
 }
 
 // ─────────────────────────────────────────────
+// CREDENTIAL REDACTION
+// Applied to the full payload before archiving to disk.
+// Matches common credential patterns in verbatim transcript text.
+// ─────────────────────────────────────────────
+
+const REDACTION_PATTERNS = [
+  // AWS Access Key IDs
+  { pattern: /\bAKIA[0-9A-Z]{16}\b/g,                                   label: '[REDACTED:AWS_KEY_ID]' },
+  // AWS Secret Access Keys (40-char base64-ish)
+  { pattern: /\b[0-9a-zA-Z/+]{40}\b/g,                                  label: '[REDACTED:AWS_SECRET]' },
+  // Spoken password disclosure: "password is <word>", "the password is <word>", etc.
+  { pattern: /\b(password\s+is\s+)\S+/gi,                               label: '$1[REDACTED]' },
+  { pattern: /\b(the\s+password\s+is\s+)\S+/gi,                        label: '$1[REDACTED]' },
+  { pattern: /\b(my\s+password\s+is\s+)\S+/gi,                         label: '$1[REDACTED]' },
+  { pattern: /\b(our\s+password\s+is\s+)\S+/gi,                        label: '$1[REDACTED]' },
+  { pattern: /\b(it'?s\s+)([\w!@#$%^&*()+=\-_.]{8,})\b/gi,            label: (m, p1) => p1 + '[REDACTED]' },
+  // API key/token disclosure patterns
+  { pattern: /\b(api\s+key\s+is\s+)\S+/gi,                             label: '$1[REDACTED]' },
+  { pattern: /\b(token\s+is\s+)\S+/gi,                                  label: '$1[REDACTED]' },
+  { pattern: /\b(secret\s+is\s+)\S+/gi,                                 label: '$1[REDACTED]' },
+  // Credit card numbers (13–19 digits, optionally space/dash separated)
+  { pattern: /\b(\d[\d \-]{11,17}\d)\b/g,                              label: '[REDACTED:CC]' },
+  // US SSN
+  { pattern: /\b\d{3}[-\s]\d{2}[-\s]\d{4}\b/g,                        label: '[REDACTED:SSN]' },
+  // Generic long alphanumeric tokens (≥32 chars, likely keys/hashes)
+  { pattern: /\b[a-zA-Z0-9_\-]{32,}\b/g,                               label: '[REDACTED:TOKEN]' },
+];
+
+function redactString(text) {
+  if (!text || typeof text !== 'string') return text;
+  let out = text;
+  for (const { pattern, label } of REDACTION_PATTERNS) {
+    out = out.replace(pattern, label);
+  }
+  return out;
+}
+
+function redactPayload(payload) {
+  if (!payload || typeof payload !== 'object') return payload;
+  const clone = JSON.parse(JSON.stringify(payload));
+
+  // Redact top-level string fields that may contain spoken text
+  const TEXT_FIELDS = ['transcript', 'summary', 'notes', 'description'];
+  for (const field of TEXT_FIELDS) {
+    if (typeof clone[field] === 'string') {
+      clone[field] = redactString(clone[field]);
+    }
+  }
+
+  // Redact transcript array (Fathom segment format)
+  if (Array.isArray(clone.transcript)) {
+    clone.transcript = clone.transcript.map(seg => ({
+      ...seg,
+      text: redactString(seg.text),
+    }));
+  }
+
+  // Redact default_summary sub-fields
+  if (clone.default_summary && typeof clone.default_summary === 'object') {
+    for (const key of Object.keys(clone.default_summary)) {
+      if (typeof clone.default_summary[key] === 'string') {
+        clone.default_summary[key] = redactString(clone.default_summary[key]);
+      }
+    }
+  }
+
+  clone._redacted = true;
+  clone._redacted_at = new Date().toISOString();
+  return clone;
+}
+
+// ─────────────────────────────────────────────
 // ISO WEEK HELPER
 // ─────────────────────────────────────────────
 function getISOWeek(date = new Date()) {
@@ -419,12 +491,17 @@ async function main() {
     }
   }
 
-  // Archive processed file
+  // Redact credentials/PII from payload before archiving
+  const redactedPayload = redactPayload(payload);
+  log(`Redaction applied (${REDACTION_PATTERNS.length} pattern checks)`);
+
+  // Archive processed file (write redacted version, then remove queue file)
   const archiveDir = path.join(path.dirname(payloadFile), '..', 'archive');
   fs.mkdirSync(archiveDir, { recursive: true });
   const archivedFile = path.join(archiveDir, path.basename(payloadFile));
-  fs.renameSync(payloadFile, archivedFile);
-  log(`Archived: ${payloadFile}`);
+  fs.writeFileSync(archivedFile, JSON.stringify(redactedPayload, null, 2), { mode: 0o600 });
+  fs.unlinkSync(payloadFile);
+  log(`Archived (redacted): ${archivedFile}`);
 
   // Trigger KB ingestion (fire-and-forget — non-blocking)
   const kbIngest = path.join(__dirname, 'kb_ingest.py');
