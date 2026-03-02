@@ -203,11 +203,11 @@ Format: ✅ QA verified | ⚠️ Working but issues found | ❌ Broken | 🚫 No
 
 ### STOP — Immediate Action Required
 
-**[CRITICAL] AWS credentials exposed in Fathom transcript**
+**[CRITICAL → RESOLVED 2026-03-01] AWS credentials exposed in Fathom transcript**
 - File: `fathom/archive/1772052374370-hjckfa.json`
 - What happened: dev@rethoric.com AWS root password was spoken aloud in a recorded meeting, transcribed by Fathom, stored in plaintext on the server.
 - Risk: Full AWS account takeover. Access to all AWS services, S3, RDS, billing.
-- Action required: Edu must rotate dev@rethoric.com Gmail password + all AWS root credentials NOW. Enable MFA on the AWS root account.
+- ✅ Edu confirmed credentials rotated on 2026-03-01.
 
 ### High Priority Fixes (This Week)
 
