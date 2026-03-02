@@ -24,7 +24,7 @@ DEFAULT_CONFIG = {
         "/usr/lib/node_modules/openclaw"
     ],
     "models": {
-        "nightly_diff": "gemini-2.5-flash",
+        "nightly_diff": "gemini-3-flash-preview",
         "weekly_full": "claude-sonnet-4-6",
         "deep_dive": "claude-opus-4-6"
     },
@@ -471,7 +471,7 @@ def call_gemini(model: str, system_prompt: str, user_prompt: str,
 # ─── COST TRACKING ────────────────────────────────────────────────────────────
 
 PRICING = {
-    'gemini-2.5-flash':         {'input': 0.15,  'output': 0.60},
+    'gemini-3-flash-preview':   {'input': 0.15,  'output': 0.60},
     'gemini-3-flash-preview':   {'input': 0.50,  'output': 3.00},
     'claude-sonnet-4-6':        {'input': 3.00,  'output': 15.00},
     'claude-opus-4-6':          {'input': 5.00,  'output': 25.00},
