@@ -708,14 +708,29 @@ def parse_json_response(text: str) -> dict | None:
         return json.loads(text.strip())
     except:
         pass
-    # Extract from code block
-    for pattern in [r'```json\s*(.*?)\s*```', r'```\s*(\{.*?\})\s*```', r'(\{.*\})']:
+    # Extract from code block (complete or truncated — no closing backticks required)
+    for pattern in [
+        r'```json\s*(.*?)\s*```',   # complete code block
+        r'```json\s*(.*)',           # truncated code block (no closing ```)
+        r'```\s*(\{.*?\})\s*```',   # generic complete code block
+        r'(\{.*\})',                 # raw JSON object
+    ]:
         m = re.search(pattern, text, re.DOTALL)
         if m:
+            candidate = m.group(1).strip()
             try:
-                return json.loads(m.group(1))
+                return json.loads(candidate)
             except:
-                pass
+                # If JSON is truncated, try to close open structures and re-parse
+                try:
+                    # Count open braces/brackets to attempt repair
+                    depth_brace = candidate.count('{') - candidate.count('}')
+                    depth_bracket = candidate.count('[') - candidate.count(']')
+                    repaired = candidate.rstrip().rstrip(',')
+                    repaired += ']' * depth_bracket + '}' * depth_brace
+                    return json.loads(repaired)
+                except:
+                    pass
     return None
 
 # ─── SCAN HISTORY ─────────────────────────────────────────────────────────────
@@ -991,7 +1006,7 @@ def run_diff_scan(config: dict, history: dict):
     # Gemini supports 1M context — no chunking needed for diffs
     prompt = diff_prompt(diff_content[:800000], prescan_text)
     print(f"  Calling {model}...")
-    response, usage = call_gemini(model, DIFF_SYSTEM, prompt, max_tokens=4096)
+    response, usage = call_gemini(model, DIFF_SYSTEM, prompt, max_tokens=32768)
     cost = calculate_cost(model, usage)
     print(f"  Cost: ${cost:.5f}")
 
