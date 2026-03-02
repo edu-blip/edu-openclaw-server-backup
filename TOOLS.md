@@ -1,7 +1,7 @@
 # TOOLS.md - Local Notes
 
 ## API Keys
-All in `/root/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`, `FATHOM_API_KEY`, `FATHOM_WEBHOOK_SECRET`, `ANTHROPIC_API_KEY`, `SLACK_BOT_TOKEN`
+All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`, `FATHOM_API_KEY`, `FATHOM_WEBHOOK_SECRET`, `ANTHROPIC_API_KEY`, `SLACK_BOT_TOKEN`
 
 ## Slack Channels
 - `#tony-alerts` → `C0AHBCJQJKS`
@@ -36,7 +36,7 @@ All in `/root/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`,
 ## Google (gogcli)
 - Binary: `/usr/local/bin/gog` (v0.11.0)
 - Auth: `tony@rethoric.com` → Gmail, Calendar, Drive, Docs, Sheets
-- Keyring password: set as `GOG_KEYRING_PASSWORD` in `~/.bashrc` and `/root/.openclaw/.env`
+- Keyring password: set as `GOG_KEYRING_PASSWORD` in `~/.bashrc` and `/home/openclaw/.openclaw/.env`
 - Usage: `export GOG_KEYRING_PASSWORD=gogcli-server-keyring && gog <command> --account tony@rethoric.com`
 - Edu's calendars (shared with tony@rethoric.com):
   - `edu@rethoric.com` → "Rethoric" calendar (writer)
