@@ -22,6 +22,9 @@ const config = fs.existsSync(CONFIG_FILE) ? JSON.parse(fs.readFileSync(CONFIG_FI
 
 const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN || config.slackBotToken || '';
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || config.anthropicApiKey || '';
+const ASANA_PAT = process.env.ASANA_PAT || config.asanaPat || '';
+const ASANA_PROJECT_CHECKIN = config.asanaProjectCheckin || '1207588849301630'; // Weekly Sync Call
+const ASANA_WORKSPACE = config.asanaWorkspace || '1206594553706994';            // Rethoric
 const LOG_FILE = path.join(__dirname, 'processor.log');
 
 function log(msg) {
@@ -338,17 +341,180 @@ ${summary}`;
 }
 
 // ─────────────────────────────────────────────
-// USE CASE A: WEEKLY CHECK-IN (stub — awaiting Asana keys)
+// ASANA HELPERS
+// ─────────────────────────────────────────────
+function asanaRequest(method, path, body) {
+  return new Promise((resolve, reject) => {
+    const bodyStr = body ? JSON.stringify(body) : null;
+    const req = https.request({
+      hostname: 'app.asana.com',
+      path: `/api/1.0${path}`,
+      method,
+      headers: {
+        'Authorization': `Bearer ${ASANA_PAT}`,
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        ...(bodyStr ? { 'Content-Length': Buffer.byteLength(bodyStr) } : {})
+      }
+    }, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          if (parsed.errors) {
+            reject(new Error(`Asana API error: ${JSON.stringify(parsed.errors)}`));
+          } else {
+            resolve(parsed.data);
+          }
+        } catch (e) {
+          reject(new Error(`Asana parse error: ${e.message} — raw: ${data.slice(0, 200)}`));
+        }
+      });
+    });
+    req.on('error', reject);
+    if (bodyStr) req.write(bodyStr);
+    req.end();
+  });
+}
+
+async function asanaCreateTask(fields) {
+  return asanaRequest('POST', '/tasks', { data: fields });
+}
+
+async function asanaCreateSubtask(parentGid, fields) {
+  return asanaRequest('POST', `/tasks/${parentGid}/subtasks`, { data: fields });
+}
+
+// ─────────────────────────────────────────────
+// USE CASE A: WEEKLY CHECK-IN → ASANA
 // ─────────────────────────────────────────────
 async function processWeeklyCheckin(payload) {
-  log(`[USE CASE A] Weekly check-in received — STUB (awaiting Asana + Google keys)`);
+  if (!ASANA_PAT) {
+    log(`[USE CASE A] ASANA_PAT not set — saving to pending-checkins for later.`);
+    const stubDir = path.join(__dirname, 'pending-checkins');
+    fs.mkdirSync(stubDir, { recursive: true });
+    const file = path.join(stubDir, `${Date.now()}.json`);
+    fs.writeFileSync(file, JSON.stringify(payload, null, 2));
+    return;
+  }
 
-  // Save payload for later processing when keys are available
-  const stubDir = path.join(__dirname, 'pending-checkins');
-  fs.mkdirSync(stubDir, { recursive: true });
-  const file = path.join(stubDir, `${Date.now()}.json`);
-  fs.writeFileSync(file, JSON.stringify(payload, null, 2));
-  log(`[USE CASE A] Saved to ${file} for processing once Asana keys are configured`);
+  const transcript = getTranscriptText(payload);
+  const summary = getSummary(payload);
+  const meetingTitle = getTitle(payload) || 'Team Check-in';
+  const meetingDate = getMeetingDate(payload).split('T')[0]; // YYYY-MM-DD
+
+  // Extract structured action items via Claude
+  const systemPrompt = `You are an ops assistant processing a team check-in transcript for Edu Mussali, founder of Rethoric (a LinkedIn content ghostwriting agency).
+
+Extract a structured summary suitable for creating an Asana task with action items.
+
+Return ONLY valid JSON in exactly this format:
+{
+  "meeting_summary": "2-4 sentence summary of what was discussed and decided",
+  "key_decisions": ["decision 1", "decision 2"],
+  "action_items": [
+    {"task": "Clear, actionable task description", "owner": "person's first name or 'Edu' if unclear", "due": "YYYY-MM-DD or null"}
+  ],
+  "blockers": ["blocker 1", "blocker 2"]
+}
+
+Rules:
+- action_items must be specific and actionable (start with a verb)
+- If no clear owner is mentioned, default to "Edu"
+- If no due date is mentioned, set "due" to null
+- If no blockers, return empty array
+- If no key decisions, return empty array
+- Return at most 10 action items — combine minor ones if needed`;
+
+  const userContent = `Meeting: ${meetingTitle} (${meetingDate})
+
+TRANSCRIPT:
+${transcript || 'No transcript — using summary below.'}
+
+SUMMARY:
+${summary || 'No summary available.'}`;
+
+  log(`[USE CASE A] Extracting action items from check-in transcript...`);
+  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+
+  let parsed;
+  try {
+    parsed = JSON.parse(result.replace(/```json|```/g, '').trim());
+  } catch (e) {
+    log(`[USE CASE A] JSON parse error: ${e.message}\nRaw: ${result.slice(0, 500)}`);
+    return;
+  }
+
+  // Build the parent task notes (rich text in Asana = plain text with structure)
+  const dateFormatted = new Date(meetingDate + 'T12:00:00Z').toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+  });
+
+  let notes = `Check-in Summary — ${dateFormatted}\n`;
+  notes += `${'─'.repeat(50)}\n\n`;
+
+  if (parsed.meeting_summary) {
+    notes += `📋 OVERVIEW\n${parsed.meeting_summary}\n\n`;
+  }
+
+  if (parsed.key_decisions?.length) {
+    notes += `✅ KEY DECISIONS\n`;
+    parsed.key_decisions.forEach(d => { notes += `• ${d}\n`; });
+    notes += '\n';
+  }
+
+  if (parsed.action_items?.length) {
+    notes += `🎯 ACTION ITEMS (${parsed.action_items.length})\n`;
+    parsed.action_items.forEach(item => {
+      const due = item.due ? ` [due: ${item.due}]` : '';
+      notes += `• ${item.task} — ${item.owner}${due}\n`;
+    });
+    notes += '\n';
+  }
+
+  if (parsed.blockers?.length) {
+    notes += `🚧 BLOCKERS\n`;
+    parsed.blockers.forEach(b => { notes += `• ${b}\n`; });
+    notes += '\n';
+  }
+
+  notes += `\n─ Auto-generated by Tony from ${payload.source === 'google_meet' ? 'Google Meet' : 'Fathom'} transcript`;
+
+  // Create the parent task in Weekly Sync Call project
+  const taskName = `${meetingDate} · ${meetingTitle} — Check-in Summary`;
+  log(`[USE CASE A] Creating Asana task: "${taskName}"`);
+
+  let parentTask;
+  try {
+    parentTask = await asanaCreateTask({
+      name: taskName,
+      notes,
+      projects: [ASANA_PROJECT_CHECKIN],
+      due_on: meetingDate
+    });
+    log(`[USE CASE A] Parent task created: ${parentTask.gid} — "${taskName}"`);
+  } catch (err) {
+    log(`[USE CASE A] Failed to create parent task: ${err.message}`);
+    return;
+  }
+
+  // Create subtasks for each action item
+  const actionItems = parsed.action_items || [];
+  for (const item of actionItems) {
+    const subtaskName = `${item.task}${item.owner && item.owner !== 'Edu' ? ` (${item.owner})` : ''}`;
+    try {
+      const sub = await asanaCreateSubtask(parentTask.gid, {
+        name: subtaskName,
+        ...(item.due ? { due_on: item.due } : {})
+      });
+      log(`[USE CASE A] Subtask created: ${sub.gid} — "${subtaskName}"`);
+    } catch (err) {
+      log(`[USE CASE A] Subtask creation failed for "${subtaskName}": ${err.message}`);
+    }
+  }
+
+  log(`[USE CASE A] Done. ${actionItems.length} action items created as subtasks in Asana.`);
 }
 
 // ─────────────────────────────────────────────

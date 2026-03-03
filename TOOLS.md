@@ -17,11 +17,37 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 
 ---
 
+## Asana
+- PAT stored as `ASANA_PAT` in `.env` (Edu's personal account, `edu@rethoric.com`)
+- Workspace GID: `1206594553706994` (Rethoric)
+- User GID: `1206594553352666` (Eduardo Mussali)
+- Weekly Sync Call project GID: `1207588849301630`
+- Heartbeat read: `source .env && ASANA_PAT=$ASANA_PAT node fathom/asana-digest.js`
+  - `--all` for all incomplete tasks assigned to Edu
+  - `--project <gid>` for specific project tasks
+- Backfill pending check-ins: `node fathom/process-pending-checkins.js [--dry-run]`
+- Use Case A wired in `fathom/processor.js` → creates task + subtasks in Weekly Sync Call
+- Config keys: `asanaProjectCheckin`, `asanaWorkspace` in `fathom/config.json`
+
+---
+
 ## Fathom (Rethoric)
 - Service: `systemctl status fathom-webhook` (port 8001)
 - Webhook: `https://167.99.162.160/fathom-webhook`
 - Config: `fathom/config.json` | Full docs: `fathom/README.md`
-- Pending: Asana PAT + Google Workspace creds from Edu (Use Cases A & C)
+- Pending: Asana PAT + Google Workspace creds from Edu (Use Case A)
+
+---
+
+## Google Meet Processor
+- Script: `fathom/meet-processor.js`
+- Polls Google Drive `Meet Recordings` folder via gogcli every 2 hours
+- Deduplicates against Fathom (skips meetings already processed by Fathom webhook)
+- Runs same use cases as Fathom pipeline (B + C for client/content calls, A for team check-ins)
+- Classifiers: `sales_call`, `content_interview`, `team_checkin`, `client_status`, `platform_dev`, `unknown`
+- Unknown → alert to #tony-alerts; `platform_dev` (Marco Podesta etc.) → silent archive
+- State file: `fathom/meet-processor-state.json` | Logs: `fathom/meet-processor.log`
+- Manual run: `node fathom/meet-processor.js` | Cron: every 2 hours
 
 ---
 
