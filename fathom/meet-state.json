@@ -1,0 +1,200 @@
+{
+  "processed": {
+    "1gEH3mIuEj3SpGkzGBaxEostaVOR0C0ONTH_n1pS9o00": {
+      "status": "processed",
+      "title": "Team check-in - 2026/03/02 09:55 PST - Notes by Gemini",
+      "meetingName": "Team check-in",
+      "startTime": "2026-03-02T17:55:00.000Z",
+      "useCases": [
+        "weekly_checkin"
+      ],
+      "archiveFile": "meet-1gEH3mIuEj3SpGkzGBaxEostaVOR0C0ONTH_n1pS9o00-1772489532137.json",
+      "processedAt": "2026-03-02T22:12:12.137Z"
+    },
+    "1Ny-LC7pMbcJfq90GqhgVlQeNQctlT_CpKajncB88UUw": {
+      "status": "skipped",
+      "title": "Naveen / Eduardo (Rethoric) - 2026/02/27 14:30 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772240331606-eob40m.json",
+      "processedAt": "2026-03-02T22:12:12.138Z"
+    },
+    "1g8fZPxBdc1FIOEpURy4I1HcKi8Efvwto1vR-Hrm4xps": {
+      "status": "processed",
+      "title": "Rethoric 20-min Screening Call: Joshua & Eduardo - 2026/02/26 13:54 PST - Notes by Gemini",
+      "meetingName": "Rethoric 20-min Screening Call: Joshua & Eduardo",
+      "startTime": "2026-02-26T21:54:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1g8fZPxBdc1FIOEpURy4I1HcKi8Efvwto1vR-Hrm4xps-1772489533121.json",
+      "processedAt": "2026-03-02T22:12:13.122Z"
+    },
+    "109-AQ3W0h35Fj24Tmfqxvu9s0TxhbOCbIU3UKBGcmhc": {
+      "status": "skipped",
+      "title": "Team check-in - 2026/02/26 10:56 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772130640555-hbt8qb.json",
+      "processedAt": "2026-03-02T22:12:13.122Z"
+    },
+    "1_WPfVLinS0DZprnYXJq1wDJnHFm3MUYWhvJbAf2vUg4": {
+      "status": "skipped",
+      "title": "Rethoric intro call: Edu and Oleksandr Yaroshenko - 2026/02/26 09:39 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772130640555-hbt8qb.json",
+      "processedAt": "2026-03-02T22:12:13.122Z"
+    },
+    "1evhu1HcaQCmDZSnRNOk5vnxZMW_UIAdAjgJuYcZK4zI": {
+      "status": "skipped",
+      "title": "30 Min Meeting between Eduardo Mussali and Marco Podesta - 2026/02/25 12:25 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772049903589-ssboaa.json",
+      "processedAt": "2026-03-02T22:12:13.123Z"
+    },
+    "1ZlBfJ8xTmiD5koS-joYXpkQToBDLhL4sgxQ_EkmeVW8": {
+      "status": "skipped",
+      "title": "Edu Content Interview  - 2026/02/25 09:57 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772046059867-rpmxkp.json",
+      "processedAt": "2026-03-02T22:12:13.123Z"
+    },
+    "1r0Rn22aMPh2j8jCw8xvbtQwg1ymGnsTSsECA05eaVS0": {
+      "status": "skipped",
+      "title": "Rethoric intro call: Edu and Lorenzo Sani - 2026/02/25 09:30 PST - Notes by Gemini",
+      "skippedReason": "fathom_duplicate",
+      "matchedFathomFile": "1772046059867-rpmxkp.json",
+      "processedAt": "2026-03-02T22:12:13.124Z"
+    },
+    "1EKI1EqChlNjj0qAks5BXFo_lzSbLytUU4IM_S21IHQU": {
+      "status": "processed",
+      "title": "Rethoric intro call: Edu and Schaeffer Arnold - 2026/02/24 15:26 PST - Notes by Gemini",
+      "meetingName": "Rethoric intro call: Edu and Schaeffer Arnold",
+      "startTime": "2026-02-24T23:26:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1EKI1EqChlNjj0qAks5BXFo_lzSbLytUU4IM_S21IHQU-1772489533944.json",
+      "processedAt": "2026-03-02T22:12:13.944Z"
+    },
+    "1lIBzUen1QIHdeqEKn90ZsTg67pLxmqhgXN8Ey45OsUI": {
+      "status": "processed",
+      "title": "Content call: Jackson <> Edu - 2026/02/24 13:56 PST - Notes by Gemini",
+      "meetingName": "Content call: Jackson <> Edu",
+      "startTime": "2026-02-24T21:56:00.000Z",
+      "useCases": [
+        "client_interview"
+      ],
+      "archiveFile": "meet-1lIBzUen1QIHdeqEKn90ZsTg67pLxmqhgXN8Ey45OsUI-1772489565612.json",
+      "processedAt": "2026-03-02T22:12:45.612Z"
+    },
+    "1vPl75Gidqt0iyopZ_o7ptPtEc28KKqyH_TL_IGK8-_s": {
+      "status": "processed",
+      "title": "Rethoric intro call: Edu and Sanketh Andhavarapu - 2026/02/24 12:40 PST - Notes by Gemini",
+      "meetingName": "Rethoric intro call: Edu and Sanketh Andhavarapu",
+      "startTime": "2026-02-24T20:40:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1vPl75Gidqt0iyopZ_o7ptPtEc28KKqyH_TL_IGK8-_s-1772489566391.json",
+      "processedAt": "2026-03-02T22:12:46.391Z"
+    },
+    "1V1a30Ty_Bfz9udH4sKrlOinWF6Yc19etMaJ5AC9JpdQ": {
+      "status": "processed",
+      "title": "Client status check-in - 2026/02/23 09:26 PST - Notes by Gemini",
+      "meetingName": "Client status check-in",
+      "startTime": "2026-02-23T17:26:00.000Z",
+      "useCases": [
+        "weekly_checkin"
+      ],
+      "archiveFile": "meet-1V1a30Ty_Bfz9udH4sKrlOinWF6Yc19etMaJ5AC9JpdQ-1772489607991.json",
+      "processedAt": "2026-03-02T22:13:27.991Z"
+    },
+    "1CfpUdZJMvsQwocdSz2ReNDY54o-Vt0zp6v0JYXHn2-U": {
+      "status": "processed",
+      "title": "Rethoric Discovery Call: Edu and Swati Gupat - 2026/02/20 12:28 PST - Notes by Gemini",
+      "meetingName": "Rethoric Discovery Call: Edu and Swati Gupat",
+      "startTime": "2026-02-20T20:28:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1CfpUdZJMvsQwocdSz2ReNDY54o-Vt0zp6v0JYXHn2-U-1772489608828.json",
+      "processedAt": "2026-03-02T22:13:28.828Z"
+    },
+    "1MEncu_Zb4gtR3NLpCdRnIVxrUjUlhsC-feF9Ngna7ew": {
+      "status": "processed",
+      "title": "Rethoric Discovery Call: Edu and sanket - 2026/02/19 14:25 PST - Notes by Gemini",
+      "meetingName": "Rethoric Discovery Call: Edu and sanket",
+      "startTime": "2026-02-19T22:25:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1MEncu_Zb4gtR3NLpCdRnIVxrUjUlhsC-feF9Ngna7ew-1772489609792.json",
+      "processedAt": "2026-03-02T22:13:29.792Z"
+    },
+    "1x_vNo9eXb-GjwASrYNireiLYJFW5b3iijXbQ0fhbM0c": {
+      "status": "processed",
+      "title": "Rethoric Discovery Call: Edu and Cathy Han - 2026/02/19 13:31 PST - Notes by Gemini",
+      "meetingName": "Rethoric Discovery Call: Edu and Cathy Han",
+      "startTime": "2026-02-19T21:31:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-1x_vNo9eXb-GjwASrYNireiLYJFW5b3iijXbQ0fhbM0c-1772489610561.json",
+      "processedAt": "2026-03-02T22:13:30.561Z"
+    },
+    "1LPVcBlnI8JT8iIBFZnY4wam2YnHuPWIk9-7yAQrAYlQ": {
+      "status": "processed",
+      "title": "30 Min Meeting between Eduardo Mussali and Marco Podesta - 2026/02/19 12:25 PST - Notes by Gemini",
+      "meetingName": "30 Min Meeting between Eduardo Mussali and Marco Podesta",
+      "startTime": "2026-02-19T20:25:00.000Z",
+      "useCases": [
+        "unknown"
+      ],
+      "archiveFile": "meet-1LPVcBlnI8JT8iIBFZnY4wam2YnHuPWIk9-7yAQrAYlQ-1772489611614.json",
+      "processedAt": "2026-03-02T22:13:31.614Z"
+    },
+    "11MAKDSen6U1jI6EHG0mSJjfxp9xBNtA3bFlrD9Tcx74": {
+      "status": "processed",
+      "title": "Content strategy session - 2026/02/19 10:55 PST - Notes by Gemini",
+      "meetingName": "Content strategy session",
+      "startTime": "2026-02-19T18:55:00.000Z",
+      "useCases": [
+        "weekly_checkin"
+      ],
+      "archiveFile": "meet-11MAKDSen6U1jI6EHG0mSJjfxp9xBNtA3bFlrD9Tcx74-1772489642788.json",
+      "processedAt": "2026-03-02T22:14:02.788Z"
+    },
+    "10qTvgom33EMk4ytx28VkknegmgQu0sn7KofPKyFK180": {
+      "status": "processed",
+      "title": "Rethoric Discovery Call: Edu and Jason Freedman - 2026/02/19 09:25 PST - Notes by Gemini",
+      "meetingName": "Rethoric Discovery Call: Edu and Jason Freedman",
+      "startTime": "2026-02-19T17:25:00.000Z",
+      "useCases": [
+        "sales_call"
+      ],
+      "archiveFile": "meet-10qTvgom33EMk4ytx28VkknegmgQu0sn7KofPKyFK180-1772489643580.json",
+      "processedAt": "2026-03-02T22:14:03.580Z"
+    },
+    "1ITVv9B7e1ZiRGuxyNZxUuDX0gsFBhlZophWaXT7HO5w": {
+      "status": "processed",
+      "title": "Content Interview: Edu and João de Paula - 2026/02/18 11:55 PST - Notes by Gemini",
+      "meetingName": "Content Interview: Edu and João de Paula",
+      "startTime": "2026-02-18T19:55:00.000Z",
+      "useCases": [
+        "client_interview"
+      ],
+      "archiveFile": "meet-1ITVv9B7e1ZiRGuxyNZxUuDX0gsFBhlZophWaXT7HO5w-1772489683653.json",
+      "processedAt": "2026-03-02T22:14:43.654Z"
+    },
+    "1H8oJyiJfLOkF25YEgiED9c53RYpbcuEK8dY2cUqWOPY": {
+      "status": "processed",
+      "title": "Edu Content Interview  - 2026/02/18 09:59 PST - Notes by Gemini",
+      "meetingName": "Edu Content Interview",
+      "startTime": "2026-02-18T17:59:00.000Z",
+      "useCases": [
+        "client_interview"
+      ],
+      "archiveFile": "meet-1H8oJyiJfLOkF25YEgiED9c53RYpbcuEK8dY2cUqWOPY-1772489727365.json",
+      "processedAt": "2026-03-02T22:15:27.365Z"
+    }
+  }
+}
