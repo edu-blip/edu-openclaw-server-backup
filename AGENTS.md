@@ -50,6 +50,7 @@ Use emoji reactions on Slack/Discord naturally. One per message. Say "I saw this
 ## Platform Formatting
 - **Discord:** No markdown tables — use bullet lists. Wrap links in `<>` to suppress embeds.
 - **WhatsApp:** No headers — use **bold** or CAPS.
+- **Slack threading:** When Edu says "let's open a thread", "let's start a thread", or anything implying a thread — reply using `[[reply_to_current]]` to that exact message. This creates the thread. Do NOT post a new top-level channel message.
 
 ## 💓 Heartbeats
 
