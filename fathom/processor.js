@@ -122,7 +122,9 @@ function classifyCall(payload) {
 // ─────────────────────────────────────────────
 // CLAUDE API HELPER
 // ─────────────────────────────────────────────
-function callClaude(systemPrompt, userContent, model = 'claude-sonnet-4-5') {
+const MODELS = require('./models');
+
+function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       model,
@@ -215,7 +217,7 @@ SUMMARY:
 ${summary}`;
 
   log(`[USE CASE B] Analyzing transcript for client feedback...`);
-  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+  const result = await callClaude(systemPrompt, userContent);
 
   let parsed;
   try {
@@ -313,7 +315,7 @@ SUMMARY:
 ${summary}`;
 
   log(`[USE CASE C] Mining transcript for content ideas...`);
-  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+  const result = await callClaude(systemPrompt, userContent);
 
   let parsed;
   try {
@@ -432,7 +434,7 @@ TRANSCRIPT:\n${transcript || 'No transcript — using summary below.'}
 SUMMARY:\n${summary || 'No summary available.'}`;
 
   log(`[USE CASE A] Extracting action items for approval preview...`);
-  const result = await callClaude(systemPrompt, userContent, 'claude-sonnet-4-5');
+  const result = await callClaude(systemPrompt, userContent);
 
   let parsed;
   try {

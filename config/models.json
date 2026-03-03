@@ -1,0 +1,13 @@
+{
+  "_comment": "Central model registry. Edit this file to update all scripts — no code changes needed anywhere else.",
+  "claude_default": "claude-sonnet-4-6",
+  "claude_opus":    "claude-opus-4-6",
+  "claude_haiku":   "claude-haiku-4-6",
+  "gemini_default": "gemini-3-flash-preview",
+  "grok_default":   "grok-4-1-fast-non-reasoning",
+  "scanner": {
+    "nightly_diff": "gemini-3-flash-preview",
+    "weekly_full":  "claude-sonnet-4-6",
+    "deep_dive":    "claude-opus-4-6"
+  }
+}

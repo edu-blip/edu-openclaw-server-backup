@@ -13,6 +13,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
 CONFIG_FILE = SCRIPT_DIR / "config.json"
+CENTRAL_MODELS_FILE = SCRIPT_DIR.parent / "config" / "models.json"
 SCAN_HISTORY_FILE = SCRIPT_DIR / "scan_history.json"
 SUPPRESSIONS_FILE = SCRIPT_DIR / ".security-suppressions.json"
 
@@ -34,17 +35,31 @@ DEFAULT_CONFIG = {
 }
 
 def load_config() -> dict:
+    config = dict(DEFAULT_CONFIG)
+    config["models"] = dict(DEFAULT_CONFIG["models"])
+
+    # 1. Merge central workspace models (config/models.json)
+    if CENTRAL_MODELS_FILE.exists():
+        try:
+            central = json.loads(CENTRAL_MODELS_FILE.read_text())
+            if "scanner" in central:
+                config["models"] = {**config["models"], **central["scanner"]}
+        except Exception as e:
+            print(f"[WARN] Central models config error: {e}. Using defaults.")
+
+    # 2. Scanner-specific config.json (highest priority, overrides central)
     if CONFIG_FILE.exists():
         try:
             cfg = json.loads(CONFIG_FILE.read_text())
-            merged = dict(DEFAULT_CONFIG)
+            merged = dict(config)
             merged.update(cfg)
             if "models" in cfg:
-                merged["models"] = {**DEFAULT_CONFIG["models"], **cfg["models"]}
+                merged["models"] = {**config["models"], **cfg["models"]}
             return merged
         except Exception as e:
             print(f"[WARN] config.json parse error: {e}. Using defaults.")
-    return dict(DEFAULT_CONFIG)
+
+    return config
 
 # ─── API KEYS ─────────────────────────────────────────────────────────────────
 

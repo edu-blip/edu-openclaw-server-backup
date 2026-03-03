@@ -15,6 +15,8 @@ const DRY_RUN = process.argv.includes('--dry-run');
 const PENDING_DIR = path.join(__dirname, 'pending-checkins');
 const LOG_FILE = path.join(__dirname, 'processor.log');
 
+const MODELS = require('./models');
+
 const ASANA_PAT = process.env.ASANA_PAT;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const ASANA_PROJECT_CHECKIN = '1207588849301630';
@@ -35,7 +37,7 @@ if (!ASANA_PAT || !ANTHROPIC_API_KEY) {
 function callClaude(systemPrompt, userContent) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      model: 'claude-sonnet-4-5',
+      model: MODELS.claude_default,
       max_tokens: 2048,
       system: systemPrompt,
       messages: [{ role: 'user', content: userContent }]

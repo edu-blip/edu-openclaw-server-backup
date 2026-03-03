@@ -5,10 +5,20 @@ entities.py - Entity extraction via Anthropic Claude for the knowledge base.
 
 import os
 import json
+from pathlib import Path
 from typing import List, Dict
 from dotenv import load_dotenv
 
 load_dotenv("/home/openclaw/.openclaw/.env")
+
+def _load_central_models() -> dict:
+    config_path = Path(__file__).parent.parent / "config" / "models.json"
+    try:
+        return json.loads(config_path.read_text())
+    except Exception:
+        return {}
+
+_MODELS = _load_central_models()
 
 _anthropic_client = None
 
@@ -26,7 +36,7 @@ def _get_client():
 
 def extract_entities(text: str, title: str = "", max_chars: int = 4000) -> List[Dict[str, str]]:
     """
-    Extract named entities from text using Claude claude-haiku-4-5.
+    Extract named entities from text using Claude Haiku (model loaded from config/models.json).
     Returns list of {'entity_type': str, 'entity_value': str}
     
     Entity types: person, company, concept, product
@@ -61,7 +71,7 @@ Text:
     try:
         client = _get_client()
         response = client.messages.create(
-            model="claude-haiku-4-5",
+            model=_MODELS.get("claude_haiku", "claude-haiku-4-6"),
             max_tokens=1024,
             messages=[
                 {"role": "user", "content": prompt}

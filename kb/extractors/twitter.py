@@ -16,7 +16,17 @@ from dotenv import load_dotenv
 load_dotenv("/home/openclaw/.openclaw/.env")
 
 XAI_API_URL = "https://api.x.ai/v1/responses"
-XAI_MODEL = "grok-4-1-fast-non-reasoning"
+
+def _load_grok_model() -> str:
+    from pathlib import Path
+    config_path = Path(__file__).parent.parent.parent / "config" / "models.json"
+    try:
+        import json as _json
+        return _json.loads(config_path.read_text()).get("grok_default", "grok-4-1-fast-non-reasoning")
+    except Exception:
+        return "grok-4-1-fast-non-reasoning"
+
+XAI_MODEL = _load_grok_model()
 
 
 def _get_xai_key() -> str:

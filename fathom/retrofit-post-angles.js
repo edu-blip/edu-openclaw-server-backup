@@ -8,13 +8,15 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
+const MODELS = require('./models');
+
 const WEEK_FILE = path.join(__dirname, 'content-ideas', 'week-2026-W09.json');
 
 function callClaude(systemPrompt, userContent) {
   return new Promise((resolve, reject) => {
     const apiKey = process.env.ANTHROPIC_API_KEY;
     const body = JSON.stringify({
-      model: 'claude-sonnet-4-5',
+      model: MODELS.claude_default,
       max_tokens: 4096,
       system: systemPrompt,
       messages: [{ role: 'user', content: userContent }]

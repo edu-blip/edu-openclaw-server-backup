@@ -12,6 +12,16 @@ import os
 import json
 import requests
 
+# Load model from central config (falls back to hardcoded default)
+def _load_grok_model():
+    try:
+        with open("/home/openclaw/.openclaw/workspace/config/models.json") as _f:
+            return json.load(_f).get("grok_default", "grok-4-1-fast-non-reasoning")
+    except Exception:
+        return "grok-4-1-fast-non-reasoning"
+
+GROK_MODEL = _load_grok_model()
+
 # Load API key from .env
 env_path = "/home/openclaw/.openclaw/.env"
 api_key = None
@@ -40,7 +50,7 @@ if extra_question:
     prompt += f"\n\nAlso answer this: {extra_question}"
 
 payload = {
-    "model": "grok-4-1-fast-non-reasoning",
+    "model": GROK_MODEL,
     "input": [
         {
             "role": "system",
