@@ -39,13 +39,13 @@ sys.path.insert(0, '/home/openclaw/.openclaw/workspace/kb')
 import store
 store.init_db()
 try:
-    with open('$f') as fp: d = json.load(fp)
+    with open(sys.argv[1]) as fp: d = json.load(fp)
     rid = str(d.get('recording_id', '')).strip()
-    url = f'fathom://transcript/{rid}'
+    url = 'fathom://transcript/' + rid
     print('yes' if rid and store.source_exists(url) else 'no')
 except Exception as e:
     print('no')
-" 2>/dev/null)
+" -- "$f" 2>/dev/null)
       if [ "$INGESTED" = "yes" ]; then
         rm "$f"
         log "archive/: deleted (ingested): $(basename $f)"

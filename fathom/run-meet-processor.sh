@@ -4,5 +4,5 @@ set -e
 set -a
 source /home/openclaw/.openclaw/.env
 set +a
-export GOG_KEYRING_PASSWORD=gogcli-server-keyring
+# GOG_KEYRING_PASSWORD is sourced from .env above — no hardcoded fallback
 exec node /home/openclaw/.openclaw/workspace/fathom/meet-processor.js "$@"

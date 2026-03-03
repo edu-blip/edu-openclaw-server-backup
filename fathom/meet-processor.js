@@ -15,7 +15,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
-const { execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 
 // ─────────────────────────────────────────────
 // CONFIG
@@ -29,7 +29,8 @@ const config = fs.existsSync(CONFIG_FILE) ? JSON.parse(fs.readFileSync(CONFIG_FI
 
 const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN || config.slackBotToken || '';
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || config.anthropicApiKey || '';
-const GOG_KEYRING_PASSWORD = process.env.GOG_KEYRING_PASSWORD || 'gogcli-server-keyring';
+const GOG_KEYRING_PASSWORD = process.env.GOG_KEYRING_PASSWORD;
+if (!GOG_KEYRING_PASSWORD) throw new Error('GOG_KEYRING_PASSWORD is not set — source .env before running meet-processor.js');
 
 const LOG_FILE = path.join(__dirname, 'meet-processor.log');
 const STATE_FILE = path.join(__dirname, 'meet-state.json');
@@ -68,33 +69,38 @@ function markProcessed(state, fileId, entry) {
 // GOG CLI HELPERS
 // ─────────────────────────────────────────────
 function gogExec(args) {
-  const cmd = `gog ${args} --account ${GOG_ACCOUNT} -j --results-only`;
-  const result = execSync(cmd, {
+  const fullArgs = [...args, '--account', GOG_ACCOUNT, '-j', '--results-only'];
+  const result = spawnSync('gog', fullArgs, {
     env: { ...process.env, GOG_KEYRING_PASSWORD },
     encoding: 'utf8',
     timeout: 30000
   });
-  return JSON.parse(result);
+  if (result.error) throw result.error;
+  if (result.status !== 0) throw new Error(result.stderr || `gog exited with code ${result.status}`);
+  return JSON.parse(result.stdout);
 }
 
 function gogExecRaw(args) {
-  const cmd = `gog ${args} --account ${GOG_ACCOUNT}`;
-  return execSync(cmd, {
+  const fullArgs = [...args, '--account', GOG_ACCOUNT];
+  const result = spawnSync('gog', fullArgs, {
     env: { ...process.env, GOG_KEYRING_PASSWORD },
     encoding: 'utf8',
     timeout: 60000
   });
+  if (result.error) throw result.error;
+  if (result.status !== 0) throw new Error(result.stderr || `gog exited with code ${result.status}`);
+  return result.stdout;
 }
 
 function listMeetRecordings() {
   log('Listing Meet Recordings folder...');
-  const files = gogExec(`drive ls --parent ${MEET_RECORDINGS_FOLDER_ID}`);
+  const files = gogExec(['drive', 'ls', '--parent', MEET_RECORDINGS_FOLDER_ID]);
   return Array.isArray(files) ? files : [];
 }
 
 function fetchDocText(docId) {
   log(`Fetching doc text: ${docId}`);
-  return gogExecRaw(`docs cat ${docId}`);
+  return gogExecRaw(['docs', 'cat', docId]);
 }
 
 // ─────────────────────────────────────────────
