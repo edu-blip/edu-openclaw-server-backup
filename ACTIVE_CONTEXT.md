@@ -22,11 +22,11 @@ Format:
 - **Expires:** 2026-04-30
 - **Release when:** Edu says pipeline goal is being met (30+ meetings/month) or explicitly shifts focus
 
-### GitHub Backup First
-- **What:** Server has zero backup. Before ANY new integration or significant build, remind Edu about GitHub backup setup. It's ~30 min and should come first.
-- **Set:** 2026-02-25
-- **Expires:** until Edu lifts it
-- **Release when:** GitHub automated backup is set up and confirmed working
+### ~~GitHub Backup First~~ ✅ COMPLETED 2026-03-02
+- Automated daily backup to GitHub set up and working.
+- Repo: github.com/edu-blip/edu-openclaw-server-backup (private)
+- Cron: daily 3am PST via scripts/backup.sh
+- RELEASED
 
 ---
 

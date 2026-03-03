@@ -60,6 +60,15 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 
 ---
 
+## GitHub Auto-Backup
+- Script: `scripts/backup.sh`
+- Repo: `github.com/edu-blip/edu-openclaw-server-backup` (private)
+- Cron: daily 3am PST
+- Excludes: credentials, MEMORY.md, USER.md, call transcripts, logs, DB files
+- Manual push: `cd /home/openclaw/.openclaw/workspace && git add -A && git commit -m "manual" && git push origin master`
+
+---
+
 ## Gateway Ready Notification
 - Script: `scripts/notify-gateway-ready.sh`
 - Trigger: `@reboot` cron (30s delay after boot)
