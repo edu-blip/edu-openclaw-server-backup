@@ -25,8 +25,12 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 - Heartbeat read: `source .env && ASANA_PAT=$ASANA_PAT node fathom/asana-digest.js`
   - `--all` for all incomplete tasks assigned to Edu
   - `--project <gid>` for specific project tasks
-- Backfill pending check-ins: `node fathom/process-pending-checkins.js [--dry-run]`
-- Use Case A wired in `fathom/processor.js` → creates task + subtasks in Weekly Sync Call
+- **Use Case A flow (approval-first):**
+  1. Check-in processed → Claude extracts tasks → saved to `fathom/pending-asana/<refId>.json`
+  2. Slack preview posted to `#tony-alerts` with numbered task list + ref ID
+  3. Edu replies in #openclaw-setup: `approve`, `approve delete 2,5`, `approve edit 3: new text`, or `reject`
+  4. Tony runs: `source .env && ASANA_PAT=$ASANA_PAT node fathom/asana-push.js <refId> [--delete N,M] [--edit "N: text"] [--reject]`
+- Pending approvals: `fathom/pending-asana/` | Pushed: `pending-asana/pushed/` | Rejected: `pending-asana/rejected/`
 - Config keys: `asanaProjectCheckin`, `asanaWorkspace` in `fathom/config.json`
 
 ---
