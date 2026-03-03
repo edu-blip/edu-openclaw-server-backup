@@ -13,7 +13,7 @@ import requests
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
 
-load_dotenv("/root/.openclaw/.env")
+load_dotenv("/home/openclaw/.openclaw/.env")
 
 XAI_API_URL = "https://api.x.ai/v1/responses"
 XAI_MODEL = "grok-4-1-fast-non-reasoning"
@@ -22,7 +22,7 @@ XAI_MODEL = "grok-4-1-fast-non-reasoning"
 def _get_xai_key() -> str:
     key = os.environ.get("XAI_API_KEY")
     if not key:
-        raise ValueError("XAI_API_KEY not found in /root/.openclaw/.env")
+        raise ValueError("XAI_API_KEY not found in /home/openclaw/.openclaw/.env")
     return key
 
 

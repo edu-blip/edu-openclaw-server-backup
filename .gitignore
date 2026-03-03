@@ -17,6 +17,8 @@
 fathom/archive/
 fathom/pending-checkins/
 fathom/queue/
+fathom/meet-archive/
+fathom/sales-calls/
 
 # ----- NEVER COMMIT: Personal/Sensitive Context -----
 # These contain Edu's personal and financial details

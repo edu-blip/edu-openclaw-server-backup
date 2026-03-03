@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from dotenv import load_dotenv
-load_dotenv("/root/.openclaw/.env")
+load_dotenv("/home/openclaw/.openclaw/.env")
 
 import store
 import embedder

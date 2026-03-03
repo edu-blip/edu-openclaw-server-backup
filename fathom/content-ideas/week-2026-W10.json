@@ -1,0 +1,477 @@
+{
+  "ideas": [
+    {
+      "idea": "Humans as agent orchestrators, not executors",
+      "hook_angle": "I just automated my entire content prep workflow. Didn't write a line of code.",
+      "edu_post_angle": "Edu can share how he's using OpenClaw to automate content interview prep at Rethoric — telling the AI to develop 12 discussion topics based on repurposed posts, conversion goals, and authority themes. The insight: founders won't be 'doing' content work soon, they'll be orchestrating AI agents who do it. This positions Edu as a founder living the AI-first transition he talks about.",
+      "key_points": [
+        "Built an agentic workflow that generates content topics autonomously",
+        "Structured batches: 4 repurposed high-performers, 1-2 conversion posts, rest authority",
+        "Future of work isn't AI replacing humans — it's humans becoming orchestrators"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-03-02"
+    },
+    {
+      "idea": "Sales results lag 30-45 days — don't quit early",
+      "hook_angle": "If you quit outbound after 2 weeks, you quit right before it works.",
+      "edu_post_angle": "Edu can share the hard-earned lesson from building Rethoric's outbound: results don't show up when you're grinding. They show up 30-45 days later. He just closed deals that trace back to outreach he did over a month ago. This resonates with every founder doing cold outbound who feels like it's not working — classic Growth content.",
+      "key_points": [
+        "Outbound feels like it's failing for weeks before it converts",
+        "Just closed Fragment Data (6-month deal) + verbal confirmation from delayed pipeline",
+        "The work compounds invisibly — most founders quit during the lag"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-03-02"
+    },
+    {
+      "idea": "Why direct pitches fail with CMOs (and what works instead)",
+      "hook_angle": "Stopped pitching CMOs. Started asking them questions. Response rate doubled.",
+      "edu_post_angle": "Edu's team discovered that 'magic word' sales pitches offend growth/marketing execs. So they switched to personalized questions: 'How are you managing your company's LinkedIn content?' Then send a brief summary if they respond. One prospect even forwarded them to the right decision-maker. This is Authority content — Edu teaching B2B outbound tactics from the trenches.",
+      "key_points": [
+        "Direct CTAs block connections with CMOs and VP Growth profiles",
+        "Personalized curiosity outperforms scripted pitches",
+        "Result: warmer responses, internal referrals, fewer blocks"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-03-02"
+    },
+    {
+      "idea": "Building an AI agent requires a 'security council'",
+      "hook_angle": "I didn't just deploy an AI agent. I gave it a council of other agents to argue with first.",
+      "edu_post_angle": "Edu can pull back the curtain on deploying OpenClaw (his 'AI COO'). Before the agent writes code, it goes through a security council and Q&A team — other agents that challenge assumptions and catch edge cases. It's like hiring an intern: you don't let them ship on day one. This is Growth content — AI implementation as company-building, not just tech.",
+      "key_points": [
+        "Agent deployment isn't plug-and-play — it's onboarding",
+        "Built pre-coding filters: security council + Q&A agents to refine requests",
+        "Treats AI like an intern: define limits, train on edge cases, monitor costs"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-03-02"
+    },
+    {
+      "idea": "Case study posts + paid ads = B2B lead machine",
+      "hook_angle": "Your best case study post got 200 impressions organically. Put $50 behind it and watch what happens.",
+      "edu_post_angle": "Edu learned from a contact: conversion posts (case studies with direct CTAs) don't need organic reach to work. They need paid distribution to the right 500 people. Rethoric is now testing this with Navin — running targeted ads behind case study posts with link + CTA in the body. This is Authority content for founders who think LinkedIn ads don't work (because they're boosting the wrong content).",
+      "key_points": [
+        "Organic reach ≠ conversion potential for case study posts",
+        "Strategy: Write conversion-focused posts, run as targeted ads to ICP",
+        "First test client committed $700/month for this approach"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-03-02"
+    },
+    {
+      "idea": "Why most founders are wrong about sales hiring",
+      "hook_angle": "Everyone says 'hire fast, scale faster.' But what if the best sales teams stay small on purpose?",
+      "edu_post_angle": "Edu's client Jackson (Storylane) hit significant ARR with 3 reps, not 20. The insight: they prioritized inbound + product first, scaled sales only when demand forced it. Edu can contrast this with the VC-funded 'hire 20 reps and pray' playbook most founders follow. Post angle: 'Here's what happens when you don't follow the traditional sales scaling playbook—and why it actually works better.'",
+      "key_points": [
+        "Storylane achieved major ARR with only 3 sales reps vs. the typical 20+ model",
+        "They built product + inbound demand first, scaled sales tactically when necessary",
+        "Small team = collaboration over competition, shared best practices vs. hoarding wins"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24"
+    },
+    {
+      "idea": "Full-cycle sales is a scam (for mature companies)",
+      "hook_angle": "Controversial take: Full-cycle sales is a 'scam' for companies with product-market fit.",
+      "edu_post_angle": "Jackson (Edu's client) argues that SDRs are really a marketing function—they engage prospects at the awareness stage, not the sales stage. Edu can build on this: most founders misallocate resources by forcing sales reps to do marketing's job. Post angle: 'If you have PMF and inbound demand, full-cycle sales is costing you deals—here's why.'",
+      "key_points": [
+        "SDRs operate at the awareness stage = marketing, not sales",
+        "Companies with PMF waste resources making sales reps do marketing work",
+        "Controversial but defensible—will generate debate among sales leaders"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24"
+    },
+    {
+      "idea": "Why new sales hires ramp faster at high-velocity companies",
+      "hook_angle": "It took me 4–6 months to ramp at my last company. At Storylane? 2–3 months. Here's why.",
+      "edu_post_angle": "Edu can tell Jackson's story: at his previous company (low inbound volume), it took 6 months to ramp because he had to be a generalist with few 'at bats.' At Storylane (high inbound, founder-led sales foundation), his pipeline was full immediately and he ramped in 2–3 months. Edu's angle: 'Ramp time is a symptom of pipeline volume, not training. Most founders under-invest in the thing that actually accelerates sales hiring.'",
+      "key_points": [
+        "Ramp time is driven by deal volume, not training quality",
+        "High inbound + founder-led foundation = faster ramp for new hires",
+        "Most founders optimize for training programs when they should optimize for pipeline"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24"
+    },
+    {
+      "idea": "How AI agents let you scale sales without hiring",
+      "hook_angle": "Storylane handles massive pipeline with 3 reps. Their secret? An AI agent that filters low-intent conversations.",
+      "edu_post_angle": "Jackson's team uses their own AI demo agent (Repax) to handle early-stage, low-intent educational conversations. Only high-intent prospects opt into live calls, so the 3 sales reps focus exclusively on high-impact deals. Edu's angle: 'This is the future of sales efficiency—AI doesn't replace reps, it makes them 10x more effective by handling the noise.' Ties directly to Edu's own AI COO (Tony) narrative.",
+      "key_points": [
+        "AI agent filters low-intent conversations, only qualifies high-intent prospects for live calls",
+        "Lets a 3-person sales team handle pipeline that would normally require 10+ reps",
+        "AI doesn't replace sales—it makes sales more efficient by handling low-leverage work"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24"
+    },
+    {
+      "idea": "The counterintuitive strategy: undersell to win faster",
+      "hook_angle": "Want to close deals faster? Sell them less, not more.",
+      "edu_post_angle": "Jackson revealed a tactic most founders miss: he intentionally undersells to a lower subscription tier to optimize for win rate and time to close. Instead of pushing the highest-tier plan, he recommends starting smaller to build trust and simplify internal approval. Edu's angle: 'Most founders over-engineer the first sale. The best sales reps optimize for the win, not the invoice size—and upsell later.'",
+      "key_points": [
+        "Underselling to a lower tier increases win rate and shortens sales cycles",
+        "Simplifies internal approval, reduces risk of losing to status quo or competitors",
+        "Land-and-expand works better than trying to maximize the first deal"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24"
+    },
+    {
+      "idea": "When your content isn't converting, the system isn't broken—your targeting is",
+      "hook_angle": "We spent weeks debugging our lead gen automation. Turns out, the code was perfect. The content just wasn't reaching the right people.",
+      "edu_post_angle": "Edu can share the story of building an automated lead gen system for clients, only to discover through testing that posts attracting <$5M funding companies weren't a system failure—they were an audience mismatch. The pivot: instead of fixing code, they fixed distribution with LinkedIn ads. Perfect for founder audience because it's a classic 'build vs. buy' lesson—sometimes you don't need better infrastructure, you need better targeting.",
+      "key_points": [
+        "Built Python automation to filter leads by funding stage—system worked perfectly",
+        "Testing revealed posts only attracted seed-stage leads, not Series A+ target",
+        "Solution wasn't better code—it was paid ads to force ICP visibility",
+        "Lesson: Optimize distribution before you optimize infrastructure"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Client status check-in",
+      "date": "2026-02-23"
+    },
+    {
+      "idea": "The LinkedIn content graveyard: great profiles, wrong audiences",
+      "hook_angle": "Your founder worked at Amazon. Your content is excellent. You're still not getting leads. Here's why—",
+      "edu_post_angle": "Edu can break down why some client profiles crush it (ex-Amazon PM targeting software engineers on LinkedIn) while others with equally strong content fail (founder targeting creative producers who aren't on LinkedIn). The unlock: ads + connection automation to force your ICP to see your content when organic reach won't cut it. This is a direct playbook Edu is deploying for a struggling client—founders will relate to the 'my audience isn't where I'm posting' problem.",
+      "key_points": [
+        "Client credibility (Amazon background) + good content ≠ results if ICP isn't active on platform",
+        "Solution: $800-1000/month in Thought Leadership Ads + 30 connections/day automation",
+        "Forces visibility when organic reach fails due to audience behavior",
+        "Strategy shift from 'create better content' to 'buy access to the right eyeballs'"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Client status check-in",
+      "date": "2026-02-23"
+    },
+    {
+      "idea": "We're running LinkedIn ads without trying to 'convert' anyone",
+      "hook_angle": "Most founders run LinkedIn ads to drive sign-ups. We're using them to generate qualified leads through... engagement.",
+      "edu_post_angle": "Edu is testing a counterintuitive LinkedIn ads strategy: boost Authority and Conversion posts to Series A+ founders, optimize for *engagement* (not conversions), then scrape everyone who likes/comments for outreach. It's lead gen disguised as content distribution. This flips the script on typical 'drive them to a landing page' ads—founders will be curious about the ROI and mechanics.",
+      "key_points": [
+        "Boosting posts via Ads Manager for targeting control (not the 'boost' button)",
+        "Campaign objective: engagement (likes/comments), not direct conversions",
+        "Scrape engagers as warm leads—softer than form fills, higher intent than cold outreach",
+        "Testing both Authority (thought leadership) and Conversion (case studies) to see what converts better"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Client status check-in",
+      "date": "2026-02-23"
+    },
+    {
+      "idea": "How to track LinkedIn traffic without LinkedIn's tracking pixel",
+      "hook_angle": "LinkedIn's attribution sucks. So we built our own—using custom URLs and a $50/month tool.",
+      "edu_post_angle": "Edu and his team solved LinkedIn attribution by creating custom landing page URLs (like rethoric.com/lin and rethoric.com/YC) paired with RB2B to track which visitors come from specific LinkedIn sources. This bypasses standard tracking limitations and gives clients proof their LinkedIn presence drives traffic. Tactical, founder-friendly growth hack that solves a real pain point for anyone running LinkedIn content or ads.",
+      "key_points": [
+        "Problem: Standard tools can't confirm if site visitors came from LinkedIn",
+        "Solution: Custom URL paths (/lin, /YC) on profile + RB2B to track by source",
+        "Creates clean attribution without relying on LinkedIn's native tracking",
+        "Applicable to anyone running LinkedIn content who wants to prove ROI"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Client status check-in",
+      "date": "2026-02-23"
+    },
+    {
+      "idea": "Deploying an AI agent as my 'AI COO'—what's actually working (and what isn't)",
+      "hook_angle": "I gave an AI agent access to our entire ops stack. Two weeks in, here's what it can (and can't) replace—",
+      "edu_post_angle": "Edu is hands-on deploying OpenClaw (AI agent) on a VPS to automate ops tasks—monitoring API costs, prepping meeting research via Fathom + Google Calendar integration, handling lead gen workflows. He's learning in public as a non-technical founder leading AI adoption. This is a timely, high-interest topic (AI agents, agentic workflows) told from the perspective of a founder *doing* it, not theorizing. Founders building AI-first companies will engage heavily.",
+      "key_points": [
+        "Deployed OpenClaw on VPS—monitors API spend, alerts if >$20 (coded cron jobs autonomously)",
+        "Testing pre-meeting prep automation: agent pulls Fathom transcript + researches attendees 1 day before calls",
+        "Challenges: Agents sometimes report tasks 'done' prematurely; must be hyper-specific in prompts",
+        "Non-technical founder leading AI ops buildout—learning by deploying, not delegating"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Client status check-in",
+      "date": "2026-02-23"
+    },
+    {
+      "idea": "Why we're building our lead gen system inside Claude instead of buying tools",
+      "hook_angle": "We just replaced our entire lead gen stack with one AI agent in Claude",
+      "edu_post_angle": "Edu's team built a LinkedIn lead scraping + enrichment system entirely in Claude (using MCPs) — no external tools, no browser tabs, sub-2-minute runtime. Share the decision to own the stack vs. rent it, and why speed/control matters more than feature bloat when you're selling to founders.",
+      "key_points": [
+        "System runs in Claude using Chrome MCP + API MCP — scrapes LinkedIn, enriches in Clay, scores leads, outputs CSV",
+        "Haiku model completes full workflow in under 2 minutes (Sonnet was too slow)",
+        "Each client gets a dedicated Claude project — all context, ICP, and data stored in one place",
+        "Philosophy: own your infrastructure when you're selling outcomes, not features"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content strategy session",
+      "date": "2026-02-19"
+    },
+    {
+      "idea": "The ROI question every B2B service should ask on sales calls",
+      "hook_angle": "We started asking one question on calls that tripled our close rate",
+      "edu_post_angle": "Edu's team now asks every prospect their Average Contract Value (ACV) during sales calls — then uses it to calculate ROI in real time. Example: if ACV is $50K and the service costs $30K/year, they only need to close 1 client to break even. Frames the yearly plan as a no-brainer. This is basic sales math most agencies skip.",
+      "key_points": [
+        "Ask ACV on the call (or in onboarding form)",
+        "Use it to calculate how many clients they need to close to justify the service cost",
+        "Turns pricing objection into ROI conversation",
+        "Makes the yearly plan an obvious decision, not just a discount play"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content strategy session",
+      "date": "2026-02-19"
+    },
+    {
+      "idea": "Why we're testing our own product on ourselves before rolling it to clients",
+      "hook_angle": "Before we sell it, we're running it on our own LinkedIn for a month",
+      "edu_post_angle": "Edu's team built a new lead gen system (LinkedIn engagement scraping + intent scoring). Before pitching it to clients, they're deploying it on Edu's own profile for 2–4 weeks to stress-test cost, output quality, and edge cases. Founder-led testing = faster iteration and more honest positioning. Most agencies skip this step and learn on the client's dime.",
+      "key_points": [
+        "New system scrapes LinkedIn post engagement, enriches leads, scores by ICP fit",
+        "Testing on Edu's profile first to identify issues and validate ROI",
+        "Philosophy: validate internally before scaling externally",
+        "Builds trust with clients — 'we use this ourselves' is a powerful close"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content strategy session",
+      "date": "2026-02-19"
+    },
+    {
+      "idea": "Intent signals > vanity metrics: how we're scoring LinkedIn leads now",
+      "hook_angle": "Likes don't convert. We built a system that tracks *repeated* engagement over time.",
+      "edu_post_angle": "Edu's team is layering intent signals into their lead scoring: LinkedIn post reactions + website visits (via RB2B) + engagement over multiple weeks. A single like means nothing. But if someone reacts to 3 posts in 2 weeks AND visits your site? That's a qualified lead. Share the shift from 'who engaged' to 'who's showing increasing intent.'",
+      "key_points": [
+        "System tracks engagement across multiple weeks — highlights leads with increasing interest",
+        "Integrates RB2B data (website visits) as an additional signal",
+        "Final monthly score combines: post engagement + site visits + repeat behavior",
+        "Philosophy: intent signals compound — one-off engagement is noise"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content strategy session",
+      "date": "2026-02-19"
+    },
+    {
+      "idea": "'Go-To-Market Engineering' — the positioning shift we're making",
+      "hook_angle": "We stopped calling ourselves a content agency. Here's what we say now.",
+      "edu_post_angle": "Edu's team is rebranding from 'LinkedIn ghostwriting agency' to 'Go-To-Market Engineering' — content + automation + AI agents that generate outcomes, not just posts. They're positioning as a growth partner that builds systems (lead gen, outreach, scoring) on top of content. Validate with one client, then scale. This is the shift from 'we write posts' to 'we engineer pipeline.'",
+      "key_points": [
+        "Positioning: content is the input, automation is the engine, leads are the output",
+        "Framing as 'growth partner' vs. 'content service'",
+        "Testing the full system on one client before scaling",
+        "Appeals to technical founders who want systems, not services"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content strategy session",
+      "date": "2026-02-19"
+    },
+    {
+      "idea": "Why all technical founders must learn to sell",
+      "hook_angle": "Your CTO avoiding sales calls? That's how companies die.",
+      "edu_post_angle": "João (YC founder, CTO) told me every technical founder avoiding sales is setting themselves up for burnout or death. Edu's take: this applies to content too. Founders who refuse to 'sell' through personal LinkedIn content are leaving pipeline on the table. Frame it as: you're already selling to candidates and investors — content is the same skill, different medium.",
+      "key_points": [
+        "Sales isn't optional for founders — you're selling to candidates, employees, customers constantly",
+        "Sales is a learnable skill, just like coding — you get better with practice",
+        "Sales calls are 100x better than surveys for understanding customer problems",
+        "Founders who skip sales can't hire or train sales teams effectively"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "The predatory equity culture killing Latin American startups",
+      "hook_angle": "Why Latin American startups fail: founders are too cheap with their own teams.",
+      "edu_post_angle": "João (YC alum, built in Brazil and SF) said the biggest mistake LatAm founders make is being stingy with equity and salaries — treating employees like disposable resources. Nubank's engineer #1 made *zero* on the IPO. Edu's angle: this mirrors how B2B founders treat content investment. Cheapness kills trust, churn, and long-term success. Generosity compounds.",
+      "key_points": [
+        "LatAm founders withhold equity/pay low salaries — creates a 'predatory relationship' with employees",
+        "Lack of liquidity events because early employees weren't rewarded (Nubank example)",
+        "Generosity with comp/equity = lower churn, better loyalty, stronger ecosystem",
+        "Cheapness on the wrong things (talent, content, brand) is a founder failure mode"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Why SF > everywhere else for startups (from a YC CTO)",
+      "hook_angle": "The biggest startup advantage isn't capital. It's density.",
+      "edu_post_angle": "João (YC CTO) told me: the difference between SF and everywhere else isn't US vs. Europe — it's density. You can't replicate serendipity remotely. Edu's take: this applies to LinkedIn too. Posting sporadically = living in a content desert. Daily posting = compound serendipity. Your ICP needs to *see you everywhere* to trust you.",
+      "key_points": [
+        "SF's competitive advantage is density — everyone working on the same problems, learning faster",
+        "Serendipity can't be replicated remotely or in lower-density ecosystems",
+        "Same applies to content: consistency creates density in your ICP's feed",
+        "Sporadic posting = invisible founder. Daily presence = compounding trust."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "From 'code writing app' to 'AI operating system' — how YC founders pivot positioning post-Demo Day",
+      "hook_angle": "YC forced them to dumb down their pitch. Post-Demo Day, they had to rebuild it.",
+      "edu_post_angle": "João shared how YC pushed them to position as 'Cursor for CTOs' to simplify the investor pitch — but post-YC, they had to *completely rebrand* because customers didn't get it. Edu's take: founders do this with LinkedIn too. They pitch investors, not buyers. Your content needs to speak to ICP pain, not fundraising narratives.",
+      "key_points": [
+        "YC advised overly simplified positioning ('Cursor for CTOs') to close investors",
+        "Post-YC, had to rebrand to 'AI operating system for engineering teams' to match product vision",
+        "Lesson: optimize messaging for *buyers*, not just investors",
+        "Content mistake: founders write LinkedIn posts like pitch decks instead of ICP-focused pain"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "The 3-bucket content strategy (Growth, Authority, Conversion) — live example from a YC CTO",
+      "hook_angle": "Most founders post randomly. Here's the system that works.",
+      "edu_post_angle": "During João's interview, Edu walked him through Rethoric's 3-bucket strategy: Growth (hiring, YC stories) for reach. Authority (CTO playbooks) for trust. Conversion (testimonials, product releases) for leads. Edu's insight: Growth posts = 200k impressions, few leads. Conversion posts = 800 impressions, high intent. Founders need *both*. Stop optimizing for vanity metrics.",
+      "key_points": [
+        "Growth bucket: hiring, YC vault stories — maximizes reach and followers",
+        "Authority bucket: playbooks, frameworks — builds trust with ICP (CTOs, eng managers)",
+        "Conversion bucket: testimonials, case studies, product releases — lowest reach, highest intent",
+        "Example: Growth post = 200k impressions, low leads. Conversion post = 800 impressions, pipeline."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Clients ask for the wrong thing — you need to solve the real problem",
+      "hook_angle": "My clients told me they needed help posting on LinkedIn. They were lying.",
+      "edu_post_angle": "Edu can frame this as a founder insight: clients initially said 'we don't have time to post,' but the real blocker was lead attribution and ROI proof. This is classic 'faster horse vs. car' thinking. Edu built an attribution layer (enrichment, scoring, CRM integration) because that's what clients actually needed to justify content spend. Positions Rethoric as solving the hidden problem, not just the stated one.",
+      "key_points": [
+        "Clients said: 'We need help posting.' Real problem: 'We need leads + attribution.'",
+        "Built a conversion tracking system: engagement → enrichment → scoring → ICP filtering → CRM.",
+        "One client said closing one deal covers the entire year of service — that's how you sell content."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Most LinkedIn content has no goal — here's how to fix that",
+      "hook_angle": "We posted for 2 months and got zero leads. Then we changed one thing.",
+      "edu_post_angle": "Edu admits a strategic mistake: his team wasn't categorizing posts by goal (Growth / Authority / Conversion). Every post was a shot in the dark. The fix: structured content calendar where each post has a defined job. Growth content aims for top 10% reach (9K impressions for 15K followers). Conversion content is measured by leads, not impressions. This is a rare 'here's what I got wrong' post that shows maturity and tactical depth.",
+      "key_points": [
+        "Mistake: no content strategy = no leads, no brand awareness.",
+        "Fix: content calendar categorized by goal (Growth / Authority / Conversion).",
+        "Growth posts target top 10% reach; conversion posts judged by leads generated, not impressions."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Your LinkedIn content sounds like a college grad, not a CEO",
+      "hook_angle": "I told my ghostwriter: 'This sounds like a 22-year-old, not someone who's run companies for 20 years.'",
+      "edu_post_angle": "Edu opens the call with direct feedback to his own writer: tone was too 'young creator,' not experienced founder. This is a meta post about ghostwriting quality — most founders don't know how to give this feedback. Edu does because he's both client and agency owner. He can turn this into a mini-guide: how to tell if your LinkedIn content sounds like you or a generic creator. Positions Edu as quality-obsessed and self-aware.",
+      "key_points": [
+        "Tone mismatch: content felt like a college grad, not a seasoned CEO.",
+        "Problem in ghostwriting: generic 'creator voice' vs. authentic founder voice.",
+        "How to audit your own content: does it reflect 20 years of experience or 2?"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Stop doing content interviews — they produce surface-level posts",
+      "hook_angle": "Most LinkedIn ghostwriters do weekly 'content interviews.' I'm killing ours.",
+      "edu_post_angle": "Edu identifies a broken process: sitting down unprepared for interviews produces weak, surface-level content. He's shifting to async idea submission — clients send raw insights from their week (client calls, mental models, frustrations) and the writer develops them. This is operationally contrarian and signals Edu's process thinking. He can tie this to his broader AI/ops theme — rethinking workflows, not just automating bad ones.",
+      "key_points": [
+        "Weekly interviews = surface-level content because founders show up unprepared.",
+        "New process: founders submit raw ideas async (Slack, voice notes) → writer develops them.",
+        "Better input = better output. Process design matters as much as writing skill."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18"
+    },
+    {
+      "idea": "Benchmark your LinkedIn reach — here's what 'good' actually means",
+      "hook_angle": "Is 4,000 impressions good or bad? Most founders have no idea.",
+      "edu_post_angle": "Edu shares hard data: for 10K–25K followers, 4K impressions = top 25%, 9K = top 10%, 75K = top 1% (from analyzing 50K posts in Jan). He frames this as what a LinkedIn content agency should know — and most founders don't. He can position this as both educational (here's how to audit your own content) and authoritative (we benchmark everything). Ties to his 'founder who is his own ICP' positioning.",
+      "key_points": [
+        "Data from 50K LinkedIn posts (Jan): 4K impressions = strong (top 25%) for 15K follower accounts.",
+        "Top 10% = 9K impressions. Top 1% = 75K.",
+        "Growth content should aim for top 10%. Conversion content judged by leads, not impressions."
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18"
+    }
+  ],
+  "sources": [
+    {
+      "meeting": "Team check-in",
+      "date": "2026-03-02",
+      "callType": "weekly_checkin",
+      "source": "google_meet"
+    },
+    {
+      "meeting": "Content call: Jackson <> Edu",
+      "date": "2026-02-24",
+      "callType": "client_interview",
+      "source": "google_meet"
+    },
+    {
+      "meeting": "Client status check-in",
+      "date": "2026-02-23",
+      "callType": "weekly_checkin",
+      "source": "google_meet"
+    },
+    {
+      "meeting": "Content strategy session",
+      "date": "2026-02-19",
+      "callType": "weekly_checkin",
+      "source": "google_meet"
+    },
+    {
+      "meeting": "Content Interview: Edu and João de Paula",
+      "date": "2026-02-18",
+      "callType": "client_interview",
+      "source": "google_meet"
+    },
+    {
+      "meeting": "Edu Content Interview",
+      "date": "2026-02-18",
+      "callType": "client_interview",
+      "source": "google_meet"
+    }
+  ]
+}

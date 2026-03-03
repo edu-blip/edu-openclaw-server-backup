@@ -6,7 +6,7 @@
 set -e
 
 # Load env vars (bot token)
-source /root/.openclaw/.env
+source /home/openclaw/.openclaw/.env
 
 CHANNEL="C0AHBCJQJKS"
 MAX_WAIT=120   # max seconds to wait for gateway

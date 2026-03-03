@@ -8,7 +8,7 @@ import json
 from typing import List, Dict
 from dotenv import load_dotenv
 
-load_dotenv("/root/.openclaw/.env")
+load_dotenv("/home/openclaw/.openclaw/.env")
 
 _anthropic_client = None
 
@@ -19,7 +19,7 @@ def _get_client():
         import anthropic
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
-            raise ValueError("ANTHROPIC_API_KEY not found in /root/.openclaw/.env")
+            raise ValueError("ANTHROPIC_API_KEY not found in /home/openclaw/.openclaw/.env")
         _anthropic_client = anthropic.Anthropic(api_key=api_key)
     return _anthropic_client
 

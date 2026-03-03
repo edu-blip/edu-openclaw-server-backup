@@ -26,7 +26,7 @@ from datetime import datetime, timezone
 WORKSPACE = Path(__file__).parent.parent
 SCAN_HISTORY = WORKSPACE / 'security-scanner' / 'scan_history.json'
 ALERTED_IDS_FILE = WORKSPACE / 'security-scanner' / 'alerted_ids.json'
-ENV_FILE = Path('/root/.openclaw/.env')
+ENV_FILE = Path('/home/openclaw/.openclaw/.env')
 SLACK_CHANNEL = 'C0AHBCJQJKS'  # #tony-alerts
 
 ALERT_SEVERITIES = {'CRITICAL', 'HIGH'}

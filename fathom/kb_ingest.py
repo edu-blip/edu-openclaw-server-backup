@@ -24,7 +24,7 @@ KB_DIR = os.path.join(WORKSPACE, "kb")
 sys.path.insert(0, KB_DIR)
 
 from dotenv import load_dotenv
-load_dotenv("/root/.openclaw/.env")
+load_dotenv("/home/openclaw/.openclaw/.env")
 
 import store
 import embedder

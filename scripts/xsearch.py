@@ -20,7 +20,7 @@ import requests
 from datetime import datetime, timedelta
 
 # Load API key from .env
-env_path = "/root/.openclaw/.env"
+env_path = "/home/openclaw/.openclaw/.env"
 api_key = None
 if os.path.exists(env_path):
     with open(env_path) as f:
@@ -31,7 +31,7 @@ if os.path.exists(env_path):
                 break
 
 if not api_key:
-    print("ERROR: XAI_API_KEY not found in /root/.openclaw/.env")
+    print("ERROR: XAI_API_KEY not found in /home/openclaw/.openclaw/.env")
     sys.exit(1)
 
 # Parse args

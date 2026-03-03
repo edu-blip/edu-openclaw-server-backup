@@ -70,7 +70,7 @@ trafilatura, youtube-transcript-api, yt-dlp, pdfplumber,
 beautifulsoup4, numpy, openai, anthropic, python-dotenv, requests
 ```
 
-### API Keys (in `/root/.openclaw/.env`)
+### API Keys (in `/home/openclaw/.openclaw/.env`)
 ```
 OPENAI_API_KEY=...      # for embeddings (text-embedding-3-small)
 ANTHROPIC_API_KEY=...   # for entity extraction (claude-haiku-4-5)
@@ -245,7 +245,7 @@ chunks (id, source_id, content, chunk_index, embedding)
 entities (id, source_id, entity_type, entity_value)
 ```
 
-Database location: `/root/.openclaw/workspace/kb/kb.db`
+Database location: `/home/openclaw/.openclaw/workspace/kb/kb.db`
 
 ---
 

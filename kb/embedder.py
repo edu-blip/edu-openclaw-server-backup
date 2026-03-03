@@ -9,7 +9,7 @@ import numpy as np
 from typing import List, Dict, Any
 from dotenv import load_dotenv
 
-load_dotenv("/root/.openclaw/.env")
+load_dotenv("/home/openclaw/.openclaw/.env")
 
 # Lazy import openai to avoid slow startup
 _openai_client = None
@@ -21,7 +21,7 @@ def _get_client():
         from openai import OpenAI
         api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in /root/.openclaw/.env")
+            raise ValueError("OPENAI_API_KEY not found in /home/openclaw/.openclaw/.env")
         _openai_client = OpenAI(api_key=api_key)
     return _openai_client
 

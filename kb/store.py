@@ -10,7 +10,7 @@ import numpy as np
 from datetime import datetime
 from typing import Optional, List, Dict, Any, Tuple
 
-DB_PATH = "/root/.openclaw/workspace/kb/kb.db"
+DB_PATH = "/home/openclaw/.openclaw/workspace/kb/kb.db"
 
 
 def get_connection() -> sqlite3.Connection:

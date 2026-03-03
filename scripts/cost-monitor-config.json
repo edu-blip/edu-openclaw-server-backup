@@ -3,7 +3,7 @@
 
   "alert_threshold_usd": 20.00,
   "slack_channel_id": "C0AHBCJQJKS",
-  "sessions_dir": "/root/.openclaw/agents/main/sessions",
+  "sessions_dir": "/home/openclaw/.openclaw/agents/main/sessions",
 
   "providers": {
     "_comment": "Display names for known provider prefixes. Any unknown prefix is shown as-is.",

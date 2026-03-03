@@ -43,7 +43,7 @@ def get_env(key):
     val = os.environ.get(key)
     if val:
         return val
-    for env_file in ["/opt/openclaw.env", "/root/.openclaw/.env"]:
+    for env_file in ["/opt/openclaw.env", "/home/openclaw/.openclaw/.env"]:
         if os.path.exists(env_file):
             with open(env_file) as f:
                 for line in f:
@@ -326,7 +326,7 @@ def format_message(provider_data, openai_data, date_str, cfg, is_alert=False):
 # ─── SLACK ────────────────────────────────────────────────────────────────────
 
 def post_to_slack(message, channel_id):
-    config_path = "/root/.openclaw/openclaw.json"
+    config_path = "/home/openclaw/.openclaw/openclaw.json"
     token = None
     try:
         with open(config_path) as f:
@@ -367,7 +367,7 @@ def main():
     is_digest       = "--digest" in sys.argv
     alert_threshold = cfg.get("alert_threshold_usd", 20.00)
     channel_id      = cfg.get("slack_channel_id", "C0AHBCJQJKS")
-    sessions_dir    = cfg.get("sessions_dir", "/root/.openclaw/agents/main/sessions")
+    sessions_dir    = cfg.get("sessions_dir", "/home/openclaw/.openclaw/agents/main/sessions")
     pricing_ovr     = cfg.get("pricing_overrides", {}).get("models", {})
     cfg_openai      = cfg.get("openai_usage_api", {})
 

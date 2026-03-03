@@ -35,7 +35,7 @@ if [ -d "$ARCHIVE_DIR" ]; then
       # Check if this transcript has been ingested into the KB
       INGESTED=$(python3 -c "
 import sys, json
-sys.path.insert(0, '/root/.openclaw/workspace/kb')
+sys.path.insert(0, '/home/openclaw/.openclaw/workspace/kb')
 import store
 store.init_db()
 try:
