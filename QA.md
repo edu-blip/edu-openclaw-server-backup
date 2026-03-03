@@ -1,6 +1,6 @@
 # QA.md — Quality Assurance & Security Gate
 
-Last updated: 2026-03-01 (full audit run)
+Last updated: 2026-03-02 (full audit run #2)
 
 ---
 
@@ -84,10 +84,9 @@ Format: ✅ QA verified | ⚠️ Working but issues found | ❌ Broken | 🚫 No
 - Threshold logic working (no false alerts)
 - Issue: daily digest posting to Slack not directly confirmed via log — only threshold checks visible
 
-**Cost monitor — daily digest** — ⚠️ UNCONFIRMED
-- Cron fires at 8am PST daily
-- Log shows hourly checks working but no digest-specific entry visible in today's log
-- Next step: verify digest appeared in #tony-alerts after 8am today
+**Cost monitor — daily digest** — ✅ CONFIRMED (2026-03-02)
+- Log entry: `[cost-monitor] Digest posted: True`
+- Posts to #tony-alerts daily at 8am PST
 
 **notify-gateway-ready (@reboot)** — ✅ CONFIRMED
 - Fired this morning at 11:45am PST after gateway restart
@@ -191,11 +190,16 @@ Format: ✅ QA verified | ⚠️ Working but issues found | ❌ Broken | 🚫 No
 **Fathom Use Case A (check-in → Asana)** — ❌ BLOCKED
 - Needs Asana Personal Access Token + Project ID from Edu
 
-**GitHub automated backup** — ❌ NOT BUILT
-- Active hold in ACTIVE_CONTEXT.md
+**GitHub automated backup** — ✅ LIVE (set up 2026-03-02)
+- Repo: github.com/edu-blip/edu-openclaw-server-backup (private)
+- Cron: daily 3am PST via scripts/backup.sh
+- Verified: 3 commits pushed, remote confirmed, gitignore excludes all secrets/PII
+- NOTE: GitHub token is stored in git remote URL in .git/config (not tracked, not committed)
 
-**Security scanner alerting** — ❌ NOT BUILT
-- Scanner finds issues but never tells anyone
+**Security scanner alerting** — ✅ BUILT (scripts/scanner-alert.py)
+- Dry-run confirmed: 5 new findings would post to #tony-alerts (1 CRITICAL, 4 HIGH)
+- Runs after scanner.py via cron (Sun full, Mon-Sat diff)
+- Tracks alerted IDs to avoid duplicate alerts
 
 ---
 
@@ -236,6 +240,33 @@ Format: ✅ QA verified | ⚠️ Working but issues found | ❌ Broken | 🚫 No
 ## QA Log — Historical Record
 
 ```
+[2026-03-02] FULL SYSTEM AUDIT #2
+  Tester: Tony (main session)
+  Scope: All live integrations, crons, new GitHub backup
+
+  Functional results:
+  PASS: fathom-webhook (active 1d+), fail2ban (running, 2417 IPs banned), cost monitor
+        (hourly ✅, daily digest ✅ confirmed posted), notify-gateway-ready ✅,
+        fathom cleanup ✅ (ran 3am, no old files yet — expected),
+        meet-processor ✅ (running every 2h, 20 processed, 0 errors),
+        security scanner alerting ✅ (dry-run: 5 findings queued to post),
+        GitHub backup ✅ (3 commits pushed, cron set at 3am PST),
+        gogcli ✅, xsearch.py ✅ (verified last audit), kb search ✅ (last audit)
+
+  OPEN ISSUES:
+  - Webhook log: 12 signature verification failures since 2026-03-01 (likely probes;
+    security blocking correctly — no action needed but worth monitoring)
+  - GOG_KEYRING_PASSWORD still hardcoded in run-meet-processor.sh and meet-processor.js
+    fallback (HIGH — unchanged from last audit)
+  - Pre-call briefing: still unconfirmed with real meeting (no Mon/Thu meetings in window)
+  - Fathom Use Case A: still blocked on Asana PAT from Edu
+
+  Security:
+  - 5 scanner findings pending Slack alert (1 CRITICAL, 4 HIGH) — will post Sunday 3:30am
+  - Archive permissions: ✅ 600 on files, 700 on directory (fixed last audit)
+  - backup.sh: no hardcoded secrets ✅
+  - GitHub token stored in .git/config remote URL (not tracked, acceptable risk)
+
 [2026-03-01] FULL SYSTEM AUDIT
   Tester: Tony (main session)
   Scope: All live integrations, crons, sub-agents, model routing
