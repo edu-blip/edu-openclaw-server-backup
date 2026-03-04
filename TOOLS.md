@@ -3,6 +3,13 @@
 ## API Keys
 All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_API_KEY`, `FATHOM_API_KEY`, `FATHOM_WEBHOOK_SECRET`, `ANTHROPIC_API_KEY`, `SLACK_BOT_TOKEN`
 
+## Central Model Registry
+- File: `config/models.json`
+- Single source of truth for all model names across the codebase (JS + Python)
+- **Edit this file only** to update any model — no script changes needed elsewhere
+- Covers: `claude_default`, `claude_opus`, `claude_haiku`, `gemini_default`, `grok_default`, scanner-specific models
+- Added: 2026-03-03 (commit: `refactor: centralize model names in config/models.json`)
+
 ## Slack Channels
 - `#tony-alerts` → `C0AHBCJQJKS`
 - `#client-feedback` → `C0AGYTU4N9Y`
