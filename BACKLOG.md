@@ -97,7 +97,10 @@ content-agent/
 - `create-content-doc.js` stays but gets called by the content agent
 - No disruption to current Fathom webhook flow
 
-## Open Questions Before Building
-1. What are Edu's content goals for Q1/Q2 2026? (bucket mix targets)
-2. Does Edu want the agent to have its own Slack handle, or route through Tony?
-3. Any posts already published we should feed in as "voice examples"?
+## Answered Pre-Build Questions
+1. ✅ **Q1/Q2 goals**: More reach + ICP trust → primary mix = Growth + Authority. Conversion ≤20%.
+2. ✅ **Slack handle**: Route through Tony (no separate handle needed). Tony detects content requests and routes internally.
+3. ✅ **Voice examples**: Edu will share a CSV of highest-engagement posts. Ingest into agent memory as voice training data.
+
+## Next Step
+Edu to share engagement CSV → Tony ingests → build Phase 1 foundation.
