@@ -3,7 +3,7 @@
 # Runs as openclaw user via cron
 
 WORKSPACE="/home/openclaw/.openclaw/workspace"
-LOG="/var/log/openclaw-backup.log"
+LOG="/home/openclaw/logs/backup.log"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M PST')
 ENV_FILE="/home/openclaw/.openclaw/.env"
 REMOTE_URL="https://github.com/edu-blip/edu-openclaw-server-backup.git"
