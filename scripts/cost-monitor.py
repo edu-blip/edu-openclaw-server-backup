@@ -191,6 +191,169 @@ def parse_all_costs_from_logs(date_str, sessions_dir, pricing_overrides=None):
     return providers
 
 
+# ─── DIRECT API COSTS ────────────────────────────────────────────────────────
+
+# Hardcoded defaults — overridden by config's "direct_api_pricing" section if present
+_DIRECT_API_PRICING_DEFAULTS = {
+    "grok-4-1-fast-non-reasoning": {"input": 5.00, "output": 15.00},
+    "grok-4-1":                    {"input": 5.00, "output": 15.00},
+}
+_DIRECT_API_PRICING_FALLBACK = {"input": 3.00, "output": 15.00}
+
+
+def parse_direct_api_costs(date_str, cfg=None):
+    """
+    Parse /home/openclaw/logs/direct-api-costs.jsonl for costs on date_str (PST).
+    Handles missing file gracefully (returns empty dict).
+    Returns same format as parse_all_costs_from_logs().
+    """
+    log_path = "/home/openclaw/logs/direct-api-costs.jsonl"
+    providers = {}
+
+    if not os.path.exists(log_path):
+        return providers
+
+    # Build pricing table: config first, hardcoded defaults as base
+    pricing_table = dict(_DIRECT_API_PRICING_DEFAULTS)
+    fallback = dict(_DIRECT_API_PRICING_FALLBACK)
+    if cfg:
+        direct_cfg = cfg.get("direct_api_pricing", {})
+        pricing_table.update(direct_cfg.get("models", {}))
+        if "default" in direct_cfg:
+            fallback = direct_cfg["default"]
+
+    try:
+        with open(log_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    record = json.loads(line)
+
+                    ts = record.get("ts", "")
+                    if not ts:
+                        continue
+                    # Filter by PST date
+                    try:
+                        dt_utc = datetime.fromisoformat(
+                            ts.replace("Z", "").split(".")[0]
+                        ).replace(tzinfo=timezone.utc)
+                        ts_pst_date = (dt_utc - timedelta(hours=8)).strftime("%Y-%m-%d")
+                    except Exception:
+                        ts_pst_date = ts[:10]
+
+                    if ts_pst_date != date_str:
+                        continue
+
+                    model         = record.get("model", "unknown")
+                    input_tokens  = int(record.get("input_tokens", 0) or 0)
+                    output_tokens = int(record.get("output_tokens", 0) or 0)
+
+                    # Look up pricing: exact match → fallback default
+                    price = pricing_table.get(model, fallback)
+                    cost  = (
+                        input_tokens  * price.get("input",  fallback["input"])  / 1_000_000
+                        + output_tokens * price.get("output", fallback["output"]) / 1_000_000
+                    )
+
+                    prov = provider_from_model(model)
+
+                    if prov not in providers:
+                        providers[prov] = {}
+                    if model not in providers[prov]:
+                        providers[prov][model] = {
+                            "total": 0, "tokens_in": 0, "tokens_out": 0, "calls": 0
+                        }
+
+                    providers[prov][model]["total"]      += cost
+                    providers[prov][model]["tokens_in"]  += input_tokens
+                    providers[prov][model]["tokens_out"] += output_tokens
+                    providers[prov][model]["calls"]      += 1
+
+                except (json.JSONDecodeError, ValueError):
+                    continue
+    except (IOError, PermissionError):
+        return providers
+
+    return providers
+
+
+def parse_scanner_costs(date_str):
+    """
+    Parse security-scanner/scan_history.json for scanner costs on date_str (PST).
+    Read-only — no changes to the scanner at all.
+    Returns same format as parse_all_costs_from_logs() under a synthetic
+    'security_scanner' provider key.
+    """
+    # Resolve relative to workspace root (one level up from scripts/)
+    workspace_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    scan_history_path = os.path.join(workspace_root, "security-scanner", "scan_history.json")
+    providers = {}
+
+    if not os.path.exists(scan_history_path):
+        return providers
+
+    try:
+        with open(scan_history_path, "r") as f:
+            data = json.load(f)
+    except (IOError, json.JSONDecodeError):
+        return providers
+
+    scan_log  = data.get("scan_log", [])
+    day_cost  = 0.0
+    day_calls = 0
+
+    for scan in scan_log:
+        scan_date = scan.get("date", "")
+        if not scan_date:
+            continue
+        # Filter by PST date
+        try:
+            dt_utc = datetime.fromisoformat(
+                scan_date.replace("Z", "").split(".")[0]
+            ).replace(tzinfo=timezone.utc)
+            scan_pst_date = (dt_utc - timedelta(hours=8)).strftime("%Y-%m-%d")
+        except Exception:
+            scan_pst_date = scan_date[:10]
+
+        if scan_pst_date != date_str:
+            continue
+
+        day_cost  += float(scan.get("cost", 0) or 0)
+        day_calls += 1
+
+    if day_calls == 0:
+        return providers
+
+    providers["security_scanner"] = {
+        "security-scanner": {
+            "total":      day_cost,
+            "tokens_in":  0,
+            "tokens_out": 0,
+            "calls":      day_calls,
+        }
+    }
+    return providers
+
+
+def merge_provider_data(base, extra):
+    """Deep-merge extra into base (both {provider: {model: stats}} dicts)."""
+    for prov, models in extra.items():
+        if prov not in base:
+            base[prov] = {}
+        for model, stats in models.items():
+            if model not in base[prov]:
+                base[prov][model] = {
+                    "total": 0, "tokens_in": 0, "tokens_out": 0, "calls": 0
+                }
+            base[prov][model]["total"]      += stats["total"]
+            base[prov][model]["tokens_in"]  += stats["tokens_in"]
+            base[prov][model]["tokens_out"] += stats["tokens_out"]
+            base[prov][model]["calls"]      += stats["calls"]
+    return base
+
+
 # ─── OPENAI USAGE API ─────────────────────────────────────────────────────────
 
 def get_openai_usage(date_str, cfg_openai):
@@ -379,6 +542,20 @@ def main():
 
     provider_data = parse_all_costs_from_logs(date, sessions_dir, pricing_ovr)
     openai_data   = get_openai_usage(date, cfg_openai)
+
+    # Merge direct API costs (xread, xsearch, fathom scripts, kb/twitter, etc.)
+    direct_data = parse_direct_api_costs(date, cfg)
+    if direct_data:
+        direct_total = sum(m["total"] for p in direct_data.values() for m in p.values())
+        print(f"[cost-monitor] Direct API costs merged: ${direct_total:.4f}")
+        merge_provider_data(provider_data, direct_data)
+
+    # Merge security scanner costs (read-only from scan_history.json)
+    scanner_data = parse_scanner_costs(date)
+    if scanner_data:
+        scanner_total = sum(m["total"] for p in scanner_data.values() for m in p.values())
+        print(f"[cost-monitor] Scanner costs merged: ${scanner_total:.4f}")
+        merge_provider_data(provider_data, scanner_data)
 
     log_total    = sum(m["total"] for models in provider_data.values() for m in models.values())
     openai_total = openai_data.get("total", 0)

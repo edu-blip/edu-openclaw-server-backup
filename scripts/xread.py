@@ -13,6 +13,13 @@ import re
 import json
 import requests
 
+# Cost logging (silent-fail import)
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from cost_logger import log_cost as _log_cost
+except Exception:
+    def _log_cost(*args, **kwargs): pass
+
 # Load model from central config (falls back to hardcoded default)
 def _load_grok_model():
     try:
@@ -132,6 +139,10 @@ except requests.exceptions.RequestException as e:
     if hasattr(e, 'response') and e.response is not None:
         print(f"Response: {e.response.text}")
     sys.exit(1)
+
+# Log API cost
+_usage = data.get("usage", {})
+_log_cost(GROK_MODEL, _usage.get("input_tokens", 0), _usage.get("output_tokens", 0), "xread.py")
 
 # Extract response text
 output = data.get("output", [])

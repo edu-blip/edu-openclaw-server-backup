@@ -19,6 +19,13 @@ import json
 import requests
 from datetime import datetime, timedelta
 
+# Cost logging (silent-fail import)
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from cost_logger import log_cost as _log_cost
+except Exception:
+    def _log_cost(*args, **kwargs): pass
+
 # Load API key from .env
 env_path = "/home/openclaw/.openclaw/.env"
 api_key = None
@@ -110,6 +117,10 @@ except requests.exceptions.RequestException as e:
     if hasattr(e, 'response') and e.response is not None:
         print(f"Response: {e.response.text}")
     sys.exit(1)
+
+# Log API cost
+_usage = data.get("usage", {})
+_log_cost(model, _usage.get("input_tokens", 0), _usage.get("output_tokens", 0), "xsearch.py")
 
 # Extract response text
 output = data.get("output", [])

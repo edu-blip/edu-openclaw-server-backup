@@ -276,6 +276,7 @@ function getISOWeek(date = new Date()) {
 // CLAUDE API HELPER
 // ─────────────────────────────────────────────
 const MODELS = require('./models');
+const { logCost } = require('./cost-logger');
 
 function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
   return new Promise((resolve, reject) => {
@@ -299,7 +300,15 @@ function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
       let data = '';
       res.on('data', c => data += c);
       res.on('end', () => {
-        try { resolve(JSON.parse(data)?.content?.[0]?.text || ''); }
+        try {
+          const parsed = JSON.parse(data);
+          // Log cost before resolving (silent-fail)
+          try {
+            const usage = parsed.usage || {};
+            logCost(parsed.model || model, usage.input_tokens || 0, usage.output_tokens || 0, 'fathom/meet-processor.js');
+          } catch (_) {}
+          resolve(parsed?.content?.[0]?.text || '');
+        }
         catch (e) { reject(e); }
       });
     });

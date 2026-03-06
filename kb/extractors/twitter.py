@@ -7,11 +7,19 @@ Auto-detects linked articles and returns them for separate ingestion.
 """
 
 import os
+import sys
 import json
 import re
 import requests
 from typing import Dict, List, Optional, Tuple
 from dotenv import load_dotenv
+
+# Cost logging (silent-fail import)
+try:
+    sys.path.insert(0, '/home/openclaw/.openclaw/workspace/scripts')
+    from cost_logger import log_cost as _log_cost
+except Exception:
+    def _log_cost(*args, **kwargs): pass
 
 load_dotenv("/home/openclaw/.openclaw/.env")
 
@@ -106,6 +114,10 @@ def extract_twitter(url: str, verbose: bool = False) -> Tuple[Dict, List[str]]:
         data = resp.json()
     except requests.exceptions.RequestException as e:
         raise RuntimeError(f"xAI API request failed: {e}") from e
+
+    # Log API cost
+    _usage = data.get("usage", {})
+    _log_cost(XAI_MODEL, _usage.get("input_tokens", 0), _usage.get("output_tokens", 0), "kb/twitter.py")
 
     # Extract response text
     output = data.get("output", [])

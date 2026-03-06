@@ -16,6 +16,7 @@ const PENDING_DIR = path.join(__dirname, 'pending-checkins');
 const LOG_FILE = path.join(__dirname, 'processor.log');
 
 const MODELS = require('./models');
+const { logCost } = require('./cost-logger');
 
 const ASANA_PAT = process.env.ASANA_PAT;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
@@ -56,7 +57,15 @@ function callClaude(systemPrompt, userContent) {
       let data = '';
       res.on('data', c => data += c);
       res.on('end', () => {
-        try { resolve(JSON.parse(data)?.content?.[0]?.text || ''); }
+        try {
+          const parsed = JSON.parse(data);
+          // Log cost before resolving (silent-fail)
+          try {
+            const usage = parsed.usage || {};
+            logCost(parsed.model || MODELS.claude_default, usage.input_tokens || 0, usage.output_tokens || 0, 'fathom/process-pending-checkins.js');
+          } catch (_) {}
+          resolve(parsed?.content?.[0]?.text || '');
+        }
         catch (e) { reject(e); }
       });
     });

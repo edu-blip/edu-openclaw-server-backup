@@ -123,6 +123,7 @@ function classifyCall(payload) {
 // CLAUDE API HELPER
 // ─────────────────────────────────────────────
 const MODELS = require('./models');
+const { logCost } = require('./cost-logger');
 
 function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
   return new Promise((resolve, reject) => {
@@ -149,6 +150,11 @@ function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
       res.on('end', () => {
         try {
           const parsed = JSON.parse(data);
+          // Log cost before resolving (silent-fail)
+          try {
+            const usage = parsed.usage || {};
+            logCost(parsed.model || model, usage.input_tokens || 0, usage.output_tokens || 0, 'fathom/processor.js');
+          } catch (_) {}
           resolve(parsed?.content?.[0]?.text || '');
         } catch (e) {
           reject(e);

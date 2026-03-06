@@ -9,6 +9,7 @@ const https = require('https');
 const path = require('path');
 
 const MODELS = require('./models');
+const { logCost } = require('./cost-logger');
 
 const WEEK_FILE = path.join(__dirname, 'content-ideas', 'week-2026-W09.json');
 
@@ -37,6 +38,11 @@ function callClaude(systemPrompt, userContent) {
       res.on('end', () => {
         try {
           const parsed = JSON.parse(d);
+          // Log cost before resolving (silent-fail)
+          try {
+            const usage = parsed.usage || {};
+            logCost(parsed.model || MODELS.claude_default, usage.input_tokens || 0, usage.output_tokens || 0, 'fathom/retrofit-post-angles.js');
+          } catch (_) {}
           resolve(parsed.content?.[0]?.text || '');
         } catch (e) { reject(e); }
       });

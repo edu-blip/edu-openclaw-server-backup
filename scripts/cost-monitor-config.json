@@ -7,13 +7,14 @@
 
   "providers": {
     "_comment": "Display names for known provider prefixes. Any unknown prefix is shown as-is.",
-    "anthropic": "Anthropic (Claude)",
-    "google":    "Google (Gemini)",
-    "openai":    "OpenAI",
-    "xai":       "xAI (Grok)",
-    "mistral":   "Mistral",
-    "meta":      "Meta (Llama)",
-    "cohere":    "Cohere"
+    "anthropic":        "Anthropic (Claude)",
+    "google":           "Google (Gemini)",
+    "openai":           "OpenAI",
+    "xai":              "xAI (Grok)",
+    "mistral":          "Mistral",
+    "meta":             "Meta (Llama)",
+    "cohere":           "Cohere",
+    "security_scanner": "Security Scanner"
   },
 
   "pricing_overrides": {
@@ -26,5 +27,14 @@
     "enabled": true,
     "whisper_cost_per_minute": 0.006,
     "tts_cost_per_million_chars": 15.0
+  },
+
+  "direct_api_pricing": {
+    "_comment": "Pricing (USD per 1M tokens) for direct API calls logged to /home/openclaw/logs/direct-api-costs.jsonl. Script reads from here first, falls back to hardcoded defaults in cost-monitor.py.",
+    "models": {
+      "grok-4-1-fast-non-reasoning": {"input": 5.00, "output": 15.00},
+      "grok-4-1":                    {"input": 5.00, "output": 15.00}
+    },
+    "default": {"input": 3.00, "output": 15.00}
   }
 }
