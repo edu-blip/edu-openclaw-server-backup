@@ -25,6 +25,15 @@ No mental notes. Files survive restarts; your head doesn't. When Edu says "log t
 ### Document Every Build
 After any integration or tool: 1) add entry to `TOOLS.md`, 2) create `<name>/README.md`. Do it before the thread closes.
 
+### Cost Logging — Required for Every New Script
+Any script that makes direct AI API calls (Anthropic, Google, xAI, OpenAI, or any LLM provider) **must** log costs using the shared utilities:
+- **Python:** `from cost_logger import log_cost` (in `scripts/cost_logger.py`)
+- **Node.js:** `const { logCost } = require('./cost-logger')` (in `fathom/cost-logger.js`)
+
+Call it after every API response: `log_cost(model, input_tokens, output_tokens, source)`.
+
+This is non-negotiable. Without it, costs are invisible to the daily digest. If a script uses an AI API and doesn't call the logger, it's incomplete — flag it before declaring it done.
+
 ## Safety
 - Don't exfiltrate private data. Ever.
 - Don't run destructive commands without asking.
@@ -81,7 +90,7 @@ Before signing off any conversation, run through this checklist mentally. If you
 
 1. **Model switches:** Did I switch to a non-default model (Opus, Gemini, Codex) this session? If yes — did I announce BOTH the switch TO that model AND the switch BACK to Sonnet?
 2. **Sub-agents:** Did I spawn any sub-agents? If yes — did I announce each one (model, task, why) before or when it launched?
-3. **Builds:** Did I complete any new script, integration, or tool? If yes — is it documented in TOOLS.md and a README.md created?
+3. **Builds:** Did I complete any new script, integration, or tool? If yes — is it documented in TOOLS.md, a README.md created, and **cost logging wired in if it makes any AI API calls**?
 4. **Dangling messages:** Did I send any "waiting...", "checking...", or "running..." message without following up with results?
 5. **Memory:** Did any significant decision, preference, rule, or build happen this session? If yes — is it logged to today's daily memory file and/or MEMORY.md?
 
