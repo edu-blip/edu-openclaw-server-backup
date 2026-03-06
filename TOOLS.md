@@ -102,7 +102,8 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 - Repo: `github.com/edu-blip/edu-openclaw-server-backup` (private)
 - Cron: daily 3am PST
 - Excludes: credentials, MEMORY.md, USER.md, call transcripts, logs, DB files
-- Manual push: `cd /home/openclaw/.openclaw/workspace && git add -A && git commit -m "manual" && git push origin master`
+- Manual push: `cd /home/openclaw/.openclaw/workspace && source /home/openclaw/.openclaw/.env && git add -A && git commit -m "manual" && git push "https://$GITHUB_TOKEN@github.com/edu-blip/edu-openclaw-server-backup.git" master`
+- ⚠️ Token is in `.env` as `GITHUB_TOKEN` (not in remote URL — fixed 2026-03-05). Rotate PAT on GitHub when able (old token was exposed in .git/config).
 
 ---
 
