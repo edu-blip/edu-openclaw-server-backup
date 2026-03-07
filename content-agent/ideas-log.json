@@ -1,5 +1,18 @@
 {
   "version": "1.0",
   "description": "Tracks every content idea generated, angle used, and post status to avoid repetition and build on what works.",
-  "ideas": []
+  "ideas": [
+    {
+      "id": "001",
+      "date": "2026-03-06",
+      "source": "on-demand",
+      "bucket": "Growth",
+      "title": "Elena was born 3 days ago",
+      "angle": "No lesson, no framework, no business pivot. Pure human moment — newborn daughter, 9 hours sleep in 72, wife as superhero. Closing line 'She has no idea what she's done to me' lands on both Elena and his wife.",
+      "hook": "My daughter Elena was born 3 days ago.",
+      "status": "approved — pending post",
+      "edu_feedback": "Amazing",
+      "notes": "Edu's raw story about Elena's birth. Rejected: 'kids bring luck' angle (too thin), 'founder detachment' angle (survivorship bias). Winner: angle C — just the moment, no lesson."
+    }
+  ]
 }
