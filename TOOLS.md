@@ -94,6 +94,7 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 - Auto-detects ALL providers/models from logs — zero code changes when new models are added
 - Per-provider + per-model breakdown in every digest
 - Output: daily digest → `#tony-alerts`
+- **Direct API cost logger (added 2026-03-06):** `scripts/cost_logger.py` (Python) + `scripts/cost-logger.js` (JS) — shared modules imported by all scripts that call APIs directly. Appends to `logs/direct-api-costs.jsonl`. Picked up automatically by cost-monitor. Covers: fathom scripts (Claude), xread/xsearch/twitter extractor (xAI/Grok), security scanner (Claude+Gemini).
 
 ---
 
