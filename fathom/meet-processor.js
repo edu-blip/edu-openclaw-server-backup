@@ -319,11 +319,37 @@ function callClaude(systemPrompt, userContent, model = MODELS.claude_default) {
 }
 
 // ─────────────────────────────────────────────
+// OUTBOUND SANITIZER (L3 gate)
+// Applied to all outbound Slack text before sending.
+// High-specificity patterns only — avoids catch-alls that corrupt normal content.
+// ─────────────────────────────────────────────
+const OUTBOUND_REDACT_PATTERNS = [
+  { pattern: /\bsk-ant-[a-zA-Z0-9\-_]{20,}\b/g,       label: '[REDACTED:ANTHROPIC_KEY]' },
+  { pattern: /\bsk-[a-zA-Z0-9]{20,}\b/g,               label: '[REDACTED:OPENAI_KEY]' },
+  { pattern: /\bxai-[a-zA-Z0-9\-_]{20,}\b/g,           label: '[REDACTED:XAI_KEY]' },
+  { pattern: /\bxox[bpoa]-[a-zA-Z0-9\-]{10,}\b/g,      label: '[REDACTED:SLACK_TOKEN]' },
+  { pattern: /\bAIza[0-9A-Za-z\-_]{35}\b/g,            label: '[REDACTED:GOOGLE_KEY]' },
+  { pattern: /\bAKIA[0-9A-Z]{16}\b/g,                  label: '[REDACTED:AWS_KEY_ID]' },
+  { pattern: /\bghp_[a-zA-Z0-9]{36}\b/g,               label: '[REDACTED:GITHUB_TOKEN]' },
+  { pattern: /-----BEGIN\s+(RSA\s+)?PRIVATE KEY-----/g, label: '[REDACTED:PRIVATE_KEY]' },
+  { pattern: /\bBearer\s+[a-zA-Z0-9\-_.]{40,}\b/g,    label: 'Bearer [REDACTED:TOKEN]' },
+];
+
+function sanitizeOutbound(text) {
+  if (!text || typeof text !== 'string') return text;
+  let out = text;
+  for (const { pattern, label } of OUTBOUND_REDACT_PATTERNS) {
+    out = out.replace(pattern, label);
+  }
+  return out;
+}
+
+// ─────────────────────────────────────────────
 // SLACK HELPER
 // ─────────────────────────────────────────────
 function postToSlack(channel, text) {
   return new Promise((resolve, reject) => {
-    const body = JSON.stringify({ channel, text });
+    const body = JSON.stringify({ channel, text: sanitizeOutbound(text) });
     const req = https.request({
       hostname: 'slack.com',
       path: '/api/chat.postMessage',
