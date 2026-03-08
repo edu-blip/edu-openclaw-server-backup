@@ -96,6 +96,30 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 - Output: daily digest → `#tony-alerts`
 - **Direct API cost logger (added 2026-03-06):** `scripts/cost_logger.py` (Python) + `scripts/cost-logger.js` (JS) — shared modules imported by all scripts that call APIs directly. Appends to `logs/direct-api-costs.jsonl`. Picked up automatically by cost-monitor. Covers: fathom scripts (Claude), xread/xsearch/twitter extractor (xAI/Grok), security scanner (Claude+Gemini).
 
+## Runtime Cost Governor (L5)
+- Script: `scripts/cost-governor.py`
+- Cron: every 2 minutes
+- Reads: `logs/direct-api-costs.jsonl` + OpenClaw session logs (rolling windows)
+- Thresholds: ⚠️ $5/5min warning | 🚨 $15/5min critical (@Edu) | 🚨 $25/60min critical
+- Dedup: 1 alert per threshold per 10 min (state: `logs/cost-governor-state.json`)
+- Config: `scripts/cost-governor-config.json` (optional — falls back to defaults)
+- Zero LLM calls. Added 2026-03-07.
+
+## Outbound Secret Scanner (L3)
+- Script: `scripts/outbound-audit.py`
+- Cron: daily 4am PST
+- Scans: `logs/*.log`, `logs/*.jsonl`, `fathom/archive/` (48h window), `fathom/pending-asana/`
+- 10 high-specificity patterns: Anthropic/OpenAI/xAI/Slack/GitHub/AWS keys, Bearer tokens, private key blocks
+- False-positive filters: REDACTED markers, env var refs, comments, placeholders
+- Dedup state: `logs/outbound-audit-state.json` — only alerts on NEW findings
+- Output: #tony-alerts. Zero LLM calls. Added 2026-03-07.
+
+## Fathom Outbound Gate (L3 — processor.js)
+- `sanitizeOutbound()` in `fathom/processor.js` applied to ALL `postToSlack()` calls
+- 9 regex patterns strip API keys before any Fathom message reaches Slack
+- High-specificity only (no catch-all redaction that would corrupt normal content)
+- Added 2026-03-07.
+
 ---
 
 ## GitHub Auto-Backup
