@@ -14,6 +14,12 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 - `#tony-alerts` → `C0AHBCJQJKS`
 - `#client-feedback` → `C0AGYTU4N9Y`
 
+## Telegram
+- Bot: `@tony_musa88_openclaw_bot`
+- Edu's Telegram user ID: `7611523047`
+- Use case: personal life management (separate from Slack work context)
+- Config: `channels.telegram` in `openclaw.json` (dmPolicy: pairing)
+
 ---
 
 ## xAI / X Search

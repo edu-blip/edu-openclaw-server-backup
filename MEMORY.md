@@ -62,6 +62,7 @@ Tiered: Constitutional (never expires) / Strategic (quarterly) / Operational (ar
 - [trust:1.0|src:direct] **Content sub-agent**: Scoped 2026-02-26. Backlog item #1 in BACKLOG.md. 4 phases: Foundation → On-demand → Research → Drafts. Route through Tony (not separate handle). Edu sharing CSV of top-engagement posts as voice training data.
 - [trust:1.0|src:direct] **Content goals Q1/Q2 2026**: Reach + ICP trust → primary mix = Growth + Authority. Conversion stays ≤20%. No major pipeline push yet.
 - [trust:1.0|src:direct] **Slack channels**: #tony-alerts → C0AHBCJQJKS | #client-feedback → C0AGYTU4N9Y
+- [trust:1.0|src:direct] **Telegram live (2026-03-07)**: Bot `@tony_musa88_openclaw_bot`, Edu's user ID `7611523047`. Use case: personal life. Slack = work, Telegram = personal. Both run simultaneously; memory is shared across channels.
 - [trust:1.0|src:direct] **CRITICAL — Google data**: NEVER delete or change anything in Edu's Google (calendar, drive, docs, sheets) without explicit consent. Read-only by default. Rule set 2026-02-26.
 - [trust:1.0|src:direct] **Google integration**: gogcli v0.11.0. Account: tony@rethoric.com. Calendars visible: "Rethoric" (edu@rethoric.com) + "Personal" (eduardomussali@gmail.com). Always use `--all` flag for calendar events. Drive: shared team files accessible. Details: TOOLS.md.
 - [trust:1.0|src:direct] **Edu's emails**: Work = edu@rethoric.com | Personal = eduardomussali@gmail.com
