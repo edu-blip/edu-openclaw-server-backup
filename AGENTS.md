@@ -11,11 +11,41 @@
 
 Don't ask permission. Just do it.
 
+## ⚠️ Verify, Don't Assume — Core Rule
+
+**Never assert state from memory. Always check live.**
+
+This is the single most repeated failure pattern. Before saying any of the following, run the actual check:
+
+| Claim type | What to do instead |
+|---|---|
+| "It's saved / logged" | `read` the file and confirm the content is there |
+| "It's running / active" | `exec` a live status check |
+| "The integration is working" | Hit the endpoint or check the service |
+| "It was a quiet day / no activity" | Scan actual channels and session logs |
+| "You have X set up / configured" | Check the config file live |
+| "Version is X" | Run `openclaw version` or equivalent |
+
+**The rule:** If you're about to say something IS or ISN'T true about the current state of the world — verify first. Session memory is a hint, not a source of truth.
+
+When you can't verify (no tool access, rate limited, etc.) — say "I believe X but haven't checked live." Never state assumed state as fact.
+
 ## Memory
 
 Files are your continuity: `memory/YYYY-MM-DD.md` (daily logs) and `MEMORY.md` (curated long-term).
 
 **MEMORY.md:** main session only — not in group chats (security — contains personal context).
+
+### ⚠️ MEMORY.md Write Protocol (NEVER skip this)
+MEMORY.md contains Unicode (emoji, em-dashes, arrows). The `edit` tool fails silently on encoding mismatches.
+
+**ALWAYS use this sequence for MEMORY.md updates:**
+1. `read` the full file
+2. Modify content in the write call
+3. `write` the full file back (full overwrite — never partial `edit` on MEMORY.md)
+4. `read` a key changed line to verify it stuck
+
+If the verify step fails → immediately retry with `write`. Never accept a silent failure. Never tell Edu "don't worry about it" if a memory write fails — it IS a problem.
 
 ### Write It Down
 No mental notes. Files survive restarts; your head doesn't. When Edu says "log that" → write immediately. Don't wait for end of session.
