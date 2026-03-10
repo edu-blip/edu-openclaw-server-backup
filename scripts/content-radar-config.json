@@ -1,0 +1,113 @@
+{
+  "description": "Content Radar — monitoring config for Edu's LinkedIn content intelligence system",
+  "version": "1.1",
+  "updated": "2026-03-10",
+  "note": "Seed accounts from Edu expanded into a curated 50+ account list across AI, VC, founders, and operators. Use all accounts for monitoring — don't limit to seeds only.",
+
+  "x_accounts": {
+    "_note": "All handles to monitor for high-engagement posts (last 4h window). Edu's 10 seed accounts marked with [seed].",
+
+    "ai_researchers": [
+      { "handle": "karpathy",      "name": "Andrej Karpathy",       "note": "AI researcher, ex-OpenAI/Tesla. Seed account. [seed]" },
+      { "handle": "sama",          "name": "Sam Altman",             "note": "OpenAI CEO. Moves markets." },
+      { "handle": "gdb",           "name": "Greg Brockman",          "note": "OpenAI President." },
+      { "handle": "darioamodei",   "name": "Dario Amodei",           "note": "Anthropic CEO." },
+      { "handle": "ylecun",        "name": "Yann LeCun",             "note": "Meta AI Chief Scientist." },
+      { "handle": "fchollet",      "name": "François Chollet",       "note": "AI researcher, Keras creator. High signal on AI reasoning debates." },
+      { "handle": "emollick",      "name": "Ethan Mollick",          "note": "Wharton professor. Best signal on AI + business impact." },
+      { "handle": "simonw",        "name": "Simon Willison",         "note": "LLM tools/prompting researcher. Excellent practical AI takes." },
+      { "handle": "jeremyphoward", "name": "Jeremy Howard",          "note": "fast.ai co-founder. Applied AI." },
+      { "handle": "demishassabis", "name": "Demis Hassabis",         "note": "DeepMind/Google DeepMind CEO. Nobel Prize 2024." }
+    ],
+
+    "ai_content_creators": [
+      { "handle": "matthewberman",  "name": "Matthew Berman",   "note": "AI content creator. High-volume, early on new model releases. [seed]" },
+      { "handle": "steipete",       "name": "Peter Steinberger", "note": "iOS dev turned AI tools builder. Technical + founder lens. [seed]" },
+      { "handle": "swyx",           "name": "Shawn Wang (swyx)", "note": "AI developer content. 'AI engineer' framing pioneer." },
+      { "handle": "TheRundownAI",   "name": "Rowan Cheung",      "note": "The Rundown AI. 500k+ followers. First to cover new tools." },
+      { "handle": "bentossell",     "name": "Ben Tossell",       "note": "No-code/AI tools builder. Good on practical AI use cases." },
+      { "handle": "levelsio",       "name": "Pieter Levels",     "note": "Indie hacker. Viral on AI + solo founder narrative." },
+      { "handle": "danshipper",     "name": "Dan Shipper",       "note": "Every platform CEO. AI x writing/knowledge work." }
+    ],
+
+    "vcs_investors": [
+      { "handle": "pmarca",          "name": "Marc Andreessen",      "note": "a16z GP. Contrarian, moves conversation. [seed]" },
+      { "handle": "chamath",         "name": "Chamath Palihapitiya", "note": "Social Capital. High-signal macro + startup takes. [seed]" },
+      { "handle": "davidsacks47",    "name": "David Sacks",          "note": "VC + AI policy. Currently US AI/Crypto czar. [seed]" },
+      { "handle": "turnernovak",     "name": "Turner Novak",         "note": "Banana Capital. Growth-stage VC. [seed]" },
+      { "handle": "geiger_capital",  "name": "Geiger Capital",       "note": "VC. Tech/AI focused. [seed]" },
+      { "handle": "paulg",           "name": "Paul Graham",          "note": "YC founder. Essay-writer. Founder philosophy." },
+      { "handle": "garrytan",        "name": "Garry Tan",            "note": "YC President. Very active. Series A lens." },
+      { "handle": "mwseibel",        "name": "Michael Seibel",       "note": "YC Managing Director. Practical startup advice." },
+      { "handle": "naval",           "name": "Naval Ravikant",       "note": "AngelList. Philosophy + wealth creation. Viral constantly." },
+      { "handle": "Jason",           "name": "Jason Calacanis",      "note": "Angel investor, TWIST host. Opinionated. Volume posts." },
+      { "handle": "benedictevans",   "name": "Benedict Evans",       "note": "Tech analyst. Deep industry breakdowns." },
+      { "handle": "a16z",            "name": "Andreessen Horowitz",  "note": "Official a16z. High-quality long-form content drops." },
+      { "handle": "bfeld",           "name": "Brad Feld",            "note": "Foundry Group. Startup community and mental health." },
+      { "handle": "semil",           "name": "Semil Shah",           "note": "Haystack VC. Seed/Series A signal." },
+      { "handle": "hunterwalk",      "name": "Hunter Walk",          "note": "Homebrew VC. Practical early-stage investing." }
+    ],
+
+    "founders_operators": [
+      { "handle": "dharmesh",       "name": "Dharmesh Shah",    "note": "HubSpot co-founder. Top LinkedIn creator for founders. [seed]" },
+      { "handle": "levie",          "name": "Aaron Levie",      "note": "Box CEO. B2B SaaS + AI hot takes." },
+      { "handle": "shl",            "name": "Sahil Lavingia",   "note": "Gumroad founder. Indie+VC world." },
+      { "handle": "shreyas",        "name": "Shreyas Doshi",    "note": "Ex-Stripe PM. Product and founder operating frameworks." },
+      { "handle": "jasonlk",        "name": "Jason Lemkin",     "note": "SaaStr founder. SaaS metrics, founder advice, sales." },
+      { "handle": "aakashg0",       "name": "Aakash Gupta",     "note": "Product growth. B2B SaaS. High-engagement threads." },
+      { "handle": "gregisenberg",   "name": "Greg Isenberg",    "note": "Builder/LateCheckout. Viral on AI business models." },
+      { "handle": "alexhormozi",    "name": "Alex Hormozi",     "note": "Acquisition.com. Sales, MRR, scaling playbooks. Huge reach." },
+      { "handle": "dave_gerhardt",  "name": "Dave Gerhardt",    "note": "Exit Five founder. B2B marketing/content." },
+      { "handle": "hiten",          "name": "Hiten Shah",       "note": "FYI/Crazy Egg co-founder. Product + SaaS building." },
+      { "handle": "dvassallo",      "name": "Daniel Vassallo",  "note": "Small bets/portfolio income. Contrarian on VC-funded startups." },
+      { "handle": "businessbarista","name": "Business Barista", "note": "Business breakdowns. Viral on founder/startup stories." }
+    ],
+
+    "startup_ecosystem": [
+      { "handle": "ycombinator",  "name": "Y Combinator",  "note": "Official YC. Batch announcements, founder resources." },
+      { "handle": "TechCrunch",   "name": "TechCrunch",    "note": "Breaking startup/funding news." },
+      { "handle": "firstround",   "name": "First Round",   "note": "First Round Capital. High-quality founder content drops." },
+      { "handle": "sequoia",      "name": "Sequoia",       "note": "Sequoia Capital. Market intelligence and portfolio news." }
+    ]
+  },
+
+  "reddit_subreddits": [
+    "startups",
+    "YCombinator",
+    "MachineLearning",
+    "LocalLLaMA",
+    "venturecapital",
+    "artificial",
+    "Entrepreneur",
+    "SaaS"
+  ],
+
+  "brave_search_queries": [
+    "AI startup funding announced",
+    "LLM model release 2026",
+    "OpenAI Anthropic Google AI",
+    "founder Series A raised",
+    "AI agent automation startup",
+    "YC batch company launch",
+    "B2B SaaS founder insight",
+    "venture capital hot take"
+  ],
+
+  "scoring": {
+    "min_alert_score": 7,
+    "pillars": [
+      "AI agents / automation / founder leverage",
+      "Startup building, hiring, sales scaling",
+      "Fundraising / VC / equity / Series A+",
+      "Contrarian founder takes / mainstream pushback",
+      "YC / B2B SaaS / tech founders"
+    ]
+  },
+
+  "delivery": {
+    "channel": "C0AKHKDJ2MC",
+    "cron": "every 4 hours",
+    "model": "google/gemini-3-flash-preview",
+    "dedup_state": "logs/content-radar-state.json"
+  }
+}
