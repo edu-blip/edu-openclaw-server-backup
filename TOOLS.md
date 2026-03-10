@@ -23,6 +23,21 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 
 ---
 
+## Content Radar
+- Script: `scripts/content-radar.js`
+- Config: `scripts/content-radar-config.json` — X accounts (50), subreddits (8), Brave queries (8), scoring pillars
+- Cron: every 4 hours (`0 */4 * * *`)
+- Sources: xAI/Grok (X accounts), Reddit public JSON API, Brave web search
+- Scoring: Gemini Flash (1–10 scale, min score 7 to alert)
+- Output: up to 3 alerts/run → `#alec-content` (C0AKHKDJ2MC) with hook ready
+- State/dedup: `logs/content-radar-state.json` (7-day TTL)
+- Log: `/home/openclaw/logs/content-radar.log`
+- Manual: `node scripts/content-radar.js` | Dry run: `node scripts/content-radar.js --dry`
+- Cost: grok-4-1-fast-non-reasoning + gemini-3-flash-preview, ~$0.60–1.20/day
+- Added: 2026-03-10
+
+---
+
 ## xAI / X Search
 - `python3 scripts/xsearch.py "query"` → X posts (last 30 days)
 - `python3 scripts/xsearch.py --web "query"` → web search
