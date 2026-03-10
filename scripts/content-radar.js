@@ -379,6 +379,76 @@ ${list}`;
   }
 }
 
+// ─── Story-Level Deduplication ─────────────────────────────────────────────
+// Extracts a normalized set of meaningful words from a text snippet.
+const STOPWORDS = new Set([
+  'about','after','again','against','their','there','these','those','through',
+  'under','where','which','while','would','could','should','between','during',
+  'before','because','other','first','second','third','being','having','doing',
+  'going','making','using','says','said','from','with','that','this','into',
+  'will','have','been','were','they','your','when','what','more','also','just',
+  'than','then','some','even','most','such','like','over','time','year','years',
+  'news','post','share','tweet','says','today','week','month','billion','million',
+  'startup','company','tech','technology','show','think','make','take','come',
+  'people','world','thing','report','update','plan','help','work','want','need'
+]);
+
+function storyFingerprint(text) {
+  return text.toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter(w => w.length >= 4 && !STOPWORDS.has(w))
+    .slice(0, 8); // keep up to 8 key words for overlap check
+}
+
+function storyOverlap(fpA, fpB) {
+  const setA = new Set(fpA);
+  return fpB.filter(w => setA.has(w)).length;
+}
+
+/**
+ * Dedup candidates by story within the same run.
+ * Groups items that share ≥2 key words, picks the best source per group.
+ * Source priority: x > reddit > brave. Engagement: high > medium.
+ */
+function deduplicateByStory(candidates) {
+  const SOURCE_PRIORITY = { x: 3, reddit: 2, brave: 1 };
+  const ENGAGE_PRIORITY = { high: 2, medium: 1 };
+
+  const groups = []; // each element: { fp: string[], items: [] }
+
+  for (const c of candidates) {
+    const fp = storyFingerprint((c.author || '') + ' ' + c.text);
+    let matched = false;
+    for (const g of groups) {
+      if (storyOverlap(g.fp, fp) >= 2) {
+        g.items.push(c);
+        matched = true;
+        break;
+      }
+    }
+    if (!matched) groups.push({ fp, items: [c] });
+  }
+
+  const results = [];
+  for (const g of groups) {
+    if (g.items.length === 1) {
+      results.push(g.items[0]);
+    } else {
+      g.items.sort((a, b) => {
+        const sd = (SOURCE_PRIORITY[b.source] || 0) - (SOURCE_PRIORITY[a.source] || 0);
+        if (sd !== 0) return sd;
+        return (ENGAGE_PRIORITY[b.engagement] || 0) - (ENGAGE_PRIORITY[a.engagement] || 0);
+      });
+      const winner = g.items[0];
+      log(`  Story dedup: merged ${g.items.length} items → kept [${winner.source}] "${winner.text.slice(0, 60)}"`);
+      results.push(winner);
+    }
+  }
+
+  return results;
+}
+
 // ─── Slack Alert ───────────────────────────────────────────────────────────
 function sanitize(text) {
   return (text || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -464,7 +534,7 @@ async function main() {
   const allCandidates = [...xPosts, ...redditPosts, ...bravePosts];
   log(`Total candidates: ${allCandidates.length}`);
 
-  // Deduplicate against seen state
+  // Deduplicate against seen state (URL-level, cross-run)
   const fresh = allCandidates.filter(c => {
     const key = c.url || `${c.source}:${c.text.slice(0, 60)}`;
     return !state.seen[key];
@@ -478,8 +548,31 @@ async function main() {
     return;
   }
 
+  // Deduplicate by story (within-run + cross-run fingerprint check)
+  // Cross-run: also skip if story fingerprint matches a recently-seen story
+  const freshNoStoryDup = fresh.filter(c => {
+    const fp = storyFingerprint((c.author || '') + ' ' + c.text);
+    const seenFps = state.seen_fps || {};
+    for (const [sfp, ts] of Object.entries(seenFps)) {
+      const sfpWords = sfp.split('|');
+      if (storyOverlap(sfpWords, fp) >= 2) return false;
+    }
+    return true;
+  });
+  log(`After cross-run story dedup: ${freshNoStoryDup.length}`);
+
+  const deduped = deduplicateByStory(freshNoStoryDup);
+  log(`After within-run story dedup: ${deduped.length} unique stories`);
+
+  if (deduped.length === 0) {
+    log('No unique story candidates — nothing to score');
+    saveState(state);
+    log('=== Run complete: 0 alerts ===');
+    return;
+  }
+
   // Score with Gemini Flash
-  const scored = await scoreCandidates(env, fresh, config.scoring.pillars);
+  const scored = await scoreCandidates(env, deduped, config.scoring.pillars);
 
   // Post top N
   const toPost = scored.slice(0, MAX_ALERTS_PER_RUN);
@@ -488,10 +581,15 @@ async function main() {
     log(`No candidates scored ≥ ${MIN_SCORE} — no alerts sent`);
   }
 
+  if (!state.seen_fps) state.seen_fps = {};
+
   for (const item of toPost) {
     const key = item.url || `${item.source}:${item.text.slice(0, 60)}`;
     await postAlert(env, item);
     state.seen[key] = Date.now();
+    // Also store story fingerprint so cross-run dedup catches same story from other sources
+    const fp = storyFingerprint((item.author || '') + ' ' + item.text);
+    if (fp.length >= 2) state.seen_fps[fp.sort().join('|')] = Date.now();
     log(`Posted: [${item.source}] score=${item.ai_score} — "${item.text.slice(0, 60)}..."`);
   }
 
@@ -499,6 +597,12 @@ async function main() {
   for (const c of fresh) {
     const key = c.url || `${c.source}:${c.text.slice(0, 60)}`;
     if (!state.seen[key]) state.seen[key] = Date.now();
+  }
+
+  // Prune seen_fps (same TTL as seen)
+  const cutoffFp = Date.now() - STATE_TTL_DAYS * 24 * 60 * 60 * 1000;
+  for (const k of Object.keys(state.seen_fps)) {
+    if (state.seen_fps[k] < cutoffFp) delete state.seen_fps[k];
   }
 
   saveState(state);
