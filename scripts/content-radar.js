@@ -255,14 +255,14 @@ async function fetchBravePosts(env, queries) {
   const query = queries[new Date().getHours() % queries.length];
 
   try {
-    const url = `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=5&freshness=pd&text_decorations=false&result_filter=news`;
+    const url = `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=5&freshness=pd&text_decorations=false`;
     const data = await httpsGetJson(url, {
       'Accept':               'application/json',
       'Accept-Encoding':      'identity',
       'X-Subscription-Token': env.BRAVE_API_KEY
     });
 
-    const items = data?.news?.results || data?.results || [];
+    const items = data?.web?.results || data?.results || [];
     for (const item of items.slice(0, 5)) {
       if (!item.title) continue;
       results.push({
@@ -316,7 +316,7 @@ ${list}`;
   try {
     const body = JSON.stringify({
       contents: [{ role: 'user', parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.3, maxOutputTokens: 2048 }
+      generationConfig: { temperature: 0.3, maxOutputTokens: 4096 }
     });
 
     const resp = await httpsPost({
@@ -332,18 +332,33 @@ ${list}`;
     const usage = resp.usageMetadata || {};
     _logCost(geminiModel, usage.promptTokenCount || 0, usage.candidatesTokenCount || 0, 'content-radar.js:score');
 
-    const text = resp?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    const candidate = resp?.candidates?.[0];
+    const finishReason = candidate?.finishReason || 'UNKNOWN';
+    const text = candidate?.content?.parts?.[0]?.text || '';
+    if (finishReason !== 'STOP') log(`WARN: Gemini finishReason=${finishReason}, text length=${text.length}`);
 
-    // Strip markdown fences if Gemini wrapped JSON anyway
-    const clean = text.replace(/```json?\n?/g, '').replace(/```/g, '').trim();
-    const jsonMatch = clean.match(/\[[\s\S]*\]/);
+    // Strip markdown fences if Gemini wrapped them
+    const clean = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
 
-    if (!jsonMatch) {
-      log(`WARN: Gemini returned no JSON array. Response: ${text.slice(0, 200)}`);
-      return [];
+    // Try parse: (a) full clean text, (b) first [...] block, (c) fail gracefully
+    let scores;
+    try {
+      const parsed = JSON.parse(clean);
+      scores = Array.isArray(parsed) ? parsed : null;
+    } catch (_) { scores = null; }
+
+    if (!scores) {
+      const jsonMatch = clean.match(/\[[\s\S]*\]/);
+      if (!jsonMatch) {
+        log(`WARN: Gemini returned no JSON array. Response (first 300 chars): ${text.slice(0, 300)}`);
+        return [];
+      }
+      try { scores = JSON.parse(jsonMatch[0]); }
+      catch (parseErr) {
+        log(`WARN: Gemini JSON parse error: ${parseErr.message}`);
+        return [];
+      }
     }
-
-    const scores = JSON.parse(jsonMatch[0]);
 
     const scored = scores
       .filter(s => typeof s.score === 'number' && s.score >= MIN_SCORE && s.index >= 1 && s.index <= candidates.length)
