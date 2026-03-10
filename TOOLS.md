@@ -13,6 +13,7 @@ All in `/home/openclaw/.openclaw/.env`: `OPENAI_API_KEY`, `BRAVE_API_KEY`, `XAI_
 ## Slack Channels
 - `#tony-alerts` → `C0AHBCJQJKS`
 - `#client-feedback` → `C0AGYTU4N9Y`
+- `#alec-content` → `C0AKHKDJ2MC` (Alec's content agent channel — LinkedIn content, weekly ideas, 100K follower goal)
 
 ## Telegram
 - Bot: `@tony_musa88_openclaw_bot`

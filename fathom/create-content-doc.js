@@ -11,7 +11,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { spawnSync } = require('child_process');
 
 const CONTENT_IDEAS_DIR = path.join(__dirname, 'content-ideas');
 const LOG_FILE = path.join(__dirname, 'processor.log');
@@ -131,19 +131,16 @@ async function createDoc(isoWeek) {
 
     if (existingDocId) {
       // Update existing doc in-place using gog docs write
-      execSync(
-        `gog docs write "${existingDocId}" --file "${tmpFile}" --replace --markdown --force --account ${GOG_ACCOUNT}`,
-        { env: GOG_ENV, encoding: 'utf8' }
-      );
+      const writeResult = spawnSync('gog', ['docs', 'write', existingDocId, '--file', tmpFile, '--replace', '--markdown', '--force', '--account', GOG_ACCOUNT], { env: GOG_ENV, encoding: 'utf8' });
+      if (writeResult.status !== 0) throw new Error(writeResult.stderr || 'Command failed');
       fileId = existingDocId;
       url = `https://docs.google.com/document/d/${fileId}/edit`;
       log(`Updated existing Google Doc: ${docTitle} → ${url}`);
     } else {
       // Create new doc via Drive upload
-      const result = execSync(
-        `gog drive upload "${tmpFile}" --name "${docTitle}" --parent "${DRIVE_FOLDER_ID}" --convert-to=doc --account ${GOG_ACCOUNT} --json`,
-        { env: GOG_ENV, encoding: 'utf8' }
-      );
+      const uploadResult = spawnSync('gog', ['drive', 'upload', tmpFile, '--name', docTitle, '--parent', DRIVE_FOLDER_ID, '--convert-to=doc', '--account', GOG_ACCOUNT, '--json'], { env: GOG_ENV, encoding: 'utf8' });
+      if (uploadResult.status !== 0) throw new Error(uploadResult.stderr || 'Command failed');
+      const result = uploadResult.stdout;
       let parsed;
       try { parsed = JSON.parse(result); } catch (e) { log(`Warning: could not parse upload JSON: ${e.message}`); }
       fileId = parsed?.file?.id || parsed?.id || null;
@@ -154,11 +151,9 @@ async function createDoc(isoWeek) {
       if (!url) {
         log(`URL not returned from upload — searching Drive for "${docTitle}"...`);
         try {
-          const searchResult = execSync(
-            `gog drive search "${docTitle}" --account ${GOG_ACCOUNT} --json`,
-            { env: GOG_ENV, encoding: 'utf8' }
-          );
-          const searchParsed = JSON.parse(searchResult);
+          const searchRaw = spawnSync('gog', ['drive', 'search', docTitle, '--account', GOG_ACCOUNT, '--json'], { env: GOG_ENV, encoding: 'utf8' });
+          if (searchRaw.status !== 0) throw new Error(searchRaw.stderr || 'Command failed');
+          const searchParsed = JSON.parse(searchRaw.stdout);
           const files = searchParsed?.files || searchParsed?.items || [];
           const match = files.find(f => f.name === docTitle);
           if (match) {
@@ -182,7 +177,7 @@ async function createDoc(isoWeek) {
     fs.unlinkSync(tmpFile);
 
     // Notify Edu via Slack
-    notifySlack(docTitle, url, ideas.length, data.sources?.length || 0);
+    notifySlack(docTitle, url, ideas.length, data.sources?.length || 0, ideas);
   } catch (err) {
     log(`Error uploading to Drive: ${err.message}`);
     fs.unlinkSync(tmpFile);
@@ -190,14 +185,40 @@ async function createDoc(isoWeek) {
   }
 }
 
-function notifySlack(title, url, ideaCount, sourceCount) {
+function notifySlack(title, url, ideaCount, sourceCount, ideas) {
   const https = require('https');
   const token = process.env.SLACK_BOT_TOKEN;
   if (!token) { log('No SLACK_BOT_TOKEN — skipping Slack notification'); return; }
 
-  const opsChannel = 'C0AHBCJQJKS'; // #tony-ops
-  const text = `📄 *Weekly LinkedIn content doc ready:*\n*${title}* — ${ideaCount} ideas from ${sourceCount} call(s)\n${url}`;
-  const body = JSON.stringify({ channel: opsChannel, text });
+  const alecChannel = 'C0AKHKDJ2MC'; // #alec-content
+
+  // Build a formatted digest for Alec
+  let digest = `📬 *New batch of content ideas ready — week ${getISOWeek()}*\n`;
+  digest += `${ideaCount} idea(s) from ${sourceCount} call(s) — <${url}|full doc>\n\n`;
+
+  if (ideas && ideas.length > 0) {
+    // Group by bucket
+    const buckets = {};
+    ideas.forEach(idea => {
+      const b = idea.content_bucket || 'Uncategorized';
+      if (!buckets[b]) buckets[b] = [];
+      buckets[b].push(idea);
+    });
+    const bucketOrder = ['Growth', 'Authority', 'Conversion', 'Uncategorized'];
+    const ordered = [...bucketOrder.filter(b => buckets[b]), ...Object.keys(buckets).filter(b => !bucketOrder.includes(b))];
+    ordered.forEach(bucket => {
+      digest += `*${bucket}*\n`;
+      buckets[bucket].forEach((idea, i) => {
+        digest += `${i + 1}. ${idea.idea}\n`;
+        if (idea.hook_angle) digest += `   _Hook angle: ${idea.hook_angle}_\n`;
+      });
+      digest += '\n';
+    });
+  }
+
+  digest += `Which ones should I develop first?`;
+
+  const body = JSON.stringify({ channel: alecChannel, text: digest });
 
   const req = https.request({
     hostname: 'slack.com', path: '/api/chat.postMessage', method: 'POST',

@@ -1,0 +1,87 @@
+{
+  "ideas": [
+    {
+      "idea": "Why 'content agency' is a ceiling — and what to build instead",
+      "hook_angle": "The moment your team realizes LinkedIn content alone can't justify your pricing — and what the real product actually is",
+      "edu_post_angle": "Edu's own team landed on a hard truth in an internal call: a content-only agency model has a ceiling. You're entirely dependent on the client having something worth saying. The pivot to a holistic GTM agency — where you're responsible for revenue outcomes, not just post volume — changes the pricing conversation entirely. Edu can share this evolution publicly as someone living it in real time, while also validating why his ICP (Series A+ founders) needs more than ghostwriting.",
+      "key_points": [
+        "Content-only agencies are limited by the client's own signal — if the founder has nothing to say, the agency can't compensate",
+        "A GTM agency model owns the outcome (pipeline, revenue) not just the output (posts)",
+        "High pricing becomes defensible when you can show ROI — 'we generate $X in pipeline per month' beats 'we write 12 posts/month'",
+        "This is exactly why Edu targets Series A+ founders — they have product-market fit, so the agency can actually deliver"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-03-09"
+    },
+    {
+      "idea": "Series A+ clients aren't just better — they're the only ones you can actually win with",
+      "hook_angle": "Most agencies take any client they can get. The ones that scale get religious about who they reject.",
+      "edu_post_angle": "The team explicitly discussed how working with pre-PMF companies forces the agency to compensate for a weak product — a losing game. Edu can turn this into a sharp post about ICP discipline: why he only works with Series A+ B2B founders, and how that choice is actually what makes his results repeatable. This directly builds trust with his exact buyer.",
+      "key_points": [
+        "Pre-PMF clients have too many variables outside the agency's control — bad product, unclear positioning, no audience",
+        "Series A+ clients have funding, revenue proof, and a story worth telling — the agency can actually add value",
+        "Choosing the right clients is a GTM strategy, not just a sales preference",
+        "Retention is downstream of client quality — not just service quality"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-03-09"
+    },
+    {
+      "idea": "The outbound engine stops — and the pipeline dies. Here's what that taught us.",
+      "hook_angle": "You can't pause outbound and expect to restart from the same place. The pipeline doesn't wait.",
+      "edu_post_angle": "The team flagged a real operational risk: if outbound stops (even briefly), the pipeline dries up and you're rebuilding from zero. Edu is in the middle of scaling from 8–10 meetings/month to 30+, hiring an SDR, and building AI ops. This is a live, honest story about the tension between building systems and keeping sales alive — exactly the kind of founder content that converts on LinkedIn.",
+      "key_points": [
+        "Outbound isn't a campaign — it's a continuous engine. Stopping it resets momentum entirely",
+        "Hiring an SDR is the right move, but the gap between 'deciding to hire' and 'SDR is ramped' is dangerous",
+        "Edu is solving this in real time — building AI-assisted outbound to keep the engine running during the transition",
+        "Founders underestimate how fragile pipeline is when it's person-dependent"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-03-09"
+    },
+    {
+      "idea": "What happens when your team builds AI tools to replace their own manual work",
+      "hook_angle": "My team built an automated lead gen system — using AI — to replace a process they were doing by hand. Here's what that looks like from the inside.",
+      "edu_post_angle": "Edu's team built a Cloud Code + API pipeline that filters leads, enriches ICP data, scores prospects, and runs autonomously. This isn't a tool they bought — they built it internally. Edu can tell this story as a non-technical founder overseeing AI operations being built from the ground up, making it relevant to his ICP (founders trying to figure out AI adoption without being engineers themselves). Ties directly to his 'Tony as AI COO' narrative.",
+      "key_points": [
+        "The team automated lead filtering, ICP scoring, and data enrichment — work that was previously manual and inconsistent",
+        "A recent run for one client yielded 5 prospects, 3 with high ICP scores — small but repeatable and scalable",
+        "Non-technical founders CAN lead AI ops — the key is understanding how systems work, not writing the code",
+        "Carlos's advice to Andre: learn software logic first, then AI handles the syntax — that's the real unlock"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Growth",
+      "meeting": "Team check-in",
+      "date": "2026-03-09"
+    },
+    {
+      "idea": "Content that doesn't go viral can still fill your pipeline — if you distribute it right",
+      "hook_angle": "Viral is not a strategy. Here's what you do when your founder content doesn't blow up organically.",
+      "edu_post_angle": "The team discussed a sharp idea: for founders who don't have massive reach yet, targeted paid distribution of ICP-specific content can generate pipeline even when organic reach is low. Edu can frame this as a counterintuitive content strategy insight — one that reframes the goal of LinkedIn content from 'impressions' to 'conversations with the right people.' This directly challenges how most founders think about content ROI.",
+      "key_points": [
+        "Most founders measure content success by likes and views — wrong metric",
+        "Content that speaks precisely to your ICP can be amplified via targeted ads to reach exactly the right buyers",
+        "For early-stage founders with smaller networks, paid distribution of organic content bridges the gap",
+        "The goal is meetings, not virality — and those are different optimization targets"
+      ],
+      "source": "google_meet",
+      "content_bucket": "Authority",
+      "meeting": "Team check-in",
+      "date": "2026-03-09"
+    }
+  ],
+  "sources": [
+    {
+      "meeting": "Team check-in",
+      "date": "2026-03-09",
+      "callType": "weekly_checkin",
+      "source": "google_meet"
+    }
+  ]
+}

@@ -46,6 +46,12 @@ if (!refId) {
   process.exit(1);
 }
 
+// Validate refId format to prevent injection
+if (!/^[a-zA-Z0-9_-]{4,120}$/.test(refId)) {
+  console.log(JSON.stringify({ error: 'Invalid refId format' }));
+  process.exit(1);
+}
+
 const isReject = args.includes('--reject');
 
 // Parse --delete indices (1-indexed, comma-separated)
@@ -111,6 +117,14 @@ async function main() {
   }
 
   const filePath = path.join(PENDING_DIR, files[0]);
+
+  // Guard against path traversal
+  const resolvedPending = path.resolve(PENDING_DIR);
+  if (!path.resolve(filePath).startsWith(resolvedPending + path.sep)) {
+    console.log(JSON.stringify({ error: 'Path traversal detected' }));
+    process.exit(1);
+  }
+
   const data = JSON.parse(fs.readFileSync(filePath));
 
   if (data.status === 'pushed') {

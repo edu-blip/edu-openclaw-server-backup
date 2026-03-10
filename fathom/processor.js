@@ -442,6 +442,18 @@ ${summary}
   if (parsed.has_ideas && parsed.ideas?.length > 0) {
     existing.ideas.push(...parsed.ideas.map(i => ({ ...i, meeting: meetingTitle, date: meetingDate })));
     log(`[USE CASE C] Added ${parsed.ideas.length} ideas to ${weekFile}`);
+
+    // Ping #alec-content immediately with fresh ideas from this transcript
+    const alecChannel = 'C0AKHKDJ2MC';
+    let alecMsg = `💡 *Fresh content ideas from: ${meetingTitle}*\n`;
+    parsed.ideas.forEach((idea, i) => {
+      const bucket = idea.content_bucket || 'Uncategorized';
+      alecMsg += `\n${i + 1}. *[${bucket}]* ${idea.idea}`;
+      if (idea.hook_angle) alecMsg += `\n   _Hook: ${idea.hook_angle}_`;
+    });
+    alecMsg += `\n\nThese are added to the weekly doc. Want me to develop any of these now?`;
+    await postToSlack(alecChannel, sanitizeOutbound(alecMsg));
+    log(`[USE CASE C] Pinged #alec-content with ${parsed.ideas.length} fresh ideas`);
   } else {
     log(`[USE CASE C] No strong ideas from this transcript: ${parsed.reason_if_none || 'none given'}`);
   }
