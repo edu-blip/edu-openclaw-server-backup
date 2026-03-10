@@ -194,13 +194,26 @@ function sanitizeOutbound(text) {
   return out;
 }
 
+// Recursively sanitize all string values in Slack blocks
+function sanitizeBlocksDeep(obj) {
+  if (typeof obj === 'string') return sanitizeOutbound(obj);
+  if (Array.isArray(obj)) return obj.map(sanitizeBlocksDeep);
+  if (obj && typeof obj === 'object') {
+    return Object.fromEntries(
+      Object.entries(obj).map(([k, v]) => [k, sanitizeBlocksDeep(v)])
+    );
+  }
+  return obj;
+}
+
 // ─────────────────────────────────────────────
 // SLACK HELPER
 // ─────────────────────────────────────────────
 function postToSlack(channel, text, blocks) {
   return new Promise((resolve, reject) => {
     const safeText = sanitizeOutbound(text);
-    const body = JSON.stringify({ channel, text: safeText, ...(blocks ? { blocks } : {}) });
+    const safeBlocks = blocks ? sanitizeBlocksDeep(blocks) : undefined;
+    const body = JSON.stringify({ channel, text: safeText, ...(safeBlocks ? { blocks: safeBlocks } : {}) });
     const req = https.request({
       hostname: 'slack.com',
       path: '/api/chat.postMessage',

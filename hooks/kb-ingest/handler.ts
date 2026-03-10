@@ -5,10 +5,25 @@ import path from "path";
 const execFileAsync = promisify(execFile);
 
 const KB_CHANNEL_ID = "C0AGJ035DGF";
-const WORKSPACE = "/root/.openclaw/workspace";
+const WORKSPACE = "/home/openclaw/.openclaw/workspace";
 const INGEST_SCRIPT = path.join(WORKSPACE, "kb", "ingest.py");
 
 const URL_REGEX = /https?:\/\/[^\s<>"]+/gi;
+
+// SSRF protection: block private/internal IP ranges and require HTTPS
+const BLOCKED_HOSTS = /^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2[0-9]|3[01])\.|169\.254\.|::1|0\.0\.0\.0)/i;
+const ALLOWED_PROTOCOLS = /^https:\/\//i;
+
+function isSafeUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    if (!ALLOWED_PROTOCOLS.test(url)) return false;         // https only
+    if (BLOCKED_HOSTS.test(parsed.hostname)) return false;  // no internal IPs
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 const handler = async (event: any) => {
   // Only handle message:received
@@ -25,6 +40,10 @@ const handler = async (event: any) => {
   if (!urls || urls.length === 0) return;
 
   for (const url of urls) {
+    if (!isSafeUrl(url)) {
+      event.messages.push(`⛔ KB ingest blocked (internal/unsafe URL): ${url}`);
+      continue;
+    }
     try {
       const { stdout, stderr } = await execFileAsync("python3", [INGEST_SCRIPT, url], {
         cwd: WORKSPACE,
