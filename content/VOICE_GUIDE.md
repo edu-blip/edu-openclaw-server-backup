@@ -16,14 +16,32 @@ If yes, it's not ready. Add something only Edu can say.
 
 These aren't props. They're the texture behind everything he writes.
 
-- Built Commando — the leading boutique fitness brand in Mexico. Lost it via investor lawsuit + forced buyout after years of legal war.
-- Lost most of the Commando proceeds in the 2022 crypto collapse.
-- Rebuilt from scratch. 4 startups, 2 acquired, YC. Now: Rethoric ($40K+ MRR, 14 clients).
-- Runs a content agency for founders — and spent two years being the worst at his own content. Classic cobbler's shoes situation.
+**The full arc — in order:**
+
+1. **Mi Orden.com** — Built a DoorDash-style food delivery platform in Mexico at age 20, while still in college. Grew it to nearly 200 restaurants. Became the leading online food delivery platform in Mexico. Acquired by Sin Delantal (same business, from Spain). Edu became co-founder and Managing Director of Sin Delantal Mexico. Grew it for another year. Then acquired by Just Eat — the biggest online food delivery platform in the world at the time. Two exits before most people have their first job.
+
+2. **Deezer** — After the Just Eat exit, headhunted to open Mexico for Deezer, the French music streaming service (Spotify/Apple Music competitor, now valued $1B+). Opened Mexico, then Central America, then the Caribbean. Four years as Managing Director. Deezer expanded to 182 countries in roughly a year. Flew regularly to Paris HQ. Learned what real international scale looks like from the inside — and what it means to operate inside a big company while keeping a startup mindset.
+
+3. **Commando** — Quit a senior exec role to build from scratch again. Built the biggest boutique fitness studio brand in Mexico from 2017 to 2021. Team of 200+. Sold it after exhausting years dealing with a bad-actor investor — got tired of the fight, wanted out. He sold it on his terms. He did not lose it. Never say "lost in a lawsuit."
+
+4. **YC — the pivot in the interview room** — While still running Commando during Covid (all studios closed, 200 staff, launched a digital workout product to survive), Edu applied to YC. Got the interview. His Commando investors didn't want to do YC — they weren't professional investors, didn't understand what it was. So Edu sold his stake in Commando to them before the interview. Walked into YC with no company. Pitched a completely different idea than what was in the application — a digital fitness platform for Latin America. Got in.
+
+5. **Digital fitness platform (YC-backed)** — Grew it for almost two years. Then Covid ended. People went back to gyms. Most users churned because the product was no longer relevant. Pivoted.
+
+6. **Super Team** — Customer service agent on WhatsApp for Shopify e-commerce stores. Tried it for ~1 year. Failed. Pivoted again.
+
+7. **Rethoric** — LinkedIn content agency for tech founders. ~3 years in. $40K+ MRR, 14 clients. Still YC-backed (same entity, multiple pivots). Now running it with AI/OpenClaw as an edge.
+
+8. **O1 visa + green card** — Used YC to apply for the O1 visa (Extraordinary Abilities). Got it. Moved to San Diego with his wife in late 2022. Applied for green card. Just received it in the mail — permanent resident as of early 2026. Managing Rethoric fully remotely from San Diego.
+
+**Crypto collapse** — Lost most of the Commando sale proceeds in the 2022 crypto collapse. Carries significant debt. Has rebuilt from scratch while running Rethoric.
+
+**Other context:**
 - Mexican-born, moved to US, green card holder. Immigrant founder perspective.
+- Not technical. Built everything through people, systems, and sheer stubbornness.
 - Married. 4-year-old and newborn daughter (early 2026).
 - Long Bitcoin while running a services business.
-- Not technical. Built everything through people, systems, and sheer stubbornness.
+- Runs a content agency for founders — and spent two years being the worst at his own content. Classic cobbler's shoes situation.
 
 ---
 
@@ -91,6 +109,24 @@ These kill the voice immediately. Remove on sight.
 - Bullet lists as the primary format (occasional is fine, not the default)
 - Corporate jargon: "leverage synergies," "drive value," "ecosystem"
 - Performative humility: "I'm no expert, but..."
+
+---
+
+## Credentials — When to Use vs. When to Drop
+
+**Do not mention "4 companies built, 2 acquired, YC" in every post.** It reads as bragging when overused and makes the post feel like a resume flex rather than a real story.
+
+Use his background only when it's directly relevant — when it earns the authority the post needs. Not as a default opener or credibility prop.
+
+**Use it when:**
+- The post is specifically about startup building, fundraising, or founder lessons where YC/exits are directly relevant
+- Contrasting what he's seen across companies to make a specific point
+- The story only works because of that history
+
+**Don't use it when:**
+- It's been mentioned in the last 2-3 posts
+- The post topic doesn't require founder credentials (e.g., content strategy, ops, systems)
+- It would come off as chest-thumping rather than earning the right to speak
 
 ---
 

@@ -52,6 +52,15 @@ No mental notes. Files survive restarts; your head doesn't. When Edu says "log t
 
 **Write immediately when:** new script/tool built, decision confirmed, new preference/constraint, bug resolved, setup complete.
 
+### Memory Checkpoints (added 2026-03-10)
+Before switching tasks, before giving complex new instructions, or after any important decision:
+1. Write key facts/decisions to `memory/YYYY-MM-DD.md`
+2. If it's durable (preference, rule, business fact) → also update `MEMORY.md`
+
+**Before any `/compact` or when a session is getting long:** proactively save context. Don't wait for the automated memory flush — it's a safety net, not a strategy.
+
+**Search before guessing:** When asked about anything that might exist in memory, run `memory_search` first. Don't reconstruct from vague recall. The index now covers all past sessions + memory files.
+
 ### Document Every Build
 After any integration or tool: 1) add entry to `TOOLS.md`, 2) create `<name>/README.md`. Do it before the thread closes.
 

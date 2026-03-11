@@ -2,18 +2,39 @@
 
 - **Name:** Eduardo Mussali
 - **What to call them:** Edu
+- **Age:** 37
 - **Pronouns:**
 - **Timezone:** PST (San Diego, CA)
 - **Notes:** Building me up from intern to COO. Main agent orchestrator for his businesses.
+- **CRM:** Attio (pipeline + contacts). Asana for project management.
 
 ## Background
-- 4 startups built, 2 acquired. Got into YC.
-- Moved from Mexico to US. Green card holder (received early 2026).
-- Built **Commando** — the leading boutique fitness studio brand in Mexico. Lost it after years of lawsuits with a former investor who eventually bought him out. Sold under pressure, exhausted.
-- After selling Commando, lost most proceeds in the 2022 crypto collapse. Carries significant debt he services monthly.
+
+**Full arc (in order):**
+
+1. **Mi Orden.com** — Built a DoorDash-style food delivery platform in Mexico at age 20, while still in college. Grew to ~200 restaurants, became the leading online food delivery platform in Mexico. Acquired by Sin Delantal (same concept, from Spain). Edu became co-founder and Managing Director of Sin Delantal Mexico. Grew it for another year. Then acquired by Just Eat — the biggest online food delivery platform in the world at the time. Two exits before 25.
+
+2. **Deezer** — Headhunted after the Just Eat exit. Joined as Managing Director to open Mexico, then Central America, then the Caribbean for Deezer (French music streaming service, Spotify/Apple Music competitor, now valued $1B+). 4 years in the role. Deezer expanded to 182 countries in roughly one year. Flew regularly to Paris HQ. Learned what international scale and big-company startup culture looks like from the inside.
+
+3. **Commando** — Quit Deezer to build from scratch again. Built the biggest boutique fitness studio brand in Mexico from 2017 to 2021. Team of 200+. During Covid, all studios closed; launched a digital workout product to keep the business alive. Applied to YC during this period. Non-professional investors didn't want to do YC. Sold his stake in Commando to them before the YC interview. **He sold Commando. He did not lose it. Never frame it as a lawsuit or forced loss.**
+
+4. **YC** — Walked into the YC interview with no company. Pitched a completely different idea (digital fitness platform for Latin America) than what was in the application. Got in.
+
+5. **Digital fitness platform (YC-backed)** — Grew it for ~2 years. Covid ended, people went back to gyms, most users churned. Pivoted.
+
+6. **Super Team** — WhatsApp-based customer service agent for Shopify e-commerce stores. ~1 year. Failed. Pivoted again.
+
+7. **Rethoric** — LinkedIn content agency for tech founders. ~3 years in. Still YC-backed (same entity across pivots). $40K+ MRR, 14 clients.
+
+8. **O1 visa + green card** — Used YC track record to apply for O1 visa (Extraordinary Abilities). Got it. Moved to San Diego with wife in late 2022. Applied for green card. Received it early 2026. Permanent US resident.
+
+9. **2022 crypto collapse** — Lost most of the Commando sale proceeds. Carries significant debt he services monthly. Building back.
+
+**Other:**
 - Loves tech but is NOT technical — no coding, no command line comfort
 - Primarily chats via phone/Slack voice notes
-- Married. Has a young child (4 years old) and a newborn daughter (born early 2026).
+- Married. 4-year-old and newborn daughter (born early 2026).
+- Managing Rethoric fully remotely from San Diego.
 
 ## What Drives Him
 - Wants to prove he can be independent and successful — specifically to show family he made it by his own means.
@@ -59,10 +80,11 @@
 
 ### Offer
 - Thought leadership ghostwriting (3, 5, or 7 days/week)
-- Monthly interview sessions for content
+- Monthly founder interview sessions for content
 - Post engager enrichment → ICP filter → weekly prospect lists for clients
 - Strategic LinkedIn network growth (connection building with client's ICP)
 - Full content strategy
+- **Pricing tiers:** Brand Engine / Pipeline Engine / Category Engine (nearly all clients were choosing cheapest — pricing structure actively being refined)
 
 ### Connection Request Message
 "I'd love to manage your LinkedIn content" (short — shows in preview before accepting)
@@ -117,7 +139,7 @@
 ## Personal Life
 - **Family:** Married. 4-year-old and newborn daughter (early 2026).
 - **Decompresses via:** Gym, running, podcasts, YouTube (learning-focused)
-- **Health:** Works out 6x/week. Tracks calories/macros with Cal AI app. 10k steps/day goal. Working well — but sleep has been suffering since getting deep into OpenClaw.
+- **Health:** Body recomposition phase — starting weight ~83kg, goal 73kg. Training 5 days strength + 1 day cardio. Tracks macros carefully with Cal AI app. 10k steps/day goal. Sleep has been suffering since going deep into OpenClaw.
 - **Spends on:** Restaurants, home improvement. Rent is very high.
 - **Avoids spending on:** Things that don't add real daily value (e.g., expensive for expensive's sake). Values cost-to-value ratio.
 
