@@ -187,8 +187,8 @@ async function createDoc(isoWeek) {
 
 function notifySlack(title, url, ideaCount, sourceCount, ideas) {
   const https = require('https');
-  const token = process.env.SLACK_BOT_TOKEN;
-  if (!token) { log('No SLACK_BOT_TOKEN — skipping Slack notification'); return; }
+  const token = process.env.ALEC_BOT_TOKEN;
+  if (!token) { log('No ALEC_BOT_TOKEN — skipping Slack notification'); return; }
 
   const alecChannel = 'C0AKHKDJ2MC'; // #alec-content
 

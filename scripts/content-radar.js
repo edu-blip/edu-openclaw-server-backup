@@ -57,7 +57,6 @@ function loadEnv() {
 function log(msg) {
   const ts   = new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
   const line = `[${ts}] ${msg}`;
-  process.stderr.write(line + '\n');
   try {
     fs.mkdirSync(path.dirname(LOG_FILE), { recursive: true });
     fs.appendFileSync(LOG_FILE, line + '\n');
@@ -493,7 +492,7 @@ async function postAlert(env, item) {
     method:   'POST',
     headers: {
       'Content-Type':   'application/json',
-      'Authorization':  `Bearer ${env.SLACK_BOT_TOKEN}`,
+      'Authorization':  `Bearer ${env.ALEC_BOT_TOKEN}`,
       'Content-Length': Buffer.byteLength(body)
     }
   }, body);
